@@ -1,0 +1,67 @@
+/* * Sovereign Font Routing via cdn.iamrp.dev 
+ * Bypasses Google Fonts / Prevents CSR leakage
+ */
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
+/* Force the terminal aesthetic strictly across the entire DOM */
+body, h1, h2, h3, h4, h5, h6, p, a, li, code {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* * ==========================================
+ * SOVEREIGN FOOTER RESTRUCTURING
+ * Forces the DOM to swap the links and branding without touching the plugin TSX
+ * ==========================================
+ */
+footer {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+
+  /* 1. Keep the divider line at the very top */
+  hr {
+    order: 1;
+    width: 100%;
+  }
+
+  /* 2. Force your Sovereign Links (GitHub) up above the text */
+  ul {
+    order: 2;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  /* 3. Force the "Created with Quartz" text to the very bottom, shrink, and mute it */
+  p {
+    order: 3;
+    font-size: 0.75rem !important;
+    opacity: 0.4; 
+    margin-top: 0 !important;
+  }
+}

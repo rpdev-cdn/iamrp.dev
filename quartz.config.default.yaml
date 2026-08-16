@@ -1,0 +1,242 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+
+configuration:
+  pageTitle: IamRP.Dev
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  analytics: null # Telemetry disabled
+  locale: en-US
+  baseUrl: iamrp.dev
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    fontOrigin: local # Enforces air-gapped typography (cdn.iamrp.dev)
+    cdnCaching: false
+    typography:
+      header: "JetBrains Mono, monospace"
+      body: "JetBrains Mono, monospace"
+      code: "JetBrains Mono, monospace"
+    colors:
+      lightMode: # Repurposed as "ANSI Dark Mode"
+        light: "#000000" # Pure black background
+        lightgray: "#1c1c1c" # Subtle borders
+        gray: "#767676" # Muted metadata
+        darkgray: "#cccccc" # Primary body text
+        dark: "#ffffff" # Bright headings
+        secondary: "#00afaf" # ANSI Cyan for links
+        tertiary: "#5fafd7" # ANSI Light Cyan for hover
+        highlight: rgba(0, 175, 175, 0.15)
+        textHighlight: rgba(0, 175, 175, 0.25)
+      darkMode: # Your Custom Sovereign (Purple & Green)
+        light: "#0d0914" # Deep space purple-black background
+        lightgray: "#1e1b2e" # Elevated UI panels/search bar
+        gray: "#8b889c" # Muted text with a purple tint
+        darkgray: "#e2e1e8" # Standard body text
+        dark: "#ffffff" # Headings
+        secondary: "#00ff00" # Terminal Green for primary links & Graph nodes
+        tertiary: "#b026ff" # Neon Purple for hover states & interaction
+        highlight: rgba(176, 38, 255, 0.15) # Faint purple link background
+        textHighlight: rgba(0, 255, 0, 0.25) # Green markdown highlight (==text==)
+
+plugins:
+  # ==========================================
+  # TRANSFORMERS (Markdown & Data Processing)
+  # ==========================================
+  - source: "@quartz-community/frontmatter"
+    enabled: true
+    order: 5
+
+  - source: "@quartz-community/created-modified-date"
+    enabled: true
+    options:
+      defaultDateType: modified
+      priority:
+        - frontmatter
+        - git
+        - filesystem
+    order: 10
+
+  - source: "@quartz-community/syntax-highlighting"
+    enabled: true
+    options:
+      theme:
+        light: github-dark # Forces dark code blocks even in ANSI mode
+        dark: github-dark
+      keepBackground: false # Allows your custom dark backgrounds to bleed through
+    order: 20
+
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+    order: 30
+
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 40
+
+  - source: "@quartz-community/crawl-links"
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+    order: 60
+
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+
+  # ==========================================
+  # FILTERS (Security & Build Logic)
+  # ==========================================
+  - source: "@quartz-community/remove-draft"
+    enabled: true
+    order: 15
+
+  - source: "@quartz-community/encrypted-pages"
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 900
+
+  # ==========================================
+  # EMITTERS (File Generation)
+  # ==========================================
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+  - source: "@quartz-community/tag-page"
+    enabled: true
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  
+  - source: "@quartz-community/content-index"
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+      
+  - source: "@quartz-community/cname"
+    enabled: true
+
+  # ==========================================
+  # UI COMPONENTS (Visual Layout)
+  # ==========================================
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+
+  # ---> DARK MODE TOGGLE RE-INJECTED HERE <---
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+
+  - source: "@quartz-community/explorer"
+    enabled: true
+    layout:
+      position: left
+      priority: 50
+
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - description
+        - tags
+        - aliases
+      excludedProperties: []
+      hidePropertiesView: false
+      delimiters: "---"
+      language: yaml
+    order: 5
+    layout:
+      position: beforeBody
+      priority: 15
+      display: all
+
+  - source: "@quartz-community/content-meta"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: right
+      priority: 10
+
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    layout:
+      position: right
+      priority: 30
+
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    layout:
+      position: right
+      priority: 50
+
+  - source: "@quartz-community/footer"
+    enabled: true
+    options:
+      links:
+        GitHub: https://github.com/iamrpdev
+    layout:
+      position: footer
+      priority: 50
+# ==========================================
+# PAGE LAYOUT OVERRIDES
+# ==========================================
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      positions:
+        right: []
+    tag:
+      positions:
+        right: []
+    canvas: {}
+    bases: {}
