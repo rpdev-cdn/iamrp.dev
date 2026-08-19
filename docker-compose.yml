@@ -1,0 +1,14 @@
+services:
+  quartz:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./content:/usr/src/app/content
+      - ./quartz.config.default.yaml:/usr/src/app/quartz.config.default.yaml
+      - ./quartz.layout.ts:/usr/src/app/quartz.layout.ts
+      - ./quartz:/usr/src/app/quartz
+    environment:
+      - NODE_ENV=development
