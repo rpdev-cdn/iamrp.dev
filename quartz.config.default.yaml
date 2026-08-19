@@ -45,10 +45,6 @@ plugins:
   # ==========================================
   # TRANSFORMERS (Markdown & Data Processing)
   # ==========================================
-  - source: "@quartz-community/frontmatter"
-    enabled: true
-    order: 5
-
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -163,6 +159,15 @@ plugins:
     layout:
       position: beforeBody
       priority: 10
+
+  - source: "../docingest-quartz"
+    enabled: true
+    options:
+      apiUrl: "https://docingest.iamrp.dev/api"
+    layout:
+      position: beforeBody
+      priority: 12
+      condition: "has-docingest-flag"
 
   - source: "@quartz-community/note-properties"
     enabled: true

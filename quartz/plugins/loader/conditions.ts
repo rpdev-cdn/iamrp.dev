@@ -16,6 +16,10 @@ const builtinConditions: Record<string, ConditionPredicate> = {
     const toc = (props.fileData as Record<string, unknown>).toc
     return Array.isArray(toc) && toc.length > 0
   },
+  "has-docingest-flag": (props) => {
+    const flag = props.fileData.frontmatter?.docingest
+    return flag === "add" || flag === "view"
+  },
 }
 
 const customConditions = new Map<string, ConditionPredicate>()
