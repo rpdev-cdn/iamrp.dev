@@ -161,13 +161,22 @@ plugins:
       priority: 10
 
   - source: "../docingest-quartz"
+    component: "DocIngestAdd"
     enabled: true
     options:
       apiUrl: "https://docingest.iamrp.dev/api"
     layout:
       position: beforeBody
       priority: 12
-      condition: "has-docingest-flag"
+
+  - source: "../docingest-quartz"
+    component: "DocIngestView"
+    enabled: true
+    options:
+      apiUrl: "https://docingest.iamrp.dev/api"
+    layout:
+      position: beforeBody
+      priority: 13
 
   - source: "@quartz-community/note-properties"
     enabled: true
