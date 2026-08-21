@@ -1,6 +1,6 @@
 // Script for DocIngestView component
 
-const API_URL = "https://docingest.iamrp.dev/api"
+const DOCINGEST_VIEW_API_URL = "https://docingest.iamrp.dev/api"
 let currentPage = 1
 const limit = 20
 let isSearching = false
@@ -23,13 +23,13 @@ async function fetchDocuments(page: number, search: string = "") {
   try {
     let url = ""
     if (search) {
-      url = `${API_URL}/docs/fullsearch?q=${encodeURIComponent(search)}&page=${page}&limit=${limit}`
+      url = `${DOCINGEST_VIEW_API_URL}/docs/fullsearch?q=${encodeURIComponent(search)}&page=${page}&limit=${limit}`
     } else {
-      url = `${API_URL}/docs/list?page=${page}&limit=${limit}`
+      url = `${DOCINGEST_VIEW_API_URL}/docs/list?page=${page}&limit=${limit}`
     }
 
     const response = await fetch(url)
-    
+
     if (!response.ok) {
       throw new Error(`Failed to fetch documents: ${response.statusText}`)
     }
@@ -41,41 +41,44 @@ async function fetchDocuments(page: number, search: string = "") {
   }
 }
 
-async function handleAction(action: 'index' | 'delete', docId: string) {
+async function handleAction(action: "index" | "delete", docId: string) {
   try {
-    const url = action === 'index' 
-      ? `${API_URL}/docs/index/${docId}` 
-      : `${API_URL}/docs/delete/${docId}`
-      
-    const method = action === 'index' ? 'POST' : 'DELETE'
-    
+    const url =
+      action === "index"
+        ? `${DOCINGEST_VIEW_API_URL}/docs/index/${docId}`
+        : `${DOCINGEST_VIEW_API_URL}/docs/delete/${docId}`
+
+    const method = action === "index" ? "POST" : "DELETE"
+
     const response = await fetch(url, { method })
-    
+
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}))
       throw new Error(errorData.detail || `Failed to ${action} document`)
     }
-    
-    alert(`Successfully ${action === 'index' ? 're-indexed' : 'deleted'} document`)
-    
+
+    alert(`Successfully ${action === "index" ? "re-indexed" : "deleted"} document`)
+
     // Reload the current page/search to reflect changes
     document.getElementById("docs-grid")!.innerHTML = ""
     currentPage = 1
     await loadDocuments(currentPage, currentSearchTerm)
-    
   } catch (error: any) {
     alert(`Error: ${error.message}`)
   }
 }
 
 function createDocCard(doc: DocIngestDocument) {
-  const card = document.createElement('div')
-  card.className = 'doc-card'
-  
+  const card = document.createElement("div")
+  card.className = "doc-card"
+
   const title = doc.title || doc.label || doc.name || "Untitled Document"
   const sections = doc.total_sections || 0
   const docId = doc.documentId || doc.id || ""
-  const indexedAt = doc.last_indexed_at || doc.created_at ? new Date(doc.last_indexed_at || doc.created_at!).toLocaleString() : "Unknown"
+  const indexedAt =
+    doc.last_indexed_at || doc.created_at
+      ? new Date(doc.last_indexed_at || doc.created_at!).toLocaleString()
+      : "Unknown"
 
   card.innerHTML = `
     <h3>${title}</h3>
@@ -89,17 +92,17 @@ function createDocCard(doc: DocIngestDocument) {
   `
 
   // Attach event listeners
-  const reindexBtn = card.querySelector('.reindex-btn')
-  const deleteBtn = card.querySelector('.delete-btn')
-  
+  const reindexBtn = card.querySelector(".reindex-btn")
+  const deleteBtn = card.querySelector(".delete-btn")
+
   if (reindexBtn && docId) {
-    reindexBtn.addEventListener('click', () => handleAction('index', docId.toString()))
+    reindexBtn.addEventListener("click", () => handleAction("index", docId.toString()))
   }
-  
+
   if (deleteBtn && docId) {
-    deleteBtn.addEventListener('click', () => {
-      if (confirm('Are you sure you want to delete this document?')) {
-        handleAction('delete', docId.toString())
+    deleteBtn.addEventListener("click", () => {
+      if (confirm("Are you sure you want to delete this document?")) {
+        handleAction("delete", docId.toString())
       }
     })
   }
@@ -126,7 +129,8 @@ async function loadDocuments(page: number, search: string = "", append: boolean 
     const total = data.total || 0
 
     if (docs.length === 0 && !append) {
-      grid.innerHTML = '<p class="text-gray" style="grid-column: 1/-1; text-align: center;">No documents found.</p>'
+      grid.innerHTML =
+        '<p class="text-gray" style="grid-column: 1/-1; text-align: center;">No documents found.</p>'
     } else {
       docs.forEach((doc: DocIngestDocument) => {
         grid.appendChild(createDocCard(doc))
@@ -139,7 +143,6 @@ async function loadDocuments(page: number, search: string = "", append: boolean 
     if ((total > 0 && page * limit < total) || (total === 0 && docs.length === limit)) {
       loadMoreBtn.classList.remove("hidden")
     }
-
   } catch (error: any) {
     errorMsg.textContent = error.message || "An error occurred while loading documents."
     errorMsg.classList.remove("hidden")

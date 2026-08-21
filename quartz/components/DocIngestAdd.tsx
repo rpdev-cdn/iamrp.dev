@@ -9,48 +9,67 @@ export default (() => {
 
     return (
       <div class={classNames(displayClass, "docingest-add-container")}>
-          <div class="docingest-header">
-            <h2 style={{ color: "#ffffff", marginBottom: "0.5rem" }}>DocIngest URL Ingestion</h2>
-            <p class="desc" style={{ color: "#9ca3af", fontSize: "0.875rem" }}>Add new documents to the ingestion engine.</p>
+        <div class="docingest-header">
+          <h2 style={{ color: "#ffffff", marginBottom: "0.5rem" }}>DocIngest URL Ingestion</h2>
+          <p class="desc" style={{ color: "#9ca3af", fontSize: "0.875rem" }}>
+            Add new documents to the ingestion engine.
+          </p>
+        </div>
+
+        <form
+          id="docingest-add-form"
+          class="docingest-form"
+          style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}
+        >
+          <div
+            class="form-group"
+            style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
+            <label for="url-input" style={{ color: "#ffffff", fontWeight: "bold" }}>
+              URL to Ingest
+            </label>
+            <input
+              type="url"
+              id="url-input"
+              required
+              placeholder="https://example.com/docs"
+              style={{
+                padding: "0.75rem 1rem",
+                borderRadius: "4px",
+                border: "1px solid rgba(255, 255, 255, 0.2)",
+                background: "rgba(0, 0, 0, 0.3)",
+                color: "#ffffff",
+                fontFamily: "inherit",
+              }}
+            />
           </div>
-          
-          <form id="docingest-add-form" class="docingest-form" style={{ marginTop: "2rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            <div class="form-group" style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              <label for="url-input" style={{ color: "#ffffff", fontWeight: "bold" }}>URL to Ingest</label>
-              <input 
-                type="url" 
-                id="url-input" 
-                required 
-                placeholder="https://example.com/docs" 
-                style={{
-                  padding: "0.75rem 1rem",
-                  borderRadius: "4px",
-                  border: "1px solid rgba(255, 255, 255, 0.2)",
-                  background: "rgba(0, 0, 0, 0.3)",
-                  color: "#ffffff",
-                  fontFamily: "inherit"
-                }}
-              />
-            </div>
-            
-            <div class="form-group" style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              <label for="doc-id-input" style={{ color: "#ffffff", fontWeight: "bold" }}>Document ID (Optional)</label>
-              <input 
-                type="text" 
-                id="doc-id-input" 
-                placeholder="my-doc-id" 
-                style={{
-                  padding: "0.75rem 1rem",
-                  borderRadius: "4px",
-                  border: "1px solid rgba(255, 255, 255, 0.2)",
-                  background: "rgba(0, 0, 0, 0.3)",
-                  color: "#ffffff",
-                  fontFamily: "inherit"
-                }}
-              />
-            </div>
-            
-            <button type="submit" id="submit-btn" style={{
+
+          <div
+            class="form-group"
+            style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
+            <label for="doc-id-input" style={{ color: "#ffffff", fontWeight: "bold" }}>
+              Document ID (Optional)
+            </label>
+            <input
+              type="text"
+              id="doc-id-input"
+              placeholder="my-doc-id"
+              style={{
+                padding: "0.75rem 1rem",
+                borderRadius: "4px",
+                border: "1px solid rgba(255, 255, 255, 0.2)",
+                background: "rgba(0, 0, 0, 0.3)",
+                color: "#ffffff",
+                fontFamily: "inherit",
+              }}
+            />
+          </div>
+
+          <button
+            type="submit"
+            id="submit-btn"
+            style={{
               backgroundColor: "#4ade80",
               color: "#000000",
               fontWeight: "600",
@@ -58,16 +77,22 @@ export default (() => {
               border: "none",
               borderRadius: "4px",
               cursor: "pointer",
-              transition: "opacity 0.2s"
-            }}>Ingest Document</button>
-          </form>
-          
-          <div id="status-message" style={{
+              transition: "opacity 0.2s",
+            }}
+          >
+            Ingest Document
+          </button>
+        </form>
+
+        <div
+          id="status-message"
+          style={{
             marginTop: "1.5rem",
             padding: "1rem",
             borderRadius: "4px",
-            display: "none"
-          }}></div>
+            display: "none",
+          }}
+        ></div>
       </div>
     )
   }

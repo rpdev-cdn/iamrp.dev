@@ -58,7 +58,19 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     const { css, beforeDOMLoaded, afterDOMLoaded } = component
     for (const c of normalizeResource(css)) componentResources.css.add(c)
     for (const b of normalizeResource(beforeDOMLoaded)) componentResources.beforeDOMLoaded.add(b)
-    for (const a of normalizeResource(afterDOMLoaded)) componentResources.afterDOMLoaded.add(a)
+    for (const a of normalizeResource(afterDOMLoaded)) {
+      const rewrittenScript = a
+        .replace(
+          /https:\/\/cdn\.jsdelivr\.net\/npm\/d3@[^\/]+\/dist\/d3\.min\.js/g,
+          "https://cdn.iamrp.dev/js/d3.min.js",
+        )
+        .replace(
+          /https:\/\/cdn\.jsdelivr\.net\/npm\/pixi\.js@[^\/]+\/dist\/pixi\.(min\.)?js/g,
+          "https://cdn.iamrp.dev/js/pixi.js",
+        )
+
+      componentResources.afterDOMLoaded.add(rewrittenScript)
+    }
   }
 
   return {

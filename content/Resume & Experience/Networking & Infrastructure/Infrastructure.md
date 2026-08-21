@@ -37,9 +37,10 @@ My approach to infrastructure moves beyond routine maintenance. It focuses on hi
 
 ### ◈ Enterprise Virtualization
 
-* Executed complete onsite-to-hosted datacenter migrations for multi-site organizations. 
-* Architected hybrid Exchange-to-Office 365 transitions and managed complex Enterprise SAN environments (EqualLogic, EMC VNX) to ensure high-speed data availability.
-* Directed the upgrading, configuration, and hardening of enterprise VMware and Hyper-V virtualization clusters, aligning them with modern fault-tolerance standards.
+- Executed complete onsite-to-hosted datacenter migrations for multi-site organizations.
+- Architected hybrid Exchange-to-Office 365 transitions and managed complex Enterprise SAN environments (EqualLogic, EMC VNX) to ensure high-speed data availability.
+- Directed the upgrading, configuration, and hardening of enterprise VMware and Hyper-V virtualization clusters, aligning them with modern fault-tolerance standards.
 
 ---
-*Return to [[index|Root Terminal]], view my [[Resume]], or explore my cross-over work in [[Security|Security Operations]].*
+
+_Return to [[index|Root Terminal]], view my [[Resume]], or explore my cross-over work in [[Security|Security Operations]]._

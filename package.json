@@ -20,7 +20,7 @@
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "install-plugins": "npx tsx ./quartz/plugins/loader/install-plugins.ts",
     "prebuild": "npm run install-plugins",
-    "postinstall": "find node_modules -type f -name \"*.js\" -exec sed -i 's|https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js|https://cdn.iamrp.dev/js/d3.min.js|g; s|https://cdn.jsdelivr.net/npm/pixi.js@8/dist/pixi.js|https://cdn.iamrp.dev/js/pixi.js|g' {} +"
+    "postinstall": ""
   },
   "engines": {
     "npm": ">=10.9.2",

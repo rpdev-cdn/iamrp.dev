@@ -2,6 +2,7 @@
 title: Projects & Research Lab
 aliases: [Homelab, Research]
 ---
+
 > [!abstract] Sovereign R&D
 > Applied research into zero-trust environments, network sovereignty, local LLM execution, and RF signal analysis.
 

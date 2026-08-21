@@ -3,32 +3,42 @@
  */
 
 @font-face {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  src: url("https://cdn.iamrp.dev/fonts/JetBrainsMono-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+  src: url("https://cdn.iamrp.dev/fonts/JetBrainsMono-Italic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('https://cdn.iamrp.dev/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  src: url("https://cdn.iamrp.dev/fonts/JetBrainsMono-Bold.woff2") format("woff2");
 }
 
 /* Force the terminal aesthetic strictly across the entire DOM */
-body, h1, h2, h3, h4, h5, h6, p, a, li, code {
-    font-family: 'JetBrains Mono', monospace !important;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+code {
+  font-family: "JetBrains Mono", monospace !important;
 }
 
 /* * ==========================================
@@ -61,7 +71,7 @@ footer {
   p {
     order: 3;
     font-size: 0.75rem !important;
-    opacity: 0.4; 
+    opacity: 0.4;
     margin-top: 0 !important;
   }
 }

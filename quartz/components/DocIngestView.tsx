@@ -9,67 +9,38 @@ export default (() => {
 
     return (
       <div class={classNames(displayClass, "docingest-widget", "docingest-view-container")}>
-          <div class="docingest-header">
-            <h2 style={{ color: "#ffffff", marginBottom: "0.5rem" }}>Indexed Documentation</h2>
-            <p class="desc" style={{ color: "#9ca3af", fontSize: "0.875rem" }}>Browse the searchable docs corpus indexed by DocIngest</p>
-          </div>
+        <div class="docingest-header">
+          <h2 style={{ color: "#ffffff", marginBottom: "0.5rem" }}>Indexed Documentation</h2>
+          <p class="desc" style={{ color: "#9ca3af", fontSize: "0.875rem" }}>
+            Browse the searchable docs corpus indexed by DocIngest
+          </p>
+        </div>
 
-          <form id="docingest-search-form" class="docingest-search" style={{ display: "flex", gap: "1rem", margin: "2rem 0" }}>
-            <input 
-              type="text" 
-              id="search-input" 
-              placeholder="Search documentation..." 
-              class="search-input"
-              style={{
-                flexGrow: 1,
-                padding: "0.75rem 1rem",
-                borderRadius: "4px",
-                border: "1px solid rgba(255, 255, 255, 0.2)",
-                background: "rgba(0, 0, 0, 0.3)",
-                color: "#ffffff",
-                fontFamily: "inherit"
-              }}
-            />
-            <button type="submit" id="search-btn" class="btn-primary" style={{
-              backgroundColor: "#4ade80",
-              color: "#000000",
-              fontWeight: "600",
-              padding: "0.75rem 1.5rem",
-              border: "none",
+        <form
+          id="docingest-search-form"
+          class="docingest-search"
+          style={{ display: "flex", gap: "1rem", margin: "2rem 0" }}
+        >
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search documentation..."
+            class="search-input"
+            style={{
+              flexGrow: 1,
+              padding: "0.75rem 1rem",
               borderRadius: "4px",
-              cursor: "pointer",
-              transition: "opacity 0.2s"
-            }}>Search</button>
-          </form>
-          
-          <div id="loading-spinner" class="loading-spinner hidden" style={{
-            textAlign: "center",
-            padding: "2rem",
-            color: "#9ca3af",
-            display: "none"
-          }}>
-            Loading documentation...
-          </div>
-
-          <div id="error-message" class="error-message hidden" style={{
-            padding: "1rem",
-            background: "rgba(239, 68, 68, 0.1)",
-            border: "1px solid rgba(239, 68, 68, 0.3)",
-            color: "#ef4444",
-            borderRadius: "4px",
-            margin: "1rem 0",
-            display: "none"
-          }}></div>
-
-          <div id="docs-grid" class="docs-grid" style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
-            gap: "1.5rem",
-            marginTop: "2rem"
-          }}></div>
-
-          <div class="load-more-container" style={{ textAlign: "center", marginTop: "2rem" }}>
-            <button id="load-more-btn" class="btn-primary hidden" style={{
+              border: "1px solid rgba(255, 255, 255, 0.2)",
+              background: "rgba(0, 0, 0, 0.3)",
+              color: "#ffffff",
+              fontFamily: "inherit",
+            }}
+          />
+          <button
+            type="submit"
+            id="search-btn"
+            class="btn-primary"
+            style={{
               backgroundColor: "#4ade80",
               color: "#000000",
               fontWeight: "600",
@@ -78,9 +49,69 @@ export default (() => {
               borderRadius: "4px",
               cursor: "pointer",
               transition: "opacity 0.2s",
-              display: "none"
-            }}>Load More</button>
-          </div>
+            }}
+          >
+            Search
+          </button>
+        </form>
+
+        <div
+          id="loading-spinner"
+          class="loading-spinner hidden"
+          style={{
+            textAlign: "center",
+            padding: "2rem",
+            color: "#9ca3af",
+            display: "none",
+          }}
+        >
+          Loading documentation...
+        </div>
+
+        <div
+          id="error-message"
+          class="error-message hidden"
+          style={{
+            padding: "1rem",
+            background: "rgba(239, 68, 68, 0.1)",
+            border: "1px solid rgba(239, 68, 68, 0.3)",
+            color: "#ef4444",
+            borderRadius: "4px",
+            margin: "1rem 0",
+            display: "none",
+          }}
+        ></div>
+
+        <div
+          id="docs-grid"
+          class="docs-grid"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
+            gap: "1.5rem",
+            marginTop: "2rem",
+          }}
+        ></div>
+
+        <div class="load-more-container" style={{ textAlign: "center", marginTop: "2rem" }}>
+          <button
+            id="load-more-btn"
+            class="btn-primary hidden"
+            style={{
+              backgroundColor: "#4ade80",
+              color: "#000000",
+              fontWeight: "600",
+              padding: "0.75rem 1.5rem",
+              border: "none",
+              borderRadius: "4px",
+              cursor: "pointer",
+              transition: "opacity 0.2s",
+              display: "none",
+            }}
+          >
+            Load More
+          </button>
+        </div>
       </div>
     )
   }

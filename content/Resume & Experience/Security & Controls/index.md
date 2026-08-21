@@ -39,10 +39,11 @@ I focus on reducing the attack surface through automated vulnerability managemen
 
 Moving beyond technical implementation, I have successfully navigated exhaustive third-party information security audits and authored the underlying documentation that governs enterprise IT behavior.
 
-* **Software Development Life Cycle (SDLC):** Security enforcement for internal development.
-* **Vendor Risk Management:** Cloud services integration and MSA negotiations.
-* **Disaster Recovery & BIA:** Comprehensive Business Impact Analyses and continuity planning.
-* **Physical Security:** Removable media restrictions and physical access control protocols.
+- **Software Development Life Cycle (SDLC):** Security enforcement for internal development.
+- **Vendor Risk Management:** Cloud services integration and MSA negotiations.
+- **Disaster Recovery & BIA:** Comprehensive Business Impact Analyses and continuity planning.
+- **Physical Security:** Removable media restrictions and physical access control protocols.
 
 ---
-*Return to [[index|Root Terminal]] or view my full [[Resume|Curriculum Vitae]].*
+
+_Return to [[index|Root Terminal]] or view my full [[Resume|Curriculum Vitae]]._

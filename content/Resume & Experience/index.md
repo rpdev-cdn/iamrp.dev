@@ -2,6 +2,7 @@
 title: Professional Experience
 aliases: [Resume Hub, Experience]
 ---
+
 > [!abstract] Corporate & Consulting Footprint
 > My operational history spanning multi-entity corporate governance, federal compliance, and zero-trust infrastructure architecture.
 
