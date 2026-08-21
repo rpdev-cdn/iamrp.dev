@@ -7,9 +7,11 @@ WORKDIR /usr/src/app
 COPY package.json .
 COPY package-lock.json* .
 COPY .npmrc* .
+RUN npm install
+
 COPY quartz/ ./quartz/
 COPY quartz.lock.json* .
-RUN npm install; npx quartz plugin install
+RUN npx quartz plugin install
 
 FROM node:22-slim
 WORKDIR /usr/src/app
