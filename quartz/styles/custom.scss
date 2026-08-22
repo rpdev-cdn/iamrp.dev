@@ -108,6 +108,7 @@ footer {
   border-radius: 0.5rem;
   transform: translate(4px, 4px);
   z-index: 1;
+  pointer-events: none !important;
 }
 
 .di-neo-shadow-sm {
@@ -117,6 +118,7 @@ footer {
   border-radius: 0.375rem;
   transform: translate(2px, 2px);
   z-index: 1;
+  pointer-events: none !important;
 }
 
 .di-neo-card {
@@ -217,6 +219,8 @@ footer {
 
 /* Buttons */
 .di-btn {
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
