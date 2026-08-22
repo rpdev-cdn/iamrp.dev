@@ -74,10 +74,11 @@ _Q Holding, Co._ | Twinsburg, OH | Mar 2020 – Jul 2020
 **Senior Systems Administrator / Network Security Analyst**
 _ASM Research (Contracted to Veterans Health Administration)_ | Cleveland, OH | Mar 2017 – Jan 2020
 
-- Served as Technical Team Lead for VHA sites across Ohio (Cleveland, Columbus, Cincinnati, Chillicothe, Dayton).
+- Served as Technical Team Lead for VHA sites across Ohio (Cleveland, Columbus, Cincinnati, Chillicothe, Dayton), fostering cross-functional collaboration by communicating critical environment statuses to area managers and mentoring local technicians.
 - Managed patching, software compliance, and endpoint security for 6,000+ machines over multiple sites.
 - Interpreted Nessus vulnerability scans to orchestrate patching, identify false positives, and ensure compliance with strict government baselines.
 - Authored custom `PowerShell` and Batch scripts to manage Active Directory, SCCM, patching workflows, and software installations.
+- Assisted executive management with complex overlapping projects, ensuring seamless execution alongside strict contractual duties.
 
 _(See [[Legacy_Roles|Legacy Roles & Early Career]] for prior roles extending back to 2003, including IT Director and Electronic Technician)._
 
