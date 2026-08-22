@@ -152,7 +152,7 @@ plugins:
     enabled: true
     options:
       title: "Navigation"
-      folderClickBehavior: collapse
+      folderClickBehavior: link
       folderDefaultState: collapsed
       useSavedState: true
     layout:
