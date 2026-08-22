@@ -37,7 +37,8 @@ My technical capabilities span physical hardware limits to high-level corporate 
 **Infrastructure Security Analyst (Independent Contractor)**
 _RPDevs Consulting & Architecture_ | Cleveland, OH | Aug 2021 – Present
 
-- Provided independent security consulting and infrastructure architecture services, focusing on zero-trust containerization, active defense, and vulnerability management.
+- Delivered end-to-end security consulting and infrastructure architecture across a diverse client portfolio, acting as a versatile technologist ("jack of all trades") resolving complex technical challenges for organizations ranging from mom-and-pop shops to large corporations.
+- Rapidly assimilated emerging technologies and domain-specific requirements to provide bespoke solutions, drawing upon decades of broad-spectrum IT, networking, and development experience to meet any business need.
 - Architected highly decoupled, distributed container environments across multiple physical nodes (OpenWrt edge routers, local NVMe storage arrays, and GPU-accelerated compute hosts) for client-facing R&D.
 - Engineered complete Layer 2 network topologies utilizing `macvlan` and `ipvlan` to eliminate NAT port collisions, enforcing strict IP Address Management (IPAM) and automated DNS delegation.
 - Designed Zero-Trust integrations for Local Large Language Models (LLMs), routing external cloud AI agents through Cloudflare Workers and secure Server-Sent Events (SSE) tunnels to localized Model Context Protocol (MCP) servers.
