@@ -7,7 +7,7 @@ tags:
 ---
 
 # Richard P. Dissell
-**Location:** Lakewood, OH 44107 | **Email:** RPDissell@gmail.com | **Phone:** [Phone Number] | **Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [LinkedIn URL]
+**Location:** 2234 Warren Rd., Lakewood, OH 44107 | **Email:** RPDissell@gmail.com | **Phone:** 216-704-2088 | **Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
 
 ---
 
