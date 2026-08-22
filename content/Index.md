@@ -15,6 +15,19 @@ This site serves as a live, interconnected collection of my notes, projects, and
 
 ---
 
+### ◈ Featured Architectural Highlights
+
+Below are detailed deep-dives into some of my most impactful, complex engineering solutions:
+
+- **[[Local_LLM_Architecture|Zero-Trust Local LLM Integrations]]**
+  Architecting secure ingress for local AI agents via Cloudflare Workers and MCP servers.
+- **[[Layer2_Containerization|Layer 2 Virtualization & IPAM]]**
+  Eliminating Docker NAT routing using a unified `macvlan` and `ipvlan` architecture with dynamic DNS.
+- **[[Hardware_Storage_Tiering|Hardware-Aware Storage Tiering]]**
+  Enforcing strict spatial storage protocols to protect embedded eMMC flash and optimize high-I/O workloads.
+
+---
+
 ### ◈ Documentation Categories
 
 I have organized my notes into a few main areas that reflect my day-to-day work and ongoing projects:
