@@ -65,11 +65,11 @@ _Clunk, Hoose Co., LPA_ | Akron, OH | Oct 2020 – Jul 2021
 **Systems Administrator (Contractor)**
 _Q Holding, Co._ | Twinsburg, OH | Mar 2020 – Jul 2020
 
-- Orchestrated disaster recovery and business continuity environments for corporate infrastructure.
-- Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites.
-- Developed automated `PowerShell` pipelines to execute rapid recovery from VMware to Hyper-V environments.
-- Spearheaded third-party information security audits, executing immediate remediation strategies.
-- Authored and enforced comprehensive IT policies and procedures to align with industry best practices.
+- Authored and implemented comprehensive SonicWall hardening guides to secure multinational corporate infrastructure.
+- Architected disaster recovery solutions, deploying and maintaining Unitrends backups and cross-site replication.
+- Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites to ensure data integrity and availability.
+- Executed critical infrastructure upgrades, configuring VMware clusters to industry standards and remediating Active Directory and DNS misconfigurations.
+- Centralized software deployments by implementing and managing an enterprise license management platform.
 
 **Senior Systems Administrator / Network Security Analyst**
 _ASM Research (Contracted to Veterans Health Administration)_ | Cleveland, OH | Mar 2017 – Jan 2020
