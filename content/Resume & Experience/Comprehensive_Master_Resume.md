@@ -7,7 +7,8 @@ tags:
 ---
 
 # Richard P. Dissell
-**Location:** 3750 W 133rd St, Cleveland, OH 44111 | **Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred)<br>
+**Location:** 3750 W 133rd St, Cleveland, OH 44111<br>
+**Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred)<br>
 **Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
 
 ---
@@ -51,7 +52,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Designed Zero-Trust integrations for Local Large Language Models (LLMs), routing external cloud AI agents through Cloudflare Workers and secure Server-Sent Events (SSE) tunnels to localized Model Context Protocol (MCP) servers.
 - Implemented strict Tiered Storage Architecture, deploying high-I/O PostgreSQL databases to local SSDs while mapping volatile active-defense honeypots (Cowrie, Endlessh) directly to tmpfs RAM disks to prevent hardware flash-exhaustion.
 - Automated CI/CD pipelines using self-hosted GitHub Actions runners to compile custom OpenWrt firmware and seamlessly deploy container manifests based on immutable environment states.
-**Skills Applied:** Enterprise Architecture, Cybersecurity, Zero Trust Architecture, AI Integration, Containerization (Docker), CI/CD Pipelines, Network Architecture, Cloud Computing.
+
+*Skills Applied: Enterprise Architecture, Cybersecurity, Zero Trust Architecture, AI Integration, Containerization (Docker), CI/CD Pipelines, Network Architecture, Cloud Computing.*
 
 ### System Engineer (Contract via Apex Systems)
 **Rockwell Automation** | *Sep 2021 – May 2022*
@@ -60,7 +62,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Managed and rapidly troubleshot complex enterprise hardware, including dense blade enclosures, discrete servers, and heavy Storage Area Networks (EMC SAN).
 - Administered Active Directory infrastructure and orchestrated virtualized environments via VMware management consoles to ensure continuous high availability.
 - Executed emergency break-fix response and infrastructure maintenance with strict adherence to change management procedures and complex network/SAN switching protocols.
-**Skills Applied:** Storage Area Networks (SAN), Server Administration, VMware Infrastructure, Active Directory, High Availability (HA), Change Management, Technical Support, Enterprise Hardware Troubleshooting.
+
+*Skills Applied: Storage Area Networks (SAN), Server Administration, VMware Infrastructure, Active Directory, High Availability (HA), Change Management, Technical Support, Enterprise Hardware Troubleshooting.*
 
 ### Senior System Security Engineer
 **Clunk, Hoose Co., LPA** | *Oct 2020 – Jul 2021*
@@ -70,7 +73,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Enforced disaster recovery continuity by deploying multi-site Veeam backup replication.
 - Conducted deep-level remediation of legacy Active Directory and DNS misconfigurations to align with modern security standards.
 - Upgraded and hardened VMware virtualization clusters.
-**Skills Applied:** Systems Architecture, Cybersecurity, Disaster Recovery, Data Center Migration, Microsoft Office 365, Veeam Backup & Replication, VMware Clusters, Active Directory.
+
+*Skills Applied: Systems Architecture, Cybersecurity, Disaster Recovery, Data Center Migration, Microsoft Office 365, Veeam Backup & Replication, VMware Clusters, Active Directory.*
 
 ### Systems Administrator (Contractor)
 **Q Holding, Co.** | *Mar 2020 – Jul 2020*
@@ -80,7 +84,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites to ensure data integrity and availability.
 - Executed critical infrastructure upgrades, configuring VMware clusters to industry standards and remediating Active Directory and DNS misconfigurations.
 - Centralized software deployments by implementing and managing an enterprise license management platform.
-**Skills Applied:** Firewall Administration (SonicWall), Disaster Recovery, SAN/NAS Storage, VMware Infrastructure, Systems Hardening, Active Directory, Enterprise Software Management.
+
+*Skills Applied: Firewall Administration (SonicWall), Disaster Recovery, SAN/NAS Storage, VMware Infrastructure, Systems Hardening, Active Directory, Enterprise Software Management.*
 
 ### Senior Systems Administrator / Network Security Analyst
 **ASM Research (Contracted to Veterans Health Administration)** | *Mar 2017 – Jan 2020*
@@ -90,7 +95,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Interpreted Nessus vulnerability scans to orchestrate patching, identify false positives, and ensure compliance with strict government baselines.
 - Authored custom PowerShell and Batch scripts to manage Active Directory, SCCM, patching workflows, and software installations.
 - Assisted executive management with complex overlapping projects, ensuring seamless execution alongside strict contractual duties.
-**Skills Applied:** Vulnerability Management (Nessus), System Center Configuration Manager (SCCM), Endpoint Security, PowerShell Scripting, Active Directory, Technical Leadership, Government Compliance.
+
+*Skills Applied: Vulnerability Management (Nessus), System Center Configuration Manager (SCCM), Endpoint Security, PowerShell Scripting, Active Directory, Technical Leadership, Government Compliance.*
 
 ### Information Security Officer
 **Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates** | *Oct 2011 – Mar 2017*
@@ -102,7 +108,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Managed database queries/updates, oversaw the deployment and modification of Hot Docs document generation templates, and integrated complex enterprise software solutions.
 - Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, software licensing, and inventory management. Directed Help Desk operations and out-of-hours critical system maintenance to preserve production uptime.
 - Managed enterprise VOIP phone systems and securely administrated external web properties and password management vaults.
-**Skills Applied:** Information Security Management, Security Auditing, Business Continuity Planning, IT Policy Development, Systems Architecture, Project Management, Voice over IP (VoIP), IT Procurement.
+
+*Skills Applied: Information Security Management, Security Auditing, Business Continuity Planning, IT Policy Development, Systems Architecture, Project Management, Voice over IP (VoIP), IT Procurement.*
 
 ### Systems Administrator
 **ProcessPro LLC** | *Oct 2011 – Aug 2015*
@@ -112,7 +119,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Conducted extensive product research, testing, quoting, and procurement for new enterprise equipment and software deployments.
 - Administered software licensing, inventory management, and managed Help Desk inbox workflows to guarantee timely issue resolution.
 - Spearheaded database updates, Hot Docs template management, and met regularly with management to report on programming project statuses.
-**Skills Applied:** Network Infrastructure, Data Protection & Backup, Procurement, Help Desk Support, Technical Troubleshooting, Systems Administration, Database Administration.
+
+*Skills Applied: Network Infrastructure, Data Protection & Backup, Procurement, Help Desk Support, Technical Troubleshooting, Systems Administration, Database Administration.*
 
 ### Electronic Technician
 **Cuyahoga County Engineers** | *Aug 2010 – Oct 2011*
@@ -122,7 +130,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Engineered and installed custom lighting, communication, and control systems for specialized county vehicles.
 - Assisted the yard coordinator in planning, assigning, reviewing, and coordinating complex mechanical workloads.
 - Authored technical documentation, generated diagnostic images, and created worksheets to assist other mechanics with advanced troubleshooting duties.
-**Skills Applied:** Hardware Diagnostics, Electronics Repair, System Analysis, Technical Documentation, Systems Integration, Fleet Management.
+
+*Skills Applied: Hardware Diagnostics, Electronics Repair, System Analysis, Technical Documentation, Systems Integration, Fleet Management.*
 
 ### IT Director
 **BGE Technologies** | *May 2008 – Mar 2010*
@@ -132,7 +141,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Designed, developed, and maintained custom websites for clients to enhance their digital footprint.
 - Delivered component-level maintenance and repair for client laser printers and desktop hardware, alongside direct on-site and phone support for OS/application issues.
 - Consulted directly with business owners to guide technology-driven decisions regarding marketing, services, and scalable IT growth.
-**Skills Applied:** Network Design, Server Administration (IIS), Web Design, Microsoft Exchange, Hardware Repair, IT Consulting, Strategic Planning.
+
+*Skills Applied: Network Design, Server Administration (IIS), Web Design, Microsoft Exchange, Hardware Repair, IT Consulting, Strategic Planning.*
 
 ### Diagnostic Technician
 **PCS Automotive Inc** | *May 2007 – May 2008*
@@ -140,7 +150,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Programmed, flashed, and calibrated automotive computer systems and engine control modules (ECMs).
 - Diagnosed severe mechanical/electrical failures and entirely rewired complex automotive electrical harnesses.
 - Maintained the diagnostic shop's internal network infrastructure and diagnostic software suites.
-**Skills Applied:** Hardware Diagnostics, Electronics Repair, Embedded Systems, Troubleshooting, Network Maintenance.
+
+*Skills Applied: Hardware Diagnostics, Electronics Repair, Embedded Systems, Troubleshooting, Network Maintenance.*
 
 ### Computer Technician
 **Bellaire Puritas Development Corporation** | *Nov 2006 – Apr 2007*
@@ -148,7 +159,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Cataloged, repaired, and prepared donated computer hardware for community deployment and installation.
 - Diagnosed and repaired local area network (LAN) and hardware issues for internal staff.
 - Maintained, updated, and modernized the organization's pre-existing website.
-**Skills Applied:** Hardware Lifecycle Management, IT Hardware Support, Technical Troubleshooting, Local Area Network (LAN), Web Maintenance.
+
+*Skills Applied: Hardware Lifecycle Management, IT Hardware Support, Technical Troubleshooting, Local Area Network (LAN), Web Maintenance.*
 
 ### IT Professional
 **BGE Technologies** | *Jan 2003 – Aug 2006*
@@ -156,7 +168,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Administered and maintained Microsoft IIS web servers and Microsoft Exchange email environments.
 - Managed and maintained legacy dial-up internet access systems and ISP infrastructure.
 - Performed deep, component-level diagnostics and electronic repairs on televisions, CRT monitors, and laser printers.
-**Skills Applied:** System Administration, Web Servers (IIS), Electronics Repair, Troubleshooting, Telecommunications, Hardware Maintenance.
+
+*Skills Applied: System Administration, Web Servers (IIS), Electronics Repair, Troubleshooting, Telecommunications, Hardware Maintenance.*
 
 ---
 
