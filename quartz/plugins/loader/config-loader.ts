@@ -749,9 +749,9 @@ export function buildLayoutForEntries(
     const name = extractPluginName(entry.source)
 
     // Look up component from registry
-    const registered =
-      componentRegistry.get(name) ??
-      componentRegistry.get(`${formatSourceDisplay(entry.source)}/${name}`)
+    const registered = entry.component ?
+      (componentRegistry.get(`${formatSourceDisplay(entry.source)}/${entry.component}`) ?? componentRegistry.get(entry.component)) :
+      (componentRegistry.get(name) ?? componentRegistry.get(`${formatSourceDisplay(entry.source)}/${name}`))
     if (!registered) {
       // Try common naming patterns
       const pascalName = name
@@ -812,9 +812,9 @@ export function buildLayoutForEntries(
     if (!entry.enabled || entry.layout) continue
 
     const name = extractPluginName(entry.source)
-    const registered =
-      componentRegistry.get(name) ??
-      componentRegistry.get(`${formatSourceDisplay(entry.source)}/${name}`)
+    const registered = entry.component ?
+      (componentRegistry.get(`${formatSourceDisplay(entry.source)}/${entry.component}`) ?? componentRegistry.get(entry.component)) :
+      (componentRegistry.get(name) ?? componentRegistry.get(`${formatSourceDisplay(entry.source)}/${name}`))
     const pascalName = name
       .split("-")
       .map((s) => s.charAt(0).toUpperCase() + s.slice(1))

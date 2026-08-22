@@ -4,7 +4,6 @@ docingest: "view"
 aliases:
   - "/tools/docingest/view"
   - "/view"
-  - "Software-&-Github/Tools/DocIngest/view"
 tags:
   - docingest
   - viewer

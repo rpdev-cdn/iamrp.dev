@@ -4,7 +4,6 @@ docingest: "add"
 aliases:
   - "/tools/docingest/add"
   - "/add"
-  - "Software-&-Github/Tools/DocIngest/add"
 tags:
   - docingest
   - crawler
