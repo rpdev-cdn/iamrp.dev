@@ -15,9 +15,27 @@ Below is a comprehensive list of legacy policies I have authored.
 
 The following foundational policies have been fully documented for review:
 
+**Information Security & Operations**
 - **[[Information_Security_Policy|Information Security Policy]]**
 - **[[Incident_Response_Plan|Incident Response Plan]]**
 - **[[Software_Development_Life_Cycle|Software Development Life Cycle (SDLC)]]**
+- **[[IT_Change_Management_Policy|IT Change Management Policy]]**
+
+**Disaster Recovery & Business Continuity**
+- **[[Disaster_Recovery_Plan|Disaster Recovery Plan]]**
+- **[[Business_Impact_Analysis|Business Impact Analysis]]**
+- **[[Pandemic_Policy|Pandemic Policy]]**
+
+**Data & Infrastructure Protection**
+- **[[Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
+- **[[Encryption_Policy|Encryption Policy]]**
+- **[[Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
+- **[[Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
+
+**Physical Security & Vendor Management**
+- **[[Building_Security_Policy|Building Security Policy]]**
+- **[[Visitor_Policy|Visitor Policy]]**
+- **[[Vendor_Management_Policy|Vendor Management Policy]]**
 
 ---
 
@@ -31,29 +49,32 @@ The following represents the broader scope of my authored IT governance document
 - FOB Creation and Door Access Procedure
 
 #### 🛡️ Infrastructure & Network Security
-- Infrastructure Hardening Policy
+- **[[Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
 - Firewall Change Management Policy
 - Antivirus, Malware, Virus, and Firewall Policy
 - Wireless Access Policy
 
 #### 💾 Data Protection & Asset Management
-- Info. Asset and Data Classification Policy
+- **[[Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
 - Backup and Data Retention Policy
-- Encryption Policy
+- **[[Encryption_Policy|Encryption Policy]]**
 - Removable Storage Media Procedure
 
 #### ☁️ Cloud & Vendor Management
 - Cloud Computing Policy
+- **[[Vendor_Management_Policy|Vendor Management Policy]]**
 - Vendor Security Policy
 
 #### 📱 Endpoint & Physical Security
-- Mobile Device Security Policy
+- **[[Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
 - PDA and Smartphone Security Policy
 - Computer & Mobile Device Incident Policy
 - Unauthorized Hardware and Software Policy
+- **[[Building_Security_Policy|Building Security Policy]]**
+- **[[Visitor_Policy|Visitor Policy]]**
 
 #### 🛠️ Operations & Development
-- IT Change Management Policy
+- **[[IT_Change_Management_Policy|IT Change Management Policy]]**
 - Source Deployment Procedure
 - Patch Management and System Updates Policy
 - Software Developer Restriction Policy
