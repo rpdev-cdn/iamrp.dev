@@ -1,5 +1,5 @@
 ---
-title: Comprehensive Master Resume
+title: Richard P. Dissell - Resume
 description: Master vault containing all work history, skills, and experience details.
 tags:
   - resume
@@ -7,7 +7,8 @@ tags:
 ---
 
 # Richard P. Dissell
-**Location:** 3750 W 133rd st Cleveland, OH 44111 | **Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred) | **Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
+**Location:** 3750 W 133rd St, Cleveland, OH 44111 | **Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred)
+**Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
 
 ---
 
