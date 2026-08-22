@@ -16,3 +16,7 @@ Below is a curated selection of advanced engineering projects developed within t
 * [[Projects/FIDO2_Security_Toolkit|FIDO2 Hardware-Backed Security Toolkit]]
 * [[Projects/OpenWRT_Blackhole_Webserver|Blackhole Webserver (OpenWRT)]]
 * [[Projects/Attendant_AI_System|Attendant (J.A.R.V.I.S / E.D.I.T.H)]]
+
+## Featured Research
+
+* [[Research/Security_Analysis_and_Research_Agent|Security Analysis and Research Agent]] - AI-powered Model Context Protocol (MCP) server for security research and OSINT collection.
