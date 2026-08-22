@@ -1,6 +1,5 @@
 ---
-title: "DocIngest Crawler Status"
-docingest: "view"
+title: "Indexed Documentation"
 aliases:
   - "/tools/docingest/view"
   - "/view"
@@ -10,21 +9,23 @@ tags:
   - tooling
 ---
 
-# DocIngest Crawler Status
+# Indexed Documentation
 
-> [!abstract] Documentation Crawler Status
-> View the live status of the DocIngest queue and indexed URL database.
+Browse the searchable docs corpus indexed by DocIngest
 
-*(The interactive DocIngest application is mounted below.)*
+<link rel="stylesheet" href="https://cdn.iamrp.dev/css/docingest.css">
 
-<div class="docingest-view-wrapper" style="margin-top: 2rem;">
+<div class="docingest-app-container">
   <div id="docingest-view-root"></div>
 </div>
 
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onload="
   const root = document.getElementById('docingest-view-root');
   if (root && !root.dataset.loaded) {
+    const existing = document.getElementById('docingest-view-script');
+    if (existing) existing.remove();
     const s = document.createElement('script');
+    s.id = 'docingest-view-script';
     s.src = 'https://cdn.iamrp.dev/js/ViewPageApp.js?t=' + Date.now();
     document.body.appendChild(s);
     root.dataset.loaded = 'true';
