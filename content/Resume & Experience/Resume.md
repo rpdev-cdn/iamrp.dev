@@ -48,9 +48,10 @@ _RPDevs Consulting & Architecture_ | Cleveland, OH | Aug 2021 – Present
 **System Engineer (Contract via Apex Systems)**
 _Rockwell Automation_ | Mayfield Heights, OH | Sep 2021 – May 2022
 
-- Managed enterprise server and storage hardware, including discrete/blade servers and Storage Area Networks (EMC SAN).
-- Administered Active Directory tools, utilities, and VMware management consoles.
-- Operated in a round-the-clock global environment with strict adherence to change management procedures and network switching technologies.
+- Delivered critical remote infrastructure support for international manufacturing corporations in a high-stakes, 24/7 global operation where minutes of downtime equated to millions in financial losses.
+- Managed and rapidly troubleshot complex enterprise hardware, including dense blade enclosures, discrete servers, and heavy Storage Area Networks (EMC SAN).
+- Administered Active Directory infrastructure and orchestrated virtualized environments via VMware management consoles to ensure continuous high availability.
+- Executed emergency break-fix response and infrastructure maintenance with strict adherence to change management procedures and complex network/SAN switching protocols.
 
 **Senior System Security Engineer**
 _Clunk, Hoose Co., LPA_ | Akron, OH | Oct 2020 – Jul 2021
