@@ -64,6 +64,7 @@ _Clunk, Hoose Co., LPA_ | Akron, OH | Oct 2020 – Jul 2021
 _Q Holding, Co._ | Twinsburg, OH | Mar 2020 – Jul 2020
 
 - Orchestrated disaster recovery and business continuity environments for corporate infrastructure.
+- Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites.
 - Developed automated `PowerShell` pipelines to execute rapid recovery from VMware to Hyper-V environments.
 - Spearheaded third-party information security audits, executing immediate remediation strategies.
 - Authored and enforced comprehensive IT policies and procedures to align with industry best practices.
@@ -74,6 +75,7 @@ _ASM Research (Contracted to Veterans Health Administration)_ | Cleveland, OH | 
 - Served as Technical Team Lead for VHA sites across Ohio (Cleveland, Columbus, Cincinnati, Chillicothe, Dayton).
 - Managed patching, software compliance, and endpoint security for 6,000+ machines over multiple sites.
 - Interpreted Nessus vulnerability scans to orchestrate patching, identify false positives, and ensure compliance with strict government baselines.
+- Authored custom `PowerShell` and Batch scripts to manage Active Directory, SCCM, patching workflows, and software installations.
 
 _(See [[Legacy_Roles|Legacy Roles & Early Career]] for prior roles extending back to 2003, including IT Director and Electronic Technician)._
 

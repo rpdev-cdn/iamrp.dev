@@ -15,6 +15,7 @@ _Clunk, Paisley & Associates, P.S.C_ | Georgetown, KY | Oct 2011 – Mar 2017
 
 *(Note: These roles were executed concurrently for associated entities)*
 - **Systems Architecture & Security:** Architected and administered all production and development systems across multiple distributed organizations, taking total ownership of overarching security infrastructure and remote site connectivity.
+- **Automation & Scripting:** Created robust `PowerShell` scripts to parse proprietary logs for centralized logging archives, and developed automated scripts for rapid environment recovery from VMware to Hyper-V infrastructures.
 - **Auditing & Compliance:** Served as the primary lead for third-party information security audits, driving rapid remediation, completing exhaustive client security questionnaires, and enforcing strict compliance standards.
 - **Disaster Recovery & Business Continuity:** Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, ensuring critical data was backed up iteratively throughout the day with near-zero data loss tolerance.
 - **Policy & Governance:** Authored, implemented, and strictly enforced comprehensive IT security policies, operating procedures, and physical security standards (including building access and maintenance workflows).
@@ -32,18 +33,19 @@ _ProcessPro LLC_ | Stow, OH | Oct 2011 – Aug 2015
 - **Enterprise Software:** Spearheaded database updates, Hot Docs template management, and met regularly with management to report on programming project statuses.
 
 ### Electronic Technician
-_Cuyahoga County Engineers_ | Aug 2010 – Oct 2011
+_Cuyahoga County Engineers / Public Works_ | Aug 2010 – Oct 2011
 
 - **Hardware Diagnostics:** Diagnosed, repaired, and re-engineered complex automotive electrical systems and computer control modules.
+- **RF & Networking:** Installed and maintained municipal UHF Radio networks and performed physical data communication cabling (Cat3, Cat5e, Cat6).
 - **Custom Integrations:** Engineered and installed custom lighting, communication, and control systems for specialized county vehicles.
-- **Fleet Operations:** Assisted the yard coordinator in planning, assigning, reviewing, and coordinating complex mechanical workloads.
+- **Fleet & Data Operations:** Maintained yard management databases, executed data entry, and assisted the yard coordinator in planning, assigning, reviewing, and coordinating complex mechanical workloads. Maintained server backups and inventory for the maintenance yard.
 - **Documentation:** Authored technical documentation, generated diagnostic images, and created worksheets to assist other mechanics with advanced troubleshooting duties.
 
 ### IT Director
 _BGE Technologies_ | May 2008 – Mar 2010
 
 - **Network Planning:** Architected, planned, and implemented comprehensive network infrastructure tailored for Small and Medium Business (SMB) clients.
-- **Server Administration:** Maintained, secured, and administered Microsoft IIS web servers and email systems (including SmarterMail), providing critical 24/7 on-call server management.
+- **Server Administration:** Maintained, secured, and administered Microsoft IIS web servers and email systems (specifically SmarterMail), providing critical 24/7 on-call server management.
 - **Web Design:** Designed, developed, and maintained custom websites for clients to enhance their digital footprint.
 - **Hardware Repair & Support:** Delivered component-level maintenance and repair for client laser printers and desktop hardware, alongside direct on-site and phone support for OS/application issues.
 - **Strategic Consulting:** Consulted directly with business owners to guide technology-driven decisions regarding marketing, services, and scalable IT growth.
@@ -53,7 +55,7 @@ _PCS Automotive Inc_ | May 2007 – May 2008
 
 - **Computer Systems:** Programmed, flashed, and calibrated automotive computer systems and engine control modules (ECMs).
 - **Electrical Engineering:** Diagnosed severe mechanical/electrical failures and entirely rewired complex automotive electrical harnesses.
-- **IT Support:** Maintained the diagnostic shop's internal network infrastructure and diagnostic software suites.
+- **Operations & IT Support:** Maintained the diagnostic shop's internal network infrastructure and managed automotive supply and part inventory systems.
 
 ### Computer Technician
 _Bellaire Puritas Development Corporation_ | Nov 2006 – Apr 2007
