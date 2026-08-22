@@ -6,35 +6,43 @@ tags:
   - go
   - python
   - automation
+  - tools
 ---
 
-> [!abstract] Code & Tooling
-> Infrastructure is only as resilient as the code that orchestrates it. This domain highlights custom Go binaries, Python metadata engines, PowerShell orchestration scripts, and compiled OpenWrt firmware used to automate my environments.
+# Software & Git Assets
 
-While I am fundamentally an infrastructure architect, writing code is essential for bridging the gaps between off-the-shelf software and zero-trust engineering.
+> [!abstract] Engineering & Tooling Portfolio
+> Infrastructure is only as resilient as the code that orchestrates it. This domain highlights custom Go binaries, Python telemetry engines, PowerShell orchestration suites, and compiled OpenWrt firmware used to automate and secure our environments.
 
 ---
 
-### ◈ Custom Tooling & Scripts
+### ◈ Featured Tools & Repositories
 
-> [!info] DocIngest (MCP Server)
-> A custom-built integration utilizing the **Model Context Protocol (MCP)**. This tool exposes internal documentation safely to local, isolated LLM agents, allowing them to search, read, and ingest markdown corpora without requiring direct file-system access or outbound internet connectivity.
+* **[[Software & Github/Tools/DocIngest/corpus|DocIngest Documentation Engine & Interactive Viewer]]**  
+  *Explore the live searchable documentation corpus viewer and URL crawler integration.*
+  * **[Browse Corpus Viewer](Software-&-Github/Tools/DocIngest/view)** • **[Ingest New URL](Software-&-Github/Tools/DocIngest/add)**
+* **[[Software & Github/Tools/Hardware_Hardened_Security_Key|Hardware-Hardened Secret Management (FIDO2 + Age)]]**  
+  *Symmetric identity token binding with `age-plugin-fido2prf` and Chezmoi dotfile orchestration.*
+* **[[Software & Github/Tools/LLM_Control_Plane|LLM Control Plane & Multi-Agent Workspace]]**  
+  *Deploying multi-agent swarms, managing AI workflows, and standardizing LLM operational contexts.*
+* **[[Software & Github/Tools/Ventoy_Tech_Super_Tool|Ventoy Incident Response & Tech Super Tool]]**  
+  *Custom multi-boot USB configuration for bare-metal recovery, zero-trust provisioning, and offline forensics.*
+* **[[Software & Github/Scripts/Firefox_NextDNS_Addon|Firefox NextDNS Routing & Policy Add-on]]**  
+  *Browser extension dynamically enforcing encrypted DNS-over-HTTPS (DoH) profiles and tracking prevention.*
 
-> [!success] Telemetry & Metadata Engines
-> Developed Python-based metadata engines that interface with APIs to pull threat intelligence, parse local network scans, and normalize the data for ingestion into local vector databases (like Qdrant).
+---
 
 ### ◈ Infrastructure as Code & Orchestration
 
-> [!abstract] Automated Disaster Recovery Pipelines
-> Authored complex `PowerShell` and `Bash` scripts that programmatically orchestrate VM failovers between disparate hypervisors (VMware to Hyper-V) during disaster recovery scenarios.
+> [!info] Telemetry & Metadata Engines
+> Developed Python-based metadata engines that interface with APIs to pull threat intelligence, parse local network scans, and normalize data for ingestion into local vector databases (Qdrant).
 
-> [!warning] Firmware Compilation
-> Engineered automated GitHub Actions pipelines to securely compile custom OpenWrt firmware from source. These builds inject explicit `config.buildinfo` targets and pre-configure layer 2 networking out-of-the-box for edge routers.
+> [!warning] Automated Firmware Compilation
+> Engineered automated GitHub Actions pipelines to securely compile custom OpenWrt firmware from source, injecting `config.buildinfo` targets and pre-configuring Layer 2 macvlan networking out-of-the-box.
 
 ---
 
 ### ◈ Development Environment
 
-My daily toolchain heavily relies on Linux-based environments, Git for version control, and modular, declarative configurations. 
-- **Languages:** `Bash`, `PowerShell`, `Python`, `Go`, `C/C++`.
-- **Methodology:** Strict adherence to GitOps—every infrastructure change, script modification, or documentation update is committed to a repository to maintain an immutable history of the environment state.
+* **Languages:** `Python`, `Go`, `Bash`, `PowerShell`, `TypeScript/Preact`, `C/C++`, `SQL`.
+* **Methodology:** Strict GitOps — every infrastructure configuration, script modification, or documentation update is committed to a repository maintaining an immutable audit history.
