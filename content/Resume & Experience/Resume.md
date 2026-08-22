@@ -75,7 +75,7 @@ _ASM Research (Contracted to Veterans Health Administration)_ | Cleveland, OH | 
 - Managed patching, software compliance, and endpoint security for 6,000+ machines over multiple sites.
 - Interpreted Nessus vulnerability scans to orchestrate patching, identify false positives, and ensure compliance with strict government baselines.
 
-_(See legacy archive for prior roles extending back to 2003, including IT Director and Electronic Technician)._
+_(See [[Legacy_Roles|Legacy Roles & Early Career]] for prior roles extending back to 2003, including IT Director and Electronic Technician)._
 
 ---
 
