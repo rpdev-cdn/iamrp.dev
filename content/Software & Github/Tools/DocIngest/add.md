@@ -14,12 +14,10 @@ tags:
 Ingest a docs site into your searchable, MCP-accessible corpus
 
 <div style="margin: 1rem 0 1.5rem 0;">
-  <a href="https://docingest.iamrp.dev/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="https://iamrp.dev/software--and--github/tools/docingest/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     Browse Indexed Docs
   </a>
 </div>
-
-<link rel="stylesheet" href="https://cdn.iamrp.dev/css/docingest.css">
 
 <div class="docingest-app-container">
   <div id="docingest-add-root"></div>

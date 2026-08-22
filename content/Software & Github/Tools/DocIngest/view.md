@@ -13,8 +13,6 @@ tags:
 
 Browse the searchable docs corpus indexed by DocIngest
 
-<link rel="stylesheet" href="https://cdn.iamrp.dev/css/docingest.css">
-
 <div class="docingest-app-container">
   <div id="docingest-view-root"></div>
 </div>
