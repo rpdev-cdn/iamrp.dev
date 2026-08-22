@@ -1,8 +1,19 @@
 ---
-title: "DocIngest Add"
+title: "DocIngest URL Ingestion"
 docingest: "add"
+aliases:
+  - "/tools/docingest/add"
+  - "/add"
+  - "Software-&-Github/Tools/DocIngest/add"
+tags:
+  - docingest
+  - crawler
+  - tooling
 ---
 
 # DocIngest URL Ingestion
 
-Use this interface to add new documents to the ingestion engine.
+> [!abstract] Documentation Crawler Dispatch
+> Submit documentation URLs below to crawl and index into your searchable Markdown corpus.
+
+*(The interactive DocIngest Preact application is mounted below.)*

@@ -33,8 +33,8 @@ Modern governance requires continuous monitoring, not just annual checklists.
 - **CISO Assistant Integration:** Deployed and managed GRC (Governance, Risk, and Compliance) platforms like CISO Assistant to continuously track organizational compliance against 150+ open-source and federal frameworks.
 - **Automated Evidence Collection:** Engineered telemetry pipelines to automatically aggregate logs and system states, significantly reducing the administrative overhead required during the evidence-collection phase of an audit.
 
----
+### ◈ Policy Library & Archives
 
-### ◈ Policy Archive
+* **[[Resume & Experience/Policy & Governance/Policies/index|Modernized 2026 Enterprise Policy Library]]** — *14 production policies covering Zero Trust InfoSec, SOAR Incident Response, SDLC, Post-Quantum Cryptography, and Bring Your Own AI (BYOAI).*
+* **[[Resume & Experience/Policy & Governance/Policy_Archive|Enterprise Policy Archive & Index]]** — *Complete inventory and historical audit notes.*
 
-For a comprehensive inventory of my authored governance frameworks and legacy policies, please view the **[[Policy_Archive|Legacy Policy Archive]]**.

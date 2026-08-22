@@ -33,17 +33,16 @@ I focus on reducing the attack surface through automated vulnerability managemen
 > [!abstract] Vulnerability Management
 > Conducted Network Security Analysis utilizing large-scale datasets (Nessus vulnerability scanning, AD telemetry). Developed automated methodologies to isolate actionable threats from network noise, enabling rapid, targeted patching across federal healthcare environments.
 
----
+### ◈ Active Defense & SIEM Case Studies
 
-### ◈ Enterprise Policy Authorship
-
-Moving beyond technical implementation, I have successfully navigated exhaustive third-party information security audits and authored the underlying documentation that governs enterprise IT behavior.
-
-- **Software Development Life Cycle (SDLC):** Security enforcement for internal development.
-- **Vendor Risk Management:** Cloud services integration and MSA negotiations.
-- **Disaster Recovery & BIA:** Comprehensive Business Impact Analyses and continuity planning.
-- **Physical Security:** Removable media restrictions and physical access control protocols.
+* **[[Resume & Experience/Security & Controls/Wazuh_CrowdSec_SIEM|Enterprise SIEM & Collaborative XDR Defense: Wazuh + CrowdSec]]**  
+  *Unified endpoint monitoring, file integrity inspection, and automated border router firewall dropping.*
+* **[[Projects & Research/Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm]]**  
+  *26-track autonomous threat intelligence and vulnerability auditing framework.*
+* **[[Resume & Experience/Policy & Governance/Policies/index|Modernized 2026 Enterprise Policy Library]]**  
+  *14 production governance policies spanning Zero Trust InfoSec, SOAR Incident Response, SDLC, and PQC Encryption.*
 
 ---
 
-_Return to [[index|Root Terminal]] or view my full [[Resume|Curriculum Vitae]]._
+_Return to [[index|Root Terminal]] or view my full [[Resume & Experience/Comprehensive_Master_Resume|Comprehensive Master Resume]]._
+

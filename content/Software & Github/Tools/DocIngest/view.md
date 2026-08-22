@@ -1,8 +1,19 @@
 ---
-title: "DocIngest Viewer"
+title: "DocIngest Corpus Viewer"
 docingest: "view"
+aliases:
+  - "/tools/docingest/view"
+  - "/view"
+  - "Software-&-Github/Tools/DocIngest/view"
+tags:
+  - docingest
+  - viewer
+  - search
 ---
 
 # DocIngest Corpus Viewer
 
-Search and explore the ingested documentation corpus.
+> [!abstract] Searchable Documentation Corpus
+> Search, preview, copy context, or download indexed documentation trees.
+
+*(The interactive DocIngest Preact application is mounted below.)*

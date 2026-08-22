@@ -50,8 +50,9 @@ Explore interactive engineering deep dives and production architectures:
 
 ### ◈ Interactive Tools
 
-- **[DocIngest Corpus Viewer](Software-&-Github/Tools/DocIngest/view)** — *Search, preview, and download the full AI documentation corpus.*
-- **[DocIngest URL Ingestion](Software-&-Github/Tools/DocIngest/add)** — *Interactive crawler dispatching live documentation ingestion jobs.*
+- **[[Software & Github/Tools/DocIngest/view|DocIngest Corpus Viewer]]** — *Search, preview, and download the full AI documentation corpus.*
+- **[[Software & Github/Tools/DocIngest/add|DocIngest URL Ingestion]]** — *Interactive crawler dispatching live documentation ingestion jobs.*
+- **[[Software & Github/Tools/DocIngest/index|DocIngest Architecture & Guide]]** — *Overview of the crawler microservice stack and MCP integration.*
 
 ---
 
