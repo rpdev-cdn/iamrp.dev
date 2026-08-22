@@ -2,72 +2,23 @@
 title: Building Security Policy
 tags:
   - policy
-  - archive
+  - modernized
+  - 2026
 ---
 
-> [!abstract] Legacy Policy Archive
-> This is a raw text extraction of an original policy document authored during my tenure at a previous organization. It has been preserved here to demonstrate my experience in enterprise IT governance.
+> [!abstract] Modernized Policy
+> This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, incorporating biometric/mobile-credential access and IoT physical security sensor integration.
 
-Building Security Policy
-                                        
+# Building Security Policy
 
+**Approval Date**: 10/4/2011 (Modernized: 2026)  
+**Purpose**: To maintain a safe and secure working environment, prevent theft, and assure authorized access for the organization through advanced digital and physical security integrations.
 
+## Security Overview
+Maintaining the security of the building is extremely important. Each entrance is equipped with AI-driven IoT environmental and security sensors which monitor for unauthorized access, tailgating, door propping, and locking mechanism malfunctions in real-time. Should the door propping or anomaly detection alarm trigger during normal business hours, the physical security team and the IT Director shall immediately investigate the cause and report it to management. After-hours alerts are automatically routed to the global Security Operations Center (SOC) and the Executive Vice President, who are responsible for responding appropriately as circumstances warrant.
 
-Approval Date               10/4/2011
+## Technical Controls
+The primary floors and exterior doors are secured by a unified mobile-credential and biometric access control system, integrated with high-definition IP cameras, IoT glass-break sensors, and thermal motion detectors. The server room and other high-security zones are controlled by a dedicated, multi-factor biometric system (e.g., facial recognition combined with mobile credential presence). Access to the server room is strictly limited to authorized infrastructure management and domain administrators, enforced by Zero Trust physical access policies. Access privileges are continuously audited and dynamically adjusted based on role requirements.
 
-Approved By                 Andrew Paisley
-
-                            To maintain a safe and secure working environment, to prevent
-Purpose
-                            thefts from building and assure authorized access for Clunk, Hoose
-                            Co., LPA.
-
-
-                                                 Security
-Maintaining the security of the building is extremely important. Each door entrance is equipped with
-alarms which monitor for break-ins, door propping and locking mechanism malfunctions. Should the
-door propping alarm sound during normal business hours, the IT Director or his designee shall
-immediately investigate the cause and report it to management. After hours alarms are monitored by the
-Executive Vice President of the Law Firm who is responsible for responding appropriately as the
-circumstances warrant.
-
-                                           Technical Controls
-The First floor is secured by an alarm system tied into cameras, glass break sensors, motion sensors, and
-a key fob system on all exterior door access. The server room is controlled by a separate zone on the
-same security system. Access to the server room is limited to executive management and domain
-administrators. Access privileges will be reviewed on an as-needed basis. The Second Floor is secured
-by a key fob system and an alarm system tied into cameras and motion sensors.
-
-                                             Log Review
-Door event summary logs shall be reviewed for unusual and/or suspicious activity of interior and
-exterior doors by the Compliance Officer every thirty days. If unusual and/or suspicious activity is
-detected the Compliance Officer will inform Management and appropriate measures will be taken.
-Monthly door event summary logs will be downloaded and saved. Logs will be retained for six months.
-
-
-
-
-                                               
-                      Building Security Policy
-                                    
-
-                                     Revision History
-REVISION DATE       APPROVAL DATE         REQUESTED BY            DESCRIPTION
-  Initial Version        10/4/11              AAP
-      4/23/15         04/23/15 AAP            RPD           Changed IT Manager
-                                                            reference to Compliance
-                                                            officer for party responsible
-                                                            for review.
-     5/22/15          5/22/15 AAP               RPD         Clarified Technical Controls.
-     7/24/15          2/16/16 AAP               PMC         Added people who have
-                                                            access and a quarterly review
-                                                            period.
-      8/1/17              8/1/17               PMC          Updated firm name
-     1/16/18             1/16/18               PMC          Updated server room access
-     3/21/18           4/3/18 RRH            LEC/PMC        Annual review - updated
-                                                            firm name, updated server
-                                                            room access info
-     4/9/19          4/23/2019 LEC              RPG         Added second floor key
-                                                            fob system
-    2/27/20           2/28/20 LEC              PMC          Annual review – no
-                                                            changes
+## Log Review and Continuous Monitoring
+Access logs and IoT sensor telemetry are continuously ingested into the centralized SIEM (Security Information and Event Management) system. The Compliance Officer and automated anomaly detection algorithms review these logs for unusual and/or suspicious activity across all interior and exterior doors. If anomalous activity is detected, automated alerts notify Management and the SOC for immediate remediation. Detailed access logs are retained in immutable storage for a minimum of one year to ensure compliance and support forensic investigations.
