@@ -12,47 +12,44 @@ tags:
 *Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev)*
 
 > [!abstract] Executive Summary
-> Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical aerospace manufacturing environments to distributed edge compute clusters — I build resilient, automated, and immutable systems.
+> Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical enterprise manufacturing environments to distributed edge compute clusters — I architect resilient, automated, and immutable systems.
+
+<div style="margin: 1.25rem 0 1.75rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+  <a href="/resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    View Master Resume & CV 📄
+  </a>
+  <a href="/tools/docingest/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Explore DocIngest Corpus 📚
+  </a>
+  <a href="/projects" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Systems Projects 🚀
+  </a>
+</div>
 
 ---
 
-### ◈ Core Architectural Case Studies
+### ◈ Core Operational Pillars
 
-Explore interactive engineering deep dives and production architectures:
+Explore the primary sections of the portfolio:
 
-- **[[Projects & Research/Projects/LLM & Automation/Local_LLM_Architecture|Zero-Trust Local LLM Integrations]]**  
-  *Architecting secure ingress for local AI agents via Cloudflare Workers, OAuth boundaries, and Model Context Protocol (MCP) servers.*
-- **[[Projects & Research/Projects/DocIngest_Engine|DocIngest Documentation Engine & MCP Server]]**  
-  *Distributed document ingestion cluster (Firecrawl + Playwright + Redis + Postgres) delivering canonical library documentation to AI agent swarms.*
-- **[[Projects & Research/Current Environment/Layer2_Containerization|Layer 2 Virtualization & IPAM]]**  
-  *Eliminating Docker NAT routing bottlenecks using native `macvlan` and `ipvlan` drivers paired with dynamic DNS resolution via Mageddo DPS.*
-- **[[Projects & Research/Current Environment/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering]]**  
-  *Strict spatial storage topology mapping high-I/O PostgreSQL workloads to local NVMe, volatile telemetry to tmpfs RAM disks, and zram compression.*
-- **[[Projects & Research/Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm]]**  
-  *Autonomous multi-agent framework orchestrating offensive vulnerability auditing, defensive posture verification, and continuous threat intelligence mapping.*
-
----
-
-### ◈ Operational Knowledge Base & Highlights
-
-- **[[Resume & Experience/Comprehensive_Master_Resume|Comprehensive Master Resume]]**  
-  *Complete chronological career history, technical proficiencies, role breakdowns, and PDF download.*
-- **[[Projects & Research/Current Environment/index|Current Infrastructure State & Fleet Telemetry]]**  
-  *Live hardware ledger across primary nodes (`edge` OpenWrt router, `llmadmin01` AI compute node, and `t430` cluster).*
-- **[[Software & Github/index|Software, Tools & Firmware Projects]]**  
-  *Repositories, custom OpenWrt firmware builds, Firefox security add-ons, and utility scripts.*
-- **[[Resume & Experience/Policy & Governance/index|Enterprise IT & Cybersecurity Policy Library]]**  
-  *Modernized 2026 enterprise governance suite: Zero Trust InfoSec, SOAR Incident Response, SDLC, PQC Encryption, and BYOAI Policies.*
-- **[[Articles & Wiki/index|Technical Articles & Architecture Wiki]]**  
-  *Field guides, hardware diagnostics retrospectives, and edge security walkthroughs.*
+- **[[Resume/index|Resume & Professional Background]]**  
+  *Authoritative master curriculum vitae, executive summary, core competencies matrix, active roles, certifications, and legacy career archive (2003–2016).*
+- **[[Tools/index|Tools & Live Applications]]**  
+  *Interactive suites including the **[[Tools/DocIngest/index|DocIngest Suite]]** ([[Tools/DocIngest/add|Add Ingestion]] / [[Tools/DocIngest/view|Browse Corpus]]), **[[Tools/LLM_Control_Plane|LLM Control Plane]]**, **[[Tools/Hardware_Security_Key|Hardware Security Key Management]]**, **[[Tools/DNS_Forge_Firefox_Addon|DNS Forge Addon]]**, and **[[Tools/Infra_Audit_Engine|Infra Audit Engine]]**.*
+- **[[Projects/index|Engineering & Systems Projects]]**  
+  *Production architectures: **[[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]]**, **[[Projects/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]]**, **[[Projects/Wazuh_CrowdSec_SIEM|Wazuh + CrowdSec Collaborative SIEM]]**, **[[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Edge Webserver]]**, **[[Projects/Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM]]**, and **[[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]]**.*
+- **[[Research/index|Security & AI Systems Research]]**  
+  *Applied AI and security research: **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm (8 Deep Dives)]]**, **[[Research/Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Research/Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
+- **[[Governance/index|Enterprise Policy & Governance]]**  
+  *Complete suite of **[[Governance/Policies/index|12 Modernized 2026 Enterprise Security Policies]]**, **[[Governance/Leadership_Philosophy|Leadership Philosophy]]**, **[[Governance/Vendor_and_Resource_Management|Vendor & Resource Management]]**, and **[[Governance/AI_Augmentation_for_Users|AI Augmentation for End Users]]**.*
+- **[[Articles/index|Technical Articles & Field Guides]]**  
+  *Deep technical writing: **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**, and **[[Articles/Games_and_Complexity|Games & Systems Complexity]]**.*
 
 ---
 
-### ◈ Interactive Tools
+### ◈ Live Fleet Telemetry & Infrastructure
 
-- **[[Software & Github/Tools/DocIngest/view|DocIngest Corpus Viewer]]** — *Search, preview, and download the full AI documentation corpus.*
-- **[[Software & Github/Tools/DocIngest/add|DocIngest URL Ingestion]]** — *Interactive crawler dispatching live documentation ingestion jobs.*
-- **[[Software & Github/Tools/DocIngest/index|DocIngest Architecture & Guide]]** — *Overview of the crawler microservice stack and MCP integration.*
+- **[[Projects/Current_Environment|Current Fleet Topology]]** — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
 
 ---
 
@@ -60,4 +57,4 @@ Explore interactive engineering deep dives and production architectures:
 > 
 > * **Email:** `RPDissell@gmail.com`
 > * **Phone:** `216-410-3687` *(Text Preferred)*
-> * **PGP Security Verification:** Inspect identity credentials on the **[[Contact Information/index|Contact & Verification]]** page.
+> * **PGP & FIDO2 Verification:** Inspect identity credentials and public keys on the **[[Contact/index|Contact & Verification]]** page.

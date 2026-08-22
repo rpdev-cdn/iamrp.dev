@@ -1,0 +1,48 @@
+---
+title: Mobile Device Security Policy
+tags:
+  - policy
+  - archive
+  - 2026-modernized
+aliases:
+  - /resume--and--experience/policy--and--governance/policies/mobile_device_security_policy
+---
+
+> [!abstract] Legacy Policy Archive - Modernized for 2026
+> This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, covering Bring Your Own AI (BYOAI), passkey/FIDO2 enforcement (passwordless), and Mobile Threat Defense (MTD).
+
+Mobile Device Security Policy
+
+Approval Date              August 22, 2026
+Approved By                Enterprise Security Council
+Purpose                    To describe security expectations for all users accessing network resources via mobile devices, including smartphones, tablets, and laptops, in a modern, AI-integrated landscape.
+
+All employees who use a mobile computing device that accesses or synchronizes with organizational resources are responsible for securing their device to prevent data loss, compromise, or abuse.
+
+1. Device Management and Mobile Threat Defense (MTD)
+- All mobile devices accessing corporate data must be enrolled in the organization's Unified Endpoint Management (UEM) system.
+- Mobile Threat Defense (MTD) agents must be active on all devices to provide real-time protection against network-based attacks, malicious apps, and OS vulnerabilities.
+- The organization reserves the right to remotely wipe corporate data from any enrolled device if it is reported lost, stolen, or compromised.
+
+2. Passkey and FIDO2 Enforcement (Passwordless)
+- Traditional passwords and complex passcodes are deprecated.
+- Access to devices and corporate applications must be secured using hardware-backed Passkeys or FIDO2-compliant biometric authentication (e.g., FaceID, TouchID, Windows Hello).
+- Biometric data remains securely on the device enclave and is never transmitted to corporate servers.
+- Devices failing to meet biometric hardware standards will be denied access to corporate resources.
+
+3. Encryption at Rest
+- All storage on mobile devices must be encrypted at rest (e.g., BitLocker for Windows, FileVault for macOS, native iOS/Android file-based encryption).
+- Cryptographic keys are managed via the UEM and escrowed securely.
+
+4. Bring Your Own AI (BYOAI) & App Usage
+- The use of consumer-grade, unapproved AI applications or side-loaded LLM apps on devices with corporate access is strictly regulated.
+- Employees must only use corporate-approved AI tools that guarantee data privacy and zero-retention (e.g., enterprise-licensed AI assistants).
+- Copying, pasting, or sharing corporate data, PII, or NPI into unauthorized AI applications is a violation of this policy.
+- MTD and UEM policies will actively block known non-compliant AI applications from accessing the corporate workspace.
+
+5. Personal Devices (BYOD)
+- Personal devices may access corporate resources only via secure, isolated containerization (e.g., Work Profiles) managed by the UEM.
+- The organization manages only the corporate container; personal data remains private, though MTD will monitor the device's overall health and compliance status.
+
+Employee Acknowledgement:
+By accessing corporate resources, the employee acknowledges and agrees to comply with the Mobile Device Security Policy and the enforcement of UEM/MTD controls.
