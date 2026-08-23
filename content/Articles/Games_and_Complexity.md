@@ -28,28 +28,31 @@ aliases:
 Cybersecurity is neither a static checklist nor a purely mechanical system; it is an adversarial, non-cooperative, dynamic multi-agent game played upon a complex, evolving distributed system.
 
 ```mermaid
-graph LR
-    subgraph Game_Theory["🎲 Strategic Decision Layer (Game Theory)"]
+flowchart LR
+    subgraph GT["🎲 Strategic Decision Layer (Game Theory)"]
         Players["Actors: Red Team / Blue Team / Users"]
         Strategies["Action Spaces & Payoff Matrices"]
         Information["Information Asymmetry & Deception"]
     end
 
-    subgraph Systems_Theory["🔄 Structural Feedback Layer (Systems Theory)"]
-        StateVars["State Variables: Telemetry, Privileges, Footholds"]
+    subgraph ST["🔄 Structural Feedback Layer (Systems Theory)"]
+        StateVars["State Variables: Telemetry & Footholds"]
         FeedbackLoops["Reinforcing & Balancing Loops"]
         TimeDelays["Latencies: MTTD, MTTR, Dwell Time"]
     end
 
-    Game_Theory <--> Systems_Theory
-    Systems_Theory --> OperationalReality["⚡ Cyber War Gaming & Incident Dynamics"]
+    Strategies --> StateVars
+    TimeDelays --> Information
+    StateVars --> OperationalReality["⚡ Cyber War Gaming & Incident Dynamics"]
 ```
 
 ### Extensive-Form Games with Imperfect Information
 
 An enterprise cyber engagement is formally characterized as an **Extensive-Form Game with Imperfect Information**:
 
-$$\mathcal{G} = \langle \mathcal{N}, \mathcal{H}, \mathcal{P}, \mathcal{I}, \mathcal{U} \rangle$$
+$$
+\mathcal{G} = \langle \mathcal{N}, \mathcal{H}, \mathcal{P}, \mathcal{I}, \mathcal{U} \rangle
+$$
 
 Where:
 - $\mathcal{N} = \{\text{Red}, \text{Blue}, \text{Users}, \text{Nature}\}$ is the set of participating agents.
@@ -62,7 +65,9 @@ Where:
 
 While game theory determines the chosen action $a_t \in \mathcal{A}$, systems theory models the evolution of the overall environment state $\mathbf{x}(t) \in \mathbb{R}^n$ (e.g., compromised credentials, network bandwidth, host integrity):
 
-$$\dot{\mathbf{x}}(t) = f(\mathbf{x}(t), \mathbf{u}_{\text{Red}}(t), \mathbf{u}_{\text{Blue}}(t), \mathbf{w}(t))$$
+$$
+\dot{\mathbf{x}}(t) = f(\mathbf{x}(t), \mathbf{u}_{\text{Red}}(t), \mathbf{u}_{\text{Blue}}(t), \mathbf{w}(t))
+$$
 
 Where $\mathbf{u}_{\text{Red}}$ represents attack vectors, $\mathbf{u}_{\text{Blue}}$ represents defensive interventions, and $\mathbf{w}(t)$ represents environmental noise (background network traffic, human errors, system updates).
 
@@ -78,30 +83,38 @@ Traditional military war gaming relies on symmetric or near-symmetric force proj
 2. **Economic Cost Asymmetry**: The marginal cost for an attacker to launch automated reconnaissance or phishing campaigns approaches zero, whereas the marginal cost of human analyst incident triage scales linearly with alert volume.
 
 ```mermaid
-graph TD
-    subgraph Red_Objective["🔴 Red Team Objective Function"]
+flowchart TD
+    subgraph Red["🔴 Red Team Objectives"]
         MaximizeExploit["Maximize Foothold Depth & Impact"]
         MinimizeCost["Minimize Operational Cost & Exposure"]
     end
 
-    subgraph Blue_Objective["🔵 Blue Team Objective Function"]
+    subgraph Blue["🔵 Blue Team Objectives"]
         MinimizeDwell["Minimize Attacker Dwell Time"]
         MaximizeCoverage["Maintain Universal Infrastructure Availability"]
     end
 
-    subgraph Payoff_Coupling["⚖️ Strategic Payoff Coupling"]
-        Red_Objective <--> Payoff_Coupling
-        Blue_Objective <--> Payoff_Coupling
+    subgraph Coupling["⚖️ Strategic Payoff Coupling"]
+        GameMatrix["Bayesian Payoff Matrix & Equilibrium"]
     end
+
+    MaximizeExploit --> GameMatrix
+    MinimizeCost --> GameMatrix
+    MinimizeDwell --> GameMatrix
+    MaximizeCoverage --> GameMatrix
 ```
 
 ### Formal Payoff Matrix Formulation
 
 Let $a_i \in \mathcal{A}_{\text{Red}}$ be an offensive technique (e.g., living-off-the-land binary execution) and $d_j \in \mathcal{D}_{\text{Blue}}$ be a defensive control (e.g., eBPF kernel tracing with automated isolation):
 
-$$\mathcal{U}_{\text{Red}}(a_i, d_j) = \text{AssetValue}(a_i) - \text{ExecutionCost}(a_i) - \mathbb{P}_{\text{detect}}(a_i, d_j) \cdot \text{AttributionPenalty}$$
+$$
+\mathcal{U}_{\text{Red}}(a_i, d_j) = \text{AssetValue}(a_i) - \text{ExecutionCost}(a_i) - \mathbb{P}_{\text{detect}}(a_i, d_j) \cdot \text{AttributionPenalty}
+$$
 
-$$\mathcal{U}_{\text{Blue}}(a_i, d_j) = -\text{AssetValue}(a_i) \cdot \big(1 - \mathbb{P}_{\text{detect}}(a_i, d_j)\big) - \text{OperationalOverhead}(d_j)$$
+$$
+\mathcal{U}_{\text{Blue}}(a_i, d_j) = -\text{AssetValue}(a_i) \cdot \big(1 - \mathbb{P}_{\text{detect}}(a_i, d_j)\big) - \text{OperationalOverhead}(d_j)
+$$
 
 Under this payoff structure, a static defense always loses: the attacker calculates the lowest-cost path where $\mathbb{P}_{\text{detect}}(a_i, d_j) \approx 0$.
 
@@ -110,7 +123,10 @@ Under this payoff structure, a static defense always loses: the attacker calcula
 To counter this asymmetry, defenders introduce **Game-Theoretic Deception** (Canary tokens, honeypots, fake Active Directory service accounts, decoy network shares). 
 
 Deception fundamentally alters the attacker's expected utility:
-$$\mathbb{E}[\mathcal{U}_{\text{Red}}(a_i)] = (1 - p_{\text{decoy}}) \cdot \mathcal{U}_{\text{real}} + p_{\text{decoy}} \cdot (-\text{DetectionPenalty})$$
+
+$$
+\mathbb{E}[\mathcal{U}_{\text{Red}}(a_i)] = (1 - p_{\text{decoy}}) \cdot \mathcal{U}_{\text{real}} + p_{\text{decoy}} \cdot (-\text{DetectionPenalty})
+$$
 
 When the density of high-fidelity decoys $p_{\text{decoy}}$ reaches a critical threshold, the attacker's dominant strategy shifts from aggressive lateral movement to extreme caution, drastically increasing their operational latency and cost.
 
@@ -122,12 +138,13 @@ Social engineering is not an anomaly or random human failure; it is the **system
 
 ```mermaid
 sequenceDiagram
-    participant Attacker as 🎭 Adversary (Social Engineer)
-    participant Cognitive as 🧠 Human Cognitive Processing
-    participant System as 💻 Target System / Corporate Asset
+    autonumber
+    actor Attacker as Adversary (Social Engineer)
+    actor Cognitive as Human Cognitive Processing
+    participant System as Target System / Corporate Asset
 
     Attacker->>Cognitive: High-Urgency Spoofed Prompt (Authority + Scarcity)
-    Note over Cognitive: Heuristic Bypass: System 1 Triggered<br>Suppresses Analytical System 2 Verification
+    Note over Cognitive: Heuristic Bypass: System 1 Triggered<br/>Suppresses Analytical System 2 Verification
     Cognitive->>System: Authorizes MFA Push / Discloses Token
     System-->>Attacker: Grants Access Token & Session Foothold
     Note over Attacker,System: Cognitive Attack Loop Completed
@@ -145,7 +162,9 @@ Herbert Simon's theory of **Bounded Rationality** proves that human agents canno
 
 The attacker manipulates the victim's Bayesian prior probability that a request is legitimate:
 
-$$P(\text{Legitimacy} \mid \text{Context}) = \frac{P(\text{Context} \mid \text{Legitimacy}) \cdot P(\text{Legitimacy})}{P(\text{Context})}$$
+$$
+P(\text{Legitimacy} \mid \text{Context}) = \frac{P(\text{Context} \mid \text{Legitimacy}) \cdot P(\text{Legitimacy})}{P(\text{Context})}
+$$
 
 By synthesizing context from OSINT, executive calendars, and internal communication cadence, the attacker maximizes $P(\text{Context} \mid \text{Legitimacy})$, causing the user's posterior trust probability to cross the authorization threshold without cryptographic verification.
 
@@ -164,27 +183,30 @@ Because cognitive heuristics cannot be permanently "patched" via periodic compli
 A cyber incident is governed by the interplay between **Reinforcing (Destabilizing) Loops** and **Balancing (Stabilizing) Loops**:
 
 ```mermaid
-graph TD
-    subgraph Reinforcing_Attack_Loop["🔴 Reinforcing Loop R1: Attack Escalation"]
+flowchart TD
+    subgraph R1["🔴 Reinforcing Loop R1: Attack Escalation"]
         Dwell["Dwell Time"] --> Lateral["Lateral Movement"]
         Lateral --> Credentials["Credential Harvesting"]
         Credentials --> Privilege["Privilege Escalation"]
         Privilege --> Dwell
     end
 
-    subgraph Balancing_Defense_Loop["🔵 Balancing Loop B1: Defensive Containment"]
+    subgraph B1["🔵 Balancing Loop B1: Defensive Containment"]
         Telemetry["Telemetry Ingestion (eBPF/Zeek)"] --> Detection["Anomaly Scoring (Qdrant)"]
         Detection --> SOAR["Automated SOAR Quarantine"]
         SOAR --> Isolation["Network / Credential Isolation"]
-        Isolation -. "Arrests" .-> Lateral
     end
+
+    Isolation -.->|Arrests| Lateral
 ```
 
 ### The Fundamental Temporal Stability Criterion
 
 For an enterprise system to remain dynamically stable under continuous adversary probing, the feedback latency of the defensive balancing loop must satisfy the **Temporal Stability Criterion**:
 
-$$\text{MTTD} + \text{MTTR} < \text{MTTC}$$
+$$
+\text{MTTD} + \text{MTTR} < \text{MTTC}
+$$
 
 Where:
 - $\text{MTTD}$: Mean Time to Detect (Telemetry generation $\to$ Anomaly scoring $\to$ Alerting).
