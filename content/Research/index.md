@@ -1,12 +1,11 @@
 ---
-title: "Security & AI Research"
+title: Security & AI Research
 aliases:
-  - "/projects--and--research/research"
-  - "/research"
+- /projects--and--research/research
 tags:
-  - research
-  - security
-  - ai
+- research
+- security
+- ai
 ---
 
 # Security & Systems Research

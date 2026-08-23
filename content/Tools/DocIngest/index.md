@@ -1,15 +1,14 @@
 ---
-title: "DocIngest Suite"
+title: DocIngest Suite
 aliases:
-  - "/software--and--github/tools/docingest"
-  - "/projects--and--research/projects/docingest_engine"
-  - "/tools/docingest"
-  - "/docingest"
+- /software--and--github/tools/docingest
+- /projects--and--research/projects/docingest_engine
+- /docingest
 tags:
-  - docingest
-  - tools
-  - ai
-  - mcp
+- docingest
+- tools
+- ai
+- mcp
 ---
 
 # DocIngest Documentation Suite

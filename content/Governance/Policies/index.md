@@ -1,13 +1,12 @@
 ---
-title: "Enterprise Policies Directory"
+title: Enterprise Policies Directory
 aliases:
-  - "/resume--and--experience/policy--and--governance/policies"
-  - "/governance/policies"
+- /resume--and--experience/policy--and--governance/policies
 tags:
-  - policies
-  - governance
-  - compliance
-  - security
+- policies
+- governance
+- compliance
+- security
 ---
 
 # Enterprise IT & Cybersecurity Policies

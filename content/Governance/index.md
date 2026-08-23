@@ -1,12 +1,11 @@
 ---
-title: "Enterprise Policy & Governance"
+title: Enterprise Policy & Governance
 aliases:
-  - "/resume--and--experience/policy--and--governance"
-  - "/governance"
+- /resume--and--experience/policy--and--governance
 tags:
-  - governance
-  - compliance
-  - policy
+- governance
+- compliance
+- policy
 ---
 
 # Enterprise Policy, Governance & Leadership

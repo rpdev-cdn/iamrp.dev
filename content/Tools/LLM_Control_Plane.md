@@ -1,11 +1,15 @@
 ---
-title: "Consolidated Gemini CLI Workspace: Control Plane & Data Plane"
-date: "2026-08-22"
-tags: ["LLM", "AI", "Orchestration", "Architecture", "Multi-Agent"]
+title: 'Consolidated Gemini CLI Workspace: Control Plane & Data Plane'
+date: '2026-08-22'
+tags:
+- LLM
+- AI
+- Orchestration
+- Architecture
+- Multi-Agent
 draft: false
 aliases:
-  - /software--and--github/tools/llm_control_plane
-  - /tools/llm_control_plane
+- /software--and--github/tools/llm_control_plane
 ---
 
 # Consolidated Gemini CLI Workspace: Control Plane & Data Plane

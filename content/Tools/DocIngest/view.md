@@ -1,15 +1,12 @@
 ---
-title: "Indexed Documentation"
+title: Indexed Documentation
 aliases:
-  - /software--and--github/tools/docingest/view
-  - /tools/docingest/view
-  - /view
-  - "/tools/docingest/view"
-  - "/view"
+- /software--and--github/tools/docingest/view
+- /view
 tags:
-  - docingest
-  - crawler
-  - tooling
+- docingest
+- crawler
+- tooling
 ---
 
 # Indexed Documentation

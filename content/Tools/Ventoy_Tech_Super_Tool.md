@@ -1,11 +1,15 @@
 ---
-title: "Ventoy Tech Super Tool: Multi-Boot USB Configuration"
-date: "2026-08-22"
-tags: ["Incident Response", "Provisioning", "Zero-Trust", "Bare-Metal", "Recovery"]
+title: 'Ventoy Tech Super Tool: Multi-Boot USB Configuration'
+date: '2026-08-22'
+tags:
+- Incident Response
+- Provisioning
+- Zero-Trust
+- Bare-Metal
+- Recovery
 draft: false
 aliases:
-  - /software--and--github/tools/ventoy_tech_super_tool
-  - /tools/ventoy_tech_super_tool
+- /software--and--github/tools/ventoy_tech_super_tool
 ---
 
 # Ventoy Tech Super Tool

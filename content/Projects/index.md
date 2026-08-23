@@ -1,13 +1,12 @@
 ---
-title: "Engineering Projects"
+title: Engineering Projects
 aliases:
-  - "/projects--and--research/projects"
-  - "/projects--and--research"
-  - "/projects"
+- /projects--and--research/projects
+- /projects--and--research
 tags:
-  - projects
-  - engineering
-  - infrastructure
+- projects
+- engineering
+- infrastructure
 ---
 
 # Systems & Infrastructure Engineering Projects

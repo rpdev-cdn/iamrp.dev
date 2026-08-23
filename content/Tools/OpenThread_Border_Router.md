@@ -1,15 +1,14 @@
 ---
-title: "OpenThread Border Router Telemetry Poller"
+title: OpenThread Border Router Telemetry Poller
 tags:
-  - python
-  - iot
-  - openthread
-  - mqtt
-  - docker
-  - telemetry
+- python
+- iot
+- openthread
+- mqtt
+- docker
+- telemetry
 aliases:
-  - /software--and--github/scripts/openthread_border_router_poller
-  - /tools/openthread_border_router
+- /software--and--github/scripts/openthread_border_router_poller
 ---
 
 # OpenThread Border Router Telemetry Poller

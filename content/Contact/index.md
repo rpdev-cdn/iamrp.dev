@@ -1,13 +1,12 @@
 ---
 title: Contact & Identity Verification
 tags:
-  - contact
-  - security
-  - identity
-  - pgp
+- contact
+- security
+- identity
+- pgp
 aliases:
-  - /contact-information
-  - /contact
+- /contact-information
 ---
 
 # Contact & Verification

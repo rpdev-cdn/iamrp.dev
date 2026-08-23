@@ -1,16 +1,15 @@
 ---
-title: "Curriculum Vitae & Master Resume"
+title: Curriculum Vitae & Master Resume
 description: Master vault containing all work history, skills, and experience details.
 tags:
-  - resume
-  - master
+- resume
+- master
 aliases:
-  - /resume--and--experience/comprehensive_master_resume
-  - /resume--and--experience/resume
-  - /resume--and--experience
-  - /resume
-  - /cv
-  - /curriculum-vitae
+- /resume--and--experience/comprehensive_master_resume
+- /resume--and--experience/resume
+- /resume--and--experience
+- /cv
+- /curriculum-vitae
 ---
 
 # Richard P. Dissell

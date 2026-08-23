@@ -1,13 +1,12 @@
 ---
-title: "Tools & Live Applications"
+title: Tools & Live Applications
 aliases:
-  - "/software--and--github/tools"
-  - "/software--and--github"
-  - "/tools"
+- /software--and--github/tools
+- /software--and--github
 tags:
-  - tools
-  - software
-  - live-apps
+- tools
+- software
+- live-apps
 ---
 
 # Tools & Live Applications

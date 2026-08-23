@@ -1,15 +1,12 @@
 ---
-title: "DocIngest"
+title: DocIngest
 aliases:
-  - /software--and--github/tools/docingest/add
-  - /tools/docingest/add
-  - /add
-  - "/tools/docingest/add"
-  - "/add"
+- /software--and--github/tools/docingest/add
+- /add
 tags:
-  - docingest
-  - crawler
-  - tooling
+- docingest
+- crawler
+- tooling
 ---
 
 # DocIngest

@@ -1,14 +1,13 @@
 ---
 title: Games & Systems Theory
 tags:
-  - games
-  - simulation
-  - architecture
-  - networking
-  - performance
+- games
+- simulation
+- architecture
+- networking
+- performance
 aliases:
-  - /games--and--theory
-  - /articles/games_and_complexity
+- /games--and--theory
 ---
 
 # Games & Systems Theory

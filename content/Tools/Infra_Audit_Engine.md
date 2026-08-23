@@ -1,15 +1,14 @@
 ---
-title: "Infra Audit Engine: Continuous Hardware & Config Drift Orchestrator"
+title: 'Infra Audit Engine: Continuous Hardware & Config Drift Orchestrator'
 tags:
-  - python
-  - audit
-  - openwrt
-  - docker
-  - telemetry
-  - infrastructure
+- python
+- audit
+- openwrt
+- docker
+- telemetry
+- infrastructure
 aliases:
-  - /projects--and--research/projects/infra_audit_engine
-  - /tools/infra_audit_engine
+- /projects--and--research/projects/infra_audit_engine
 ---
 
 # Infra Audit Engine: Continuous Hardware & Config Drift Orchestrator

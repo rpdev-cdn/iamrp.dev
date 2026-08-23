@@ -1,12 +1,11 @@
 ---
-title: "Technical Articles & Wiki"
+title: Technical Articles & Wiki
 aliases:
-  - "/articles--and--wiki"
-  - "/articles"
+- /articles--and--wiki
 tags:
-  - articles
-  - wiki
-  - knowledge
+- articles
+- wiki
+- knowledge
 ---
 
 # Technical Articles & Knowledge Base
