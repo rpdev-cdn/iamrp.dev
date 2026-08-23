@@ -43,7 +43,7 @@ Explore the primary sections of the portfolio:
 - **[[Governance/index|Enterprise Policy & Governance]]**  
   *Complete suite of **[[Governance/Policies/index|12 Modernized 2026 Enterprise Security Policies]]**, **[[Governance/Leadership_Philosophy|Leadership Philosophy]]**, **[[Governance/Vendor_and_Resource_Management|Vendor & Resource Management]]**, and **[[Governance/AI_Augmentation_for_Users|AI Augmentation for End Users]]**.*
 - **[[Articles/index|Technical Articles & Field Guides]]**  
-  *Deep technical writing: **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**, and **[[Articles/Games_and_Complexity|Games & Systems Complexity]]**.*
+  *Deep technical writing: **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**, and **[[Articles/Games_and_Complexity|Games & Systems Complexity]]**.*
 
 ---
 
