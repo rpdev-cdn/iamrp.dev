@@ -19,7 +19,7 @@ aliases:
 ### ◈ Contact Information
 
 * **Full Name:** Richard P. Dissell
-* **Location:** 3750 W 133rd St, Cleveland, OH 44111
+* **Location:** Cleveland, OH
 * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
 * **Phone:** `216-410-3687` *(Text Preferred)*
 * **Portfolio & Digital Garden:** [iamrp.dev](https://iamrp.dev)
