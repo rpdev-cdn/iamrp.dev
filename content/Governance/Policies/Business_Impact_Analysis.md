@@ -26,10 +26,10 @@ The Business Impact Analysis (BIA) identifies critical business processes, deter
 - **RTO:** 15 minutes | **RPO:** Near-Zero
 - **Impact Rating:** Critical
 
-### 2. Legal and Regulatory Compliance
-- **Description:** E-Discovery, electronic court filings, compliance archiving.
-- **Supply Chain / SaaS Dependencies:** Third-party legal SaaS platforms, government API gateways.
-- **Outage Impact:** Missed filing deadlines leading to legal penalties. Third-party SaaS outages must trigger automated SLA breach notifications and fallback to asynchronous secure file transfer.
+### 2. Regulatory Compliance & Governance
+- **Description:** E-Discovery, regulatory compliance filings, immutable compliance archiving.
+- **Supply Chain / SaaS Dependencies:** Third-party regulatory SaaS platforms, compliance API gateways.
+- **Outage Impact:** Missed regulatory deadlines leading to compliance penalties. Third-party SaaS outages must trigger automated SLA breach notifications and fallback to asynchronous secure file transfer.
 - **RTO:** 4 hours | **RPO:** 1 hour
 - **Impact Rating:** High
 
