@@ -30,16 +30,16 @@ configuration:
         tertiary: "#5fafd7" # ANSI Light Cyan for hover
         highlight: rgba(0, 175, 175, 0.15)
         textHighlight: rgba(0, 175, 175, 0.25)
-      darkMode: # Your Custom Sovereign (Purple & Green)
+      darkMode: # Your Custom Sovereign (Cyan & Slate Accent)
         light: "#0d0914" # Deep space purple-black background
         lightgray: "#1e1b2e" # Elevated UI panels/search bar
         gray: "#8b889c" # Muted text with a purple tint
         darkgray: "#e2e1e8" # Standard body text
         dark: "#ffffff" # Headings
-        secondary: "#00ff00" # Terminal Green for primary links & Graph nodes
-        tertiary: "#b026ff" # Neon Purple for hover states & interaction
-        highlight: rgba(176, 38, 255, 0.15) # Faint purple link background
-        textHighlight: rgba(0, 255, 0, 0.25) # Green markdown highlight (==text==)
+        secondary: "#00afaf" # ANSI Cyan for primary links & Graph nodes
+        tertiary: "#5fafd7" # ANSI Light Cyan for hover states & interaction
+        highlight: rgba(0, 175, 175, 0.15) # Faint cyan link background
+        textHighlight: rgba(0, 175, 175, 0.25) # Cyan markdown highlight (==text==)
 
 plugins:
   # ==========================================

@@ -132,7 +132,7 @@ footer {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
-    border-color: var(--secondary, #00ff00) !important;
+    border-color: var(--secondary, #00afaf) !important;
   }
 }
 
@@ -180,8 +180,8 @@ footer {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
   &:focus {
-    border-color: var(--secondary, #00ff00) !important;
-    box-shadow: 0 0 0 2px rgba(0, 255, 0, 0.25);
+    border-color: var(--secondary, #00afaf) !important;
+    box-shadow: 0 0 0 2px rgba(0, 175, 175, 0.25);
   }
 
   &.di-input-error {
@@ -250,8 +250,8 @@ footer {
   }
 
   &.di-btn-primary {
-    background-color: var(--secondary, #00ff00) !important;
-    border-color: var(--secondary, #00ff00) !important;
+    background-color: var(--secondary, #00afaf) !important;
+    border-color: var(--secondary, #00afaf) !important;
     color: #000000 !important;
 
     &:hover:not(:disabled) {
@@ -263,12 +263,12 @@ footer {
 
   &.di-btn-secondary {
     background-color: var(--lightgray, #1e1b2e) !important;
-    border-color: var(--secondary, #00ff00) !important;
-    color: var(--secondary, #00ff00) !important;
+    border-color: var(--secondary, #00afaf) !important;
+    color: var(--secondary, #00afaf) !important;
 
     &:hover:not(:disabled) {
-      background-color: var(--secondary, #00ff00) !important;
-      border-color: var(--secondary, #00ff00) !important;
+      background-color: var(--secondary, #00afaf) !important;
+      border-color: var(--secondary, #00afaf) !important;
       color: #000000 !important;
     }
   }
@@ -292,7 +292,7 @@ footer {
 /* Progress and Metrics */
 .di-progress-container {
   background-color: var(--lightgray, #1e1b2e) !important;
-  border: 2px solid var(--secondary, #00ff00) !important;
+  border: 2px solid var(--secondary, #00afaf) !important;
   border-radius: 0.5rem;
   padding: 1.25rem;
   position: relative;
@@ -311,7 +311,7 @@ footer {
 
 .di-progress-bar-fill {
   height: 100%;
-  background-color: var(--secondary, #00ff00);
+  background-color: var(--secondary, #00afaf);
   transition: width 0.3s ease;
 }
 
@@ -334,7 +334,7 @@ footer {
   top: 0;
   left: 0;
   height: 100%;
-  background: var(--secondary, #00ff00);
+  background: var(--secondary, #00afaf);
 }
 
 .di-range-input {
@@ -438,7 +438,7 @@ footer {
 .di-modal-dialog {
   position: relative;
   background-color: var(--light, #0d0914) !important;
-  border: 3px solid var(--secondary, #00ff00) !important;
+  border: 3px solid var(--secondary, #00afaf) !important;
   border-radius: 0.75rem;
   width: 100%;
   max-width: 900px;
@@ -503,8 +503,8 @@ footer {
 }
 
 .di-spinner-primary {
-  border-color: rgba(0, 255, 0, 0.2);
-  border-top-color: var(--secondary, #00ff00);
+  border-color: rgba(0, 175, 175, 0.2);
+  border-top-color: var(--secondary, #00afaf);
 }
 
 @keyframes di-spin {
