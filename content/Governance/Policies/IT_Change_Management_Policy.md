@@ -20,7 +20,7 @@ Modern infrastructure is defined in code. Manual, "click-ops" changes in product
 *   **Automated Validation:** Before merge, IaC changes undergo automated linting, security scanning (e.g., checking for overly permissive IAM roles), and pre-flight planning (e.g., `terraform plan`) to visualize impact.
 
 ## 2. Automated Drift Detection
-To ensure the single source of truth remains in version control, JDC heavily relies on automated drift detection.
+To ensure the single source of truth remains in version control, the organization heavily relies on automated drift detection.
 *   **Continuous Monitoring:** Automated systems continuously monitor the live production environment against the desired state declared in the IaC repositories.
 *   **Alerting on Drift:** Any unauthorized deviation (drift) from the declared state immediately triggers a high-priority alert to the operations and security teams.
 *   **Automated Reconciliation:** Where configured, systems will automatically revert unauthorized manual changes, forcing all infrastructure modifications back through the formal GitOps change management pipeline.

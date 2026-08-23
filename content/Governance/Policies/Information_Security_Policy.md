@@ -14,13 +14,13 @@ aliases:
 # Information Security Policy
 
 ## 1. Zero Trust Architecture (ZTA) & Access Control
-JDC adopts a strict Zero Trust Architecture (ZTA) framework. Trust is never granted implicitly, and all access requests—regardless of location or origin—must be continuously verified.
+The enterprise adopts a strict Zero Trust Architecture (ZTA) framework. Trust is never granted implicitly, and all access requests—regardless of location or origin—must be continuously verified.
 *   **Continuous Verification:** Multi-factor authentication (MFA), context-aware access policies, and continuous posture assessments are mandatory for all user, device, and service-level access.
 *   **Micro-Segmentation:** Network and application environments are heavily segmented to limit lateral movement and enforce granular, least-privilege access.
 *   **Dynamic Privileges:** Privileges are dynamically granted via Just-In-Time (JIT) access tools and revoked immediately upon task completion.
 
 ## 2. Continuous Threat Exposure Management (CTEM)
-To proactively defend against evolving threats, JDC implements a Continuous Threat Exposure Management (CTEM) program.
+To proactively defend against evolving threats, the organization implements a Continuous Threat Exposure Management (CTEM) program.
 *   **Automated Discovery:** Routine, automated asset discovery and vulnerability scanning across on-premises, cloud, and edge environments.
 *   **Prioritized Remediation:** Vulnerabilities are prioritized based on exploitability, business context, and threat intelligence.
 *   **Validation:** Continuous attack surface validation, including automated penetration testing and red-teaming exercises, ensures the efficacy of existing security controls.

@@ -14,7 +14,7 @@ aliases:
 # Incident Response Plan
 
 ## 1. Automated Security Orchestration, Automation, and Response (SOAR)
-To handle the scale and speed of modern threats, JDC utilizes a centralized SOAR platform.
+To handle the scale and speed of modern threats, the organization utilizes a centralized SOAR platform.
 *   **Automated Triage:** The SOAR platform automatically ingests alerts, contextualizes threat data, and performs initial triage to filter out false positives.
 *   **Automated Containment:** For high-confidence threats, automated playbooks execute immediate containment actions, such as isolating compromised hosts, disabling compromised credentials, and blocking malicious IPs, before human intervention.
 *   **Orchestrated Workflows:** The Incident Response Team uses SOAR to coordinate investigations, ensuring consistent, documented, and rapid execution of response procedures.
@@ -29,7 +29,7 @@ The rise of AI-generated deep-fakes (audio and video) requires specialized verif
 Ransomware attacks are treated as critical, multi-stage extortion events.
 *   **Rapid Containment via Micro-segmentation:** Upon detection of encryption behavior or mass data exfiltration, automated micro-segmentation rules isolate affected subnets to halt lateral movement instantly.
 *   **Zero-Trust Recovery:** Recovery is executed exclusively from immutable, air-gapped backups. Restored systems are rebuilt in quarantined enclaves and subjected to deep malware scanning before rejoining the production network.
-*   **Negotiation Strategy:** JDC maintains retainer agreements with specialized third-party incident response and ransomware negotiation firms. Under no circumstances will JDC employees engage directly with threat actors. If negotiation is deemed strategically necessary (e.g., to delay data publication while victims are notified), it will be conducted strictly by authorized legal and specialized third parties.
+*   **Negotiation Strategy:** The organization maintains retainer agreements with specialized third-party incident response and ransomware negotiation firms. Under no circumstances will enterprise personnel engage directly with threat actors. If negotiation is deemed strategically necessary (e.g., to delay data publication while victims are notified), it will be conducted strictly by authorized legal and specialized third parties.
 
 ## 4. Incident Response Team Roles
 *   **Information Security Officer (ISO):** Coordinates the overall response, directs SOAR playbooks, and manages external specialists.
