@@ -27,7 +27,11 @@ The DFIR framework provides the foundational procedures and methodologies for id
 
 ## Operational Playbook Library
 
-The agent executes responses and proactive assessments using a massive, continually updated library of 34 distinct operational playbooks. These playbooks translate theoretical scenarios and documented techniques into actionable, repeatable procedures. 
+The agent executes responses and proactive assessments using a library of 34 distinct operational playbooks. These playbooks translate theoretical scenarios and documented techniques into actionable, repeatable procedures.
+
+> [!tip] Deep Dive into Production Playbooks
+> For full Sigma detection signatures, Suricata network rules, and automated SOAR shell containment scripts, see the dedicated monograph:  
+> 📖 **[[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab-Validated Defense Playbooks & SOAR Engineering]]**
 
 Execution of these playbooks is strictly governed by active Rules of Engagement (RoE).
 

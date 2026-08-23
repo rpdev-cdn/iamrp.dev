@@ -10,7 +10,11 @@ aliases:
 
 # Tools and Telemetry
 
-The Security Analysis and Research Agent utilizes a robust suite of detection engineering, defensive auditing, and telemetry tools to perform comprehensive security assessments, forensic analysis, and advanced threat modeling. Below is a curated summary of the primary tools in the agent's arsenal.
+The Security Analysis and Research Agent utilizes a robust suite of detection engineering, defensive auditing, vector memory retrieval, and telemetry tools to perform comprehensive security assessments, forensic analysis, and advanced threat modeling.
+
+> [!tip] Dedicated Vector Memory & Empirical Signal Monographs
+> - 🗄️ **[[Research/Security_Analysis_and_Research_Agent/Vector_Knowledge_and_Telemetry|Vector Knowledge Base & Memory Datastore (dev_memory_main)]]**: 768-dimensional Qdrant cognitive memory and telemetry store.
+> - 📡 **[[Research/Security_Analysis_and_Research_Agent/Empirical_Telemetry_and_RF_Analysis|Empirical Telemetry & RF Anomaly Modeling]]**: Physical signal propagation modeling, path loss math, and dwell-time anomaly scoring.
 
 ## Detection Engineering & Telemetry
 

@@ -26,6 +26,10 @@ Our research strategy is driven by the need to anticipate and mitigate emerging 
 
 Our 26 distinct research tracks are organized into several core domains. Most tracks are actively maintained and have reached a "Substantially Addressed" status, with ongoing efforts focusing on lab validation, deep-dive analysis, and capability expansion.
 
+> [!tip] Comprehensive 26-Track Taxonomy Monograph
+> For complete technical breakdowns, attack-defense mechanics, MITRE mappings, and literature reviews for all 26 tracks, see:  
+> 📖 **[[Research/Security_Analysis_and_Research_Agent/Research_Tracks_Taxonomy|26 Prioritized Research Tracks Taxonomy]]**
+
 ### AI, Machine Learning, and Autonomous Agents
 - **Track 1: AI & Autonomous Agent Security** - Exploring the threat landscape of agentic workflows, prompt injection, and capability escalation.
 - **Track 14: AI Agent Capability Scoping & Runtime Binding** - Addressing runtime constraints and schema manipulation in autonomous agents.
