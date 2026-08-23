@@ -18,26 +18,26 @@ Below is a comprehensive list of legacy policies I have authored.
 The following foundational policies have been fully documented for review:
 
 **Information Security & Operations**
-- **[[Information_Security_Policy|Information Security Policy]]**
-- **[[Incident_Response_Plan|Incident Response Plan]]**
-- **[[Software_Development_Life_Cycle|Software Development Life Cycle (SDLC)]]**
-- **[[IT_Change_Management_Policy|IT Change Management Policy]]**
+- **[[Governance/Policies/Information_Security_Policy|Information Security Policy]]**
+- **[[Governance/Policies/Incident_Response_Plan|Incident Response Plan]]**
+- **[[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle (SDLC)]]**
+- **[[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]]**
 
 **Disaster Recovery & Business Continuity**
-- **[[Disaster_Recovery_Plan|Disaster Recovery Plan]]**
-- **[[Business_Impact_Analysis|Business Impact Analysis]]**
-- **[[Global_Disruption_Policy|Global Disruption & Remote Operations Policy]]**
+- **[[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]]**
+- **[[Governance/Policies/Business_Impact_Analysis|Business Impact Analysis]]**
+- **[[Governance/Policies/Global_Disruption_Policy|Global Disruption & Remote Operations Policy]]**
 
 **Data & Infrastructure Protection**
-- **[[Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
-- **[[Encryption_Policy|Encryption Policy]]**
-- **[[Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
-- **[[Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
+- **[[Governance/Policies/Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
+- **[[Governance/Policies/Encryption_Policy|Encryption Policy]]**
+- **[[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
+- **[[Governance/Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
 
 **Physical Security & Vendor Management**
-- **[[Building_Security_Policy|Building Security Policy]]**
-- **[[Visitor_Policy|Visitor Policy]]**
-- **[[Vendor_Management_Policy|Vendor Management Policy]]**
+- **[[Governance/Policies/Building_Security_Policy|Building Security Policy]]**
+- **[[Governance/Policies/Visitor_Policy|Visitor Policy]]**
+- **[[Governance/Policies/Vendor_Management_Policy|Vendor Management Policy]]**
 
 ---
 
@@ -51,32 +51,32 @@ The following represents the broader scope of my authored IT governance document
 - FOB Creation and Door Access Procedure
 
 #### 🛡️ Infrastructure & Network Security
-- **[[Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
+- **[[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]**
 - Firewall Change Management Policy
 - Antivirus, Malware, Virus, and Firewall Policy
 - Wireless Access Policy
 
 #### 💾 Data Protection & Asset Management
-- **[[Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
+- **[[Governance/Policies/Data_Classification_Policy|Info. Asset and Data Classification Policy]]**
 - Backup and Data Retention Policy
-- **[[Encryption_Policy|Encryption Policy]]**
+- **[[Governance/Policies/Encryption_Policy|Encryption Policy]]**
 - Removable Storage Media Procedure
 
 #### ☁️ Cloud & Vendor Management
 - Cloud Computing Policy
-- **[[Vendor_Management_Policy|Vendor Management Policy]]**
+- **[[Governance/Policies/Vendor_Management_Policy|Vendor Management Policy]]**
 - Vendor Security Policy
 
 #### 📱 Endpoint & Physical Security
-- **[[Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
+- **[[Governance/Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]]**
 - PDA and Smartphone Security Policy
 - Computer & Mobile Device Incident Policy
 - Unauthorized Hardware and Software Policy
-- **[[Building_Security_Policy|Building Security Policy]]**
-- **[[Visitor_Policy|Visitor Policy]]**
+- **[[Governance/Policies/Building_Security_Policy|Building Security Policy]]**
+- **[[Governance/Policies/Visitor_Policy|Visitor Policy]]**
 
 #### 🛠️ Operations & Development
-- **[[IT_Change_Management_Policy|IT Change Management Policy]]**
+- **[[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]]**
 - Source Deployment Procedure
 - Patch Management and System Updates Policy
 - Software Developer Restriction Policy
