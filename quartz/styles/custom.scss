@@ -98,6 +98,7 @@ footer {
 /* Card Wrapper & Neo-Shadow */
 .di-neo-card-wrapper {
   position: relative;
+  isolation: isolate;
   margin-bottom: 1.5rem;
 }
 
@@ -220,7 +221,6 @@ footer {
 /* Buttons */
 .di-btn {
   position: relative;
-  z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -651,5 +651,27 @@ td a.external {
         }
       }
     }
+  }
+}
+
+/* ==========================================================================
+ * GLOBAL GRAPH MODAL / POPOUT STACKING CONTEXT FIX
+ * Elevates the parent sidebar and popout above all main content elements
+ * ========================================================================== */
+
+.sidebar.left:has(.global-graph-outer.active),
+.sidebar.right:has(.global-graph-outer.active) {
+  z-index: 999999 !important;
+}
+
+.global-graph-outer {
+  z-index: 999999 !important;
+
+  &.active {
+    z-index: 999999 !important;
+  }
+
+  > .global-graph-container {
+    z-index: 1000000 !important;
   }
 }
