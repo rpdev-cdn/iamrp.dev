@@ -137,6 +137,12 @@ plugins:
       position: left
       priority: 10
 
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: left
+      priority: 15
+
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -196,12 +202,6 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
-
-  - source: "@quartz-community/graph"
-    enabled: true
-    layout:
-      position: right
-      priority: 10
 
   - source: "@quartz-community/table-of-contents"
     enabled: true
