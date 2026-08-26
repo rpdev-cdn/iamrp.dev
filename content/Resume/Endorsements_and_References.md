@@ -22,6 +22,15 @@ tags:
 
 ## 📜 Formal Credentials & Verification Letters
 
+### Faculty Letter of Recommendation — ITT Technical Institute
+* **Author:** Tony Godfrey, *Instructor & Certified Linux Professional*, ITT Technical Institute
+* **Verification Artifact:** [Download Official Recommendation Letter (PDF)](https://cdn.iamrp.dev/pdf/Tony_Godfrey_ITT-Tech_Recommendation_Letter.pdf)
+* **Citation:**
+  > *"Richard is very motivated and consistently goes above and beyond what is required for the course. I find that Richard’s intellect and applied skill set is excellent regarding challenging material. Along with these skills, he is also dependable, courteous of others, and always prepared... This student is very exceptional, highly skilled, and his technical and problem-solving abilities are without comparison. He is very personable and able to explain technical details to non-technical people with ease. Richard’s abilities and willingness to learn will be a great asset to any Information Technologies department."*  
+  > — **Tony Godfrey**, *Instructor & Certified Linux Professional*
+
+---
+
 ### National Technical Honor Society (NTHS)
 * **Status:** Inducted for Academic Excellence & Technical Leadership in Computer Systems Networking (3.9 GPA).
 * **Verification Artifact:** [Download Official Verification Letter & Recommendation (PDF)](https://cdn.iamrp.dev/pdf/NTHS_verification_letter-letters-of-recommendation.pdf)

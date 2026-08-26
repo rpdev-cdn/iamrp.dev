@@ -201,6 +201,7 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 *Associate of Applied Science in Computer Networking Systems* | September 2009
 - GPA: 3.9 / 4.0
 - Inducted into the National Technical Honor Society ([View Verification Letter](https://cdn.iamrp.dev/pdf/NTHS_verification_letter-letters-of-recommendation.pdf))
+- Academic Recommendation by Linux Faculty ([View Letter of Recommendation by Tony Godfrey](https://cdn.iamrp.dev/pdf/Tony_Godfrey_ITT-Tech_Recommendation_Letter.pdf))
 - 2 years of software engineering & programming curriculum (C, C++, Java, Visual Basic)
 
 ### Continuous Technical Training & Framework Mastery
