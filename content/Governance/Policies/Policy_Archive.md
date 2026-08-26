@@ -100,3 +100,13 @@ The following represents the broader scope of authored enterprise governance doc
 #### 📊 Auditing & Telemetry
 - Security Log Policy
 - IT Capacity Planning Procedures
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Governance Directory:** Return to the full **[[Governance/Policies/index|Enterprise Policies Directory]]** or **[[Governance/index|Enterprise Policy & Governance Hub]]**.
+* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]** and **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
+* **Production Systems:** Practical architecture implementations in **[[Projects/index|Engineering & Systems Projects]]**.
+* **Master Credentials:** Review policy development and ISO/NIST audit experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Career Roles Archive]]**.
+* **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.

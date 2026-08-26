@@ -53,3 +53,14 @@ tags:
 ### ◈ Historical Governance Archive
 
 19. **[[Governance/Policies/Policy_Archive|Enterprise Policy Archive]]** — *Comprehensive historical inventory of authored enterprise compliance documentation across NIST, CIS, and ISO frameworks.*
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Governance Hub:** Return to the parent overview on **[[Governance/index|Enterprise Policy & Governance]]**.
+* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]** and **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
+* **Zero Trust Systems:** Practical architecture implementations in **[[Projects/index|Engineering & Systems Projects]]** and **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**.
+* **Applied Research Swarm:** Frameworks are validated by the **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Swarm]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis Agent]]**.
+* **Master Credentials:** Review policy development and ISO/NIST audit experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
+* **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.
