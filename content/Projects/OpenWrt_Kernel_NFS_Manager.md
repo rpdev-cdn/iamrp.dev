@@ -127,3 +127,14 @@ Benchmarking storage throughput across a 2.5 Gbps local network backbone (MediaT
 | **Native Kernel `nfsd` (luci-app-nfs)** | **282 MB/s** | **265 MB/s** | **< 12% (Wire-Speed)** |
 
 By moving execution directly into the Linux kernel and managing configuration declaratively, throughput increased by **over 3x** while freeing router CPU capacity for firewall routing and threat detection.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Layer2_Containerization|Layer2 Containerization]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

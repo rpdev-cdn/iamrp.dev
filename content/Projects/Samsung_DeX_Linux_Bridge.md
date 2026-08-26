@@ -39,3 +39,14 @@ This integration is not merely a mirroring tool; it is a full-fledged environmen
 As an architect in 2026, the boundary between mobile edge and primary workstation is obsolete. The Samsung DeX Linux Bridge exemplifies the capability to harness the formidable computational power of modern mobile devices, integrating them into a unified, high-octane engineering workflow. 
 
 This project stands as a testament to overcoming vendor lock-in through deep systems knowledge, protocol engineering, and a commitment to uncompromised performance.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

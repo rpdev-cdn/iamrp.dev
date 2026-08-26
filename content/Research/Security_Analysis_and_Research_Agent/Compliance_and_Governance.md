@@ -42,3 +42,14 @@ For environments processing public claims, lead-generation telemetry, or marketi
 * **PII Redaction and Data Sanitization:** We employ automated data-minimization workflows (e.g., Microsoft Presidio) to strip Personally Identifiable Information (PII) *before* ingestion into immutable long-term storage, balancing audit integrity with the right to erasure.
 * **Third-Party AI and SaaS Governance:** Any external SaaS or AI tool processing proprietary content is subjected to a strict security audit (MFA, SSO, encryption) and must have explicit opt-outs for data scraping and model training.
 * **Rapid Incident Response SLAs:** We enforce a maximum 15-minute response window for critical reputational incidents and account takeovers. This SLA is achieved through automated SOAR playbooks (TheHive and Cortex) to instantly revoke compromised OAuth tokens.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]], [[Research/Security_Analysis_and_Research_Agent/Research_Strategy|Research Strategy]], [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
+* **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]], [[Governance/Policies/Encryption_Policy|Encryption Policy]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

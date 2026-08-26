@@ -24,3 +24,14 @@ The primary floors and exterior doors are secured by a unified mobile-credential
 
 ## Log Review and Continuous Monitoring
 Access logs and IoT sensor telemetry are continuously ingested into the centralized SIEM (Security Information and Event Management) system. The Compliance Officer and automated anomaly detection algorithms review these logs for unusual and/or suspicious activity across all interior and exterior doors. If anomalous activity is detected, automated alerts notify Management and the SOC for immediate remediation. Detailed access logs are retained in immutable storage for a minimum of one year to ensure compliance and support forensic investigations.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[Projects/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Visitor_Policy|Visitor Policy]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

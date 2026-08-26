@@ -35,3 +35,14 @@ aliases:
 ## Packaging & CI/CD Heuristics
 
 The build lifecycle includes specific heuristics for compiling Go on OpenWRT, navigating SDK paths, configuring packages non-interactively, and robust OpenWRT Docker CI caching to preserve states (`dl`, `feeds`, `staging_dir/host`, `.gocache`) across ephemeral CI containers.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[Projects/DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Incident_Response_Plan|Incident Response Plan]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

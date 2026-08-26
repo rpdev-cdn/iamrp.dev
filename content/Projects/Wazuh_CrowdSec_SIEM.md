@@ -51,3 +51,14 @@ sequenceDiagram
 
 3. **Regulatory Compliance Automation:**
    * Automated compliance mapping against **NIST 800-53**, **PCI-DSS 4.0**, and **CIS Benchmarks** with weekly drift reports.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Incident_Response_Plan|Incident Response Plan]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

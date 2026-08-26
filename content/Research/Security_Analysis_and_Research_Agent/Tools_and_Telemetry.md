@@ -34,3 +34,14 @@ The Security Analysis and Research Agent utilizes a robust suite of detection en
 *   **srsRAN:** An open-source 3GPP RAN protocol stack (gNB + UE simulator). Utilizing a ZMQ virtual RF transport mode, it eliminates the need for over-the-air transmission, allowing isolated ZMQ-only lab testing.
 *   **ASTRA-5G:** A research-oriented, coverage-guided fuzzing framework targeting NAS/NGAP protocol state machines in 5G SA cores, ideal for isolated state-machine robustness testing.
 *   **boofuzz:** A Python-based, session-aware network protocol fuzzer used for structured mutation fuzzing against lab-isolated targets (such as Modbus simulators and API endpoints) with defined block/primitive grammars.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]], [[Research/Security_Analysis_and_Research_Agent/Sources_and_Matrix|Sources and Matrix]].
+* **Production Systems:** Validated in [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]], [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

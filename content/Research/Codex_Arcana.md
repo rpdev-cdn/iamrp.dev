@@ -40,3 +40,13 @@ While the contents of Codex Arcana remain private, the principles it embodies ar
 - **Agentic Orchestration:** The evolution of multi-agent workflows from chaotic execution to deterministic precision.
 
 Codex Arcana is more than a journal; it is the engine of my continuous improvement as a 2026 engineer and architect. It proves that the path to elite performance is not avoiding failure, but mastering it.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

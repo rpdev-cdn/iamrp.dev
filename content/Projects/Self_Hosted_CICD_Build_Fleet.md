@@ -58,3 +58,14 @@ graph TD
 3. **Organizational Security Boundaries:**
    * Ephemeral runner token registration using scoped GitHub App authentication.
    * Hardened container privileges preventing host kernel escape while retaining full Docker build capabilities.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Codex_Arcana|Codex Arcana]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

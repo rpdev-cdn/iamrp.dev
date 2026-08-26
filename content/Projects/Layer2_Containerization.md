@@ -71,3 +71,14 @@ graph TD
 
 ### ◈ Business Impact
 This migration completely eliminated port collisions and complex host-level routing tables. Network security monitoring systems (like Suricata and Zeek) can now inspect traffic and definitively attribute malicious activity to a specific container IP, vastly improving incident response times and forensic clarity.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

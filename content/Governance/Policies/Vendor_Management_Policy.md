@@ -44,3 +44,14 @@ In the event a relationship with an existing vendor is terminated, rigorous off-
 - Immediately revoke all physical, digital, and API access, including Active Directory, VPN, and cloud identity federations.
 - Archive all vendor-related telemetry, contracts, and performance data for compliance auditing.
 - Notify appropriate internal stakeholders of the transition to ensure operational continuity and maintain trust.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Vendor_and_Resource_Management|Vendor and Resource Management]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

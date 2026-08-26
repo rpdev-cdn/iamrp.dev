@@ -2,7 +2,6 @@
 title: Enterprise Policies & Governance Directory
 aliases:
   - /resume--and--experience/policy--and--governance/policies
-  - /governance/policies
   - /policies
 tags:
   - policies

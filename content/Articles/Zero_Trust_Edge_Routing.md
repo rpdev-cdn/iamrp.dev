@@ -71,3 +71,13 @@ The local environment is segmented into hard isolation zones:
 1. Never open a port on your WAN interface if an authenticated reverse tunnel can service the request.
 2. Pair edge routers with dynamic, behavioral intrusion detection (CrowdSec) to instantly drop malicious scanning noise.
 3. Hardware-aware network segmentation (VLANs + macvlan) turns a single physical cable into an audited, multi-tier enterprise network.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Layer2_Containerization|Layer2 Containerization]], [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[Projects/DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]].
+* **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

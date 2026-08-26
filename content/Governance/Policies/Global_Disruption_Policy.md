@@ -40,3 +40,14 @@ The organization operates under a "remote-first, hybrid-ready" 2026 model.
 
 ## Employee Well-being and Support
 In the event of extended disruptions, the organization provides support for remote ergonomics, mental health resources, and flexible asynchronous working hours to accommodate caregiving and personal resilience.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Layer2_Containerization|Layer2 Containerization]], [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Governance/Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

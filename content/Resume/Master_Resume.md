@@ -202,6 +202,8 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 
 * **Legacy Career Archive:** Explore early career roles extending back to 2003 on **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
 * **Systems Architecture:** Explore production deployments and infrastructure on **[[Projects/index|Engineering & Systems Projects]]**, including the **[[Projects/LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Hardware_Security_Key|Hardware Security Key Secrets]]**, and **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]**.
+* **AI & Security Research:** Explore autonomous agent research on **[[Research/index|Security & AI Systems Research]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Multi-Agent Swarm]]**.
 * **Enterprise Governance:** Review policy and security frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Governance/Policies/Information_Security_Policy|Information Security Policy]]**.
-* **Diagnostic Mental Models:** Read about hardware repair foundations in **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.
+* **Technical Writing:** Read engineering articles and field guides on **[[Articles/index|Technical Articles & Field Guides]]** and **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.
+* **Interactive Tools:** Explore live applications on **[[Tools/index|Tools & Live Applications]]** and **[[Tools/DocIngest/index|DocIngest Suite]]**.
 * **Direct Verification:** Review cryptographic signing credentials on **[[Contact/index|Contact & Identity Verification]]**.

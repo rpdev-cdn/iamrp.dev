@@ -78,3 +78,14 @@ Our edge compute and research lab encompasses a diverse set of tracks, targeting
 ## Conclusion
 
 The Security Analysis and Research Agent operates within this rigorously defined, multi-zone lab environment. By standardizing our infrastructure requirements and gating promotion on empirical telemetry, we ensure that the agent's capabilities are developed and validated against realistic, modern enterprise architectures—from edge IoT devices to confidential computing enclaves and 5G networks.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]], [[Research/Security_Analysis_and_Research_Agent/Research_Strategy|Research Strategy]], [[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab Validated Playbooks]].
+* **Production Systems:** Validated in [[Projects/Current_Environment|Current Environment]], [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

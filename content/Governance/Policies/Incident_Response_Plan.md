@@ -38,3 +38,14 @@ Ransomware attacks are treated as critical, multi-stage extortion events.
 
 ## 5. Post-Incident Review
 Every activated incident response, including fully automated SOAR containments, requires a formal Post-Incident Review (PIR) to update playbooks, refine detection logic, and improve future resilience.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

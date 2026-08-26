@@ -242,3 +242,12 @@ _Related Documents:_
 - **[[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab-Validated Defense Playbooks]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Empirical_Telemetry_and_RF_Analysis|Empirical Telemetry & RF Anomaly Modeling]]**
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]], [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

@@ -104,3 +104,14 @@ To eliminate buffering and RTSP stream latency, `go2rtc` acts as a high-performa
 * **WebRTC Live Streaming**: Negotiates direct peer-to-peer browser streams with sub-100ms glass-to-glass latency.
 * **Hardware Transmuxing**: Uses Intel QuickSync / NVIDIA NVDEC for lossless H.265 -> H.264 stream conversion when legacy clients lack HEVC hardware decoders.
 * **Multiplexed Feed Distribution**: Consumes a single RTSP stream from each camera and restructures it for simultaneous ingestion by Frigate, Home Assistant dashboards, and Apple HomeKit.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

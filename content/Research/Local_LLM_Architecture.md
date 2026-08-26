@@ -66,3 +66,14 @@ graph LR
 
 ### ◈ Business Impact
 This architecture successfully allowed the business to leverage cutting-edge AI capabilities for internal knowledge retrieval while adhering to strict information security and compliance policies. It completely eliminated the risk of a compromised AI agent pivoting into the broader corporate network.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]].
+* **Technical Articles:** Deep dive in [[Articles/MCP_In_Enterprise_Operations|MCP In Enterprise Operations]], [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

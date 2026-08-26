@@ -78,3 +78,13 @@ Exposes live hardware status, OpenWrt firewall zoning, and container state acros
 1. **Principle of Least Privilege:** Tools must be granular and atomic. An MCP server should expose discrete actions (`get_node_status`, `query_docs`) rather than unrestricted raw shell execution.
 2. **Schema Validation:** Enforce strict JSON Schema verification (e.g. via Zod) on all inputs before executing host operations.
 3. **Audit Logging & Telemetry:** Every tool call, execution timestamp, and response payload must be logged to an append-only telemetry stream for forensic auditing.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]], [[Projects/Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
+* **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
+* **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

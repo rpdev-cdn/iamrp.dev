@@ -112,3 +112,14 @@ services:
    - The RQ worker spins up an isolated OpenWrt ImageBuilder container, resolves dependencies, compiles the SquashFS rootfs, injects custom `/etc/uci-defaults/` provisioning scripts, and signs the resulting binary.
 4. **Zero-Touch Flashing**:
    - The router downloads the custom `sysupgrade.bin` artifact directly from the ASU local cache and applies the upgrade in under **60 seconds**, rebooting with 100% of services and network tunnels operational.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]], [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

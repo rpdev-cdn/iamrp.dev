@@ -41,3 +41,14 @@ graph LR
 
 3. **Encrypted Diffing via `textconv`:**
    * Configures `chezmoi.toml` with custom `textconv` filters to inspect secret changes and Git diffs in memory without writing decrypted credentials to persistent disk partitions.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]], [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Encryption_Policy|Encryption Policy]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

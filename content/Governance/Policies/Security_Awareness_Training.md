@@ -50,3 +50,14 @@ Adversaries leverage automated intelligence pipelines to craft hyper-personalize
 * **Randomized Micro-Simulations**: Replacing annual compliance videos with continuous, adaptive phishing simulations reflecting real-world adversary tactics.
 * **Just-in-Time Micro-Learning**: Delivering constructive, instant educational feedback when a user interacts with a simulation, replacing punitive measures with empowering coaching.
 * **Crowdsourced Threat Detection**: Rewarding rapid user reporting of suspicious messages, effectively transforming the entire enterprise workforce into a distributed sensor network for the SOC.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

@@ -35,3 +35,14 @@ The CI/CD pipeline is a critical attack vector and is treated as a highly privil
 Software engineering follows Agile methodologies heavily augmented by DevSecOps principles.
 *   Security is "shifted left," embedding security checks natively into the developer's IDE and pre-commit hooks.
 *   Threat modeling is a mandatory, continuous exercise for all major architectural changes, ensuring secure-by-design principles are applied before a single line of code is written.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Codex_Arcana|Codex Arcana]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

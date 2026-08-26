@@ -145,3 +145,14 @@ flowchart TD
 * **Zero Cable Dependency**: Technicians can provision laptops, field servers, and edge nodes wirelessly over existing corporate or mobile Wi-Fi hotspots.
 * **Instant Fleet Provisioning**: Direct `kexec` handoffs eliminate BIOS POST times, cutting operating system installation bootstrap times by over 60%.
 * **Universal Hardware Portability**: Single 12MB bootable image compatible with legacy BIOS and modern 64-bit UEFI hardware architectures.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Projects/Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

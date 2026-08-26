@@ -33,3 +33,14 @@ To ensure the single source of truth remains in version control, the organizatio
 Emergency changes ("break-glass" scenarios) are permitted when immediate action is required to resolve a critical outage or active security incident.
 *   If a manual change is made during an emergency, it must be documented immediately via an emergency change ticket.
 *   Within 24 hours of the incident's resolution, the manual change must be retroactively codified into the IaC repositories to resolve drift and restore the GitOps source of truth.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Codex_Arcana|Codex Arcana]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

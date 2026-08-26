@@ -34,3 +34,13 @@ Ingest a docs site into your searchable, MCP-accessible corpus
     root.dataset.loaded = 'true';
   }
 " style="display:none;" />
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **DocIngest Application:** Explore the companion interface on [[Tools/DocIngest/view|DocIngest View]].
+* **LLM & Context Architecture:** Integrated with [[Projects/LLM_Control_Plane|LLM Control Plane]] and [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
+* **Zero-Trust Ingress:** Read about local agent security in [[Research/Local_LLM_Architecture|Zero-Trust Local LLM Ingress]].
+* **Master Resume & CV:** Review architecture credentials on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to [[index|Digital Garden Index]].

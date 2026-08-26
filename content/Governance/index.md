@@ -2,7 +2,6 @@
 title: Enterprise Policy & Governance
 aliases:
   - /resume--and--experience/policy--and--governance
-  - /governance
 tags:
   - governance
   - compliance

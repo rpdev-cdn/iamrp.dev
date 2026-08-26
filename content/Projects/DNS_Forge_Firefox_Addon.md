@@ -49,3 +49,14 @@ graph TD
 
 3. **100% Mozilla AMO Compliance:**
    * Strictly adheres to Firefox Manifest V3 security boundaries with zero unvetted third-party dependencies, clean Content Security Policy (CSP), and automated CodeQL audit pipelines.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

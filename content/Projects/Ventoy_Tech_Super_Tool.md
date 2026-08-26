@@ -50,3 +50,14 @@ When systems are breached, immediate and sterile intervention is paramount:
 For catastrophic failures, rapid restoration of bare-metal infrastructure minimizes downtime:
 * **Automated Restoration:** Contains automated imaging tools (e.g., Clonezilla) pre-configured with recovery routines for instantaneous restoration of critical nodes.
 * **Hardware Diagnostics:** Includes low-level hardware diagnostic utilities to validate RAM, storage, and CPU integrity prior to OS redeployment.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Kexecboot_Wireless_Bootloader|Kexecboot Wireless Bootloader]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

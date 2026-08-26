@@ -34,3 +34,14 @@ Employees are not permitted to bypass the digital access system to allow unautho
 
 ## Employee Responsibilities
 The Compliance Officer shall remind all employees quarterly about their responsibility for building security. Employees who forget their mobile device or physical backup credential must report to the main entrance for temporary provisioning.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

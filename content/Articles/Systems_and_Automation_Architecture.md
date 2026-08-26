@@ -112,3 +112,13 @@ _Related Documents:_
 - **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering Case Study]]**
 - **[[Projects/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]]**
 - **[[Projects/Current_Environment|Live Fleet Infrastructure Telemetry]]**
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]], [[Resume/Legacy_Roles|Legacy Roles]]).
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

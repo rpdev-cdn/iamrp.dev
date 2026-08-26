@@ -52,3 +52,14 @@ As AI assistants are granted access to live communication channels, external doc
 
 * **Non-Delegable Responsibility**: The ultimate legal and operational accountability for any code, document, communication, or analysis generated with AI assistance rests entirely with the individual human author.
 * **Attribution & Transparency**: Internal teams must document when generative AI has contributed substantially to mission-critical infrastructure changes, security assessments, or production source code.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]], [[Governance/Policies/Security_Awareness_Training|Security Awareness Training]].
+* **Technical Articles:** Deep dive in [[Articles/MCP_In_Enterprise_Operations|MCP In Enterprise Operations]].
+* **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

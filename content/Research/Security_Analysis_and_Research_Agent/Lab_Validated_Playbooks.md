@@ -68,7 +68,7 @@ level: high
 set -euo pipefail
 
 PROG_ID="${1:-}"
-if [[ -z "$PROG_ID" ]]; then
+if [ -z "$PROG_ID" ]; then
     echo "Usage: $0 <bpf_prog_id>"
     exit 1
 fi

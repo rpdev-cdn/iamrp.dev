@@ -121,3 +121,14 @@ The station exposes a zero-latency WebGL radar interface on local port `8078`:
 * **Aircraft Trajectory History**: Stores recent aircraft position history in memory, rendering color-coded altitude gradients, speed vectors, and climbing/descending indicators.
 * **Multilateration (MLAT) Tracking**: Identifies non-ADS-B Mode A/C aircraft by triangulating radio arrival time differences across collaborative receiver nodes.
 * **Range Polar Plots**: Automatically generates 360-degree RF reception range rings, validating antenna line-of-sight and terrain obstruction boundaries up to 250+ nautical miles.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/SDR_and_RF_Exploration|SDR and RF Exploration]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

@@ -44,3 +44,14 @@ Critical vulnerabilities often originate within upstream dependencies of our dir
 
 * **Telemetry-Driven Right-Sizing**: License procurement is driven by granular seat utilization telemetry, eliminating unused shelfware.
 * **Contractual Data Portability & Exit Plans**: Every mission-critical SaaS deployment requires a documented, tested exit strategy ensuring unencumbered data export, schema compatibility, and minimal transition downtime.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Vendor_Management_Policy|Vendor Management Policy]], [[Governance/Policies/Business_Impact_Analysis|Business Impact Analysis]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

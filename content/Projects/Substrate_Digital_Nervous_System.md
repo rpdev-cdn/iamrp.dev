@@ -35,3 +35,14 @@ To provide a robust, scalable backbone for "Digital Intelligence" within the wor
 - **Nexus Orchestration:** Multi-agent coordination for deep research and complex problem solving.
 - **Heuristic Review:** Automated evaluation of code, skills, and system health.
 - **Self-Improvement:** Continuous optimization of agent prompts and logic paths.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]], [[Projects/OpenThread_Border_Router|OpenThread Border Router]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

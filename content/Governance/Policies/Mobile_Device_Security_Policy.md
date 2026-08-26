@@ -46,3 +46,14 @@ All employees who use a mobile computing device that accesses or synchronizes wi
 
 Employee Acknowledgement:
 By accessing corporate resources, the employee acknowledges and agrees to comply with the Mobile Device Security Policy and the enforcement of UEM/MTD controls.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]], [[Projects/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Encryption_Policy|Encryption Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

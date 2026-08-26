@@ -35,3 +35,14 @@ To combat sophisticated ransomware threats, all backups must adhere to the follo
 1. **Phase 1: Automated Cloud Failover.** Traffic routing shifts to secondary regions automatically. End-users connect via zero-trust network access (ZTNA) to resilient edge nodes.
 2. **Phase 2: Hybrid Workforce Operations.** Employees operate securely from hybrid locations. Cloud-hosted virtual desktops (DaaS) are provisioned on-demand.
 3. **Phase 3: Root Cause and Reconstitution.** Post-incident forensics, eradication of threats, and gradual reconstitution of primary infrastructure.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Production Systems:** Validated in [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Kexecboot_Wireless_Bootloader|Kexecboot Wireless Bootloader]], [[Projects/Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool]].
+* **Governance & Compliance:** Governed by [[Governance/Policies/Business_Impact_Analysis|Business Impact Analysis]], [[Governance/Policies/Global_Disruption_Policy|Global Disruption Policy]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
+* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
