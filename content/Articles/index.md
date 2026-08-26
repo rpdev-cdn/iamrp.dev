@@ -14,6 +14,7 @@ Field lessons, hardware retrospectives, and deep technical guides covering bare-
 
 ## 📚 Articles & Field Guides
 
+- **[[Articles/Leadership_Philosophy|Leadership Philosophy: Asynchronous Autonomy, AI Augmentation & Psychological Safety]]** — *Modern technical leadership, remote-first async operating models, pervasive AI augmentation, and blameless resilience.*
 - **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]** — *Declarative orchestration, Layer 2 non-NAT container networks, hardware-aware storage tiering, and GitOps.*
 - **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]** — *Component-level diagnostics, electronics repair, CRT oscilloscopes, and automotive embedded systems.*
 - **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]** — *Integrating local AI agents with enterprise infrastructure via structured MCP tools.*

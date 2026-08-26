@@ -40,6 +40,6 @@ Access the complete catalog of 19 modernized enterprise policies, workforce enab
 #### 👥 Workforce Enablement, AI Safety & Leadership
 - **[[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation & Safe Usage Guidelines]]** — *Enterprise guardrails for safe generative AI adoption and prompt security.*
 - **[[Governance/Policies/Security_Awareness_Training|Modern Security Awareness Curriculum]]** — *Behavioral defense against AI deep-fakes, social engineering, and MFA fatigue.*
-- **[[Governance/Policies/Leadership_Philosophy|Technical Leadership & Management Philosophy]]** — *Asynchronous autonomy, psychological safety, and AI-augmented engineering.*
+- **[[Articles/Leadership_Philosophy|Technical Leadership & Management Philosophy]]** — *Asynchronous autonomy, psychological safety, and AI-augmented engineering.*
 - **[[Governance/Policies/Vendor_and_Resource_Management|Vendor & Technology Resource Management]]** — *Zero-trust supply chain governance and SaaS contract optimization.*
 - **[[Governance/Policies/Policy_Archive|Enterprise Policy Archive]]** — *Historical governance evolution across NIST, CIS, and ISO audit frameworks.*

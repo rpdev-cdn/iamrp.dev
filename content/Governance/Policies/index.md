@@ -46,7 +46,7 @@ tags:
 
 ### ◈ Technical Leadership & Supply Chain Strategy
 
-17. **[[Governance/Policies/Leadership_Philosophy|Technical Leadership & Management Philosophy]]** — *Asynchronous autonomy, psychological safety, and AI-augmented developer experience.*
+17. **[[Articles/Leadership_Philosophy|Leadership Philosophy: Asynchronous Autonomy, AI Augmentation & Psychological Safety]]** — *Asynchronous autonomy, psychological safety, and AI-augmented developer experience.*
 18. **[[Governance/Policies/Vendor_and_Resource_Management|Vendor & Technology Resource Management]]** — *Zero-trust supply chain integrations, continuous fourth-party risk auditing, and SaaS optimization.*
 
 ---
