@@ -22,7 +22,7 @@ tags:
   <a href="/tools/docingest/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     Explore DocIngest Corpus 📚
   </a>
-  <a href="/projects" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="/projects/" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     Systems Projects 🚀
   </a>
 </div>
@@ -53,7 +53,7 @@ tags:
 Explore the primary sections of the portfolio:
 
 - **[[Resume/index|Resume & Professional Background]]**  
-  *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
+  *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
 - **[[Tools/index|Tools & Live Applications]]**  
   *Interactive applications including the **[[Tools/DocIngest/index|DocIngest Suite]]** with real-time documentation ingestion ([[Tools/DocIngest/add|Add Ingestion]]) and searchable vector corpus exploration ([[Tools/DocIngest/view|Browse Corpus]]).*
 - **[[Projects/index|Engineering & Systems Projects]]**  

@@ -19,21 +19,30 @@ Ingest a docs site into your searchable, MCP-accessible corpus
 </div>
 
 <div class="docingest-app-container">
-  <div id="docingest-add-root"></div>
+  <div id="docingest-add-root">
+    <div class="docingest-fallback-card" style="padding: 1.5rem; background: var(--lightgray); border-radius: 8px; border: 1px solid var(--gray); margin-bottom: 1.5rem;">
+      <h3 style="margin-top:0;">⚡ Live Documentation Ingestion Pipeline</h3>
+      <p>Submit documentation URLs, API references, or GitHub repositories for automated scraping, markdown distillation, and semantic embedding generation.</p>
+      <p><em>Loading live ingestion console from <code>cdn.iamrp.dev</code>...</em></p>
+      <noscript>
+        <p><strong>Note:</strong> JavaScript is required to trigger real-time crawl jobs directly from the browser. Ingestion tasks can also be initiated programmatically via the <a href="https://docingest.iamrp.dev/api/docs/ingest" target="_blank">DocIngest REST API</a>.</p>
+      </noscript>
+    </div>
+  </div>
 </div>
 
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onload="
-  const root = document.getElementById('docingest-add-root');
-  if (root && !root.dataset.loaded) {
-    const existing = document.getElementById('docingest-add-script');
-    if (existing) existing.remove();
-    const s = document.createElement('script');
-    s.id = 'docingest-add-script';
-    s.src = 'https://cdn.iamrp.dev/js/AddPageApp.js?t=' + Date.now();
-    document.body.appendChild(s);
-    root.dataset.loaded = 'true';
-  }
-" style="display:none;" />
+<script>
+  (function loadDocIngestAdd() {
+    const root = document.getElementById('docingest-add-root');
+    if (root && !root.dataset.loaded) {
+      const s = document.createElement('script');
+      s.id = 'docingest-add-script';
+      s.src = 'https://cdn.iamrp.dev/js/AddPageApp.js?t=' + Date.now();
+      document.body.appendChild(s);
+      root.dataset.loaded = 'true';
+    }
+  })();
+</script>
 
 ---
 

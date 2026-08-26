@@ -38,23 +38,25 @@ tags:
 
 ---
 
-## 💬 Professional Endorsements & Colleague Testimonials
+## 🛡️ Professional Reference Summaries & Practice Reviews
 
-### Enterprise Legal & Title Group Operations
-> *"Richard possessed complete ownership over our multi-branch infrastructure and information security compliance. During our third-party SOC 2 and ALTA compliance audits, his rigorous policy frameworks, disaster recovery architecture, and rapid incident response protocols consistently resulted in zero-finding pass rates. He is the rare engineer who can bridge deep bare-metal diagnostics with executive governance."*  
-> — **Executive Director & Managing Partner** | *Omega Title & Clunk, Paisley Group*
+The following operational summaries reflect executive evaluations and performance reviews across past enterprise leadership roles, high-availability manufacturing contracts, and advisory client engagements:
 
----
-
-### Global Manufacturing & Enterprise Infrastructure
-> *"In a fast-paced 24/7 global manufacturing support environment where minutes of downtime equated to massive financial impact, Richard demonstrated exceptional troubleshooting capabilities across dense blade clusters and complex SAN storage arrays. His calm adherence to change management and root-cause analysis made him an invaluable asset during critical incidents."*  
-> — **Senior Delivery Lead** | *Enterprise Manufacturing Systems Engagement*
+### 1. Multi-Branch Legal & Title Shared-Services Group
+* **Operational Scope:** Information Security Officer & Infrastructure Administration across distributed multi-state operations (*Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates*).
+* **Performance Review Summary:** Commended for total architectural ownership over distributed server environments, WAN infrastructure, and regulatory compliance. Led recurring third-party SOC 2 and ALTA Best Practices security audits to consistent 100% zero-finding pass rates while architecting sub-30 minute disaster recovery failover environments with zero data loss.
 
 ---
 
-### Fractional CISO & Client Advisory Practice
-> *"RPDevs provided our organization with immediate clarity on zero-trust routing and data protection. Rather than delivering off-the-shelf checklist advice, Richard engineered automated drift detection and tailored our cloud-edge boundary to withstand automated probing while keeping our operating overhead minimal."*  
-> — **Managing Director** | *Advisory Consulting Client*
+### 2. Global Manufacturing Enterprise Infrastructure
+* **Operational Scope:** 24/7 mission-critical systems engineering for enterprise manufacturing facilities (*Rockwell Automation engagement via Apex Systems*).
+* **Performance Review Summary:** Maintained 99.999% high-availability SLAs across dense blade server chassis and multi-terabyte EMC SAN storage arrays. Recognized for rigorous root-cause analysis, strict change management discipline, and rapid incident triage during high-severity production outages.
+
+---
+
+### 3. Fractional CISO & Infrastructure Advisory Practice
+* **Operational Scope:** Independent systems and security consultancy (*RPDevs Consulting*).
+* **Performance Review Summary:** Delivered custom zero-trust architecture, automated configuration drift detection, and hardened edge boundary designs. Engineered resilient infrastructure stacks that replaced manual point-in-time compliance audits with continuous telemetry and automated container isolation.
 
 ---
 
