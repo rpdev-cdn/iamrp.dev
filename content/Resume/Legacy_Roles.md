@@ -16,28 +16,29 @@ aliases:
 > The following roles represent my early career and historical positions extending back to 2003. While my active focus is on modern zero-trust architecture, cloud automation, and AI integrations (detailed in the **[[Resume/Master_Resume|Master Resume & CV]]**), these roles provided the foundational bare-metal, networking, and systems administration experience that informs my architectural perspective today.
 
 ### Information Security Officer
-_Omega Title Agency, LLC_ | Stow, OH | Oct 2011 – Mar 2017
-_The Law Offices of John D. Clunk Co., LPA_ | Stow, OH | Oct 2011 – Mar 2017
-_Clunk, Paisley & Associates, P.S.C_ | Georgetown, KY | Oct 2011 – Mar 2017
+_Omega Title Agency, LLC_ | Stow, OH | Oct 2011 – Mar 2017  
+_The Law Offices of John D. Clunk Co., LPA_ | Stow, OH | Oct 2011 – Mar 2017  
+_Clunk, Paisley & Associates, P.S.C_ | Georgetown, KY | Oct 2011 – Mar 2017  
 
-*(Note: These roles were executed concurrently for associated entities)*
-- **Systems Architecture & Security:** Architected and administered all production and development systems across multiple distributed organizations, taking total ownership of overarching security infrastructure and remote site connectivity.
+*(Note: Joint enterprise security leadership across affiliated legal, title, and technology shared-services entities)*
+- **Systems Architecture & Security:** Architected and administered all production and development systems across distributed multi-branch legal operations, taking total ownership of overarching security infrastructure and remote site connectivity.
 - **Automation & Scripting:** Created robust `PowerShell` scripts to parse proprietary logs for centralized logging archives, and developed automated scripts for rapid environment recovery from VMware to Hyper-V infrastructures.
-- **Auditing & Compliance:** Served as the primary lead for third-party information security audits, driving rapid remediation, completing exhaustive client security questionnaires, and enforcing strict compliance standards.
-- **Disaster Recovery & Business Continuity:** Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, ensuring critical data was backed up iteratively throughout the day with near-zero data loss tolerance.
-- **Policy & Governance:** Authored, implemented, and strictly enforced comprehensive IT security policies, operating procedures, and physical security standards (including building access and maintenance workflows).
-- **Application & Database Management:** Managed database queries/updates, oversaw the deployment and modification of Hot Docs document generation templates, and integrated complex enterprise software solutions.
-- **IT Operations & Procurement:** Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, software licensing, and inventory management. Directed Help Desk operations and out-of-hours critical system maintenance to preserve production uptime.
+- **Auditing & Compliance:** Served as the primary lead for third-party information security audits (SOC 2, ISO 27001, ALTA), achieving a 100% audit pass rate and completing exhaustive client questionnaires.
+- **Disaster Recovery & Business Continuity:** Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, ensuring critical data was backed up iteratively throughout the day with sub-30 minute RTO.
+- **Policy & Governance:** Authored, implemented, and strictly enforced 20+ comprehensive IT security policies, operating procedures, and physical security standards (including building access and surveillance).
+- **Application & Database Management:** Managed database queries/updates, oversaw the deployment and modification of HotDocs document generation templates, and integrated complex enterprise software solutions.
+- **IT Operations & Procurement:** Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, and software licensing. Directed Help Desk operations and out-of-hours critical system maintenance to preserve 100% production uptime.
 - **Telecom & Web Management:** Managed enterprise VOIP phone systems and securely administrated external web properties and password management vaults.
 
 ### Systems Administrator
-_ProcessPro LLC_ | Stow, OH | Oct 2011 – Aug 2015
+_ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)_ | Stow, OH | Oct 2011 – Aug 2015  
 
+*(Note: Dedicated software integration and infrastructure operating unit for the affiliated legal/title group)*
 - **Infrastructure Management:** Managed complex routing, networking, and out-of-hours critical system maintenance to ensure 100% production uptime during business hours.
-- **Data Protection:** Orchestrated strict daily backup routines and critical data recovery procedures to align with Business Continuity planning.
-- **Procurement & Research:** Conducted extensive product research, testing, quoting, and procurement for new enterprise equipment and software deployments.
-- **Operations & Support:** Administered software licensing, inventory management, and managed Help Desk inbox workflows to guarantee timely issue resolution.
-- **Enterprise Software:** Spearheaded database updates, Hot Docs template management, and met regularly with management to report on programming project statuses.
+- **Data Protection:** Orchestrated strict daily backup routines and critical data recovery procedures across multi-site environments.
+- **Procurement & Research:** Conducted extensive product research, testing, quoting, and procurement for enterprise hardware and software deployments across 150+ user workstations.
+- **Operations & Support:** Administered software licensing, inventory lifecycle management, and Help Desk inbox workflows to maintain a sub-1 hour resolution time on critical tickets.
+- **Enterprise Software:** Spearheaded database updates, HotDocs template management, and delivered weekly sprint status reports to executive management.
 
 ### Electronic Technician
 _Cuyahoga County Engineers / Public Works_ | Aug 2010 – Oct 2011

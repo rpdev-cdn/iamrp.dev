@@ -15,7 +15,7 @@ tags:
 > Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical enterprise manufacturing environments to distributed edge compute clusters — I architect resilient, automated, and immutable systems.
 
 <div style="margin: 1.25rem 0 1.75rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="/resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="/resume/master_resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     View Master Resume & CV 📄
   </a>
   <a href="/tools/docingest/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
@@ -32,10 +32,8 @@ tags:
 
 * **Engagement Types:** Full-Time, Contract-to-Hire, Fractional CISO / SecOps Architecture Consulting.
 * **Target Roles:**
-  * **Information Security Analyst / Officer**
-  * **Infrastructure / Systems Architect**
-  * **Senior Network Security Administrator**
-  * **Lead DevOps / DevSecOps Engineer**
+  * **Information Security:** Information Security Analyst / Officer • Security Architect
+  * **Systems & Infrastructure:** Infrastructure / Systems Architect • Senior Network Security Administrator • Lead DevSecOps Engineer
 * **Location Preference:** Remote or Hybrid (Greater Cleveland, OH Area).
 
 ---
@@ -65,8 +63,8 @@ Explore the primary sections of the portfolio:
 
 ---
 
-> [!info] Verification & Contact
+> [!info] Verified Contact & Identity
 > 
-> * **Email:** `RPDissell@gmail.com`
+> * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
 > * **Phone:** `216-410-3687` *(Text Preferred)*
-> * **PGP & FIDO2 Verification:** Inspect identity credentials and public keys on the **[[Contact/index|Contact & Verification]]** page.
+> * **Cryptographic Verification & PGP:** Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots on the **[[Contact/index|Contact & Identity Verification]]** page.

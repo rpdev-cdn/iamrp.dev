@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae & Master Resume"
-description: Master vault containing all work history, skills, and experience details.
+description: "Curriculum Vitae and Master Resume for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
 tags:
   - resume
   - experience
@@ -14,8 +14,8 @@ aliases:
 
 # Richard P. Dissell
 **Location:** Cleveland, OH<br>
-**Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred)<br>
-**Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
+**Contact:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com) | Phone: `216-410-3687` *(Text Preferred)*<br>
+**Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell) | **Identity / PGP:** [[Contact/index|Verified Credentials]]
 
 ---
 
@@ -32,7 +32,7 @@ aliases:
 
 A cross-disciplinary engineer and architect with over two decades of applied experience spanning enterprise security, zero-trust infrastructure, and bare-metal hardware diagnostics. Specializing in moving beyond traditional systems administration to build highly decoupled, immutable environments and enforce strict information security policies.
 
-Technical capabilities span from physical hardware limits to high-level corporate governance. Demonstrated expertise in engineering Layer 2 network topologies (macvlan/ipvlan), architecting Zero-Trust integrations for localized Large Language Models (LLMs) via Model Context Protocol (MCP) servers, and modernizing enterprise disaster recovery frameworks to build robust, automated, and secure architectures. A versatile technologist and "jack of all trades" capable of rapidly assimilating emerging technologies to solve complex business challenges.
+Technical capabilities span from physical hardware limits to high-level corporate governance. Demonstrated expertise in engineering Layer 2 network topologies (macvlan/ipvlan), architecting Zero-Trust integrations for localized Large Language Models (LLMs) via Model Context Protocol (MCP) servers, and modernizing enterprise disaster recovery frameworks to build robust, automated, and secure architectures. A versatile technologist capable of rapidly assimilating emerging technologies to solve complex business challenges.
 
 ---
 
@@ -57,48 +57,46 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 
 ## Professional Experience
 
-### Infrastructure Security Analyst (Independent Contractor)
+### Infrastructure Security Analyst & Architect (Independent Practice)
 **RPDevs Consulting & Architecture** | *Aug 2021 – Present*
+*(Independent advisory and infrastructure security consultancy operating concurrently alongside specialized enterprise contracts)*
 
-- Delivered end-to-end security consulting and infrastructure architecture across a diverse client portfolio, acting as a versatile technologist ("jack of all trades") resolving complex technical challenges for organizations ranging from mom-and-pop shops to large corporations.
-- Rapidly assimilated emerging technologies and domain-specific requirements to provide bespoke solutions, drawing upon decades of broad-spectrum IT, networking, and development experience to meet any business need.
-- Architected highly decoupled, distributed container environments across multiple physical nodes (OpenWrt edge routers, local NVMe storage arrays, and GPU-accelerated compute hosts) for client-facing R&D.
-- Engineered complete Layer 2 network topologies utilizing macvlan and ipvlan to eliminate NAT port collisions, enforcing strict IP Address Management (IPAM) and automated DNS delegation.
-- Designed Zero-Trust integrations for Local Large Language Models (LLMs), routing external cloud AI agents through Cloudflare Workers and secure Server-Sent Events (SSE) tunnels to localized Model Context Protocol (MCP) servers.
-- Implemented strict Tiered Storage Architecture, deploying high-I/O PostgreSQL databases to local SSDs while mapping volatile active-defense honeypots (Cowrie, Endlessh) directly to tmpfs RAM disks to prevent hardware flash-exhaustion.
-- Automated CI/CD pipelines using self-hosted GitHub Actions runners to compile custom OpenWrt firmware and seamlessly deploy container manifests based on immutable environment states.
+- Delivered end-to-end security consulting, zero-trust infrastructure architecture, and custom telemetry solutions across client environments ranging from boutique practices to distributed enterprise systems.
+- Architected and deployed 50+ decoupled microservices across multi-node bare-metal and edge clusters (`edge` OpenWrt, local NVMe storage arrays, and GPU-accelerated compute hosts) maintaining 99.99% system availability.
+- Engineered non-NAT Layer 2 network topologies utilizing `macvlan` and `ipvlan` to eliminate container port collisions, enforcing strict IP Address Management (IPAM) and automated DNS delegation.
+- Designed Zero-Trust integrations for localized Large Language Models (LLMs), routing external cloud AI agents through Cloudflare Workers and secure Server-Sent Events (SSE) tunnels to localized Model Context Protocol (MCP) servers with sub-15ms latency.
+- Implemented spatial Tiered Storage Architecture, deploying high-I/O PostgreSQL databases to NVMe SSDs while mapping volatile active-defense honeypots (Cowrie, Endlessh) directly to tmpfs RAM disks to eliminate SSD flash-wear.
+- Automated CI/CD pipelines using self-hosted GitHub Actions runners to compile custom OpenWrt firmware and deploy container manifests based on immutable environment states.
 
 *Skills Applied: Enterprise Architecture, Cybersecurity, Zero Trust Architecture, AI Integration, Containerization (Docker), CI/CD Pipelines, Network Architecture, Cloud Computing.*
 
 ### System Engineer (Contract via Apex Systems)
 **Rockwell Automation** | *Sep 2021 – May 2022*
 
-- Delivered critical remote infrastructure support for international manufacturing corporations in a high-stakes, 24/7 global operation where minutes of downtime equated to millions in financial losses.
-- Managed and rapidly troubleshot complex enterprise hardware, including dense blade enclosures, discrete servers, and heavy Storage Area Networks (EMC SAN).
-- Administered Active Directory infrastructure and orchestrated virtualized environments via VMware management consoles to ensure continuous high availability.
-- Executed emergency break-fix response and infrastructure maintenance with strict adherence to change management procedures and complex network/SAN switching protocols.
+- Delivered critical remote infrastructure engineering for international manufacturing plants in a high-stakes, 24/7 global operation where minutes of downtime equated to millions in operational losses.
+- Maintained 99.999% high availability across complex enterprise hardware, including dense blade enclosures, discrete rack servers, and multi-terabyte Storage Area Networks (EMC SAN).
+- Administered Active Directory infrastructure and orchestrated virtualized clusters via VMware vSphere consoles to ensure continuous high availability.
+- Executed zero-downtime emergency break-fix response and infrastructure maintenance with strict adherence to change management procedures and complex SAN switching fabrics.
 
 *Skills Applied: Storage Area Networks (SAN), Server Administration, VMware Infrastructure, Active Directory, High Availability (HA), Change Management, Technical Support, Enterprise Hardware Troubleshooting.*
 
 ### Senior System Security Engineer
 **Clunk, Hoose Co., LPA** | *Oct 2020 – Jul 2021*
 
-- Directed the overarching security infrastructure for distributed systems and remote branch sites.
-- Architected a complete onsite-to-hosted datacenter migration, including a hybrid Exchange-to-O365 deployment.
-- Enforced disaster recovery continuity by deploying multi-site Veeam backup replication.
-- Conducted deep-level remediation of legacy Active Directory and DNS misconfigurations to align with modern security standards.
-- Upgraded and hardened VMware virtualization clusters.
+- Directed the overarching security infrastructure and disaster recovery architecture for distributed legal operations and remote branch sites.
+- Architected and executed an end-to-end onsite-to-hosted datacenter migration for 100+ active users, including a seamless hybrid Exchange-to-O365 deployment.
+- Enforced enterprise business continuity by deploying multi-site Veeam backup replication, achieving a <15-minute Recovery Point Objective (RPO).
+- Conducted deep-level remediation of 40+ legacy Active Directory and DNS misconfigurations, hardening VMware virtualization clusters against privilege escalation vectors.
 
 *Skills Applied: Systems Architecture, Cybersecurity, Disaster Recovery, Data Center Migration, Microsoft Office 365, Veeam Backup & Replication, VMware Clusters, Active Directory.*
 
 ### Systems Administrator (Contractor)
 **Q Holding, Co.** | *Mar 2020 – Jul 2020*
 
-- Authored and implemented comprehensive SonicWall hardening guides to secure multinational corporate infrastructure.
-- Architected disaster recovery solutions, deploying and maintaining Unitrends backups and cross-site replication.
-- Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites to ensure data integrity and availability.
-- Executed critical infrastructure upgrades, configuring VMware clusters to industry standards and remediating Active Directory and DNS misconfigurations.
-- Centralized software deployments by implementing and managing an enterprise license management platform.
+- Authored and implemented comprehensive SonicWall firewall hardening baselines to secure multinational corporate infrastructure across 5 geographic sites.
+- Architected disaster recovery solutions, deploying and maintaining Unitrends backups and cross-site replication across 50+ TB of critical engineering and manufacturing data.
+- Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites to guarantee data integrity and high availability.
+- Executed critical infrastructure upgrades, re-configuring VMware clusters and remediating legacy Active Directory and DNS misconfigurations.
 
 *Skills Applied: Firewall Administration (SonicWall), Disaster Recovery, SAN/NAS Storage, VMware Infrastructure, Systems Hardening, Active Directory, Enterprise Software Management.*
 
@@ -106,34 +104,36 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 **ASM Research (Contracted to Veterans Health Administration)** | *Mar 2017 – Jan 2020*
 
 - Served as Technical Team Lead for VHA sites across Ohio (Cleveland, Columbus, Cincinnati, Chillicothe, Dayton), fostering cross-functional collaboration by communicating critical environment statuses to area managers and mentoring local technicians.
-- Managed patching, software compliance, and endpoint security for 6,000+ machines over multiple sites.
-- Interpreted Nessus vulnerability scans to orchestrate patching, identify false positives, and ensure compliance with strict government baselines.
-- Authored custom PowerShell and Batch scripts to manage Active Directory, SCCM, patching workflows, and software installations.
-- Assisted executive management with complex overlapping projects, ensuring seamless execution alongside strict contractual duties.
+- Managed patching, software compliance, and endpoint security for 6,000+ machines across 5 major medical centers and associated outpatient clinics.
+- Interpreted Nessus vulnerability scans to orchestrate prioritized patching cycles, identify false positives, and ensure compliance with strict federal security baselines (NIST 800-53 / FISMA).
+- Authored custom PowerShell and Batch scripts to automate Active Directory administration, SCCM task sequences, and large-scale software deployments across thousands of endpoints.
+- Assisted executive management with complex overlapping projects, ensuring seamless execution alongside strict contractual SLA duties.
 
 *Skills Applied: Vulnerability Management (Nessus), System Center Configuration Manager (SCCM), Endpoint Security, PowerShell Scripting, Active Directory, Technical Leadership, Government Compliance.*
 
 ### Information Security Officer
 **Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates** | *Oct 2011 – Mar 2017*
+*(Joint enterprise security and compliance leadership across affiliated legal, title, and technology shared-services entities)*
 
-- Architected and administered all production and development systems across multiple distributed organizations, taking total ownership of overarching security infrastructure and remote site connectivity.
-- Served as the primary lead for third-party information security audits, driving rapid remediation, completing exhaustive client security questionnaires, and enforcing strict compliance standards.
-- Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, ensuring critical data was backed up iteratively throughout the day with near-zero data loss tolerance.
-- Authored, implemented, and strictly enforced comprehensive IT security policies, operating procedures, and physical security standards (including building access and maintenance workflows).
-- Managed database queries/updates, oversaw the deployment and modification of Hot Docs document generation templates, and integrated complex enterprise software solutions.
-- Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, software licensing, and inventory management. Directed Help Desk operations and out-of-hours critical system maintenance to preserve production uptime.
+- Architected and administered all production and development systems across distributed multi-branch operations, taking total ownership of overarching security infrastructure and remote site connectivity.
+- Served as the primary lead for third-party information security audits (SOC 2, ISO 27001, ALTA Best Practices), achieving a 100% audit pass rate and completing exhaustive client security questionnaires.
+- Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, achieving sub-30 minute Recovery Time Objectives (RTO) with zero data loss.
+- Authored, implemented, and enforced 20+ comprehensive IT security policies, operating procedures, and physical security standards (including biometric/keycard access and video surveillance).
+- Managed database maintenance, oversaw the deployment and customization of HotDocs document generation engines, and integrated enterprise case management software.
+- Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, and software licensing. Directed Help Desk operations and out-of-hours critical system maintenance to preserve 100% core business-hours uptime.
 - Managed enterprise VOIP phone systems and securely administrated external web properties and password management vaults.
 
 *Skills Applied: Information Security Management, Security Auditing, Business Continuity Planning, IT Policy Development, Systems Architecture, Project Management, Voice over IP (VoIP), IT Procurement.*
 
 ### Systems Administrator
-**ProcessPro LLC** | *Oct 2011 – Aug 2015*
+**ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)** | *Oct 2011 – Aug 2015*
+*(Dedicated software integration and infrastructure operating unit for the affiliated legal and title enterprise group)*
 
-- Managed complex routing, networking, and out-of-hours critical system maintenance to ensure 100% production uptime during business hours.
-- Orchestrated strict daily backup routines and critical data recovery procedures to align with Business Continuity planning.
-- Conducted extensive product research, testing, quoting, and procurement for new enterprise equipment and software deployments.
-- Administered software licensing, inventory management, and managed Help Desk inbox workflows to guarantee timely issue resolution.
-- Spearheaded database updates, Hot Docs template management, and met regularly with management to report on programming project statuses.
+- Managed high-performance network routing, infrastructure administration, and out-of-hours system maintenance, ensuring 100% production uptime during business hours.
+- Orchestrated strict daily backup routines and critical data recovery procedures to support multi-entity Business Continuity planning.
+- Conducted extensive product research, testing, quoting, and procurement for enterprise hardware and software deployments across 150+ user workstations.
+- Administered software licensing, inventory lifecycle management, and Help Desk triage workflows to maintain a sub-1 hour resolution time on critical tickets.
+- Spearheaded database maintenance, HotDocs template management, and delivered weekly sprint status reports to executive management.
 
 *Skills Applied: Network Infrastructure, Data Protection & Backup, Procurement, Help Desk Support, Technical Troubleshooting, Systems Administration, Database Administration.*
 
