@@ -190,3 +190,4 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 *Associate of Applied Science in Computer Networking Systems* | September 2009
 - GPA: 3.9
 - 2 years of programming education (C, C++, Java, Visual Basic)
+- Inducted into the National Technical Honor Society ([View Verification Letter](https://cdn.iamrp.dev/pdf/NTHS_verification_letter-letters-of-recommendation.pdf))

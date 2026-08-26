@@ -512,3 +512,144 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+/* ==========================================================================
+ * DISTINCTIVE LINK STYLING (Content & Badges)
+ * ========================================================================== */
+
+/* High-contrast distinctive internal links across all content */
+article a.internal,
+.callout a.internal,
+p a.internal,
+li a.internal,
+td a.internal {
+  display: inline;
+  color: var(--secondary, #00afaf) !important;
+  background-color: rgba(0, 175, 175, 0.12) !important;
+  border-bottom: 1.5px solid rgba(0, 175, 175, 0.45) !important;
+  padding: 0.12rem 0.35rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+  &:hover {
+    color: #ffffff !important;
+    background-color: rgba(0, 175, 175, 0.35) !important;
+    border-bottom-color: var(--tertiary, #5fafd7) !important;
+    box-shadow: 0 0 8px rgba(0, 175, 175, 0.3) !important;
+  }
+}
+
+/* Distinctive external links */
+article a.external,
+.callout a.external,
+p a.external,
+li a.external,
+td a.external {
+  color: var(--tertiary, #5fafd7) !important;
+  border-bottom: 1px dotted rgba(95, 175, 215, 0.6) !important;
+  transition: all 0.2s ease !important;
+
+  &:hover {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+  }
+
+  .external-icon > path {
+    fill: var(--tertiary, #5fafd7) !important;
+  }
+}
+
+/* ==========================================================================
+ * ENHANCED EXPLORER NAVIGATION (Wider, Distinct Hierarchy & Visual Separation)
+ * ========================================================================== */
+
+.sidebar.left {
+  padding-left: 1.25rem !important;
+  padding-right: 1rem !important;
+  width: 100% !important;
+  min-width: 420px !important;
+}
+
+.explorer {
+  width: 100% !important;
+
+  .explorer-content {
+    margin-top: 0.75rem !important;
+
+    /* Clean tree nesting lines */
+    .folder-outer > ul.tree-item-children {
+      border-left: 1px dashed rgba(139, 136, 156, 0.3) !important;
+      margin-left: 0.5rem !important;
+      padding-left: 0.65rem !important;
+    }
+
+    /* Distinct folder headers */
+    .folder-container {
+      padding: 0.35rem 0.5rem !important;
+      margin-top: 0.4rem !important;
+      margin-bottom: 0.15rem !important;
+      border-radius: 5px !important;
+      transition: background-color 0.15s ease !important;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.06) !important;
+      }
+
+      .folder-title {
+        font-weight: 700 !important;
+        font-size: 0.88rem !important;
+        color: var(--dark, #ffffff) !important;
+        letter-spacing: 0.02em !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+      }
+
+      .folder-icon,
+      .collapse-icon {
+        color: var(--secondary, #00afaf) !important;
+        stroke: var(--secondary, #00afaf) !important;
+      }
+    }
+
+    /* Distinct file items */
+    li {
+      margin: 0.15rem 0 !important;
+
+      a.nav-file-title,
+      a.tree-item-self {
+        display: block !important;
+        padding: 0.3rem 0.6rem !important;
+        border-radius: 4px !important;
+        font-size: 0.83rem !important;
+        line-height: 1.35 !important;
+        color: var(--darkgray, #e2e1e8) !important;
+        opacity: 0.85 !important;
+        border-left: 2px solid transparent !important;
+        transition: all 0.15s ease-in-out !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+
+        &:hover {
+          opacity: 1 !important;
+          color: #ffffff !important;
+          background-color: rgba(0, 175, 175, 0.15) !important;
+          border-left-color: var(--tertiary, #5fafd7) !important;
+          padding-left: 0.85rem !important;
+        }
+
+        &.active {
+          opacity: 1 !important;
+          color: #ffffff !important;
+          font-weight: 700 !important;
+          background-color: rgba(0, 175, 175, 0.25) !important;
+          border-left: 3px solid var(--secondary, #00afaf) !important;
+          box-shadow: 0 0 10px rgba(0, 175, 175, 0.2) !important;
+        }
+      }
+    }
+  }
+}

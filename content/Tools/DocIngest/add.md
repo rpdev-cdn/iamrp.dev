@@ -2,7 +2,6 @@
 title: DocIngest
 aliases:
 - /software--and--github/tools/docingest/add
-- /add
 tags:
 - docingest
 - crawler

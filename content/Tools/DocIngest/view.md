@@ -2,7 +2,6 @@
 title: Indexed Documentation
 aliases:
 - /software--and--github/tools/docingest/view
-- /view
 tags:
 - docingest
 - crawler
