@@ -52,8 +52,15 @@ mDMEZ5...[VERIFIED HARDWARE SIGNING IDENTITY]...
 
 * **Engagement Types:** Full-Time, Contract-to-Hire, Fractional CISO/SecOps Architecture Consulting.
 * **Target Roles:**
-  * Information Security Analyst / Officer
-  * Infrastructure / Systems Architect
-  * Senior Network Security Administrator
-  * Lead DevOps / DevSecOps Engineer
+  * **Information Security Analyst / Officer**
+  * **Infrastructure / Systems Architect**
+  * **Senior Network Security Administrator**
+  * **Lead DevOps / DevSecOps Engineer**
 * **Location Preference:** Remote or Hybrid (Greater Cleveland, OH Area).
+
+---
+
+## 🔗 Related Verification & Background
+
+* **Master Resume & CV:** Review credentials on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
+* **Portfolio Overview:** Return to the home **[[index|Digital Garden Index]]**.

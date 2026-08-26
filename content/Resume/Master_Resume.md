@@ -3,9 +3,14 @@ title: "Curriculum Vitae & Master Resume"
 description: Master vault containing all work history, skills, and experience details.
 tags:
   - resume
+  - experience
   - master
+  - architecture
+  - security
 aliases:
   - /master-resume
+  - /resume/master_resume
+  - /resume--and--experience/master_resume
 ---
 
 # Richard P. Dissell
@@ -19,7 +24,7 @@ aliases:
   <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume_20260822.pdf?v=20260822" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     Download Official Resume (PDF) 📄
   </a>
-  <a href="https://iamrp.dev/resume/legacy_roles" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="/resume/legacy_roles" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     View Legacy Roles Archive (2003–2016) 🏛️
   </a>
 </div>
@@ -191,3 +196,13 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - GPA: 3.9
 - 2 years of programming education (C, C++, Java, Visual Basic)
 - Inducted into the National Technical Honor Society ([View Verification Letter](https://cdn.iamrp.dev/pdf/NTHS_verification_letter-letters-of-recommendation.pdf))
+
+---
+
+## 🔗 Systems & Experience Integration
+
+* **Legacy Career Archive:** Explore early career roles extending back to 2003 on **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
+* **Systems Architecture:** Explore production deployments and infrastructure on **[[Projects/index|Engineering & Systems Projects]]**, including the **[[Projects/LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Hardware_Security_Key|Hardware Security Key Secrets]]**, and **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]**.
+* **Enterprise Governance:** Review policy and security frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Governance/Policies/Information_Security_Policy|Information Security Policy]]**.
+* **Diagnostic Mental Models:** Read about hardware repair foundations in **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.
+* **Direct Verification:** Review cryptographic signing credentials on **[[Contact/index|Contact & Identity Verification]]**.

@@ -45,7 +45,7 @@ tags:
 Explore the primary sections of the portfolio:
 
 - **[[Resume/index|Resume & Professional Background]]**  
-  *Authoritative master curriculum vitae, executive summary, core competencies matrix, active roles, certifications, and legacy career archive (2003–2016).*
+  *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
 - **[[Tools/index|Tools & Live Applications]]**  
   *Interactive applications including the **[[Tools/DocIngest/index|DocIngest Suite]]** with real-time documentation ingestion ([[Tools/DocIngest/add|Add Ingestion]]) and searchable vector corpus exploration ([[Tools/DocIngest/view|Browse Corpus]]).*
 - **[[Projects/index|Engineering & Systems Projects]]**  

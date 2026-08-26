@@ -1,15 +1,20 @@
 ---
-title: Legacy Roles & Early Career
+title: Legacy Roles & Early Career Archive
+description: Historical archive of career positions, systems engineering, and hardware roles (2003–2016).
 tags:
+  - resume
   - career
   - archive
+  - legacy
+  - history
 aliases:
   - /resume--and--experience/legacy_roles
   - /legacy-roles
+  - /resume/legacy_roles
 ---
 
 > [!info] Historical Archive
-> The following roles represent my early career and historical positions extending back to 2003. While my current focus is on modern zero-trust architecture, cloud automation, and AI integrations, these roles provided the foundational bare-metal, networking, and systems administration experience that informs my architectural perspective today.
+> The following roles represent my early career and historical positions extending back to 2003. While my active focus is on modern zero-trust architecture, cloud automation, and AI integrations (detailed in the **[[Resume/Master_Resume|Master Resume & CV]]**), these roles provided the foundational bare-metal, networking, and systems administration experience that informs my architectural perspective today.
 
 ### Information Security Officer
 _Omega Title Agency, LLC_ | Stow, OH | Oct 2011 – Mar 2017
@@ -73,3 +78,12 @@ _BGE Technologies_ | Jan 2003 – Aug 2006
 - **Server Infrastructure:** Administered and maintained Microsoft IIS web servers and Microsoft Exchange email environments.
 - **Telecom & Networking:** Managed and maintained legacy dial-up internet access systems and ISP infrastructure.
 - **Hardware Diagnostics & Repair:** Performed deep, component-level diagnostics and electronic repairs on televisions, CRT monitors, and laser printers.
+
+---
+
+## 🔗 Related Architecture & Experience
+
+* **Master Resume & CV:** Return to the primary **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** or the **[[Resume/index|Resume Overview]]**.
+* **Diagnostic Mental Models:** Read the retrospective on component-level troubleshooting in **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.
+* **Systems Architecture:** Explore modern automation paradigms in **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]** and production systems on **[[Projects/index|Engineering & Systems Projects]]**.
+* **Direct Verification:** Review cryptographic signing credentials on **[[Contact/index|Contact & Identity Verification]]**.

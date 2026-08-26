@@ -42,8 +42,11 @@ Embedded edge devices (routers, IoT gateways, industrial controllers) rely on eM
 
 ---
 
-## 3. The Unbroken Thread: Hardware to High-Scale AI
-
-Whether troubleshooting an engine harness with a multimeter in 2005 or tuning CUDA memory allocations and PCIe inter-GPU bandwidth on an AI inference node in 2026, the fundamental principle remains identical:
-
 > **To build truly resilient software, you must understand the physical constraints of the silicon it executes on.**
+
+---
+
+## 🔗 Related Architecture & Experience
+
+* **Career Foundations:** Read the complete historical chronology on **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]** and the **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
+* **Edge Systems Engineering:** Explore real-world bare-metal implementations in **[[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux & Edge AI Vision]]** and **[[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Performance Engine]]**.
