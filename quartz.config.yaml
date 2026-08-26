@@ -143,23 +143,6 @@ plugins:
       position: left
       priority: 15
 
-  - source: "@quartz-community/search"
-    enabled: true
-    layout:
-      position: left
-      priority: 20
-      group: toolbar
-      groupOptions:
-        grow: true
-
-  # ---> DARK MODE TOGGLE RE-INJECTED HERE <---
-  - source: "@quartz-community/darkmode"
-    enabled: true
-    layout:
-      position: left
-      priority: 30
-      group: toolbar
-
   - source: "@quartz-community/explorer"
     enabled: true
     options:
@@ -203,6 +186,23 @@ plugins:
       position: beforeBody
       priority: 20
 
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: right
+      priority: 10
+      group: toolbar
+      groupOptions:
+        grow: true
+
+  # ---> DARK MODE TOGGLE <---
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: right
+      priority: 20
+      group: toolbar
+
   - source: "@quartz-community/table-of-contents"
     enabled: true
     order: 50
@@ -230,7 +230,7 @@ plugins:
 layout:
   groups:
     toolbar:
-      priority: 35
+      priority: 10
       direction: row
       gap: 0.5rem
 
