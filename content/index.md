@@ -39,6 +39,15 @@ tags:
 
 ---
 
+### 🧭 Fast-Track Evaluation Pathways
+
+> [!tip] Tailored Navigation by Role
+> * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume_20260822.pdf?v=20260822).
+> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Lab_and_Workstation_Spec|/uses Hardware & Stack Specification]]**, or inspect the live **[[Projects/Current_Environment|Current Fleet Topology]]**.
+> * 🔒 **CISOs & Security Directors:** Audit the **[[Governance/Policies/index|19 Enterprise Security Policies]]**, review **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
+
+---
+
 ### ◈ Core Operational Pillars
 
 Explore the primary sections of the portfolio:

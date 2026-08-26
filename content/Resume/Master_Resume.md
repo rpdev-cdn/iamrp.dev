@@ -23,10 +23,16 @@ aliases:
   <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume_20260822.pdf?v=20260822" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     Download Official Resume (PDF) 📄
   </a>
-  <a href="/resume/legacy_roles" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
-    View Legacy Roles Archive (2003–2016) 🏛️
+  <a href="/resume/endorsements_and_references" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Verified References & Honors 📜
+  </a>
+  <a href="/resume/legacy_roles" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Legacy Roles Archive (2003–2016) 🏛️
   </a>
 </div>
+
+> [!note] Artifact Synchronization & Freshness
+> **Web CV & PDF Alignment:** This digital resume and the [Downloadable Official PDF (August 2026)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume_20260822.pdf?v=20260822) are actively synchronized. All metrics, role timelines, and enterprise governance credentials represent live production state.
 
 ## Executive Profile
 

@@ -30,7 +30,31 @@ graph LR
 
 ---
 
-## 1. Core Cryptographic Design Principles
+## 1. Case Study Narrative: Engineering Rationale & Architecture
+
+### 🛑 Problem Statement & Threat Vector
+Managing credentials across multiple workstations and staging hosts presents critical security trade-offs:
+1. **Plaintext Credential Bleed:** Developers frequently leave `.env` files, API tokens, and SSH private keys in unencrypted home directories or version control histories.
+2. **Fragility of Legacy GPG Smartcards:** Traditional GPG card daemon setups (`gpg-agent`, `scdaemon`) are notorious for socket lockups, OS update breakages, and complex key-expiry management.
+3. **Lockout Risk vs. Security:** Encrypting secrets with purely local keys risks total data loss if a single device fails, while shared cloud secret managers create third-party vendor dependencies.
+
+### 📐 Core Engineering Constraints
+* **Physical Proof of Presence:** Decryption operations must physically mandate human touch on a FIDO2 hardware token (`/dev/hidraw`).
+* **Zero Plaintext Disk Persistence:** Secrets must decrypt exclusively into memory streams (`stdout` / pipe) without touching filesystem disk blocks.
+* **Dual-Recipient Redundancy:** Every encrypted payload must be decryptable by an air-gapped offline master key to prevent catastrophic hardware lockout.
+
+### ⚖️ Architectural Decisions & Trade-Offs
+* **`age-plugin-fido2prf` vs. Legacy OpenPGP:** Selected modern `age` encryption with HMAC-SHA256 PRF hardware derivation for its minimalist Unix-philosophy codebase and zero daemon fragility.
+* **Chezmoi `textconv` In-Memory Diffing:** Configured custom `textconv` filters in `chezmoi.toml` to permit plain-text git diffing in terminal memory without persisting decrypted files to disk.
+
+### 📊 Production Outcomes & Security Posture
+* **Zero Credential Exposure:** 100% of sensitive dotfiles and API credentials encrypted at rest.
+* **Multi-Host Portability:** Seamless dotfile synchronization across all physical workstations with cryptographic touch verification.
+* **Disaster Recovery:** Air-gapped master recovery procedures tested and verified with zero key lockout.
+
+---
+
+## 2. Core Cryptographic Design Principles
 
 1. **Symmetric Identity Binding:**
    * Uses `age-plugin-fido2prf` to derive symmetric encryption keys directly from the hardware token's internal secure element (`/dev/hidraw1`).
