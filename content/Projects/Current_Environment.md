@@ -56,3 +56,15 @@ Delve deeper into the specific design patterns running on top of this hardware:
 
 * **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering]]**: How IOPS-heavy workloads and volatile Honeypot logs are dynamically mapped to NVMe arrays or RAM disks to prevent flash-wear.
 * **[[Projects/Layer2_Containerization|Layer 2 Containerization & Networking]]**: Deep dive into the `macvlan`/`ipvlan` topology that allows containers to act as first-class citizens on the physical network.
+
+---
+
+## 🔗 Related Architecture & Knowledge Graph
+
+* **Projects Directory:** Return to the complete portfolio on **[[Projects/index|Systems & Infrastructure Engineering Projects]]**.
+* **Fleet Telemetry & Observability:** Live monitoring in **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]** and **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]**.
+* **Edge Routing & Storage:** Explored in **[[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Server]]** and **[[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]]**.
+* **Governance Enforcement:** Governed by **[[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]** and **[[Governance/Policies/Information_Security_Policy|Information Security Policy]]**.
+* **Field Guides:** Read practical edge routing patterns in **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]** and **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.
+* **Master Credentials:** Review systems engineering background on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
+* **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.
