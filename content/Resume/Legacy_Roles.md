@@ -10,7 +10,6 @@ tags:
 aliases:
   - /resume--and--experience/legacy_roles
   - /legacy-roles
-  - /resume/legacy_roles
 ---
 
 > [!info] Historical Archive

@@ -9,7 +9,6 @@ tags:
   - security
 aliases:
   - /master-resume
-  - /resume/master_resume
   - /resume--and--experience/master_resume
 ---
 
