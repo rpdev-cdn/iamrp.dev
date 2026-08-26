@@ -1,5 +1,6 @@
 ---
-title: "Security & AI Research Hub"
+title: "Security & AI Systems Applied Research Hub"
+description: "Applied research into autonomous multi-agent security swarms, zero-trust local LLM inference, and adversarial testing frameworks by Richard P. Dissell."
 aliases:
   - /projects--and--research/research
 tags:

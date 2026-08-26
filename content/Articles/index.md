@@ -1,11 +1,12 @@
 ---
-title: Technical Articles & Wiki
+title: "Technical Articles & Engineering Field Guides"
+description: "Field lessons, hardware retrospectives, and deep technical guides covering bare-metal diagnostics, zero-trust edge networking, and Model Context Protocol architectures."
 aliases:
-- /articles--and--wiki
+  - /articles--and--wiki
 tags:
-- articles
-- wiki
-- knowledge
+  - articles
+  - wiki
+  - knowledge
 ---
 
 # Technical Articles & Knowledge Base

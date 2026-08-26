@@ -1,5 +1,6 @@
 ---
-title: Enterprise Policy & Governance
+title: "Enterprise Policy, Governance & Leadership Standards"
+description: "Modernized 2026 enterprise IT and cybersecurity policies, compliance frameworks, and organizational leadership standards authored by Richard P. Dissell."
 aliases:
   - /resume--and--experience/policy--and--governance
 tags:

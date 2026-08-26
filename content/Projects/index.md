@@ -1,5 +1,6 @@
 ---
-title: Engineering Projects
+title: "Systems & Infrastructure Engineering Projects"
+description: "Production architectures, bare-metal telemetry systems, and distributed container environments engineered for zero-trust resilience by Richard P. Dissell."
 aliases:
   - /projects--and--research/projects
   - /projects--and--research
@@ -12,6 +13,24 @@ tags:
 # Systems & Infrastructure Engineering Projects
 
 Production architectures, bare-metal telemetry systems, and distributed container environments engineered for zero-trust resilience.
+
+---
+
+### ⭐ Featured Architectural Flagships
+
+> [!tip] Quick-Scan Portfolio Highlights
+> High-impact production systems showcasing cross-disciplinary engineering across AI control planes, kernel bootloaders, hardware security tokens, and multi-node fleet observability:
+
+1. **[[Projects/LLM_Control_Plane|Consolidated Gemini CLI Workspace: Control & Data Plane]]**  
+   *Decoupled Control Plane (`llm-project`) and Data Plane (`llmdata-core`) orchestrating multi-agent swarms with session-aware tool routing and sub-15ms SSE streaming.*
+2. **[[Projects/Infra_Audit_Engine|Infra Audit Engine: Continuous Multi-Node Drift Orchestrator]]**  
+   *Automated multi-node hardware and config drift orchestrator compiling `CURRENT_ENV.yml` across OpenWrt routers, GPU compute nodes, and distributed Docker clusters.*
+3. **[[Projects/Hardware_Security_Key|Hardware-Hardened Secret Management (FIDO2 + Age + Chezmoi)]]**  
+   *Physical FIDO2 key derivation (`age-plugin-fido2prf`) binding symmetric encryption to hardware tokens with dual-recipient master recovery and zero plaintext exposure.*
+4. **[[Projects/Kexecboot_Wireless_Bootloader|kexecboot.xyz: Wireless Network Bootloader]]**  
+   *Pre-OS WPA2/WPA3 Wi-Fi authentication, automated `netboot.xyz` parsing, and direct in-memory Linux kernel kexec pivot.*
+5. **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability: Grafana Alloy & eBPF Telemetry]]**  
+   *Consolidating multi-node container metrics, cgroup v2 PSI memory traces, and OpenTelemetry collector pipelines across edge and bare-metal nodes.*
 
 ---
 

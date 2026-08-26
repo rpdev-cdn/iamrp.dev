@@ -1,5 +1,6 @@
 ---
-title: Home
+title: "Richard P. Dissell — Security Analyst, Systems Architect & Infrastructure Engineer"
+description: "Professional digital garden and systems portfolio for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
 tags:
   - root
   - identity
@@ -68,3 +69,35 @@ Explore the primary sections of the portfolio:
 > * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
 > * **Phone:** `216-410-3687` *(Text Preferred)*
 > * **Cryptographic Verification & PGP:** Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots on the **[[Contact/index|Contact & Identity Verification]]** page.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Richard P. Dissell",
+  "url": "https://iamrp.dev",
+  "sameAs": [
+    "https://linkedin.com/in/rpdissell",
+    "https://github.com/IamRPDev"
+  ],
+  "jobTitle": "Senior Infrastructure Security Analyst & Systems Architect",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cleveland",
+    "addressRegion": "OH",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [
+    "Zero Trust Architecture",
+    "Cybersecurity",
+    "Linux Kernel & eBPF",
+    "DevSecOps",
+    "Docker & Containerization",
+    "Model Context Protocol",
+    "Hardware Diagnostics",
+    "NIST CSF",
+    "ISO 27001",
+    "Disaster Recovery"
+  ]
+}
+</script>

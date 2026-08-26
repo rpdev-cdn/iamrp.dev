@@ -1,12 +1,13 @@
 ---
-title: Tools & Live Applications
+title: "Interactive Tools & DocIngest Suite"
+description: "Interactive tools, live microservices, and security utilities built for autonomous workflows, air-gapped secret management, and network telemetry."
 aliases:
-- /software--and--github/tools
-- /software--and--github
+  - /software--and--github/tools
+  - /software--and--github
 tags:
-- tools
-- software
-- live-apps
+  - tools
+  - software
+  - live-apps
 ---
 
 # Tools & Live Applications

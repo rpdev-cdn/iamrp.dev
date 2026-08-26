@@ -188,13 +188,19 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 
 ---
 
-## Education
+## Education & Technical Training
 
-**ITT Technical Institute** – Strongsville, Ohio
+### Formal Education
+**ITT Technical Institute** – Strongsville, Ohio  
 *Associate of Applied Science in Computer Networking Systems* | September 2009
-- GPA: 3.9
-- 2 years of programming education (C, C++, Java, Visual Basic)
+- GPA: 3.9 / 4.0
 - Inducted into the National Technical Honor Society ([View Verification Letter](https://cdn.iamrp.dev/pdf/NTHS_verification_letter-letters-of-recommendation.pdf))
+- 2 years of software engineering & programming curriculum (C, C++, Java, Visual Basic)
+
+### Continuous Technical Training & Framework Mastery
+* **Security & Compliance Frameworks:** NIST Cybersecurity Framework (CSF 2.0), NIST SP 800-53 (FISMA / FedRAMP), ISO/IEC 27001, CIS Critical Security Controls (v8), SOC 2 Type II audit readiness.
+* **Architecture & Engineering:** Zero Trust Architecture (NIST SP 800-207), Model Context Protocol (MCP), eBPF Linux kernel telemetry, Post-Quantum Cryptography (PQC) agility.
+* **Systems & Cloud Infrastructure:** Advanced Linux systems engineering (Debian, Fedora, OpenWrt), OCI container runtime architecture (Docker, containerd), Storage Area Networks (EMC SAN, NFS, iSCSI), VMware vSphere / ESXi virtualization.
 
 ---
 

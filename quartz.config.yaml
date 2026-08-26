@@ -220,7 +220,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/iamrpdev
+        GitHub: https://github.com/IamRPDev
+        LinkedIn: https://linkedin.com/in/rpdissell
     layout:
       position: footer
       priority: 50
