@@ -15,6 +15,9 @@ Production architectures, bare-metal telemetry systems, and distributed containe
 
 ## 🚀 Core Case Studies
 
+- **[[Projects/Kexecboot_Wireless_Bootloader|kexecboot.xyz: Wireless Network Bootloader]]** — *Pre-OS WPA2/WPA3 Wi-Fi authentication, netboot.xyz parsing, and direct in-memory kernel kexec pivot.*
+- **[[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Server Manager]]** — *LuCI web interface and UCI configuration bridge for wire-speed Linux kernel nfsd storage shares.*
+- **[[Projects/Serverless_Cloudflare_MCP|Serverless Remote MCP on Cloudflare Workers]]** — *Global edge-native Model Context Protocol runtime delivering sub-15ms SSE tool execution.*
 - **[[Projects/MCP_Gateway_Tool_Router|MCP Gateway: Enterprise Model Context Protocol Tool Router]]** — *Session-aware stateful routing, schema aggregation, and Kubernetes-native tool lifecycle management.*
 - **[[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware & Edge AI Vision]]** — *Custom Ingenic SoC Linux kernel, low-latency RTSP pipelines, and real-time Qdrant vector scene intelligence.*
 - **[[Projects/Builder_Manager_OCI_Pipeline|Builder Manager: Multi-Arch OCI & Cache Engine]]** — *Declarative multi-platform Docker compilation, automated GHCR registry pruning, and distributed NFS cache warmups.*
