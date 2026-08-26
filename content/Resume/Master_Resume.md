@@ -5,16 +5,11 @@ tags:
   - resume
   - master
 aliases:
-  - /resume--and--experience/comprehensive_master_resume
-  - /resume--and--experience/resume
-  - /resume--and--experience
-  - /resume
-  - /cv
-  - /curriculum-vitae
+  - /master-resume
 ---
 
 # Richard P. Dissell
-**Location:** 3750 W 133rd St, Cleveland, OH 44111<br>
+**Location:** Cleveland, OH<br>
 **Email:** RPDissell@gmail.com | **Phone:** 216-410-3687 (Text Preferred)<br>
 **Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
 

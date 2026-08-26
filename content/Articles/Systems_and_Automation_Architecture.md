@@ -12,7 +12,6 @@ aliases:
   - /resume--and--experience/networking--and--infrastructure/infrastructure
   - /infrastructure_architecture
   - /articles/infrastructure_architecture
-  - /articles/systems_and_automation_architecture
 ---
 
 # Systems & Automation Architecture
