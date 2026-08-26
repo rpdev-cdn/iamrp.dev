@@ -28,6 +28,18 @@ tags:
 
 ---
 
+### ◈ Professional Availability & Target Roles
+
+* **Engagement Types:** Full-Time, Contract-to-Hire, Fractional CISO / SecOps Architecture Consulting.
+* **Target Roles:**
+  * **Information Security Analyst / Officer**
+  * **Infrastructure / Systems Architect**
+  * **Senior Network Security Administrator**
+  * **Lead DevOps / DevSecOps Engineer**
+* **Location Preference:** Remote or Hybrid (Greater Cleveland, OH Area).
+
+---
+
 ### ◈ Core Operational Pillars
 
 Explore the primary sections of the portfolio:
