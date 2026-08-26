@@ -54,5 +54,5 @@ The OpenWrt-powered border gateway. It strictly manages complex firewall zoning,
 ### 📂 Explore the Architecture
 Delve deeper into the specific design patterns running on top of this hardware:
 
-* **[Hardware-Aware Storage Tiering](Hardware_Storage_Tiering.md)**: How IOPS-heavy workloads and volatile Honeypot logs are dynamically mapped to NVMe arrays or RAM disks to prevent flash-wear.
-* **[Layer 2 Containerization & Networking](Layer2_Containerization.md)**: Deep dive into the `macvlan`/`ipvlan` topology that allows containers to act as first-class citizens on the physical network.
+* **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering]]**: How IOPS-heavy workloads and volatile Honeypot logs are dynamically mapped to NVMe arrays or RAM disks to prevent flash-wear.
+* **[[Projects/Layer2_Containerization|Layer 2 Containerization & Networking]]**: Deep dive into the `macvlan`/`ipvlan` topology that allows containers to act as first-class citizens on the physical network.
