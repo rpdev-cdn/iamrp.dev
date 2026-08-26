@@ -11,12 +11,12 @@ aliases:
   - /projects/current-environment
 ---
 
-# Current Environment Overview
+# Current Fleet Topology & Environment State
 
-> [!abstract] Live Infrastructure Status
-> This section details the live, physical infrastructure supporting the RPDevs architecture. The environment is composed of specialized hardware nodes connected via advanced Layer 2 networking and orchestrated using decoupled storage tiering.
+> [!abstract] Drift-Audited Infrastructure State
+> This document details the physical infrastructure and hardware inventory supporting the RPDevs architecture. State, network zoning, and hardware health are continuously monitored, validated, and normalized by the **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]** into the authoritative `CURRENT_ENV.yml` registry.
 
-The network leverages a mix of standard Linux compute nodes for heavy workloads and specialized OpenWrt edge hardware for secure routing and IoT isolation. The current topology consists of three primary nodes:
+The fleet operates across a decoupled Layer 2 network connecting bare-metal Linux compute hosts, edge AI accelerators, and a hardened OpenWrt perimeter gateway:
 
 ## 🖥️ Node: llmadmin01 (Primary Compute & AI)
 The powerhouse of the lab, heavily accelerated for AI inference, telemetry processing, and centralized container management.

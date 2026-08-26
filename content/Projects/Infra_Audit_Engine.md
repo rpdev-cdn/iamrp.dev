@@ -69,20 +69,53 @@ In distributed homelab and hybrid enterprise environments, infrastructure state 
 
 ---
 
-## 2. Key Telemetry Capabilities
+## 2. Deep Dive: Telemetry Engines & Modules
 
-1. **Hardware Accelerator Discovery:**
-   * Catalogs PCI/USB accelerators (Intel UHD 630, NVIDIA Quadro P600, Google Coral Edge TPU).
-   * Monitors real-time PCIe link status and driver health.
+### A. Asynchronous SSH Fleet Collection (`ssh_audit.py`)
+* **Parallelized Execution:** Queries `llmadmin01`, `t430`, and `edge` concurrently using asynchronous Ed25519/RSA SSH key authentication.
+* **Hardware Accelerator Discovery:** Automatically discovers PCI/USB coprocessors (Intel UHD 630, NVIDIA Quadro P600 Mobile, Google Coral Edge TPU) and verifies PCIe link health.
+* **Memory & ZRAM Compression Tracking:** Audits physical RAM consumption and `zram` LZ4 swap block device compression ratios across compute nodes.
+* **Storage Partition & Docker Volume Monitoring:** Tracks disk utilization across root partitions, high-I/O NVMe arrays, and `/mnt/data/docker` mount points to preemptively prevent storage exhaustion.
 
-2. **Memory & Compressed Swap Telemetry:**
-   * Tracks active physical RAM alongside transparent `zram` compressed memory utilization across nodes.
+### B. Native OpenWrt UCI State Normalizer
+* **NVRAM & UCI Parsing:** Bypasses legacy agent constraints by directly extracting and parsing OpenWrt `uci` configs.
+* **Firewall & DNS Interception:** Validates 8-zone firewall policies (`lan`, `wan`, `iot`, `guest`, `secure`, `servers`, `clients`, `docker`) and verifies active DNS hijacking rules (`Hijack-DNS-UDP`, `Hijack-DoT`).
+* **ACME & Cloudflare Certificates:** Audits automated DNS-01 wildcard certificates generated for `*.internal.iamrp.dev`, `*.iot.iamrp.dev`, and `*.guest.iamrp.dev`.
+* **Edge Intrusion Prevention:** Queries `crowdsec` edge daemon metrics and active iptables bouncer tables.
 
-3. **OpenWrt UCI Configuration Parsing:**
-   * Scans firewall zones, DNS interception redirect rules (`Hijack-DNS-UDP`, `Hijack-DoT`), and CrowdSec bouncer metrics directly from edge router NVRAM.
+### C. Cloudflare & GitHub SaaS Telemetry Modules (`cloudflare_api.py` & `github_api.py`)
+* **Cloudflare Zero Trust:** Audits active Cloudflare Tunnels (`cloudflared`), DNS zone records, Access application policies, and Worker deployments.
+* **GitHub Actions Fleet:** Tracks self-hosted runner registrations, queue health, and continuous deployment workflow statuses across repositories.
 
-4. **Storage Partition & Flash Health Monitoring:**
-   * Monitors disk utilization across root partitions, high-I/O NVMe arrays, and `/mnt/data/docker` mount points.
+### D. Cryptographic Root of Trust (`.env.age` in `/dev/shm`)
+* **Hardware-Bound Decryption:** Secrets and API keys are stored in an encrypted `.env.age` envelope, requiring physical FIDO2 hardware token presence (`age-plugin-fido2prf`) to decrypt.
+* **Volatile Memory Execution:** Decrypted credentials exist exclusively within a volatile RAM disk (`/dev/shm`) during execution and are scrubbed upon process termination, guaranteeing zero persistent plaintext exposure.
+
+---
+
+## 3. Output Schema & Authoritative Truth (`CURRENT_ENV.yml`)
+
+The engine normalizes all collected telemetry and compiles it into `docs/CURRENT_ENV.yml`. Every run automatically compares active state against historical baselines in `docs/history/`, filtering out noise (ephemeral memory fluctuations) while raising actionable alerts for genuine configuration drift.
+
+```yaml
+# Authoritative Structure of docs/CURRENT_ENV.yml
+environment_registry:
+  nodes:
+    llmadmin01:
+      node_type: linux
+      system_heuristics: { load_average, memory_active, zram_status, hardware_accelerators }
+      docker_status: { driver: overlayfs, root_dir: /var/lib/docker }
+      storage_usage: { root_partition, docker_partition }
+    edge:
+      node_type: openwrt
+      openwrt_config: { acme, firewall_zones, dnsmasq, crowdsec }
+    t430:
+      node_type: linux
+      storage_usage: { docker_partition: /mnt/data/docker }
+  saas_telemetry:
+    cloudflare: { tunnels, dns_records, access_policies }
+    github: { self_hosted_runners, action_workflows }
+```
 
 ---
 
