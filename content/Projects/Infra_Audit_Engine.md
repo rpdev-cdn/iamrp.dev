@@ -1,24 +1,24 @@
 ---
 title: 'Infra Audit Engine: Continuous Hardware & Config Drift Orchestrator'
 tags:
-- python
-- audit
-- openwrt
-- docker
-- telemetry
-- infrastructure
+  - python
+  - audit
+  - openwrt
+  - docker
+  - telemetry
+  - infrastructure
 aliases:
-- /projects--and--research/projects/infra_audit_engine
+  - /tools/infra_audit_engine
+  - /projects--and--research/projects/infra_audit_engine
+  - /software--and--github/tools/infra_audit_engine
+  - /projects/infra-audit-engine
 ---
 
 # Infra Audit Engine: Continuous Hardware & Config Drift Orchestrator
+## **Automated Multi-Node Telemetry, OpenWrt UCI State Normalization & Authoritative Environment Tracking**
 
 > [!abstract] Architectural Goal
 > In a heterogeneous hybrid environment spanning bare-metal Linux servers, OpenWrt edge gateways, and container fleets, configuration drift and undocumented hardware state represent critical failure vectors. **Infra Audit Engine** is an automated Python orchestrator that queries all nodes, verifies SSH identities, extracts hardware telemetry, and compiles an authoritative single-source-of-truth registry (`CURRENT_ENV.yml`).
-
----
-
-### ◈ Operational Workflow
 
 ```mermaid
 graph TD
@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-### ◈ Key Telemetry Capabilities
+## 1. Key Telemetry Capabilities
 
 1. **Hardware Accelerator Discovery:**
    * Automatically catalogs PCI/USB accelerators (e.g. Intel UHD 630, NVIDIA Quadro P600 Mobile, Google Coral Edge TPU).

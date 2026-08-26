@@ -7,18 +7,17 @@ tags:
   - nextdns
   - security
 aliases:
+  - /tools/dns_forge_firefox_addon
   - /software--and--github/tools/dns_forge_firefox_addon
   - /software--and--github/scripts/firefox_nextdns_addon
+  - /projects/dns-forge-firefox-addon
 ---
 
 # DNS Forge: NextDNS Firefox Add-on
+## **Manifest V3 WebExtension, Real-Time Server-Sent Events (SSE) Stream Parsing & Automated Blocklist Correlation**
 
 > [!abstract] Architectural Summary
 > Modern privacy-focused web browsing requires dynamic, fine-grained control over DNS-over-HTTPS (DoH) routing and real-time blocklist auditing. **DNS Forge** is a modular Firefox WebExtension built to interface directly with NextDNS APIs, providing real-time Server-Sent Events (SSE) log streaming, blocklist correlation, automated security rule auditing, and multi-profile synchronization.
-
----
-
-### ◈ Extension Architecture
 
 ```mermaid
 graph TD
@@ -39,7 +38,7 @@ graph TD
 
 ---
 
-### ◈ Key Technical Features
+## 1. Key Technical Features
 
 1. **Zero-Latency SSE Log Streaming:**
    * Uses native `EventSource` connections to stream live DNS queries with sub-millisecond DOM updates.

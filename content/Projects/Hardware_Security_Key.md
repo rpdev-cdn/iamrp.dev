@@ -7,20 +7,17 @@ tags:
   - age
   - chezmoi
 aliases:
-  - /software--and--github/tools/hardware_hardened_security_key
+  - /tools/hardware_security_key
   - /tools/hardware_hardened_security_key
+  - /software--and--github/tools/hardware_hardened_security_key
+  - /projects/hardware-security-key
 ---
 
 # Hardware-Hardened Secret Management: FIDO2 + Age + Chezmoi
+## **Physical Token HMAC-SHA256 PRF Key Derivation, Dual-Recipient Encryption & Zero Plaintext Persistence**
 
 > [!abstract] Architectural Goal
 > In a multi-machine development and server environment, storing private credentials, SSH keys, and API tokens in unencrypted dotfiles is an unacceptable security risk. This architecture enforces hardware-bound secret encryption using physical FIDO2/U2F security tokens paired with `age-plugin-fido2prf` and Chezmoi orchestration.
-
----
-
-### ◈ Cryptographic Flow
-
-Every decryption operation physically requires the hardware FIDO2 key to be inserted into the USB port and verified with user physical presence (touch/PIN).
 
 ```mermaid
 graph LR
@@ -33,10 +30,10 @@ graph LR
 
 ---
 
-### ◈ Core Design Principles
+## 1. Core Cryptographic Design Principles
 
 1. **Symmetric Identity Binding:**
-   * Uses `age-plugin-fido2prf` to derive symmetric encryption keys directly from the hardware token's internal secure element.
+   * Uses `age-plugin-fido2prf` to derive symmetric encryption keys directly from the hardware token's internal secure element (`/dev/hidraw1`).
 
 2. **Dual-Recipient Master Recovery Scheme:**
    * Every file is encrypted to both the physical FIDO2 hardware identity AND an air-gapped Master Recovery Key (`age-master-recovery.txt`).

@@ -1,24 +1,24 @@
 ---
-title: OpenThread Border Router Telemetry Poller
+title: "OpenThread Border Router Telemetry Poller: IoT Mesh Monitoring"
 tags:
-- python
-- iot
-- openthread
-- mqtt
-- docker
-- telemetry
+  - python
+  - iot
+  - openthread
+  - mqtt
+  - docker
+  - telemetry
 aliases:
-- /software--and--github/scripts/openthread_border_router_poller
+  - /tools/openthread_border_router
+  - /software--and--github/tools/openthread_border_router
+  - /software--and--github/scripts/openthread_border_router_poller
+  - /projects/openthread-border-router
 ---
 
-# OpenThread Border Router Telemetry Poller
+# OpenThread Border Router Telemetry Poller: IoT Mesh Monitoring
+## **Deterministic 802.15.4 Radio Inspection, MQTT State Ingestion & Live Mesh Topology Observability**
 
 > [!abstract] Architectural Summary
 > Low-power IPv6 wireless mesh networks (Thread/Matter) require continuous link-quality and routing topology monitoring. This Python system daemon interfaces directly with an OpenThread Border Router (OTBR) container instance, parses neighbor tables via `ot-ctl`, and streams real-time radio metrics (RSSI, Link Quality, MAC address, Frame Counters) to an MQTT broker for visualization in Grafana.
-
----
-
-### ◈ Data Pipeline Architecture
 
 ```mermaid
 graph LR
@@ -41,7 +41,7 @@ graph LR
 
 ---
 
-### ◈ Engineering Highlights
+## 1. Engineering Highlights
 
 1. **Deterministic Radio Inspection:**
    * Uses non-blocking subprocess calls to query `ot-ctl neighbor table` and `ot-ctl router table`.
