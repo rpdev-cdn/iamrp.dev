@@ -41,7 +41,7 @@ Explore the primary sections of the portfolio:
 - **[[Research/index|Security & AI Systems Research]]**  
   *Applied AI and security research: **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm]]**, **[[Research/Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Research/Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
 - **[[Governance/index|Enterprise Policy & Governance]]**  
-  *Complete suite of **[[Governance/Policies/index|14 Modernized 2026 Enterprise Security Policies]]**, **[[Governance/Leadership_Philosophy|Leadership Philosophy]]**, **[[Governance/Vendor_and_Resource_Management|Vendor & Resource Management]]**, and **[[Governance/AI_Augmentation_for_Users|AI Augmentation for End Users]]**.*
+  *Complete suite of **[[Governance/Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Governance/Policies/Information_Security_Policy|Information Security]]**, **[[Governance/Policies/Incident_Response_Plan|Incident Response]]**, **[[Governance/Policies/Leadership_Philosophy|Leadership Philosophy]]**, **[[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Governance/Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
 - **[[Articles/index|Technical Articles & Field Guides]]**  
   *Deep technical writing: **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Games_and_Complexity|Games & Systems Complexity]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**, and **[[Articles/Bare_Metal_Diagnostics_Lessons|Lessons from Bare-Metal Diagnostics]]**.*
 
