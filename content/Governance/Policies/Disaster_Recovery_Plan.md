@@ -6,8 +6,13 @@ tags:
   - modernized-2026
 aliases:
   - /resume--and--experience/policy--and--governance/policies/disaster_recovery_plan
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 > [!abstract] Legacy Policy Archive
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards. This document demonstrates experience in modern enterprise IT governance, cloud-native architectures, and ransomware resilience.
 

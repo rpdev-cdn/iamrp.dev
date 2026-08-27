@@ -12,8 +12,13 @@ aliases:
   - /governance/vendor-and-resource-management
   - /resume--and--experience/teams--and--management/vendor_and_resource_management
   - /teams--and--management/vendor_and_resource_management
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 # Vendor & Technology Resource Management
 ## **Zero-Trust Supply Chain Integration, Continuous Fourth-Party Auditing, Contractual Security SLAs & SaaS Optimization**
 

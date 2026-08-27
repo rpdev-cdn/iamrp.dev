@@ -246,6 +246,9 @@ plugins:
 
   - source: "@quartz-community/table-of-contents"
     enabled: true
+    options:
+      maxDepth: 4
+      collapseByDefault: false
     order: 50
     layout:
       position: right

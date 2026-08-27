@@ -6,8 +6,13 @@ tags:
   - 2026-modernized
 aliases:
   - /resume--and--experience/policy--and--governance/policies/data_classification_policy
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 > [!abstract] Legacy Policy Archive - Modernized for 2026
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, encompassing paradigms such as LLM training data governance, vector database security, and synthetic data.
 

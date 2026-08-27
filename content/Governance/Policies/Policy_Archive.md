@@ -9,8 +9,13 @@ aliases:
   - /governance/policy-archive
   - /resume--and--experience/policy--and--governance/policy_archive
   - /policy--and--governance/policy_archive
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 # Enterprise Policy Archive & Historical Governance Frameworks
 
 > [!abstract] Comprehensive Governance Portfolio

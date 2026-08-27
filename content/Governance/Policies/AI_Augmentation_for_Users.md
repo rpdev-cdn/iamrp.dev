@@ -12,8 +12,13 @@ aliases:
   - /governance/ai-augmentation-for-users
   - /resume--and--experience/training--and--end-users/ai_augmentation_for_users
   - /training--and--end-users/ai_augmentation_for_users
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 # AI Augmentation and Safe Usage Guidelines
 ## **Enterprise Guardrails for Generative AI, Zero-Data Retention Tenants, Prompt Injection Defense & Human-in-the-Loop Accountability**
 

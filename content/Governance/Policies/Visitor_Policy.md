@@ -6,8 +6,13 @@ tags:
   - 2026
 aliases:
   - /resume--and--experience/policy--and--governance/policies/visitor_policy
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 > [!abstract] Modernized Policy
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, incorporating mobile credentials and temporary digital passes for streamlined and secure visitor management.
 

@@ -11,7 +11,7 @@ tags:
 - mcp
 ---
 
-# DocIngest Documentation Suite <span class="badge-status badge-live">● LIVE EDGE SUITE</span>
+# DocIngest Documentation Suite <span class="telemetry-badge">LIVE EDGE SUITE</span>
 
 > [!abstract] Documentation Crawler & Corpus Viewer
 > **DocIngest** is a high-performance, self-hosted documentation crawler, markdown converter, and semantic search engine. It crawls canonical developer documentation libraries and structures them for immediate ingestion into Model Context Protocol (MCP) servers and AI reasoning loops.

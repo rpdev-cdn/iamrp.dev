@@ -12,8 +12,13 @@ aliases:
   - /governance/security-awareness-training
   - /resume--and--experience/training--and--end-users/security_awareness_training
   - /training--and--end-users/security_awareness_training
+last_audited: 2026-08-26
+review_cycle: Annual (Continuous Audit)
+compliance_alignment:
+  - NIST CSF 2.0
+  - ISO/IEC 27001:2022
+  - SOC 2 Type II
 ---
-
 # Modern Security Awareness Curriculum
 ## **Behavioral Defense Against AI Deep-Fakes, Advanced Social Engineering, MFA Prompt Fatigue & Continuous Micro-Simulations**
 
