@@ -106,7 +106,7 @@ Architectural reliability requires multi-site fault tolerance and automated reco
 ---
 
 _Related Documents:_
-- **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing & Network Architecture]]**
+- **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing & Network Architecture]]**
 - **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**
 - **[[Projects/Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM Case Study]]**
 - **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering Case Study]]**

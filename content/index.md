@@ -63,7 +63,7 @@ Explore the primary sections of the portfolio:
 - **[[Governance/index|Enterprise Policy & Governance]]**  
   *Complete suite of **[[Governance/Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Governance/Policies/Information_Security_Policy|Information Security]]**, **[[Governance/Policies/Incident_Response_Plan|Incident Response]]**, **[[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Governance/Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
 - **[[Articles/index|Technical Articles & Field Guides]]**  
-  *Deep technical writing: **[[Articles/Leadership_Philosophy|Leadership Philosophy]]**, **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Games_and_Complexity|Games & Systems Complexity]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, and **[[Articles/Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**.*
+  *Deep technical writing: **[[Articles/Leadership_Philosophy|Leadership Philosophy]]**, **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Games & Systems Theory/index|Games & Systems Complexity]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, and **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**.*
 
 ---
 

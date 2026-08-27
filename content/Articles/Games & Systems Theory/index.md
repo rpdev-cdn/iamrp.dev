@@ -239,7 +239,7 @@ To operationalize these principles, modern defense relies on **high-concurrency,
 
 _Related Documents:_
 - **[[Articles/MCP_in_Enterprise_Operations|MCP in Enterprise Operations]]**
-- **[[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]]**
+- **[[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab-Validated Defense Playbooks]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Empirical_Telemetry_and_RF_Analysis|Empirical Telemetry & RF Anomaly Modeling]]**
 

@@ -16,9 +16,9 @@ configuration:
     fontOrigin: local # Enforces air-gapped typography (cdn.iamrp.dev)
     cdnCaching: false
     typography:
-      header: "JetBrains Mono, monospace"
-      body: "JetBrains Mono, monospace"
-      code: "JetBrains Mono, monospace"
+      header: "JetBrains Mono"
+      body: "JetBrains Mono"
+      code: "JetBrains Mono"
     colors:
       lightMode: # Repurposed as "ANSI Dark Mode"
         light: "#000000" # Pure black background
@@ -127,6 +127,12 @@ plugins:
       enableSiteMap: true
       enableRSS: true
 
+  - source: "@quartz-community/favicon"
+    enabled: true
+
+  - source: "@quartz-community/og-image"
+    enabled: true
+
   - source: "@quartz-community/cname"
     enabled: true
 
@@ -156,13 +162,18 @@ plugins:
       position: left
       priority: 50
 
+  - source: "@quartz-community/breadcrumbs"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+
   - source: "@quartz-community/article-title"
     enabled: true
     layout:
       position: beforeBody
       priority: 10
-
-
 
   - source: "@quartz-community/note-properties"
     enabled: true
@@ -184,6 +195,9 @@ plugins:
 
   - source: "@quartz-community/content-meta"
     enabled: true
+    options:
+      showReadingTime: true
+      showComma: true
     layout:
       position: beforeBody
       priority: 20
@@ -197,12 +211,19 @@ plugins:
       groupOptions:
         grow: true
 
-  # ---> DARK MODE TOGGLE <---
+  # ---> DARK MODE & READER MODE TOGGLES <---
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
       position: right
       priority: 20
+      group: toolbar
+
+  - source: "@quartz-community/reader-mode"
+    enabled: true
+    layout:
+      position: right
+      priority: 25
       group: toolbar
 
   - source: "@quartz-community/table-of-contents"
@@ -245,9 +266,13 @@ layout:
         right: []
     content: {}
     folder:
+      exclude:
+        - reader-mode
       positions:
         right: []
     tag:
+      exclude:
+        - reader-mode
       positions:
         right: []
     canvas: {}

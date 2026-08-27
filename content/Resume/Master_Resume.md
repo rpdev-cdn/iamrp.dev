@@ -143,54 +143,21 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 
 *Skills Applied: Network Infrastructure, Data Protection & Backup, Procurement, Help Desk Support, Technical Troubleshooting, Systems Administration, Database Administration.*
 
-### Electronic Technician
-**Cuyahoga County Engineers** | *Aug 2010 – Oct 2011*
+### Early Career & Technical Foundations (2003 – 2011)
 
-- Diagnosed and repaired complex automotive electrical systems and computer control modules.
-- Executed comprehensive diagnostics on proprietary hardware and integrated computing systems to minimize equipment downtime.
-- Engineered and installed custom lighting, communication, and control systems for specialized county vehicles.
-- Assisted the yard coordinator in planning, assigning, reviewing, and coordinating complex mechanical workloads.
-- Authored technical documentation, generated diagnostic images, and created worksheets to assist other mechanics with advanced troubleshooting duties.
+> [!note] Foundational Experience & Electronics Mastery
+> Prior to enterprise security engineering, developed foundational expertise spanning hardware-level diagnostics, component-level electronics repair, web hosting, and municipal fleet RF communications. Full historical records and duty breakdowns are cataloged in the **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
 
-*Skills Applied: Hardware Diagnostics, Electronics Repair, System Analysis, Technical Documentation, Systems Integration, Fleet Management.*
-
-### IT Director
-**BGE Technologies** | *May 2008 – Mar 2010*
-
-- Architected, planned, and implemented comprehensive network infrastructure tailored for Small and Medium Business (SMB) clients.
-- Maintained, secured, and administered Microsoft IIS web servers and email systems (including SmarterMail), providing critical 24/7 on-call server management.
-- Designed, developed, and maintained custom websites for clients to enhance their digital footprint.
-- Delivered component-level maintenance and repair for client laser printers and desktop hardware, alongside direct on-site and phone support for OS/application issues.
-- Consulted directly with business owners to guide technology-driven decisions regarding marketing, services, and scalable IT growth.
-
-*Skills Applied: Network Design, Server Administration (IIS), Web Design, Microsoft Exchange, Hardware Repair, IT Consulting, Strategic Planning.*
-
-### Diagnostic Technician
-**PCS Automotive Inc** | *May 2007 – May 2008*
-
-- Programmed, flashed, and calibrated automotive computer systems and engine control modules (ECMs).
-- Diagnosed severe mechanical/electrical failures and entirely rewired complex automotive electrical harnesses.
-- Maintained the diagnostic shop's internal network infrastructure and diagnostic software suites.
-
-*Skills Applied: Hardware Diagnostics, Electronics Repair, Embedded Systems, Troubleshooting, Network Maintenance.*
-
-### Computer Technician
-**Bellaire Puritas Development Corporation** | *Nov 2006 – Apr 2007*
-
-- Cataloged, repaired, and prepared donated computer hardware for community deployment and installation.
-- Diagnosed and repaired local area network (LAN) and hardware issues for internal staff.
-- Maintained, updated, and modernized the organization's pre-existing website.
-
-*Skills Applied: Hardware Lifecycle Management, IT Hardware Support, Technical Troubleshooting, Local Area Network (LAN), Web Maintenance.*
-
-### IT Professional
-**BGE Technologies** | *Jan 2003 – Aug 2006*
-
-- Administered and maintained Microsoft IIS web servers and Microsoft Exchange email environments.
-- Managed and maintained legacy dial-up internet access systems and ISP infrastructure.
-- Performed deep, component-level diagnostics and electronic repairs on televisions, CRT monitors, and laser printers.
-
-*Skills Applied: System Administration, Web Servers (IIS), Electronics Repair, Troubleshooting, Telecommunications, Hardware Maintenance.*
+* **Electronic Technician** | *Cuyahoga County Engineers* | *Aug 2010 – Oct 2011*  
+  *Diagnosed automotive computer control modules, engineered vehicle communication systems, and maintained UHF radio networks.*
+* **IT Director** | *BGE Technologies* | *May 2008 – Mar 2010*  
+  *Architected SMB network infrastructure, administered Microsoft IIS web servers, and delivered on-site hardware support.*
+* **Diagnostic Technician** | *PCS Automotive Inc* | *May 2007 – May 2008*  
+  *Programmed and flashed automotive engine control modules (ECMs) and rewired complex electrical harnesses.*
+* **Computer Technician** | *Bellaire Puritas Development Corporation* | *Nov 2006 – Apr 2007*  
+  *Reconditioned hardware, repaired local area networks, and maintained municipal web infrastructure.*
+* **IT Professional & Electronics Specialist** | *BGE Technologies* | *Jan 2003 – Aug 2006*  
+  *Administered IIS/Exchange servers, dial-up ISP infrastructure, and executed component-level CRT/PCB electronics repair.*
 
 ---
 

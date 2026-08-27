@@ -49,7 +49,7 @@ Violations of this policy, particularly those involving unauthorized AI data exp
 
 * **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]], [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Encryption_Policy|Encryption Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]], [[Governance/Policies/Incident_Response_Plan|Incident Response Plan]].
-* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
