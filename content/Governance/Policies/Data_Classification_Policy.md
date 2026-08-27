@@ -77,7 +77,7 @@ Non-Compliance may result in revocation of system access, notification of leader
 
 * **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Encryption_Policy|Encryption Policy]], [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
-* **Technical Articles:** Deep dive in [[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

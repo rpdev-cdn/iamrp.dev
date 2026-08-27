@@ -122,7 +122,7 @@ services:
 
 * **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]], [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Current_Environment|Current Environment]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

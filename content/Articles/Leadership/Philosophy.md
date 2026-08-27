@@ -1,5 +1,5 @@
 ---
-title: "Leadership Philosophy: Asynchronous Autonomy, AI Augmentation & Psychological Safety"
+title: "Leadership Philosophy"
 tags:
   - leadership
   - management
@@ -8,6 +8,9 @@ tags:
   - devex
   - article
 aliases:
+  - /articles/leadership_philosophy
+  - /leadership_philosophy
+  - /articles/leadership/philosophy
   - /governance/policies/leadership_philosophy
   - /governance/policies/leadership-philosophy
   - /governance/leadership_philosophy
@@ -83,6 +86,6 @@ The modern IT leader is not a taskmaster, but an **architect of systems and a cu
 
 * **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]], [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Vendor_and_Resource_Management|Vendor and Resource Management]], [[Governance/Policies/Security_Awareness_Training|Security Awareness Training]].
-* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]], [[Resume/Legacy_Roles|Legacy Roles]]).
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

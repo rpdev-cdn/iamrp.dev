@@ -1,10 +1,14 @@
 ---
-title: "Uses: Workstation, Homelab & Security Toolchain"
+title: "Lab & Workstation Spec"
 description: "A comprehensive breakdown of the hardware, operating systems, security tokens, and software toolchains powering my engineering workflows and homelab infrastructure."
 aliases:
   - /uses
   - /spec
   - /tools/uses
+  - /articles/lab_and_workstation_spec
+  - /lab_and_workstation_spec
+  - /articles/hardware/lab-workstation
+  - /articles/hardware/lab_workstation
 tags:
   - uses
   - workstation
@@ -13,7 +17,8 @@ tags:
   - tooling
 ---
 
-# /uses — Workstation, Lab & Toolchain
+# Uses: Workstation, Homelab & Security Toolchain
+## **/uses — Workstation, Lab & Toolchain Specification**
 
 > [!abstract] Engineering Environment & Hardware Stack
 > A transparent inventory of the physical workstations, edge compute nodes, hardware security keys, and daily driver software tools utilized across my systems architecture, security research, and container operations.

@@ -86,6 +86,6 @@ Production architectures, bare-metal telemetry systems, and distributed containe
 * **Master Resume & Experience:** Review production systems experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
 * **Security & AI Research:** Explore autonomous research swarms on **[[Research/index|Security & AI Systems Research]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Multi-Agent Security Swarm]]**.
 * **Enterprise Governance:** Review policy and compliance frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Governance/Policies/index|Enterprise Policies Directory]]**.
-* **Technical Field Guides:** Read deep architectural articles on **[[Articles/index|Technical Articles & Field Guides]]**, **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**, and **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**.
+* **Technical Field Guides:** Read deep architectural articles on **[[Articles/index|Technical Articles & Field Guides]]**, **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing]]**, and **[[Articles/Architecture/Systems_Automation|Systems & Automation Architecture]]**.
 * **Interactive Tools:** Explore live applications on **[[Tools/index|Tools & Live Applications]]** and **[[Tools/DocIngest/index|DocIngest Suite]]**.
 * **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.

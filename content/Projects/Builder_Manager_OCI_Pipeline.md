@@ -191,7 +191,7 @@ The output `dependency_registry.json` serves as an authoritative inventory for l
 
 * **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]], [[Projects/Layer2_Containerization|Layer2 Containerization]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research/Codex_Arcana|Codex Arcana]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

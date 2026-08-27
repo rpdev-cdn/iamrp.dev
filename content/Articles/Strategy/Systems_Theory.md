@@ -1,5 +1,5 @@
 ---
-title: "Games & Systems Theory: War Games, Adversary Emulation & Cognitive Attack Surfaces"
+title: "War Games & Systems Theory"
 tags:
   - games
   - systems-theory
@@ -10,10 +10,15 @@ tags:
   - war-games
 date: "2026-08-22"
 aliases:
+  - /articles/games--and--systems-theory
+  - /articles/games--and--systems-theory/index
+  - /articles/games-and-systems-theory
   - /games--and--theory
+  - /articles/strategy/systems-theory
+  - /strategy/systems-theory
 ---
 
-# Games & Systems Theory
+# Games & Systems Theory: War Games, Adversary Emulation & Cognitive Attack Surfaces
 ## **Strategic Decision-Making, Feedback Dynamics, Cyber War Gaming & Cognitive Exploitation**
 
 > [!abstract] Executive Thesis
@@ -238,8 +243,8 @@ To operationalize these principles, modern defense relies on **high-concurrency,
 ---
 
 _Related Documents:_
-- **[[Articles/MCP_in_Enterprise_Operations|MCP in Enterprise Operations]]**
-- **[[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]]**
+- **[[Articles/Architecture/MCP_Enterprise|MCP in Enterprise Operations]]**
+- **[[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab-Validated Defense Playbooks]]**
 - **[[Research/Security_Analysis_and_Research_Agent/Empirical_Telemetry_and_RF_Analysis|Empirical Telemetry & RF Anomaly Modeling]]**
 
@@ -248,6 +253,6 @@ _Related Documents:_
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]].
-* **Technical Articles:** Deep dive in [[Articles/Leadership_Philosophy|Leadership Philosophy]], [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Leadership/Philosophy|Leadership Philosophy]], [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

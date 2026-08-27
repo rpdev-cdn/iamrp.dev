@@ -111,7 +111,7 @@ By connecting honeypot triggers directly to the CrowdSec Local API (LAPI), attac
 
 * **Production Systems:** Validated in [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Incident_Response_Plan|Incident Response Plan]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research/Security_Analysis_and_Research_Agent/Sources_and_Matrix|Sources and Matrix]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

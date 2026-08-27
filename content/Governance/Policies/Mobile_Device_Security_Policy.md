@@ -58,7 +58,7 @@ By accessing corporate resources, the employee acknowledges and agrees to comply
 
 * **Production Systems:** Validated in [[Projects/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]], [[Projects/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Encryption_Policy|Encryption Policy]].
-* **Technical Articles:** Deep dive in [[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

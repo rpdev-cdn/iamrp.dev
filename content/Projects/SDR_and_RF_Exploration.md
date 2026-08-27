@@ -47,7 +47,7 @@ Understanding the physical limitations of hardware (such as heat dissipation on 
 
 * **Production Systems:** Validated in [[Projects/ADSB_Aviation_SDR_Telemetry_Pipeline|ADSB Aviation SDR Telemetry Pipeline]], [[Projects/OpenThread_Border_Router|OpenThread Border Router]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

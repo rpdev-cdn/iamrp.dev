@@ -119,7 +119,7 @@ services:
 
 * **Production Systems:** Validated in [[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]], [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Systems_and_Automation_Architecture|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

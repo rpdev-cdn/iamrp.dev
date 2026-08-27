@@ -1,5 +1,5 @@
 ---
-title: "Model Context Protocol (MCP): The Nervous System for Local AI Agent Swarms"
+title: "MCP Enterprise Operations"
 tags:
   - ai
   - mcp
@@ -9,6 +9,10 @@ tags:
 date: "2026-08-22"
 aliases:
   - /articles--and--wiki/mcp_in_enterprise_operations
+  - /articles/mcp_in_enterprise_operations
+  - /mcp_in_enterprise_operations
+  - /articles/architecture/mcp-enterprise
+  - /articles/architecture/mcp_enterprise
 ---
 
 # Model Context Protocol (MCP): The Nervous System for Local AI Agent Swarms

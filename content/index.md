@@ -47,7 +47,7 @@ tags:
 
 > [!tip] Tailored Navigation by Role
 > * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827).
-> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Lab_and_Workstation_Spec|/uses Hardware & Stack Specification]]**, or inspect the live **[[Projects/Current_Environment|Current Fleet Topology]]**.
+> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Hardware/Lab_Workstation|/uses Hardware & Stack Specification]]**, or inspect the live **[[Projects/Current_Environment|Current Fleet Topology]]**.
 > * 🔒 **CISOs & Security Directors:** Audit the **[[Governance/Policies/index|19 Enterprise Security Policies]]**, review **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
 ---
@@ -67,7 +67,7 @@ Explore the primary sections of the portfolio:
 - **[[Governance/index|Enterprise Policy & Governance]]** <span class="telemetry-badge standby">19 ENTERPRISE POLICIES</span>  
   *Complete suite of **[[Governance/Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Governance/Policies/Information_Security_Policy|Information Security]]**, **[[Governance/Policies/Incident_Response_Plan|Incident Response]]**, **[[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Governance/Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
 - **[[Articles/index|Technical Articles & Field Guides]]**  
-  *Deep technical writing: **[[Articles/Leadership_Philosophy|Leadership Philosophy]]**, **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Games & Systems Theory/index|Games & Systems Complexity]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, and **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**.*
+  *Deep technical writing: **[[Articles/Leadership/Philosophy|Leadership Philosophy]]**, **[[Articles/Architecture/Systems_Automation|Systems & Automation Architecture]]**, **[[Articles/Strategy/Systems_Theory|Games & Systems Complexity]]**, **[[Articles/Architecture/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**, and **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing]]**.*
 
 ---
 

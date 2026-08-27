@@ -1,5 +1,5 @@
 ---
-title: "Systems & Automation Architecture: Layer 2 Networks, Storage Tiering & GitOps"
+title: "Systems & Automation"
 tags:
   - infrastructure
   - devops
@@ -8,13 +8,17 @@ tags:
   - networking
   - gitops
 aliases:
+  - /articles/systems_and_automation_architecture
+  - /systems_and_automation_architecture
+  - /articles/architecture/systems-automation
+  - /articles/architecture/systems_automation
   - /resume/infrastructure_architecture
   - /resume--and--experience/networking--and--infrastructure/infrastructure
   - /infrastructure_architecture
   - /articles/infrastructure_architecture
 ---
 
-# Systems & Automation Architecture
+# Systems & Automation Architecture: Layer 2 Networks, Storage Tiering & GitOps
 ## **Declarative Orchestration, Layer 2 Virtualization, Hardware-Aware Storage & Immutable GitOps**
 
 > [!abstract] Architectural Thesis
@@ -106,8 +110,8 @@ Architectural reliability requires multi-site fault tolerance and automated reco
 ---
 
 _Related Documents:_
-- **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing & Network Architecture]]**
-- **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**
+- **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing & Network Architecture]]**
+- **[[Articles/Architecture/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**
 - **[[Projects/Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM Case Study]]**
 - **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering Case Study]]**
 - **[[Projects/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]]**
@@ -119,6 +123,6 @@ _Related Documents:_
 
 * **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]], [[Resume/Legacy_Roles|Legacy Roles]]).
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

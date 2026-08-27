@@ -1,5 +1,5 @@
 ---
-title: "Zero Trust at the Edge: Hardening OpenWrt with CrowdSec & Cloudflare Tunnels"
+title: "Zero Trust Edge Routing"
 tags:
   - openwrt
   - security
@@ -9,6 +9,10 @@ tags:
 date: "2026-08-22"
 aliases:
   - /articles--and--wiki/zero_trust_edge_routing
+  - /articles/white-papers/zero_trust_edge_routing
+  - /articles/whitepapers/zero_trust_edge_routing
+  - /zero_trust_edge_routing
+  - /articles/whitepapers/zero-trust-edge
 ---
 
 # Zero Trust at the Edge: Hardening OpenWrt with CrowdSec & Cloudflare Tunnels

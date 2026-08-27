@@ -78,7 +78,7 @@ This migration completely eliminated port collisions and complex host-level rout
 
 * **Production Systems:** Validated in [[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Zero_Trust_Edge_Routing|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

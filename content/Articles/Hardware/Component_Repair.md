@@ -1,5 +1,5 @@
 ---
-title: "From Cathode Ray Tubes to Silicon Interposers: 20 Years of Component-Level Repair"
+title: "20 Years Component Repair"
 tags:
   - hardware
   - diagnostics
@@ -8,6 +8,10 @@ tags:
 date: "2026-08-22"
 aliases:
   - /articles--and--wiki/bare_metal_diagnostics_lessons
+  - /articles/bare_metal_diagnostics_lessons
+  - /bare_metal_diagnostics_lessons
+  - /articles/hardware/component-repair
+  - /articles/hardware/component_repair
 ---
 
 # From Cathode Ray Tubes to Silicon Interposers: 20 Years of Component-Level Repair

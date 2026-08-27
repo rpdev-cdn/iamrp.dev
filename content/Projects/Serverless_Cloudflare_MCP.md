@@ -152,7 +152,7 @@ Deploying MCP servers as serverless edge workers provides an optimal paradigm fo
 
 * **Production Systems:** Validated in [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]], [[Projects/LLM_Control_Plane|LLM Control Plane]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
-* **Technical Articles:** Deep dive in [[Articles/MCP_In_Enterprise_Operations|MCP In Enterprise Operations]].
+* **Technical Articles:** Deep dive in [[Articles/Architecture/MCP_Enterprise|MCP In Enterprise Operations]].
 * **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].

@@ -111,7 +111,7 @@ To eliminate buffering and RTSP stream latency, `go2rtc` acts as a high-performa
 
 * **Production Systems:** Validated in [[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Bare_Metal_Diagnostics_Lessons|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
