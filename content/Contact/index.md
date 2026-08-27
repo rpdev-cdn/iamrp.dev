@@ -65,11 +65,8 @@ Z3OSqLSmGSvZG8hJHBo9tav4VQk=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-#### FIDO2 Signing Key for Code
+#### FIDO2 Hardware Signing Key
 ```text
-/home/llmuser/.ssh/id_ecdsa_sk_age
-60:ac:d0:e9:7c:9e:a3:07:bc:e0:77:40:bf:19:47:c3
-
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBFPAzcbDlFj7zj9zcb4L9EDOE6WXJZJOsARpF8n4UcLe2P69CWREYvVbfIBBaRU3TfuLq6v4y/z5G7XV9dk687QAAAAEc3NoOg== age-fido2
 ```
 ---
