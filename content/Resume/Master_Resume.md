@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: "Curriculum Vitae & Master Resume"
 description: "Curriculum Vitae and Master Resume for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
 tags:
@@ -8,6 +9,7 @@ tags:
   - architecture
   - security
 aliases:
+  - /resume--and--experience/resume
   - /master-resume
   - /resume--and--experience/master_resume
 ---
@@ -74,7 +76,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Implemented spatial Tiered Storage Architecture, deploying high-I/O PostgreSQL databases to NVMe SSDs while mapping volatile active-defense honeypots (Cowrie, Endlessh) directly to tmpfs RAM disks to eliminate SSD flash-wear.
 - Automated CI/CD pipelines using self-hosted GitHub Actions runners to compile custom OpenWrt firmware and deploy container manifests based on immutable environment states.
 
-*Skills Applied: Enterprise Architecture, Cybersecurity, Zero Trust Architecture, AI Integration, Containerization (Docker), CI/CD Pipelines, Network Architecture, Cloud Computing.*
 
 ### System Engineer (Contract via Apex Systems)
 **Rockwell Automation** | *Sep 2021 – May 2022*
@@ -84,7 +85,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Administered Active Directory infrastructure and orchestrated virtualized clusters via VMware vSphere consoles to ensure continuous high availability.
 - Executed zero-downtime emergency break-fix response and infrastructure maintenance with strict adherence to change management procedures and complex SAN switching fabrics.
 
-*Skills Applied: Storage Area Networks (SAN), Server Administration, VMware Infrastructure, Active Directory, High Availability (HA), Change Management, Technical Support, Enterprise Hardware Troubleshooting.*
 
 ### Senior System Security Engineer
 **Clunk, Hoose Co., LPA** | *Oct 2020 – Jul 2021*
@@ -94,7 +94,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Enforced enterprise business continuity by deploying multi-site Veeam backup replication, achieving a <15-minute Recovery Point Objective (RPO).
 - Conducted deep-level remediation of 40+ legacy Active Directory and DNS misconfigurations, hardening VMware virtualization clusters against privilege escalation vectors.
 
-*Skills Applied: Systems Architecture, Cybersecurity, Disaster Recovery, Data Center Migration, Microsoft Office 365, Veeam Backup & Replication, VMware Clusters, Active Directory.*
 
 ### Systems Administrator (Contractor)
 **Q Holding, Co.** | *Mar 2020 – Jul 2020*
@@ -104,7 +103,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Maintained and hardened Synology SAN and QNAP NAS systems across multiple remote sites to guarantee data integrity and high availability.
 - Executed critical infrastructure upgrades, re-configuring VMware clusters and remediating legacy Active Directory and DNS misconfigurations.
 
-*Skills Applied: Firewall Administration (SonicWall), Disaster Recovery, SAN/NAS Storage, VMware Infrastructure, Systems Hardening, Active Directory, Enterprise Software Management.*
 
 ### Senior Systems Administrator / Network Security Analyst
 **ASM Research (Contracted to Veterans Health Administration)** | *Mar 2017 – Jan 2020*
@@ -115,7 +113,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Authored custom PowerShell and Batch scripts to automate Active Directory administration, SCCM task sequences, and large-scale software deployments across thousands of endpoints.
 - Assisted executive management with complex overlapping projects, ensuring seamless execution alongside strict contractual SLA duties.
 
-*Skills Applied: Vulnerability Management (Nessus), System Center Configuration Manager (SCCM), Endpoint Security, PowerShell Scripting, Active Directory, Technical Leadership, Government Compliance.*
 
 ### Information Security Officer
 **Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates** | *Oct 2011 – Mar 2017*
@@ -129,7 +126,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, and software licensing. Directed Help Desk operations and out-of-hours critical system maintenance to preserve 100% core business-hours uptime.
 - Managed enterprise VOIP phone systems and securely administrated external web properties and password management vaults.
 
-*Skills Applied: Information Security Management, Security Auditing, Business Continuity Planning, IT Policy Development, Systems Architecture, Project Management, Voice over IP (VoIP), IT Procurement.*
 
 ### Systems Administrator
 **ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)** | *Oct 2011 – Aug 2015*
@@ -141,7 +137,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Administered software licensing, inventory lifecycle management, and Help Desk triage workflows to maintain a sub-1 hour resolution time on critical tickets.
 - Spearheaded database maintenance, HotDocs template management, and delivered weekly sprint status reports to executive management.
 
-*Skills Applied: Network Infrastructure, Data Protection & Backup, Procurement, Help Desk Support, Technical Troubleshooting, Systems Administration, Database Administration.*
 
 ### Early Career & Technical Foundations (2003 – 2011)
 

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: Legacy Roles & Early Career Archive
 description: Historical archive of career positions, systems engineering, and hardware roles (2003–2016).
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: "Professional Endorsements & References"
 description: "Third-party recommendations, academic honors, and verified leadership references for Richard P. Dissell across enterprise security and systems architecture engagements."
 aliases:

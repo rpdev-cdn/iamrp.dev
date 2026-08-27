@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: "Richard P. Dissell — Security Analyst, Systems Architect & Infrastructure Engineer"
 description: "Professional digital garden and systems portfolio for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
 tags:

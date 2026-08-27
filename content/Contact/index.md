@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: "Contact & Cryptographic Identity Verification"
 description: "Verified direct communication channels, PGP cryptographic signing keys, GPG fingerprints, and FIDO2 hardware identity roots for Richard P. Dissell."
 aliases:
