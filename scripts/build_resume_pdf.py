@@ -1,108 +1,176 @@
 #!/usr/bin/env python3
 """
 build_resume_pdf.py
-Generates a synchronized, professional PDF version of the Master Resume from iamrp.dev.
-1. Serves the static Quartz site via a lightweight HTTP server.
-2. Renders the Master Resume using headless Chromium with custom print styles.
-3. Post-processes the PDF with pypdf to inject metadata and compress streams.
-4. Distributes the PDF to the CDN repository directory.
+Pure Python PDF generation pipeline for iamrp.dev resume.
+- Converts Master_Resume.md directly to print-optimized HTML (markdown).
+- Renders high-fidelity vector PDF with professional typography and page numbers (weasyprint).
+- Post-processes and compresses content streams + injects metadata (pypdf).
+- Zero headless browser, Zero Node.js, Zero Puppeteer overhead.
 """
 
 import os
 import sys
-import subprocess
-import threading
-import http.server
-import socketserver
+import re
+import time
+import markdown
+import weasyprint
 import pypdf
 
-PORT = 8767
-PUBLIC_DIR = os.path.abspath("public")
-CDN_PDF_DIR = os.path.abspath("../cdn.iamrp.dev/pdf")
-OUTPUT_PDF = os.path.join(CDN_PDF_DIR, "Richard_Dissell_Resume.pdf")
-LOCAL_OUTPUT = os.path.join(PUBLIC_DIR, "Richard_Dissell_Resume.pdf")
-
-
-class CleanUrlHandler(http.server.SimpleHTTPRequestHandler):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=PUBLIC_DIR, **kwargs)
-
-    def translate_path(self, path):
-        translated = super().translate_path(path)
-        if not os.path.exists(translated):
-            if os.path.exists(translated + ".html"):
-                return translated + ".html"
-            dir_name = os.path.dirname(translated)
-            base_name = os.path.basename(translated).lower()
-            if os.path.exists(dir_name):
-                for f in os.listdir(dir_name):
-                    if f.lower() == base_name or f.lower() == base_name + ".html":
-                        return os.path.join(dir_name, f)
-        return translated
-
-    def log_message(self, format, *args):
-        pass
-
-
 def main():
-    if not os.path.exists(PUBLIC_DIR):
-        print(f"Error: {PUBLIC_DIR} does not exist. Run npx quartz build first.")
+    start_time = time.time()
+    
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(script_dir, "..")) if os.path.basename(script_dir) == "scripts" else os.getcwd()
+    
+    md_path = os.path.join(project_root, "content/Resume/Master_Resume.md")
+    if not os.path.exists(md_path):
+        md_path = "/mnt/sharedroot/documentation/CDN/iamrp.dev/content/Resume/Master_Resume.md"
+    
+    if not os.path.exists(md_path):
+        print(f"[!] Error: Could not find Master_Resume.md at {md_path}")
         sys.exit(1)
 
-    print(f"[*] Starting local static server on port {PORT}...")
-    httpd = socketserver.TCPServer(("127.0.0.1", PORT), CleanUrlHandler)
-    server_thread = threading.Thread(target=httpd.serve_forever, daemon=True)
-    server_thread.start()
+    print(f"[*] Reading source resume from: {md_path}")
+    with open(md_path, "r", encoding="utf-8") as f:
+        raw_md = f.read()
 
-    temp_raw_pdf = os.path.join(PUBLIC_DIR, "raw_resume.pdf")
+    # 1. Strip YAML frontmatter
+    if raw_md.startswith("---"):
+        parts = raw_md.split("---", 2)
+        if len(parts) >= 3:
+            raw_md = parts[2]
 
-    node_render_script = f"""
-    const puppeteer = require("puppeteer");
-    (async () => {{
-      const browser = await puppeteer.launch({{
-        executablePath: "/usr/bin/chromium",
-        headless: "new",
-        args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu"]
-      }});
-      const page = await browser.newPage();
-      await page.setViewport({{ width: 1200, height: 1600 }});
-      await page.goto("http://127.0.0.1:{PORT}/resume/master_resume", {{ waitUntil: "networkidle0" }});
+    # 2. Strip Web-Only interactive elements (buttons, sync alerts)
+    raw_md = re.sub(r'<div[\s\S]*?</div>', '', raw_md)
+    raw_md = re.sub(r'>\s*\[!note\]\s*Artifact Synchronization[\s\S]*?(?=\n\n|\n#|$)', '', raw_md)
 
-      await page.evaluate(() => {{
-        const hideSelectors = [".sidebar", ".page-header", "footer", ".toc", ".breadcrumb-container", ".footer-git-info", ".backlinks", ".graph"];
-        hideSelectors.forEach(selector => {{
-          document.querySelectorAll(selector).forEach(el => el.style.display = "none");
-        }});
-        const center = document.querySelector(".center");
-        if (center) {{
-          center.style.maxWidth = "100%";
-          center.style.width = "100%";
-          center.style.margin = "0";
-          center.style.padding = "20px";
-        }}
-      }});
+    # 3. Format Obsidian callouts as clean blockquotes
+    raw_md = re.sub(r'>\s*\[!(\w+)\]\s*(.*)', r'> **\2**', raw_md)
 
-      await page.pdf({{
-        path: "{temp_raw_pdf}",
-        format: "Letter",
-        printBackground: true,
-        margin: {{ top: "0.4in", right: "0.4in", bottom: "0.4in", left: "0.4in" }}
-      }});
+    # 4. Clean wikilinks [[Target|Label]] -> Label, [[Target]] -> Target
+    raw_md = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]+)\]\]', r'\1', raw_md)
 
-      await browser.close();
-    }})();
+    # 5. Convert Markdown to HTML
+    html_body = markdown.markdown(raw_md, extensions=["tables", "fenced_code"])
+
+    # 6. Executive Print Stylesheet (Letter, margins, typography, page counters)
+    css = """
+    @page {
+        size: letter;
+        margin: 0.45in 0.5in 0.45in 0.5in;
+        @bottom-right {
+            content: 'Page ' counter(page) ' of ' counter(pages);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 7.5pt;
+            color: #64748b;
+        }
+        @bottom-left {
+            content: 'Richard P. Dissell — Master Resume & CV (https://iamrp.dev)';
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 7.5pt;
+            color: #64748b;
+        }
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 9pt;
+        line-height: 1.4;
+        color: #1e293b;
+    }
+    h1 {
+        font-size: 16pt;
+        font-weight: 800;
+        margin: 0 0 2px 0;
+        color: #0f172a;
+        border-bottom: 2px solid #0284c7;
+        padding-bottom: 3px;
+        letter-spacing: -0.02em;
+    }
+    h2 {
+        font-size: 11pt;
+        font-weight: 700;
+        margin: 10px 0 4px 0;
+        color: #0369a1;
+        border-bottom: 1px solid #e2e8f0;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+    h3 {
+        font-size: 9.5pt;
+        font-weight: 700;
+        margin: 6px 0 2px 0;
+        color: #1e293b;
+    }
+    p, ul, ol {
+        margin: 0 0 4px 0;
+    }
+    ul, ol {
+        padding-left: 15px;
+    }
+    li {
+        margin-bottom: 2px;
+    }
+    a {
+        color: #0284c7;
+        text-decoration: none;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 6px 0;
+        font-size: 8pt;
+    }
+    th, td {
+        border: 1px solid #cbd5e1;
+        padding: 3px 5px;
+        text-align: left;
+    }
+    th {
+        background-color: #f8fafc;
+        font-weight: bold;
+        color: #0f172a;
+    }
+    blockquote {
+        margin: 4px 0;
+        padding: 4px 8px;
+        background: #f8fafc;
+        border-left: 3px solid #0284c7;
+        font-size: 8.5pt;
+        color: #334155;
+    }
+    code {
+        font-family: 'JetBrains Mono', 'Courier New', monospace;
+        font-size: 8pt;
+        background: #f1f5f9;
+        padding: 1px 3px;
+        border-radius: 2px;
+    }
+    hr {
+        border: none;
+        border-top: 1px solid #e2e8f0;
+        margin: 6px 0;
+    }
     """
 
-    print("[*] Rendering Master Resume via Chromium...")
-    proc = subprocess.run(["node", "-e", node_render_script], capture_output=True, text=True)
-    httpd.shutdown()
+    full_html = f"""<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset='utf-8'>
+    <style>{css}</style>
+    </head>
+    <body>
+    {html_body}
+    </body>
+    </html>"""
 
-    if proc.returncode != 0:
-        print("[!] Render failed:", proc.stderr)
-        sys.exit(1)
+    temp_pdf = os.path.join(project_root, "temp_generated_resume.pdf")
+    print("[*] Rendering PDF with WeasyPrint...")
+    weasyprint.HTML(string=full_html).write_pdf(temp_pdf)
 
-    print("[*] Post-processing PDF with pypdf (metadata + stream compression)...")
-    reader = pypdf.PdfReader(temp_raw_pdf)
+    # 7. Post-process with pypdf
+    print("[*] Optimizing content streams and injecting metadata with pypdf...")
+    reader = pypdf.PdfReader(temp_pdf)
     writer = pypdf.PdfWriter()
 
     for page in reader.pages:
@@ -116,23 +184,34 @@ def main():
         "/Author": "Richard P. Dissell",
         "/Subject": "Security Analysis, Systems Architecture & Infrastructure Engineering",
         "/Keywords": "Security, Zero Trust, Infrastructure, Linux, Architecture, CI/CD, DevOps",
-        "/Creator": "iamrp.dev Build Engine",
-        "/Producer": f"iamrp.dev (pypdf v{pypdf.__version__})"
+        "/Creator": "iamrp.dev Pure-Python WeasyPrint + pypdf Build Engine",
+        "/Producer": f"pypdf v{pypdf.__version__}"
     })
 
-    if os.path.exists(CDN_PDF_DIR):
-        with open(OUTPUT_PDF, "wb") as f:
+    # Targets
+    cdn_pdf_dir = "/mnt/sharedroot/documentation/CDN/cdn.iamrp.dev/pdf"
+    if not os.path.exists(cdn_pdf_dir):
+        cdn_pdf_dir = os.path.abspath(os.path.join(project_root, "../cdn.iamrp.dev/pdf"))
+    
+    local_public_dir = os.path.join(project_root, "public")
+
+    if os.path.exists(cdn_pdf_dir):
+        cdn_out = os.path.join(cdn_pdf_dir, "Richard_Dissell_Resume.pdf")
+        with open(cdn_out, "wb") as f:
             writer.write(f)
-        print(f"[✓] Saved CDN resume PDF to: {OUTPUT_PDF} ({os.path.getsize(OUTPUT_PDF) // 1024} KB)")
+        print(f"[✓] Saved CDN PDF: {cdn_out} ({os.path.getsize(cdn_out) // 1024} KB)")
 
-    with open(LOCAL_OUTPUT, "wb") as f:
-        writer.write(f)
-    print(f"[✓] Saved local resume PDF to: {LOCAL_OUTPUT} ({os.path.getsize(LOCAL_OUTPUT) // 1024} KB)")
+    if os.path.exists(local_public_dir):
+        local_out = os.path.join(local_public_dir, "Richard_Dissell_Resume.pdf")
+        with open(local_out, "wb") as f:
+            writer.write(f)
+        print(f"[✓] Saved Local Public PDF: {local_out} ({os.path.getsize(local_out) // 1024} KB)")
 
-    if os.path.exists(temp_raw_pdf):
-        os.remove(temp_raw_pdf)
+    if os.path.exists(temp_pdf):
+        os.remove(temp_pdf)
 
-    print("[✓] PDF Generation and optimization complete!")
+    elapsed = time.time() - start_time
+    print(f"[✓] Pure-Python PDF Build completed in {elapsed:.2f}s! ({len(writer.pages)} pages)")
 
 if __name__ == "__main__":
     main()

@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - 'content/Resume/Master_Resume.md'
-      - 'quartz/**'
-      - 'quartz.config.yaml'
+      - 'scripts/build_resume_pdf.py'
     branches:
       - main
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   generate-and-push-pdf:
@@ -19,23 +21,14 @@ jobs:
         with:
           path: 'iamrp'
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies & Build Quartz
-        working-directory: ./iamrp
+      - name: Install Pure-Python PDF Toolchain
         run: |
-          npm ci
-          npm install puppeteer
-          pip install pypdf
-          npx quartz build
+          pip install markdown weasyprint pypdf
 
       - name: Checkout CDN Repo
         uses: actions/checkout@v4
@@ -44,7 +37,7 @@ jobs:
           path: 'cdn'
           token: ${{ secrets.PAT_CDN_PUSH || secrets.GITHUB_TOKEN }}
 
-      - name: Run Build Resume PDF & pypdf Optimization
+      - name: Run Pure-Python Resume Build & pypdf Optimization
         run: |
           cd iamrp
           python3 scripts/build_resume_pdf.py
@@ -58,7 +51,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add pdf/Richard_Dissell_Resume.pdf
-          git commit -m "chore(pdf): auto-update resume PDF via pypdf pipeline" || echo "No changes to commit"
+          git commit -m "chore(pdf): auto-update resume PDF via pure-python weasyprint + pypdf" || echo "No changes to commit"
           git push
 
       - name: Dispatch Event to CDN Repo
