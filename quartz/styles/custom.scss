@@ -675,3 +675,134 @@ td a.external {
     z-index: 1000000 !important;
   }
 }
+
+/* ==========================================================================
+ * EXPANSIVE FULL-FOCUS READER MODE
+ * Reconfigures the Quartz grid to collapse sidebars, expand content width,
+ * optimize reading typography, and dock the floating control toolbar.
+ * ========================================================================== */
+
+:root[reader-mode="on"] {
+  .page {
+    max-width: 1040px !important;
+    transition: max-width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  #quartz-body {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 960px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 1.5rem 1.5rem 4rem 1.5rem !important;
+    box-sizing: border-box !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* 1. Completely collapse the left sidebar so it occupies zero space */
+    .sidebar.left {
+      display: none !important;
+    }
+
+    /* 2. Reposition the right sidebar so TOC/backlinks hide, but toolbar stays docked */
+    .sidebar.right {
+      position: static !important;
+      height: auto !important;
+      width: auto !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      opacity: 1 !important;
+
+      .toc,
+      .backlinks {
+        display: none !important;
+      }
+
+      /* Floating control dock for Dark Mode, Search & Reader Mode Toggle */
+      .flex-component:first-child {
+        position: fixed !important;
+        top: 1.25rem !important;
+        right: 1.5rem !important;
+        z-index: 10000 !important;
+        background: var(--lightgray, #1e1b2e) !important;
+        padding: 0.4rem 0.85rem !important;
+        border-radius: 8px !important;
+        border: 1px solid var(--gray, #767676) !important;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45) !important;
+        backdrop-filter: blur(10px) !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.85rem !important;
+      }
+    }
+
+    /* 3. Expand the center column to utilize the entire width */
+    .page-header {
+      margin-top: 2rem !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    .center {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+
+      > article {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 1.12rem;
+        line-height: 1.85;
+
+        p,
+        li {
+          font-size: 1.12rem !important;
+          line-height: 1.85 !important;
+        }
+
+        h1 {
+          font-size: 2.25rem !important;
+          margin-top: 2rem !important;
+          margin-bottom: 1rem !important;
+        }
+
+        h2 {
+          font-size: 1.65rem !important;
+          margin-top: 2.25rem !important;
+          margin-bottom: 0.85rem !important;
+        }
+
+        h3 {
+          font-size: 1.35rem !important;
+          margin-top: 1.75rem !important;
+          margin-bottom: 0.75rem !important;
+        }
+
+        /* Elements take advantage of the expansive reading canvas */
+        table,
+        pre,
+        blockquote.callout,
+        .docingest-app-container,
+        .mermaid {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+    }
+
+    footer {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-top: 4rem !important;
+    }
+  }
+
+  /* Active glow on the Reader Mode button */
+  .readermode {
+    svg {
+      fill: var(--secondary, #00afaf) !important;
+      stroke: var(--secondary, #00afaf) !important;
+      filter: drop-shadow(0 0 6px rgba(0, 175, 175, 0.7)) !important;
+    }
+  }
+}
+
