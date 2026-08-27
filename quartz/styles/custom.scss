@@ -566,10 +566,11 @@ td a.external {
  * ========================================================================== */
 
 .sidebar.left {
-  padding-left: 1.25rem !important;
+  padding-left: 1rem !important;
   padding-right: 1rem !important;
   width: 100% !important;
-  min-width: 420px !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
 }
 
 .explorer {
@@ -684,14 +685,15 @@ td a.external {
 
 :root[reader-mode="on"] {
   .page {
-    max-width: 1040px !important;
-    transition: max-width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 92% !important;
+    max-width: min(92vw, 1500px) !important;
+    transition: max-width 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   #quartz-body {
     display: flex !important;
     flex-direction: column !important;
-    max-width: 960px !important;
+    max-width: 100% !important;
     width: 100% !important;
     margin: 0 auto !important;
     padding: 1.5rem 1.5rem 4rem 1.5rem !important;
