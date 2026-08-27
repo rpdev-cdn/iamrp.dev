@@ -5,7 +5,7 @@ Pure Python PDF generation pipeline for iamrp.dev resume.
 - Converts Master_Resume.md directly to print-optimized HTML (markdown).
 - Renders high-fidelity vector PDF with professional typography and page numbers (weasyprint).
 - Post-processes and compresses content streams + injects metadata (pypdf).
-- Zero headless browser, Zero Node.js, Zero Puppeteer overhead.
+- Produces a balanced, executive 3-page resume document.
 """
 
 import os
@@ -53,11 +53,11 @@ def main():
     # 5. Convert Markdown to HTML
     html_body = markdown.markdown(raw_md, extensions=["tables", "fenced_code"])
 
-    # 6. Executive Print Stylesheet (Letter, margins, typography, page counters)
+    # 6. Executive Print Stylesheet (Letter, calibrated 3-page layout)
     css = """
     @page {
         size: letter;
-        margin: 0.45in 0.5in 0.45in 0.5in;
+        margin: 0.38in 0.45in 0.38in 0.45in;
         @bottom-right {
             content: 'Page ' counter(page) ' of ' counter(pages);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -73,43 +73,43 @@ def main():
     }
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 9pt;
-        line-height: 1.4;
+        font-size: 8.5pt;
+        line-height: 1.35;
         color: #1e293b;
     }
     h1 {
-        font-size: 16pt;
+        font-size: 15pt;
         font-weight: 800;
         margin: 0 0 2px 0;
         color: #0f172a;
         border-bottom: 2px solid #0284c7;
-        padding-bottom: 3px;
+        padding-bottom: 2px;
         letter-spacing: -0.02em;
     }
     h2 {
-        font-size: 11pt;
+        font-size: 10.5pt;
         font-weight: 700;
-        margin: 10px 0 4px 0;
+        margin: 8px 0 3px 0;
         color: #0369a1;
         border-bottom: 1px solid #e2e8f0;
-        padding-bottom: 2px;
+        padding-bottom: 1px;
         text-transform: uppercase;
         letter-spacing: 0.03em;
     }
     h3 {
-        font-size: 9.5pt;
+        font-size: 9pt;
         font-weight: 700;
-        margin: 6px 0 2px 0;
+        margin: 5px 0 2px 0;
         color: #1e293b;
     }
     p, ul, ol {
-        margin: 0 0 4px 0;
+        margin: 0 0 3px 0;
     }
     ul, ol {
-        padding-left: 15px;
+        padding-left: 14px;
     }
     li {
-        margin-bottom: 2px;
+        margin-bottom: 1.5px;
     }
     a {
         color: #0284c7;
@@ -118,38 +118,45 @@ def main():
     table {
         width: 100%;
         border-collapse: collapse;
-        margin: 6px 0;
-        font-size: 8pt;
+        margin: 4px 0;
+        font-size: 7.5pt;
+        line-height: 1.3;
     }
     th, td {
         border: 1px solid #cbd5e1;
-        padding: 3px 5px;
+        padding: 4px 6px;
+        vertical-align: top;
         text-align: left;
     }
     th {
-        background-color: #f8fafc;
+        background-color: #f1f5f9;
         font-weight: bold;
-        color: #0f172a;
+        color: #0369a1;
+        font-size: 8pt;
+    }
+    td {
+        width: 50%;
+        background-color: #f8fafc;
     }
     blockquote {
-        margin: 4px 0;
-        padding: 4px 8px;
+        margin: 3px 0;
+        padding: 3px 6px;
         background: #f8fafc;
-        border-left: 3px solid #0284c7;
-        font-size: 8.5pt;
+        border-left: 2.5px solid #0284c7;
+        font-size: 8pt;
         color: #334155;
     }
     code {
         font-family: 'JetBrains Mono', 'Courier New', monospace;
-        font-size: 8pt;
+        font-size: 7.5pt;
         background: #f1f5f9;
-        padding: 1px 3px;
+        padding: 1px 2px;
         border-radius: 2px;
     }
     hr {
         border: none;
         border-top: 1px solid #e2e8f0;
-        margin: 6px 0;
+        margin: 5px 0;
     }
     """
 

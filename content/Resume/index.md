@@ -168,13 +168,11 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 
 ---
 
-## 🔗 Systems & Experience Integration
+## Comprehensive Technical Toolchain & Skills Matrix
 
-* **Detailed Master Resume:** Review the standalone master CV at **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
-* **Legacy Career Archive:** Explore early career roles extending back to 2003 on **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
-* **Systems Architecture:** Explore production deployments and infrastructure on **[[Projects/index|Engineering & Systems Projects]]**, including the **[[Projects/LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Hardware_Security_Key|Hardware Security Key Secrets]]**, and **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]**.
-* **AI & Security Research:** Explore autonomous agent research on **[[Research/index|Security & AI Systems Research]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Multi-Agent Swarm]]**.
-* **Enterprise Governance:** Review policy and security frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Governance/Policies/Information_Security_Policy|Information Security Policy]]**.
-* **Technical Writing:** Read engineering articles and field guides on **[[Articles/index|Technical Articles & Field Guides]]** and **[[Articles/Hardware/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
-* **Interactive Tools:** Explore live applications on **[[Tools/index|Tools & Live Applications]]** and **[[Tools/DocIngest/index|DocIngest Suite]]**.
-* **Direct Verification:** Review cryptographic signing credentials on **[[Contact/index|Contact & Identity Verification]]**.
+| Security, Governance & Infrastructure | AI, Automation & Systems Engineering |
+| :--- | :--- |
+| **Zero Trust & Security Operations**<br>• Zero Trust Architecture & Threat Modeling<br>• NIST 800-53, FISMA, SOC 2 & ISO 27001 Compliance<br>• Nessus Vulnerability Scanning & Remediation<br>• Incident Response & Digital Forensics (DFIR) | **AI & Multi-Agent Architecture**<br>• Model Context Protocol (MCP) Server Architecture<br>• Local LLM Inference Swarms & Context Routing<br>• Cloudflare SSE AI Agent Tunnels<br>• Retrieval-Augmented Generation (RAG) Systems |
+| **Enterprise Governance & Disaster Recovery**<br>• 20+ Authored Information Security Policies<br>• Business Continuity Planning (BCP) & RTO/RPO SLAs<br>• Multi-Site Immutable Backups (Veeam, Unitrends)<br>• Physical Security, Biometrics & Keycard Systems | **Automation, CI/CD & Systems Engineering**<br>• Self-Hosted GitHub Actions CI/CD Runners<br>• Python 3 Systems Automation & Tooling<br>• PowerShell & Bash Enterprise Scripting<br>• SCCM Task Sequences & Mass Deployment |
+| **Virtualization & Storage Engineering**<br>• VMware ESXi / vSphere Clusters & Proxmox VE<br>• Docker Containerization & Microservice Architecture<br>• Enterprise SAN/NAS (EMC, Synology, QNAP)<br>• Spatial Tiered Storage (NVMe, tmpfs RAM Disks) | **Operating Systems & Directory Services**<br>• Linux Systems Administration (Debian, Fedora, Ubuntu)<br>• Windows Server Administration (2003–2025)<br>• Active Directory, Group Policy & Kerberos<br>• Microsoft 365, Hybrid Exchange, PostgreSQL & SQL Server |
+| **Network Architecture & Edge Defense**<br>• Layer 2 Non-NAT Routing (`macvlan` / `ipvlan`)<br>• Custom OpenWrt Hardened Edge Firmware<br>• SonicWall Enterprise Firewall Administration<br>• Encrypted DNS-over-HTTPS (DoH) & NextDNS Integration | **Hardware, Diagnostics & Electronics**<br>• Component-Level PCB & SMD Diagnostics<br>• Oscilloscopes, Multimeters & Logic Analyzers<br>• CRT & Industrial Power Electronics Repair<br>• Automotive ECM Flashing & CAN Bus Diagnostics |
