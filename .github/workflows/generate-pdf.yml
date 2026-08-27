@@ -39,8 +39,18 @@ jobs:
           (async () => {
             const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
             const page = await browser.newPage();
-            // Load the built HTML
-            await page.goto('file://' + process.cwd() + '/public/Resume/Master_Resume/index.html', {waitUntil: 'networkidle0'});
+            const fs = require('fs');
+            const path = require('path');
+            const candidatePaths = [
+              path.join(process.cwd(), 'public/resume/master_resume.html'),
+              path.join(process.cwd(), 'public/Resume/Master_Resume.html'),
+              path.join(process.cwd(), 'public/Resume/Master_Resume/index.html')
+            ];
+            const htmlPath = candidatePaths.find(p => fs.existsSync(p));
+            if (!htmlPath) {
+              throw new Error('Could not find built Master Resume HTML in: ' + JSON.stringify(candidatePaths));
+            }
+            await page.goto('file://' + htmlPath, {waitUntil: 'networkidle0'});
             await page.evaluate(() => {
               const hideSelectors = ['.sidebar', '.page-header', 'footer', '.toc'];
               hideSelectors.forEach(selector => {
