@@ -11,23 +11,20 @@ tags:
 
 # Richard P. Dissell
 ## **Security Analyst | Systems Architect | Infrastructure Engineer**
-*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827)*
+*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1)*
 
 > [!abstract] Executive Summary
 > Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical enterprise manufacturing environments to distributed edge compute clusters — I architect resilient, automated, and immutable systems.
 
-<div style="margin: 1.25rem 0 1.75rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="/resume/master_resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    View Master Resume & CV 📄
+<div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; margin-bottom: 1.25rem;">
+  <a href="./resume/master_resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>📄 View Master Resume (CV)</span>
   </a>
-  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827" target="_blank" rel="noopener" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    Download Official PDF 📥
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1" target="_blank" rel="noopener" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>📥 Download Official PDF Resume</span>
   </a>
-  <a href="/tools/docingest/view" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    Explore DocIngest Corpus 📚
-  </a>
-  <a href="/projects/" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    Systems Projects 🚀
+  <a href="./projects/current_environment" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>🖥️ Live Fleet Topology</span>
   </a>
 </div>
 
@@ -46,7 +43,7 @@ tags:
 ## 🧭 Fast-Track Evaluation Pathways
 
 > [!tip] Tailored Navigation by Role
-> * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827).
+> * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1).
 > * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Hardware/Lab_Workstation|/uses Hardware & Stack Specification]]**, or inspect the live **[[Projects/Current_Environment|Current Fleet Topology]]**.
 > * 🔒 **CISOs & Security Directors:** Audit the **[[Governance/Policies/index|19 Enterprise Security Policies]]**, review **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
