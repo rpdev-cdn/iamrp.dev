@@ -132,6 +132,13 @@ plugins:
 
   - source: "@quartz-community/og-image"
     enabled: true
+    options:
+      colorScheme: darkMode
+      width: 1200
+      height: 630
+      excludeRoot: false
+      defaultTitle: "IamRP.Dev"
+      defaultDescription: "Richard P. Dissell — Security Analyst, Systems Architect & Infrastructure Engineer"
 
   - source: "@quartz-community/cname"
     enabled: true
@@ -164,6 +171,11 @@ plugins:
 
   - source: "@quartz-community/breadcrumbs"
     enabled: true
+    options:
+      spacerSymbol: "❯"
+      rootName: "Home"
+      resolveFrontmatterTitle: true
+      showCurrentPage: true
     layout:
       position: beforeBody
       priority: 5
@@ -204,6 +216,12 @@ plugins:
 
   - source: "@quartz-community/search"
     enabled: true
+    options:
+      enablePreview: true
+      fieldPriority:
+        - title
+        - tags
+        - content
     layout:
       position: right
       priority: 10

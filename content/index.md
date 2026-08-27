@@ -11,7 +11,7 @@ tags:
 
 # Richard P. Dissell
 ### **Security Analyst | Systems Architect | Infrastructure Engineer**
-*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev)*
+*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827)*
 
 > [!abstract] Executive Summary
 > Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical enterprise manufacturing environments to distributed edge compute clusters — I architect resilient, automated, and immutable systems.
@@ -20,7 +20,10 @@ tags:
   <a href="/resume/master_resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     View Master Resume & CV 📄
   </a>
-  <a href="/tools/docingest/view" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827" target="_blank" rel="noopener" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Download Official PDF 📥
+  </a>
+  <a href="/tools/docingest/view" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     Explore DocIngest Corpus 📚
   </a>
   <a href="/projects/" class="di-btn di-btn-neutral" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
@@ -43,7 +46,7 @@ tags:
 ### 🧭 Fast-Track Evaluation Pathways
 
 > [!tip] Tailored Navigation by Role
-> * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume_20260822.pdf?v=20260822).
+> * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827).
 > * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Lab_and_Workstation_Spec|/uses Hardware & Stack Specification]]**, or inspect the live **[[Projects/Current_Environment|Current Fleet Topology]]**.
 > * 🔒 **CISOs & Security Directors:** Audit the **[[Governance/Policies/index|19 Enterprise Security Policies]]**, review **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
@@ -55,13 +58,13 @@ Explore the primary sections of the portfolio:
 
 - **[[Resume/index|Resume & Professional Background]]**  
   *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
-- **[[Tools/index|Tools & Live Applications]]**  
+- **[[Tools/index|Tools & Live Applications]]** <span class="badge-status badge-live">● LIVE EDGE SUITE</span>  
   *Interactive applications including the **[[Tools/DocIngest/index|DocIngest Suite]]** with real-time documentation ingestion ([[Tools/DocIngest/add|Add Ingestion]]) and searchable vector corpus exploration ([[Tools/DocIngest/view|Browse Corpus]]).*
-- **[[Projects/index|Engineering & Systems Projects]]**  
+- **[[Projects/index|Engineering & Systems Projects]]** <span class="badge-status badge-lab">● AIR-GAPPED LAB</span>  
   *Production systems: **[[Projects/LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Kexecboot_Wireless_Bootloader|kexecboot.xyz Wireless Bootloader]]**, **[[Projects/MCP_Gateway_Tool_Router|MCP Gateway]]**, **[[Projects/Embedded_Linux_Camera_Firmware|Embedded Linux & Edge AI Vision]]**, **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**, **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]**, **[[Projects/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS]]**, and **[[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Engine]]**.*
-- **[[Research/index|Security & AI Systems Research]]**  
+- **[[Research/index|Security & AI Systems Research]]** <span class="badge-status badge-lab">● ACTIVE RESEARCH</span>  
   *Applied AI and security research: **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm]]**, **[[Research/Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Research/Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
-- **[[Governance/index|Enterprise Policy & Governance]]**  
+- **[[Governance/index|Enterprise Policy & Governance]]** <span class="badge-status badge-corp">● 19 ENTERPRISE POLICIES</span>  
   *Complete suite of **[[Governance/Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Governance/Policies/Information_Security_Policy|Information Security]]**, **[[Governance/Policies/Incident_Response_Plan|Incident Response]]**, **[[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Governance/Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
 - **[[Articles/index|Technical Articles & Field Guides]]**  
   *Deep technical writing: **[[Articles/Leadership_Philosophy|Leadership Philosophy]]**, **[[Articles/Systems_and_Automation_Architecture|Systems & Automation Architecture]]**, **[[Articles/Games & Systems Theory/index|Games & Systems Complexity]]**, **[[Articles/MCP_In_Enterprise_Operations|Model Context Protocol in Enterprise Operations]]**, and **[[Zero_Trust_Edge_Routing|Zero-Trust Edge Routing]]**.*
@@ -70,7 +73,7 @@ Explore the primary sections of the portfolio:
 
 ### ◈ Live Fleet Telemetry & Infrastructure
 
-- **[[Projects/Current_Environment|Current Fleet Topology]]** — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
+- **[[Projects/Current_Environment|Current Fleet Topology]]** <span class="badge-status badge-live">● LIVE TELEMETRY</span> — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
 
 ---
 
