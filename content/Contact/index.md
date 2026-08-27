@@ -34,7 +34,11 @@ tags:
 
 All official git commits, architectural release manifests, and signed security advisories are cryptographically verified using hardware-isolated subkeys.
 
-#### PGP Public Key
+* **Primary GPG Key ID:** `96DCEA6C34429505`
+* **Full Fingerprint:** `6DB1 6A1D 6D68 F2AB 20C8  9F03 96DC EA6C 3442 9505`
+* **Algorithm:** Ed25519 (Signing) / Cv25519 (Encryption)
+
+#### PGP Public Key (`96DCEA6C34429505`)
 ```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 

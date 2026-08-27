@@ -17,7 +17,7 @@ aliases:
 # Richard P. Dissell
 **Location:** Cleveland, OH<br>
 **Contact:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com) | Phone: `216-410-3687` *(Text Preferred)*<br>
-**Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell) | **Identity / PGP:** [[Contact/index|Verified Credentials]]
+**Portfolio:** [iamrp.dev](https://iamrp.dev) | **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell) | **GPG Key:** [[Contact/index|`96DCEA6C34429505`]]
 
 ---
 
