@@ -118,7 +118,7 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 **Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates** | *Oct 2011 – Mar 2017*
 *(Joint enterprise security and compliance leadership across affiliated legal, title, and technology shared-services entities)*
 
-- Architected and administered all production and development systems across distributed multi-branch operations, taking total ownership of overarching security infrastructure and remote site connectivity.
+- Architected and administered production and development systems across distributed multi-branch operations, managing WatchGuard Firebox and SonicWall perimeter defense and site-to-site VPN tunnels.
 - Served as the primary lead for third-party information security audits (SOC 2, ISO 27001, ALTA Best Practices), achieving a 100% audit pass rate and completing exhaustive client security questionnaires.
 - Automated cross-hypervisor disaster recovery using custom PowerShell scripts to orchestrate failover replication from primary VMware ESXi to secondary Hyper-V clusters, achieving sub-30 minute RTO with zero data loss.
 - Engineered custom PowerShell log-parsing pipelines to ingest and normalize proprietary application telemetry into centralized, searchable security audit archives.
@@ -132,7 +132,7 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 **ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)** | *Oct 2011 – Aug 2015*
 *(Dedicated software integration and infrastructure operating unit for the affiliated legal and title enterprise group)*
 
-- Managed high-performance network routing, infrastructure administration, and out-of-hours system maintenance, ensuring 100% production uptime during business hours.
+- Managed high-performance network routing and core HP ProCurve managed switching infrastructure (VLAN segmentation, LACP trunking) across 150+ user workstations, ensuring 100% production uptime during business hours.
 - Orchestrated strict daily backup routines and critical data recovery procedures to support multi-entity Business Continuity planning.
 - Conducted extensive product research, testing, quoting, and procurement for enterprise hardware and software deployments across 150+ user workstations.
 - Administered software licensing, inventory lifecycle management, and Help Desk triage workflows to maintain a sub-1 hour resolution time on critical tickets.
@@ -145,15 +145,15 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 > Prior to enterprise security engineering, developed foundational expertise spanning hardware-level diagnostics, component-level electronics repair, web hosting, and municipal fleet RF communications. Full historical records and duty breakdowns are cataloged in the **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
 
 * **Electronic Technician** | *Cuyahoga County Engineers* | *Aug 2010 – Oct 2011*  
-  *Diagnosed automotive control modules, deployed Motorola Canopy wireless backhauls, configured HP ProCurve switches, and maintained UHF radio networks.*
+  *Diagnosed automotive computer control modules, engineered vehicle communication systems, and maintained UHF radio networks.*
 * **IT Director** | *BGE Technologies* | *May 2008 – Mar 2010*  
-  *Architected SMB network infrastructure using WatchGuard and SonicWall firewalls, HP ProCurve switching, and administered IIS web servers.*
+  *Architected SMB networks with WatchGuard firewalls, deployed Motorola Canopy fixed-wireless broadband links, and administered IIS web servers.*
 * **Diagnostic Technician** | *PCS Automotive Inc* | *May 2007 – May 2008*  
   *Programmed and flashed automotive engine control modules (ECMs) and rewired complex electrical harnesses.*
 * **Computer Technician** | *Bellaire Puritas Development Corporation* | *Nov 2006 – Apr 2007*  
   *Reconditioned hardware, repaired local area networks, and maintained municipal web infrastructure.*
 * **IT Professional & Electronics Specialist** | *BGE Technologies* | *Jan 2003 – Aug 2006*  
-  *Administered IIS/Exchange servers, dial-up ISP infrastructure, and executed component-level CRT/PCB electronics repair.*
+  *Administered IIS/Exchange servers, deployed Motorola Canopy wireless bridges, dial-up ISP infrastructure, and executed component-level CRT/PCB electronics repair.*
 
 ---
 
