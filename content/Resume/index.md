@@ -50,7 +50,7 @@ Technical capabilities span from physical hardware limits to high-level corporat
 Enterprise Architecture | Zero Trust Architecture | Cybersecurity | Disaster Recovery | Business Continuity Planning | Information Security Management | Security Auditing | IT Policy Development | Systems Architecture
 
 ### Cloud, Virtualization & Network
-Cloud Computing | Containerization (Docker/Kubernetes) | VMware Infrastructure | Hyper-V | Proxmox | Storage Area Networks (SAN / EMC / Synology / QNAP) | Layer 2 Networking (macvlan/ipvlan) | OpenWrt Edge Routing | Network Design | Firewall Administration (SonicWall) | Voice over IP (VoIP)
+Cloud Computing | Containerization (Docker/Kubernetes) | VMware Infrastructure | Hyper-V | Proxmox | Storage Area Networks (Dell EqualLogic, EMC VNX, Synology, QNAP) | Layer 2 Networking (macvlan/ipvlan) | OpenWrt Edge Routing | Network Design | Firewalls & Routing (SonicWall, WatchGuard Firebox) | Enterprise Switching (HP ProCurve) | Wireless Backhaul (Motorola Canopy) | Voice over IP (VoIP)
 
 ### Automation & AI
 Artificial Intelligence (AI) Integration | Local LLM Integration | Model Context Protocol (MCP) Servers | CI/CD Pipelines | Automation & Infrastructure as Code | PowerShell Scripting | System Center Configuration Manager (SCCM) | Batch Scripting
@@ -145,9 +145,9 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 > Prior to enterprise security engineering, developed foundational expertise spanning hardware-level diagnostics, component-level electronics repair, web hosting, and municipal fleet RF communications. Full historical records and duty breakdowns are cataloged in the **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
 
 * **Electronic Technician** | *Cuyahoga County Engineers* | *Aug 2010 – Oct 2011*  
-  *Diagnosed automotive computer control modules, engineered vehicle communication systems, and maintained UHF radio networks.*
+  *Diagnosed automotive control modules, deployed Motorola Canopy wireless backhauls, configured HP ProCurve switches, and maintained UHF radio networks.*
 * **IT Director** | *BGE Technologies* | *May 2008 – Mar 2010*  
-  *Architected SMB network infrastructure, administered Microsoft IIS web servers, and delivered on-site hardware support.*
+  *Architected SMB network infrastructure using WatchGuard and SonicWall firewalls, HP ProCurve switching, and administered IIS web servers.*
 * **Diagnostic Technician** | *PCS Automotive Inc* | *May 2007 – May 2008*  
   *Programmed and flashed automotive engine control modules (ECMs) and rewired complex electrical harnesses.*
 * **Computer Technician** | *Bellaire Puritas Development Corporation* | *Nov 2006 – Apr 2007*  
@@ -176,4 +176,4 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 | **Zero Trust & Security Operations**<br>• Zero Trust Architecture & Threat Modeling<br>• NIST 800-53, FISMA, SOC 2 & ISO 27001 Compliance<br>• Nessus Vulnerability Scanning & Remediation<br>• Incident Response & Digital Forensics (DFIR) | **AI & Multi-Agent Architecture**<br>• Model Context Protocol (MCP) Server Architecture<br>• Local LLM Inference Swarms & Context Routing<br>• Cloudflare SSE AI Agent Tunnels<br>• Retrieval-Augmented Generation (RAG) Systems |
 | **Enterprise Governance & Disaster Recovery**<br>• 20+ Authored Information Security Policies<br>• Business Continuity Planning (BCP) & RTO/RPO SLAs<br>• Multi-Site Immutable Backups (Veeam, Unitrends)<br>• Physical Security, Biometrics & Keycard Access | **Automation, CI/CD & Scripting**<br>• Self-Hosted GitHub Actions CI/CD Runners<br>• Python 3 Systems Automation & Tooling<br>• PowerShell, Bash & WSH/VBScript Scripting<br>• SCCM Task Sequences & Mass Deployment |
 | **Virtualization & Storage Engineering**<br>• VMware ESXi / vSphere Clusters & Proxmox VE<br>• Docker Containerization & Microservice Architecture<br>• Enterprise SAN/NAS (Dell EqualLogic, EMC VNX, Synology)<br>• Spatial Tiered Storage (NVMe, tmpfs RAM Disks) | **Operating Systems & Directory Services**<br>• Linux Systems Administration (Debian, Fedora, Ubuntu)<br>• Windows Server Administration (2003–2025)<br>• Active Directory, Group Policy & Kerberos<br>• Microsoft 365, Hybrid Exchange, PostgreSQL & SQL Server |
-| **Network Architecture & Edge Defense**<br>• Layer 2 Non-NAT Routing (`macvlan` / `ipvlan`)<br>• Custom OpenWrt Hardened Edge Firmware<br>• SonicWall Enterprise Firewall Administration<br>• Email Security (SPF, DKIM, DMARC, rDNS, Continuity) | **Hardware, Diagnostics & Electronics**<br>• Component-Level PCB & SMD Diagnostics<br>• Oscilloscopes, Multimeters & Logic Analyzers<br>• CRT & Industrial Power Electronics Repair<br>• Automotive ECM Flashing & CAN Bus Diagnostics |
+| **Network Architecture & Edge Defense**<br>• Layer 2 Non-NAT Routing (`macvlan` / `ipvlan`)<br>• SonicWall & WatchGuard Firebox Administration<br>• HP ProCurve Managed Switching (VLANs, LACP)<br>• Motorola Canopy Wireless & UHF Radio Systems | **Hardware, Diagnostics & Electronics**<br>• Component-Level PCB & SMD Diagnostics<br>• Oscilloscopes, Multimeters & Logic Analyzers<br>• CRT & Industrial Power Electronics Repair<br>• Automotive ECM Flashing & CAN Bus Diagnostics |

@@ -45,7 +45,7 @@ _ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)_
 _Cuyahoga County Engineers / Public Works_ | Aug 2010 – Oct 2011
 
 - **Hardware Diagnostics:** Diagnosed, repaired, and re-engineered complex automotive electrical systems and computer control modules.
-- **RF & Networking:** Installed and maintained municipal UHF Radio networks and performed physical data communication cabling (Cat3, Cat5e, Cat6).
+- **RF & Wireless Infrastructure:** Installed and maintained municipal UHF Radio networks, aligned Motorola Canopy point-to-point wireless broadband bridges between facilities, configured HP ProCurve managed switches, and performed structured data communication cabling (Cat3, Cat5e, Cat6).
 - **Custom Integrations:** Engineered and installed custom lighting, communication, and control systems for specialized county vehicles.
 - **Fleet & Data Operations:** Maintained yard management databases, executed data entry, and assisted the yard coordinator in planning, assigning, reviewing, and coordinating complex mechanical workloads. Maintained server backups and inventory for the maintenance yard.
 - **Documentation:** Authored technical documentation, generated diagnostic images, and created worksheets to assist other mechanics with advanced troubleshooting duties.
@@ -53,7 +53,7 @@ _Cuyahoga County Engineers / Public Works_ | Aug 2010 – Oct 2011
 ### IT Director
 _BGE Technologies_ | May 2008 – Mar 2010
 
-- **Network Planning:** Architected, planned, and implemented comprehensive network infrastructure tailored for Small and Medium Business (SMB) clients.
+- **Network Planning & Security:** Architected, planned, and implemented comprehensive network and security infrastructure for Small and Medium Business (SMB) clients utilizing WatchGuard Firebox and SonicWall firewalls, HP ProCurve managed switches, and Motorola Canopy wireless links.
 - **Server Administration:** Maintained, secured, and administered Microsoft IIS web servers and email systems (specifically SmarterMail), providing critical 24/7 on-call server management.
 - **Web Design:** Designed, developed, and maintained custom websites for clients to enhance their digital footprint.
 - **Hardware Repair & Support:** Delivered component-level maintenance and repair for client laser printers and desktop hardware, alongside direct on-site and phone support for OS/application issues.
