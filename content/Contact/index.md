@@ -32,25 +32,46 @@ tags:
 
 ### ◈ Cryptographic Verification & Key Hierarchy
 
-All official git commits, architectural release manifests, and signed security advisories are cryptographically verified using hardware-isolated subkeys:
+All official git commits, architectural release manifests, and signed security advisories are cryptographically verified using hardware-isolated subkeys.
 
-| Key Role | Algorithm | Key ID / Fingerprint | Primary Usage |
-| :--- | :--- | :--- | :--- |
-| **Primary Master Key** | `Ed25519` (256-bit) | `0x4D2A9B8F1C3E7A60` | Certify (`[C]`), Offline Master Identity |
-| **Signing Subkey** | `Ed25519` (256-bit) | `8F21 9C3B 7A4D E012 55F6 A890 4D2A 9B8F 1C3E 7A60` | Git Commits & Advisory Signing (`[S]`) |
-| **Encryption Subkey** | `cv25519` / `RSA-4096` | `4E91 2A0B 8F7C 3D5E 11A2 B4C6 8D9E 0F1A 2B3C 4D5E` | Encrypted Correspondence & Secrets (`[E]`) |
-| **Hardware Token** | YubiKey 5 Series | FIDO2 / WebAuthn + `age-plugin-fido2prf` | Physical Touch-Required Assertion |
+#### PGP Public Key
+```pgp
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
-#### Public Key Import & Verification
-To import the public key directly from canonical keyservers into your local GPG keyring:
-```bash
-gpg --keyserver keys.openpgp.org --recv-keys 8F219C3B7A4DE01255F6A8904D2A9B8F1C3E7A60
+mDMEahTDuxYJKwYBBAHaRw8BAQdAn6UDiOLCi5F2D3Vdz9iZRPTHpafHlWAPZpnh
+aZN7I120F1JQRGV2IDxSUERldkBJYW1SUC5EZXY+iJMEExYKADsWIQRtsWodbWjy
+qyDInwOW3OpsNEKVBQUCahTDuwIbAQULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIX
+gAAKCRCW3OpsNEKVBQSlAP0ZXYKATJYgnt+b72duUTGN4g+N1ONaaiVkfJMp0r2y
+/wD+KkinaLJYG5pMWOAOJRjHRIu73EANeyiJmDo9t0oktg20HlJQRGV2IDxycGRp
+c3NlbGxkZXZAZ21haWwuY29tPoiTBBMWCgA7FiEEbbFqHW1o8qsgyJ8DltzqbDRC
+lQUFAmqPqKECGwEFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQltzqbDRC
+lQXVnwEAl1NLdXhhqKaDBArbytuwt5yHbTMYS5GQiWXCLLxhEk4BAJ1ATQG5QzwW
+BvJF8ysElcEPU/Tz8lRED+tZvEfu8JcFtB9SaWNoYXJkIFAgPHJwZGlzc2VsbEBn
+bWFpbC5jb20+iJMEExYKADsWIQRtsWodbWjyqyDInwOW3OpsNEKVBQUCao+o1wIb
+AQULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRCW3OpsNEKVBfACAP9FDQeL
+D0ZLegYtHbwtRMEjUAF8VghK4z/j7bfH/qKLTQEAyFNNsx9vICZnlDmFEBpipLrd
+QYjONtFFq8VlPfa61Q64MwRqFMRGFgkrBgEEAdpHDwEBB0CjztCilliJkzdQ9tKB
+Khyhx97zQIEnUqhuYhDpoQxvLoj1BBgWCgAmFiEEbbFqHW1o8qsgyJ8DltzqbDRC
+lQUFAmoUxEYCGwIFCQPCZwAAgQkQltzqbDRClQV2IAQZFgoAHRYhBP9zokCI0NUn
+7yv0bTjJ7s2fpg2/BQJqFMRGAAoJEDjJ7s2fpg2/PrwA/1It5ittm+Gm1/E6YsMK
+SXcppQpJM/mXpX3IeXbjQH/XAPwNjq9CsjTnu9eWJ8IBJOJ9EwEvloR+ycokVTtO
+JkQiCy0ZAQCp9aq9+datkWkgvzKf3BRB4ON2yGLMwgXAp4J7IdAOsAD9EvrL+OSw
+6A8aB24KG0kSwOLfpmplce5i74pmyjkryQa4OARqFMRnEgorBgEEAZdVAQUBAQdA
+/gwQp1+HotCR7hwRiBtKD1yKYWTEiAapLIlewHD5rFIDAQgHiH4EGBYKACYWIQRt
+sWodbWjyqyDInwOW3OpsNEKVBQUCahTEZwIbDAUJA8JnAAAKCRCW3OpsNEKVBfPD
+AP9WTLDTKkRiQ6+84GCoPJm+rVZbFR5pHKKw2pwxF/9mdwD/XYvBDG4nQKuOISjS
+Z3OSqLSmGSvZG8hJHBo9tav4VQk=
+=Mzai
+-----END PGP PUBLIC KEY BLOCK-----
 ```
-Or retrieve via Web Key Directory (WKD):
-```bash
-gpg --locate-keys RPDissell@gmail.com
-```
 
+#### FIDO2 Signing Key for Code
+```text
+/home/llmuser/.ssh/id_ecdsa_sk_age
+60:ac:d0:e9:7c:9e:a3:07:bc:e0:77:40:bf:19:47:c3
+
+sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBFPAzcbDlFj7zj9zcb4L9EDOE6WXJZJOsARpF8n4UcLe2P69CWREYvVbfIBBaRU3TfuLq6v4y/z5G7XV9dk687QAAAAEc3NoOg== age-fido2
+```
 ---
 
 ### ◈ Availability & Roles

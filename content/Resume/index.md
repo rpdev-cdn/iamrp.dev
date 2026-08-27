@@ -166,11 +166,6 @@ Hardware Diagnostics | Electronics Repair | Embedded Systems | Bare-Metal Hardwa
 - Academic Recommendation by Linux Faculty ([View Letter of Recommendation by Tony Godfrey](https://cdn.iamrp.dev/pdf/Tony_Godfrey_ITT-Tech_Recommendation_Letter.pdf))
 - 2 years of software engineering & programming curriculum (C, C++, Java, Visual Basic)
 
-### Continuous Technical Training & Framework Mastery
-* **Security & Compliance Frameworks:** NIST Cybersecurity Framework (CSF 2.0), NIST SP 800-53 (FISMA / FedRAMP), ISO/IEC 27001, CIS Critical Security Controls (v8), SOC 2 Type II audit readiness.
-* **Architecture & Engineering:** Zero Trust Architecture (NIST SP 800-207), Model Context Protocol (MCP), eBPF Linux kernel telemetry, Post-Quantum Cryptography (PQC) agility.
-* **Systems & Cloud Infrastructure:** Advanced Linux systems engineering (Debian, Fedora, OpenWrt), OCI container runtime architecture (Docker, containerd), Storage Area Networks (EMC SAN, NFS, iSCSI), VMware vSphere / ESXi virtualization.
-
 ---
 
 ## 🔗 Systems & Experience Integration

@@ -1,0 +1,84 @@
+name: Generate Resume PDF and Push to CDN
+
+on:
+  push:
+    paths:
+      - 'content/Resume/Master_Resume.md'
+      - 'quartz/**'
+      - 'quartz.config.yaml'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate-and-push-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout iamrp.dev
+        uses: actions/checkout@v4
+        with:
+          path: 'iamrp'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies & Build
+        working-directory: ./iamrp
+        run: |
+          npm ci
+          npx quartz build
+
+      - name: Generate PDF via Puppeteer
+        working-directory: ./iamrp
+        run: |
+          npm install puppeteer
+          cat << 'JS' > print_pdf.cjs
+          const puppeteer = require('puppeteer');
+          (async () => {
+            const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+            const page = await browser.newPage();
+            // Load the built HTML
+            await page.goto('file://' + process.cwd() + '/public/Resume/Master_Resume/index.html', {waitUntil: 'networkidle0'});
+            await page.evaluate(() => {
+              const hideSelectors = ['.sidebar', '.page-header', 'footer', '.toc'];
+              hideSelectors.forEach(selector => {
+                document.querySelectorAll(selector).forEach(el => el.style.display = 'none');
+              });
+              const center = document.querySelector('.center');
+              if (center) {
+                  center.style.maxWidth = '100%';
+                  center.style.width = '100%';
+                  center.style.margin = '0';
+                  center.style.padding = '20px';
+              }
+            });
+            await page.pdf({ 
+                path: 'Richard_Dissell_Resume.pdf', 
+                format: 'Letter',
+                printBackground: true,
+                margin: { top: '0.5in', right: '0.5in', bottom: '0.5in', left: '0.5in' }
+            });
+            await browser.close();
+          })();
+          JS
+          node print_pdf.cjs
+
+      - name: Checkout CDN Repo
+        uses: actions/checkout@v4
+        with:
+          repository: rpdev-cdn/cdn.iamrp.dev
+          path: 'cdn'
+          token: ${{ secrets.PAT_CDN_PUSH || secrets.GITHUB_TOKEN }}
+
+      - name: Push PDF to CDN
+        run: |
+          mkdir -p cdn/pdf
+          cp iamrp/Richard_Dissell_Resume.pdf cdn/pdf/
+          cd cdn
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pdf/Richard_Dissell_Resume.pdf
+          git commit -m "chore(pdf): auto-update resume PDF from iamrp.dev" || echo "No changes to commit"
+          git push
