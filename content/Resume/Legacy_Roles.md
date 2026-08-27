@@ -22,7 +22,7 @@ _The Law Offices of John D. Clunk Co., LPA_ | Stow, OH | Oct 2011 – Mar 2017
 _Clunk, Paisley & Associates, P.S.C_ | Georgetown, KY | Oct 2011 – Mar 2017  
 
 *(Note: Joint enterprise security leadership across affiliated legal, title, and technology shared-services entities)*
-- **Systems Architecture & Security:** Architected and administered all production and development systems across distributed multi-branch legal operations, deploying WatchGuard Firebox and SonicWall firewalls for site-to-site VPN mesh tunnels and perimeter defense.
+- **Systems Architecture & Security:** Architected and administered all production and development systems across distributed multi-branch legal operations, deploying WatchGuard XTM firewalls in a stacked high-availability (HA) failover configuration alongside SonicWall appliances for site-to-site VPN mesh tunnels and perimeter defense.
 - **Automation & Scripting:** Created robust `PowerShell` scripts to parse proprietary logs for centralized logging archives, and developed automated scripts for rapid environment recovery from VMware to Hyper-V infrastructures.
 - **Auditing & Compliance:** Served as the primary lead for third-party information security audits (SOC 2, ISO 27001, ALTA), achieving a 100% audit pass rate and completing exhaustive client questionnaires.
 - **Disaster Recovery & Business Continuity:** Designed and maintained comprehensive Disaster Recovery (DR) and Business Continuity environments, ensuring critical data was backed up iteratively throughout the day with sub-30 minute RTO.
@@ -35,7 +35,7 @@ _Clunk, Paisley & Associates, P.S.C_ | Georgetown, KY | Oct 2011 – Mar 2017
 _ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title)_ | Stow, OH | Oct 2011 – Aug 2015  
 
 *(Note: Dedicated software integration and infrastructure operating unit for the affiliated legal/title group)*
-- **Infrastructure Management:** Managed high-performance network routing and core HP ProCurve managed switching infrastructure (VLAN segmentation, 802.1Q trunking, LACP link aggregation) across 150+ user workstations, ensuring 100% production uptime during business hours.
+- **Infrastructure Management & Layer 2 Hardening:** Managed high-performance network routing and core HP ProCurve managed switching infrastructure, enforcing Layer 2 Port Security (MAC limiting, sticky learning, unauthorized drop isolation), VLAN segmentation (802.1Q), and LACP link aggregation across 150+ user workstations.
 - **Data Protection:** Orchestrated strict daily backup routines and critical data recovery procedures across multi-site environments.
 - **Procurement & Research:** Conducted extensive product research, testing, quoting, and procurement for enterprise hardware and software deployments across 150+ user workstations.
 - **Operations & Support:** Administered software licensing, inventory lifecycle management, and Help Desk inbox workflows to maintain a sub-1 hour resolution time on critical tickets.
