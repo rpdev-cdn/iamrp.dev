@@ -87,8 +87,8 @@ Exposes live hardware status, OpenWrt firewall zoning, and container state acros
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/MCP_Gateway_Tool_Router|MCP Gateway Tool Router]], [[Projects/Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
+* **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[MCP_Gateway_Tool_Router|MCP Gateway Tool Router]], [[Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
-* **Applied Research:** Investigated in [[Research/Local_LLM_Architecture|Local LLM Architecture]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
+* **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[docs/index|Digital Garden Index]].

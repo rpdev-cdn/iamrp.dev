@@ -47,7 +47,7 @@ tags:
 
 ## 🌐 Homelab Fleet & Edge Compute
 
-Detailed topology and live specifications available on **[[Projects/Current_Environment|Current Fleet Topology]]**:
+Detailed topology and live specifications available on **[[Current_Environment|Current Fleet Topology]]**:
 
 ### 1. `llmadmin01` — AI Inference & Telemetry Engine
 * **Role:** High-throughput Linux compute host.
@@ -81,8 +81,8 @@ Detailed topology and live specifications available on **[[Projects/Current_Envi
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Fleet Infrastructure:** Deep dive into the live hardware setup on **[[Projects/Current_Environment|Current Fleet Topology]]** and **[[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]]**.
+* **Fleet Infrastructure:** Deep dive into the live hardware setup on **[[Current_Environment|Current Fleet Topology]]** and **[[Hardware_Storage_Tiering|Hardware Storage Tiering]]**.
 * **Secret Management:** Review cryptographic implementation in **[[Projects/Hardware_Security_Key|Hardware Security Key Secrets]]**.
-* **Observability:** Explore metrics ingestion in **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
+* **Observability:** Explore metrics ingestion in **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
 * **Master Resume:** Return to the complete **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
-* **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.
+* **Digital Garden Hub:** Return to the home **[[docs/index|Digital Garden Index]]**.

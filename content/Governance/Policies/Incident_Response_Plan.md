@@ -48,9 +48,9 @@ Every activated incident response, including fully automated SOAR containments, 
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Production Systems:** Validated in [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
 * **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Governance/Policies/index|Digital Garden Index]].

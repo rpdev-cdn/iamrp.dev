@@ -103,7 +103,7 @@ To maintain operational relevance, the agent actively manages an **Open-Gap Log*
 
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]], [[Research/Security_Analysis_and_Research_Agent/Skills_and_Gaps|Skills and Gaps]].
-* **Production Systems:** Validated in [[Projects/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Production Systems:** Validated in [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Incident_Response_Plan|Incident Response Plan]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].

@@ -49,9 +49,9 @@ graph LR
 
 ## 🛡️ Applied Research Vaults & Infrastructure
 
-- **[[Research/Codex_Arcana|Codex Arcana Growth Vault]]**  
+- **[[Codex_Arcana|Codex Arcana Growth Vault]]**  
   *The collection of failures, iterative post-mortems, and architectural breakthroughs demonstrating continuous adaptation and growth.*
-- **[[Research/Local_LLM_Architecture|Zero-Trust Local LLM Ingress Architecture]]**  
+- **[[Local_LLM_Architecture|Zero-Trust Local LLM Ingress Architecture]]**  
   *Hardware-accelerated localized LLM inference via Ollama, Qdrant vector retrieval, and Cloudflare SSE tunnels.*
-- **[[Projects/Current_Environment|Authoritative Host Infrastructure State]]**  
+- **[[Current_Environment|Authoritative Host Infrastructure State]]**  
   *Live hardware specs, networking interfaces, OpenWrt router configs, and Docker container ledgers.*

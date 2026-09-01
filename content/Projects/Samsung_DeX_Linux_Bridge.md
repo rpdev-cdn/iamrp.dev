@@ -44,9 +44,9 @@ This project stands as a testament to overcoming vendor lock-in through deep sys
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
+* **Production Systems:** Validated in [[Substrate_Digital_Nervous_System|Substrate Digital Nervous System]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

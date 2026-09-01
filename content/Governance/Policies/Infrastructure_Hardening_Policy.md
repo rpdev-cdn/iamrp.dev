@@ -67,9 +67,9 @@ Breach of this policy may result in disciplinary action up to and including term
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Layer2_Containerization|Layer2 Containerization]], [[Projects/OpenWrt_ASU_Image_Builder|OpenWrt ASU Image Builder]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
+* **Production Systems:** Validated in [[Layer2_Containerization|Layer2 Containerization]], [[OpenWrt_ASU_Image_Builder|OpenWrt ASU Image Builder]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Encryption_Policy|Encryption Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Governance/Policies/index|Digital Garden Index]].

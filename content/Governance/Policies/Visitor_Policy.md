@@ -44,9 +44,9 @@ The Compliance Officer shall remind all employees quarterly about their responsi
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]].
+* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]], [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Governance/Policies/index|Digital Garden Index]].

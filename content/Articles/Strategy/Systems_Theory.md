@@ -252,7 +252,7 @@ _Related Documents:_
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/LLM_Control_Plane|LLM Control Plane]], [[Projects/Substrate_Digital_Nervous_System|Substrate Digital Nervous System]].
+* **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[Substrate_Digital_Nervous_System|Substrate Digital Nervous System]].
 * **Technical Articles:** Deep dive in [[Articles/Leadership/Philosophy|Leadership Philosophy]], [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[docs/index|Digital Garden Index]].

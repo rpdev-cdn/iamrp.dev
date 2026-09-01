@@ -80,8 +80,8 @@ The local environment is segmented into hard isolation zones:
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Layer2_Containerization|Layer2 Containerization]], [[Projects/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Projects/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[Projects/DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
+* **Production Systems:** Validated in [[Layer2_Containerization|Layer2 Containerization]], [[OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]]).
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[docs/index|Digital Garden Index]].

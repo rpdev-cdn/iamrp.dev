@@ -88,4 +88,4 @@ sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNza
 ## 🔗 Related Verification & Background
 
 * **Master Resume & CV:** Review credentials on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
-* **Portfolio Overview:** Return to the home **[[index|Digital Garden Index]]**.
+* **Portfolio Overview:** Return to the home **[[content/Contact/index|Digital Garden Index]]**.

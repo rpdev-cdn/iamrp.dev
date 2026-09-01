@@ -55,9 +55,9 @@ All Tier 1 processes reliant on third-party SaaS must have documented contingenc
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Governance/Policies/Global_Disruption_Policy|Global Disruption Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Governance/Policies/index|Digital Garden Index]].

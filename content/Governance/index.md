@@ -49,8 +49,8 @@ Access the complete catalog of 19 modernized enterprise policies, workforce enab
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Policy Directory:** Explore the complete catalog on **[[Governance/Policies/index|Enterprise Policies & Governance Directory]]**.
-* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Projects/Infra_Audit_Engine|Infra Audit Engine]]** and **[[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
+* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Infra_Audit_Engine|Infra Audit Engine]]** and **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
 * **Zero Trust Systems:** Production architecture implementations in **[[Projects/index|Engineering & Systems Projects]]** and **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**.
 * **Applied Research Swarm:** Frameworks are validated by the **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Swarm]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis Agent]]**.
 * **Master Credentials:** Review policy development and ISO/NIST audit experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Career Roles Archive]]**.
-* **Digital Garden Hub:** Return to the home **[[index|Digital Garden Index]]**.
+* **Digital Garden Hub:** Return to the home **[[content/Governance/index|Digital Garden Index]]**.

@@ -63,9 +63,9 @@ graph TD
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Production Systems:** Validated in [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
-* **Applied Research:** Investigated in [[Research/Codex_Arcana|Codex Arcana]].
+* **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

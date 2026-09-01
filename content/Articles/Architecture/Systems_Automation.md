@@ -112,17 +112,17 @@ Architectural reliability requires multi-site fault tolerance and automated reco
 _Related Documents:_
 - **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing & Network Architecture]]**
 - **[[Articles/Architecture/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**
-- **[[Projects/Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM Case Study]]**
-- **[[Projects/Hardware_Storage_Tiering|Hardware-Aware Storage Tiering Case Study]]**
+- **[[Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM Case Study]]**
+- **[[Hardware_Storage_Tiering|Hardware-Aware Storage Tiering Case Study]]**
 - **[[Projects/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]]**
-- **[[Projects/Current_Environment|Live Fleet Infrastructure Telemetry]]**
+- **[[Current_Environment|Live Fleet Infrastructure Telemetry]]**
 
 ---
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Infra_Audit_Engine|Infra Audit Engine]], [[Projects/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]], [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]], [[Resume/Legacy_Roles|Legacy Roles]]).
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[docs/index|Digital Garden Index]].

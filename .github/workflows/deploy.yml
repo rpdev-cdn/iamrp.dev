@@ -29,6 +29,15 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Generate robots.txt
+        run: |
+          cat > public/robots.txt << 'EOF'
+          User-agent: *
+          Allow: /
+
+          Sitemap: https://iamrp.dev/sitemap.xml
+          EOF
+          sed -i 's/^          //' public/robots.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

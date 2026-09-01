@@ -60,9 +60,9 @@ Violation of this policy may result in disciplinary action up to and including t
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Hardware_Security_Key|Hardware Security Key]], [[Projects/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Production Systems:** Validated in [[Projects/Hardware_Security_Key|Hardware Security Key]], [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Governance/Policies/index|Digital Garden Index]].

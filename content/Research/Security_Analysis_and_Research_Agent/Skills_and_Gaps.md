@@ -72,4 +72,4 @@ The agent's roadmap includes 129 newly identified research subjects across 43 sp
 * **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
 * **Governance & Compliance:** Governed by [[Governance/Policies/Security_Awareness_Training|Security Awareness Training]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].
