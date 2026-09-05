@@ -1099,3 +1099,179 @@ table {
   }
 }
 
+
+/* ==========================================================================
+   SOVEREIGN ECOSYSTEM GLOBAL NAVIGATION BAR
+   ========================================================================== */
+.sovereign-ecosystem-bar {
+  width: 100%;
+  background-color: rgba(13, 9, 20, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 175, 175, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: var(--codeFont, "JetBrains Mono", monospace) !important;
+  font-size: 0.8rem;
+  padding: 0.4rem 1.5rem;
+  box-sizing: border-box;
+
+  .ecosystem-inner {
+    max-width: min(95vw, 1920px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .ecosystem-brand {
+    display: flex;
+    align-items: center;
+
+    .eco-brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none !important;
+      color: var(--dark, #ffffff) !important;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+
+      .brand-pulse {
+        color: #00ff88;
+        font-size: 0.75rem;
+        animation: telemetry-pulse 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+      }
+
+      .brand-sep {
+        color: var(--secondary, #00afaf);
+        font-weight: 400;
+      }
+
+      .brand-sub {
+        color: var(--secondary, #00afaf);
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+      }
+    }
+  }
+
+  .ecosystem-links {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+
+    .eco-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      color: var(--darkgray, #e2e1e8) !important;
+      text-decoration: none !important;
+      font-size: 0.76rem;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      border: 1px solid transparent;
+
+      &:hover {
+        color: var(--secondary, #00afaf) !important;
+        background-color: rgba(0, 175, 175, 0.1);
+        border-color: rgba(0, 175, 175, 0.3);
+        text-shadow: 0 0 6px rgba(0, 175, 175, 0.3);
+      }
+
+      &.eco-gh {
+        color: var(--tertiary, #5fafd7) !important;
+        border-left: 1px solid var(--lightgray, #1e1b2e);
+        padding-left: 0.75rem;
+        margin-left: 0.25rem;
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    padding: 0.4rem 0.75rem;
+
+    .ecosystem-inner {
+      justify-content: center;
+    }
+
+    .ecosystem-links {
+      justify-content: center;
+      gap: 0.2rem;
+
+      .eco-link {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.4rem;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   PROJECTS MASTER CATEGORY MENU BAR & PILLS
+   ========================================================================== */
+.projects-category-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem 0;
+  padding: 0.75rem 1rem;
+  background-color: rgba(30, 27, 46, 0.6);
+  border: 1px solid rgba(0, 175, 175, 0.3);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: sticky;
+  top: 48px;
+  z-index: 90;
+
+  .cat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.75rem;
+    background: rgba(13, 9, 20, 0.85);
+    border: 1px solid rgba(0, 175, 175, 0.25);
+    border-radius: 6px;
+    color: var(--darkgray, #e2e1e8) !important;
+    text-decoration: none !important;
+    font-family: var(--codeFont, "JetBrains Mono", monospace) !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    .cat-icon {
+      font-size: 0.88rem;
+    }
+
+    &:hover {
+      background: rgba(0, 175, 175, 0.18);
+      border-color: var(--secondary, #00afaf);
+      color: #ffffff !important;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 175, 175, 0.25);
+    }
+  }
+
+  @media (max-width: 768px) {
+    position: static;
+    gap: 0.35rem;
+    padding: 0.5rem;
+
+    .cat-pill {
+      font-size: 0.74rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+}
+
+.project-category-section {
+  scroll-margin-top: 100px;
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+}

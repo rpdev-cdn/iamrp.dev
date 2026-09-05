@@ -72,7 +72,7 @@ This architecture successfully allowed the business to leverage cutting-edge AI 
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Architecture/MCP_Enterprise|MCP In Enterprise Operations]], [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].

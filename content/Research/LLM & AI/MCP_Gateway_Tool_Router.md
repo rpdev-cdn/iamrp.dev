@@ -165,7 +165,7 @@ spec:
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
 * **Technical Articles:** Deep dive in [[Articles/Architecture/MCP_Enterprise|MCP In Enterprise Operations]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]], [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].

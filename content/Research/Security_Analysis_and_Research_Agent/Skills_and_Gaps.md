@@ -70,6 +70,6 @@ The agent's roadmap includes 129 newly identified research subjects across 43 sp
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Research_Strategy|Research Strategy]], [[Research/Security_Analysis_and_Research_Agent/Sources_and_Matrix|Sources and Matrix]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]].
 * **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Security_Awareness_Training|Security Awareness Training]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Training]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].

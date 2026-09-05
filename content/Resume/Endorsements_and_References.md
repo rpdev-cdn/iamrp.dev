@@ -74,5 +74,5 @@ Direct phone and email contact details for former executive supervisors and tech
 
 * **Master Resume & CV:** Return to the full **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
 * **Legacy Career Archive:** Explore historical roles on **[[Resume/Legacy_Roles|Legacy Roles Archive]]**.
-* **Enterprise Governance:** Review authored frameworks on **[[Governance/Policies/index|Enterprise Policies Directory]]**.
+* **Enterprise Governance:** Review authored frameworks on **[[Projects/Governance-and-Policies/index|Enterprise Policies Directory]]**.
 * **Digital Garden Hub:** Return to the home **[[content/Resume/index|Digital Garden Index]]**.

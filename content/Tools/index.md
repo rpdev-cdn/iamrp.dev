@@ -16,9 +16,9 @@ Interactive tools, live microservices, and security utilities built for autonomo
 
 ## 🛠️ Interactive Applications & Software Suites
 
-- **[[Tools/DocIngest/index|DocIngest Suite]]** <span class="telemetry-badge">LIVE EDGE MICROSERVICE</span> — *Distributed documentation crawler, semantic vector indexing, and Model Context Protocol (MCP) server.*
-  - **[[Tools/DocIngest/add|Add / Index Documentation (Interactive SPA)]]** <span class="telemetry-badge">OPERATIONAL</span> — *Interactive web crawler dispatching document ingestion jobs directly to the cluster.*
-  - **[[Tools/DocIngest/view|Browse Indexed Documentation (Interactive SPA)]]** <span class="telemetry-badge">OPERATIONAL</span> — *Searchable documentation corpus with live preview and Markdown export.*
+- **[[Homelab-Projects/DocIngest/index|DocIngest Suite]]** <span class="telemetry-badge">LIVE EDGE MICROSERVICE</span> — *Distributed documentation crawler, semantic vector indexing, and Model Context Protocol (MCP) server.*
+  - **[[Homelab-Projects/DocIngest/add|Add / Index Documentation (Interactive SPA)]]** <span class="telemetry-badge">OPERATIONAL</span> — *Interactive web crawler dispatching document ingestion jobs directly to the cluster.*
+  - **[[Homelab-Projects/DocIngest/view|Browse Indexed Documentation (Interactive SPA)]]** <span class="telemetry-badge">OPERATIONAL</span> — *Searchable documentation corpus with live preview and Markdown export.*
 
 ---
 

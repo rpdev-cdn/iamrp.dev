@@ -50,6 +50,6 @@ For environments processing public claims, lead-generation telemetry, or marketi
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]], [[Research/Security_Analysis_and_Research_Agent/Research_Strategy|Research Strategy]], [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]], [[Governance/Policies/Data_Classification_Policy|Data Classification Policy]], [[Governance/Policies/Encryption_Policy|Encryption Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].

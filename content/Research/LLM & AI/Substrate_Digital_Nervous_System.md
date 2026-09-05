@@ -41,7 +41,7 @@ To provide a robust, scalable backbone for "Digital Intelligence" within the wor
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]], [[OpenThread_Border_Router|OpenThread Border Router]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].

@@ -122,7 +122,7 @@ _Related Documents:_
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]], [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Professional Background:** Authored by Richard P. Dissell ([[Resume/Master_Resume|Master Resume]], [[Resume/Legacy_Roles|Legacy Roles]]).
 * **Digital Garden Hub:** Return to the main [[docs/index|Digital Garden Index]].

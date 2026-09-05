@@ -42,6 +42,6 @@ The Security Analysis and Research Agent utilizes a robust suite of detection en
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]], [[Research/Security_Analysis_and_Research_Agent/Sources_and_Matrix|Sources and Matrix]].
 * **Production Systems:** Validated in [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]], [[Infra_Audit_Engine|Infra Audit Engine]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].

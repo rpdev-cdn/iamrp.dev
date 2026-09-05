@@ -110,7 +110,7 @@ To eliminate buffering and RTSP stream latency, `go2rtc` acts as a high-performa
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Production Systems:** Validated in [[Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Hardware_Storage_Tiering|Hardware Storage Tiering]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Building_Security_Policy|Building Security Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Building_Security_Policy|Building Security Policy]].
 * **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].

@@ -81,6 +81,6 @@ Our 26 distinct research tracks are organized into several core domains. Most tr
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Research_Tracks_Taxonomy|Research Tracks Taxonomy]], [[Research/Security_Analysis_and_Research_Agent/Agents_and_Architecture|Agents and Architecture]], [[Research/Security_Analysis_and_Research_Agent/Skills_and_Gaps|Skills and Gaps]].
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Information_Security_Policy|Information Security Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].

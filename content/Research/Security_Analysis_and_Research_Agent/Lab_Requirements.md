@@ -86,6 +86,6 @@ The Security Analysis and Research Agent operates within this rigorously defined
 * **Swarm Hub:** Return to the primary overview on [[Research/Security_Analysis_and_Research_Agent/index|index]].
 * **Research Swarm Modules:** Explore [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]], [[Research/Security_Analysis_and_Research_Agent/Research_Strategy|Research Strategy]], [[Research/Security_Analysis_and_Research_Agent/Lab_Validated_Playbooks|Lab Validated Playbooks]].
 * **Production Systems:** Validated in [[Current_Environment|Current Environment]], [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]].
-* **Governance & Compliance:** Governed by [[Governance/Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
+* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Research/Security_Analysis_and_Research_Agent/index|Digital Garden Index]].
