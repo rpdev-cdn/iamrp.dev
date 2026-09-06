@@ -35,7 +35,7 @@ tags:
 
 1. **[[Projects/Android/index|RPDev Mobile Ecosystem: Sovereign Android 16 Desktop]]**  
    *High-performance, privacy-first mobile operating environment. Decouples the 120Hz launcher desktop from contextual intelligence via Android's high-speed AIDL IPC bridge (`WINDOW_OVERLAY`). Features zero telemetry, hardware Keystore AES256_GCM encryption, on-device SQLite caching, nested folders with cycle-safe graph traversal, and 9 extensible Hub modules.*  
-   *Portals: [Launcher](https://launcher.iamrp.dev) • [Feed](https://feed.launcher.iamrp.dev) • [Repository](https://repo.launcher.iamrp.dev) • [Wiki](https://wiki.iamrp.dev) • [CDN](https://cdn.iamrp.dev)*
+   *Portals: [Launcher](https://launcher.iamrp.dev) • [Feed](https://feed.launcher.iamrp.dev) • [Repository](https://launcher.repo.iamrp.dev) • [Wiki](https://wiki.iamrp.dev) • [CDN](https://cdn.iamrp.dev)*
 
 2. **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine: Continuous Multi-Node Drift Orchestrator]]**  
    *Automated multi-node hardware and config drift orchestrator compiling `CURRENT_ENV.yml` across OpenWrt routers, GPU compute nodes, and distributed Docker clusters.*
@@ -62,7 +62,7 @@ AOSP-based operating environment engineered for deterministic 120Hz rendering, z
 | **[[Projects/Android/index|RPDev Mobile Ecosystem]]** | Master architectural overview of the decoupled Android 16 home desktop environment. | [Wiki Overview](https://wiki.iamrp.dev) |
 | **[[Projects/Android/RPDev_Launcher|RPDev Launcher]]** | Modern AOSP launcher with <35MB idle footprint, DataStore reactive flows, and cycle-safe nested folders. | [launcher.iamrp.dev](https://launcher.iamrp.dev) |
 | **[[Projects/Android/RPDev_Feed|RPDev Feed]]** | Sovereign -1 screen companion replacing commercial tracking feeds with on-device RSS parsing and Keystore crypto. | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) |
-| **[[Projects/Android/RPDev_Feed_Modules|Hub Modules Ecosystem]]** | 9 pluggable card plugins distributed via Edge CDN for weather, telemetry, calendar, GitHub, Home Assistant, and Docker. | [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) |
+| **[[Projects/Android/RPDev_Feed_Modules|Hub Modules Ecosystem]]** | 9 pluggable card plugins distributed via Edge CDN for weather, telemetry, calendar, GitHub, Home Assistant, and Docker. | [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) |
 | **[[Projects/Android/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]]** | Low-latency edge bridge connecting mobile hardware to Linux workstations. | [DeX Architecture](https://wiki.iamrp.dev) |
 
 </section>
