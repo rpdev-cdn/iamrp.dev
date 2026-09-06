@@ -14,6 +14,8 @@ aliases:
   - /projects/thingino-edge-vision
   - /projects/infra-security/embedded_linux_camera_firmware
   - /projects/embedded_linux_camera_firmware
+  - /projects/ai-and-swarms/embedded_linux_camera_firmware
+  - /embedded_linux_camera_firmware
 ---
 # Embedded Linux Camera Firmware & Edge AI Vision Pipeline
 ## **Custom Ingenic SoC Firmware, Low-Latency RTSP Streaming & Real-Time Vectorized Scene Intelligence**

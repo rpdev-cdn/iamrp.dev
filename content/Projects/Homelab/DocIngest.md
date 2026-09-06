@@ -1,5 +1,5 @@
 ---
-title: DocIngest Suite
+title: "DocIngest Suite"
 aliases:
 - /homelab-projects/tools/docingest
 - /homelab-projects/docingest/index
@@ -7,6 +7,10 @@ aliases:
 - /software--and--github/tools/docingest
 - /projects--and--research/projects/docingest_engine
 - /docingest
+  - /tools
+  - /tools/index
+  - /software--and--github/tools
+  - /software--and--github
 tags:
 - docingest
 - tools

@@ -1,66 +1,89 @@
 ---
-title: "Homelab Infrastructure: Bare-Metal, PaaS & Hybrid Cloud"
-description: "Architecture and operational matrix for the RPDev multi-node homelab: Coolify self-hosted PaaS, hardware inventory, and tiered storage."
+title: "Homelab & Infrastructure"
+description: "Sovereign bare-metal homelab infrastructure, self-hosted PaaS engines, DocIngest documentation crawler, spatial storage tiering, and live fleet topology."
 aliases:
   - /homelab-projects
+  - /homelab-projects/index
   - /homelab
+  - /homelab/index
   - /projects/homelab
+  - /projects/homelab/index
 tags:
   - homelab
   - infrastructure
-  - coolify
+  - paas
   - storage
-  - baremetal
+  - docingest
 ---
 
-# 🧪 Homelab Infrastructure: Bare-Metal, PaaS & Hybrid Cloud
+# 🧪 Homelab & Infrastructure
 
-> **Heterogeneous bare-metal and hybrid compute infrastructure powering production workloads, development sandboxes, and automated self-hosted services.**
+> **Sovereign, bare-metal homelab infrastructure, containerized microservices, high-speed storage tiering, and live edge applications.**
 
-```mermaid
-graph TD
-    subgraph Compute["Physical Nodes & Virtualization"]
-        T430["T430 ThinkPad Node<br><i>Lightweight PaaS & Staging</i>"]
-        Admin01["LLMAdmin01 Workstation<br><i>GPU & High-IO Compute</i>"]
-        Edge["Edge Gateway<br><i>OpenWrt x86_64 Router</i>"]
-    end
-
-    subgraph Orchestration["Service Orchestration"]
-        Coolify["Coolify PaaS Engine<br><i>github.com/RPDevs-Builds/coolify</i>"]
-        Docker["Docker Engine & Macvlan L2"]
-    end
-
-    subgraph Storage["Storage Tiering"]
-        NVMe["NVMe Local SSD<br><i>Databases & WALs</i>"]
-        SharedRoot["SharedRoot NFS<br><i>Bulk Data & Media</i>"]
-    end
-
-    T430 --> Coolify
-    Coolify --> Docker
-    Admin01 --> NVMe
-    Admin01 --> SharedRoot
-    T430 --> SharedRoot
-```
+<nav class="projects-category-bar">
+  <a href="#docingest" class="cat-pill"><span class="cat-icon">📚</span> DocIngest Suite</a>
+  <a href="#paas-orchestration" class="cat-pill"><span class="cat-icon">🚀</span> PaaS Orchestration (Coolify)</a>
+  <a href="#fleet-topology" class="cat-pill"><span class="cat-icon">🖥️</span> Fleet Topology & Hardware</a>
+  <a href="#storage-tiering" class="cat-pill"><span class="cat-icon">💾</span> Storage Tiering</a>
+</nav>
 
 ---
 
-## 🏛️ Homelab Projects Portfolio
+<section id="docingest" class="project-category-section">
 
-### 1. [[Projects/Homelab/Coolify|Coolify Self-Hosted PaaS Integration]]
-*Centralized application and container deployment engine deployed under `RPDevs-Builds/coolify`. Acts as an internal orchestration layer anchored to the T430 node to manage web services, databases, and microservices with automated SSL lifecycle management.*
+## 📚 [[Projects/Homelab/DocIngest|DocIngest Documentation & Knowledge Suite]]
 
-### 2. [[Projects/Homelab/Coolify_Project_Plan|Coolify Implementation & Staging Plan]]
-*Sequenced rollout plan detailing environment prep, reverse proxy configuration, resource baselines, Netdata vs Beszel benchmarking, Homepage dashboard consolidation, and Directus/Kestra orchestration.*
+Distributed documentation crawler, semantic vector indexing, and Model Context Protocol (MCP) server running natively on the cluster.
 
-### 3. [[Projects/Homelab/Current_Environment|Current Fleet Environment & Node Topology]]
-*The single source of truth documenting hardware specifications, CPU topologies, memory limits, storage partitions, and network routing configurations across all physical and virtual nodes.*
+| Tool / Interface | Purpose & Capabilities | Live Portal |
+|---|---|---|
+| **[[Projects/Homelab/DocIngest|DocIngest Suite Overview]]** | Master architecture, API contracts, Qdrant vector embedding, and background crawler pipelines. | [docingest.iamrp.dev](https://docingest.iamrp.dev) |
 
-### 4. [[Projects/Homelab/Hardware_Storage_Tiering|Spatial Hardware-Aware Storage Tiering]]
-*ZFS, NVMe, and NFS storage hierarchy optimizing write amplification and throughput by routing high-IOPS database transactions and write-ahead logs to NVMe while streaming static assets and backups to SharedRoot.*
+</section>
 
 ---
 
-## 🧭 Navigation & Cross-Links
-- Return to **[[Projects/index|All Projects Master Catalog]]**
-- Explore monitoring in **[[Projects/Infrastructure-and-CICD/index|Infrastructure & CI/CD]]**
-- Review hardware key management in **[[Projects/Hardware-Security/index|Hardware Security]]**
+<section id="paas-orchestration" class="project-category-section">
+
+## 🚀 [[Projects/Homelab/Coolify|Coolify Self-Hosted PaaS Engine]]
+
+Centralized application deployment engine anchored to bare-metal hardware for internal container orchestration, Git push-to-deploy pipelines, and automated Let's Encrypt SSL management.
+
+| Document | Focus | Scope |
+|---|---|---|
+| **[[Projects/Homelab/Coolify|Coolify Architecture & Integration]]** | Production deployment guidelines, Traefik proxying, Docker socket security, and network isolation. | Core Architecture |
+| **[[Projects/Homelab/Coolify_Project_Plan|Coolify Implementation & Staging Plan]]** | Resource baselines, Netdata vs Beszel benchmarking, staging schedules, and migration checklists. | Rollout Plan |
+
+</section>
+
+---
+
+<section id="fleet-topology" class="project-category-section">
+
+## 🖥️ [[Projects/Homelab/Current_Environment|Fleet Topology & Hardware Environment]]
+
+The single source of truth for bare-metal host specifications, CPU architectures, memory budgets, network routing tables, and interface layouts across all active nodes (`edge`, `llmadmin01`, `t430`).
+
+- **[[Projects/Homelab/Current_Environment|View Full Fleet Topology (`CURRENT_ENV.yml`)]]** <span class="telemetry-badge">LIVE TELEMETRY</span>
+
+</section>
+
+---
+
+<section id="storage-tiering" class="project-category-section">
+
+## 💾 [[Projects/Homelab/Hardware_Storage_Tiering|Spatial Storage Tiering]]
+
+High-throughput storage architecture routing database WALs and high-IO containers to NVMe SSDs, while offloading static binary archives, ISOs, and cold backups to SharedRoot bulk storage.
+
+- **[[Projects/Homelab/Hardware_Storage_Tiering|Read Storage Tiering Architecture]]**
+
+</section>
+
+---
+
+## 🧭 Navigation & Portals
+- Explore all engineering systems in **[[Projects/index|Projects]]**
+- Read applied research and essays in **[[Research-and-Ramblings/index|Research & Ramblings]]**
+- Inspect master resume in **[[Resume/index|Resume]]**
+- Browse the external knowledge base at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**

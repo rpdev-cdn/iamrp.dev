@@ -1,5 +1,5 @@
 ---
-title: "Security Analysis & Research Agent: Master Thesis & Engineering Capstone"
+title: "Security & AI Research"
 tags:
   - research
   - capstone

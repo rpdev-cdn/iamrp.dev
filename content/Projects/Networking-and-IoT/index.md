@@ -1,5 +1,5 @@
 ---
-title: "Embedded Networking, Edge Routing & IoT"
+title: "Networking & IoT"
 description: "OpenWrt kernel modules, SDR radio telemetry, 802.15.4 Thread mesh border routers, and non-NAT Layer 2 containerization."
 aliases:
   - /projects/networking-and-iot

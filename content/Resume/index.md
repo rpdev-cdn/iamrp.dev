@@ -1,6 +1,6 @@
 ---
 date: 2026-08-26
-title: "Curriculum Vitae & Master Resume"
+title: "Resume"
 description: "Curriculum Vitae and Master Resume for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
 tags:
   - resume

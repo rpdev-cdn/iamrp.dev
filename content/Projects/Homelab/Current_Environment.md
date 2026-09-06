@@ -12,6 +12,9 @@ aliases:
   - /homelab-projects/homelab/current_environment
   - /projects/homelab/current_environment
   - /current_environment
+  - /projects/homelab/Current_Environment
+  - /homelab/current_environment
+  - /homelab/Current_Environment
 ---
 # Current Fleet Topology & Environment State
 

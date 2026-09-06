@@ -23,7 +23,7 @@ tags:
   <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1" target="_blank" rel="noopener" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>📥 Download Official PDF Resume</span>
   </a>
-  <a href="./projects/current_environment" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="./projects/homelab/current_environment" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>🖥️ Live Fleet Topology</span>
   </a>
   <a href="https://wiki.iamrp.dev" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
@@ -47,35 +47,30 @@ tags:
 
 > [!tip] Tailored Navigation by Role
 > * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1).
-> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Research-and-Ramblings/Articles/Lab_Workstation|/uses Hardware & Stack Specification]]**, or inspect the live **[[Current_Environment|Current Fleet Topology]]**.
-> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|19 Enterprise Security Policies]]**, review **[[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
+> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Production Projects]]**, inspect the live **[[Projects/Homelab/Current_Environment|Current Fleet Topology]]**, or review **[[Research-and-Ramblings/Articles/Lab_Workstation|/uses Hardware & Stack Specification]]**.
+> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|18 Enterprise Security Policies]]**, review **[[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
 ---
 
-## ◈ Core Operational Pillars
+## ◈ Core Navigation Pillars
 
-Explore the primary sections of the portfolio:
+- **[[Projects/index|Projects]]** <span class="telemetry-badge airgapped">PRODUCTION ARCHITECTURES</span>  
+  *Production systems across 7 core engineering categories: **[[Projects/Android/index|Android Ecosystem (Sovereign 120Hz Desktop)]]**, **[[Projects/Hardware-Security/index|Hardware Security & Bootloaders]]**, **[[Projects/Networking-and-IoT/index|Embedded Networking & IoT]]**, **[[Projects/Homelab/index|Homelab & Infrastructure Cluster]]**, **[[Projects/Infrastructure-and-CICD/index|CI/CD & Observability Fleet]]**, **[[Projects/Defensive-Security/index|Defensive Security SIEM]]**, and **[[Projects/Governance-and-Policies/index|Enterprise Policies & Governance]]**.*
 
-- **[[Resume/index|Resume & Professional Background]]**  
+- **[[Research-and-Ramblings/index|Research & Ramblings]]** <span class="telemetry-badge airgapped">APPLIED RESEARCH & ESSAYS</span>  
+  *Intellectual nexus combining applied research and deep technical writing: **[[Research-and-Ramblings/Security-and-AI-Research/index|Security & AI Research]]** (12-part Master Thesis, Multi-Agent Swarms, Local LLM Control Planes) and **[[Research-and-Ramblings/Articles/index|Articles & Technical Field Guides]]** (Zero-Trust Edge Routing, Leadership Philosophy, Systems Automation).*
+
+- **[[Resume/index|Resume & Background]]**  
   *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
-- **[[Wiki/index|Ecosystem Wiki & Knowledge Base]]** <span class="telemetry-badge">LIVE WIKI</span>  
-  *Authoritative documentation hub at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**: step-by-step user manuals, troubleshooting guides, and developer AIDL specifications across all RPDev systems.*
-- **[[Tools/index|Tools & Live Applications]]** <span class="telemetry-badge">LIVE EDGE SUITE</span>  
-  *Interactive applications including the **[[Homelab-Projects/DocIngest/index|DocIngest Suite]]** with real-time documentation ingestion ([[Homelab-Projects/DocIngest/add|Add Ingestion]]) and searchable vector corpus exploration ([[Homelab-Projects/DocIngest/view|Browse Corpus]]).*
-- **[[Projects/index|Engineering & Systems Projects]]** <span class="telemetry-badge airgapped">AIR-GAPPED LAB</span>  
-  *Production systems: **[[Projects/Android/index|RPDev Mobile Ecosystem (Android 16 Sovereign Desktop)]]**,  **[[LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Kexecboot_Wireless_Bootloader|kexecboot.xyz Wireless Bootloader]]**, **[[MCP_Gateway_Tool_Router|MCP Gateway]]**, **[[Embedded_Linux_Camera_Firmware|Embedded Linux & Edge AI Vision]]**, **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**, **[[Infra_Audit_Engine|Infra Audit Engine]]**, **[[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS]]**, and **[[Builder_Manager_OCI_Pipeline|Builder Manager OCI Engine]]**.*
-- **[[Research-and-Ramblings/index|Security & AI Systems Research]]** <span class="telemetry-badge airgapped">ACTIVE RESEARCH</span>  
-  *Applied AI and security research: **[[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Security Analysis & Research Multi-Agent Swarm]]**, **[[Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
-- **[[Governance/index|Enterprise Policy & Governance]]** <span class="telemetry-badge standby">19 ENTERPRISE POLICIES</span>  
-  *Complete suite of **[[Projects/Governance-and-Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Projects/Governance-and-Policies/Information_Security_Policy|Information Security]]**, **[[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response]]**, **[[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
-- **[[Research-and-Ramblings/Research-and-Ramblings/Articles/index|Technical Articles & Field Guides]]**  
-  *Deep technical writing: **[[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]]**, **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]**, **[[Research-and-Ramblings/Articles/Systems_Theory|Games & Systems Complexity]]**, **[[Research-and-Ramblings/Articles/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**, and **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]**.*
+
+- **[[Contact/index|Contact & Identity Verification]]**  
+  *Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots.*
 
 ---
 
 ## ◈ Live Fleet Telemetry & Infrastructure
 
-- **[[Current_Environment|Current Fleet Topology]]** <span class="telemetry-badge">LIVE TELEMETRY</span> — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
+- **[[Projects/Homelab/Current_Environment|Current Fleet Topology]]** <span class="telemetry-badge">LIVE TELEMETRY</span> — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
 
 ---
 
@@ -84,6 +79,7 @@ Explore the primary sections of the portfolio:
 > * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
 > * **Phone:** `216-410-3687` *(Text Preferred)*
 > * **Cryptographic Verification & PGP:** Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots on the **[[Contact/index|Contact & Identity Verification]]** page.
+> * **Ecosystem Knowledge Base:** Complete user manuals, setup guides, and AIDL developer specifications are maintained at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**.
 
 <script type="application/ld+json">
 {

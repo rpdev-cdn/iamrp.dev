@@ -7,6 +7,9 @@ aliases:
   - /research/llm--ai/substrate_digital_nervous_system
   - /substrate_digital_nervous_system
   - /research-and-ramblings/llm-and-agent-systems/substrate_digital_nervous_system
+  - /research/llm--and--ai/substrate_digital_nervous_system
+  - /research/llm-and-ai/substrate_digital_nervous_system
+  - /research/substrate_digital_nervous_system
 ---
 # Substrate: The Digital Nervous System
 

@@ -1,5 +1,5 @@
 ---
-title: "Defensive Security, SIEM & Threat Deception"
+title: "Defensive Security"
 description: "Collaborative threat intelligence, Wazuh and CrowdSec SIEM, perimeter tarpits and honeypots, and privacy browser extensions."
 aliases:
   - /projects/defensive-security

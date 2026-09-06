@@ -1,6 +1,6 @@
 ---
-title: "Engineering & Systems Projects Master Catalog"
-description: "Comprehensive portfolio of systems architecture, mobile ecosystems, hardware security, edge networking, infrastructure, and defensive tools by Richard P. Dissell."
+title: "Projects"
+description: "Systems architecture, mobile ecosystems, hardware security, edge networking, infrastructure, homelab, and defensive tools by Richard P. Dissell."
 aliases:
   - /projects--and--research/projects
   - /projects--and--research
@@ -12,16 +12,15 @@ tags:
   - architecture
 ---
 
-# 🚀 Engineering & Systems Projects Master Catalog
+# 🚀 Systems & Infrastructure Projects
 
-> **Production architectures, bare-metal telemetry systems, mobile platforms, and distributed container environments engineered for zero-trust resilience and complete operational sovereignty.**
+> **Production architectures, bare-metal telemetry systems, mobile platforms, homelab clusters, and distributed container environments engineered for zero-trust resilience and complete operational sovereignty.**
 
 <nav class="projects-category-bar">
-  <a href="#android" class="cat-pill"><span class="cat-icon">📱</span> Android</a>
-  <a href="#homelab" class="cat-pill"><span class="cat-icon">🧪</span> Homelab</a>
-  <a href="#ai-swarms" class="cat-pill"><span class="cat-icon">🧠</span> AI & Swarms</a>
+  <a href="#android" class="cat-pill"><span class="cat-icon">📱</span> Android Ecosystem</a>
   <a href="#hardware-security" class="cat-pill"><span class="cat-icon">🔒</span> Hardware Security</a>
   <a href="#networking-iot" class="cat-pill"><span class="cat-icon">🌐</span> Networking & IoT</a>
+  <a href="#homelab" class="cat-pill"><span class="cat-icon">🧪</span> Homelab & Infrastructure</a>
   <a href="#infra-cicd" class="cat-pill"><span class="cat-icon">📊</span> Infra & CI/CD</a>
   <a href="#defensive-security" class="cat-pill"><span class="cat-icon">🛡️</span> Defensive Security</a>
   <a href="#governance-policies" class="cat-pill"><span class="cat-icon">📋</span> Governance & Policies</a>
@@ -32,7 +31,7 @@ tags:
 ## ⭐ Featured Architectural Flagships
 
 > [!tip] Quick-Scan Portfolio Highlights
-> High-impact production systems showcasing cross-disciplinary engineering across mobile operating environments, AI control planes, hardware security tokens, and multi-node fleet telemetry:
+> High-impact production systems showcasing cross-disciplinary engineering across mobile operating environments, hardware security tokens, and multi-node fleet telemetry:
 
 1. **[[Projects/Android/index|RPDev Mobile Ecosystem: Sovereign Android 16 Desktop]]**  
    *High-performance, privacy-first mobile operating environment. Decouples the 120Hz launcher desktop from contextual intelligence via Android's high-speed AIDL IPC bridge (`WINDOW_OVERLAY`). Features zero telemetry, hardware Keystore AES256_GCM encryption, on-device SQLite caching, nested folders with cycle-safe graph traversal, and 9 extensible Hub modules.*  
@@ -70,53 +69,18 @@ AOSP-based operating environment engineered for deterministic 120Hz rendering, z
 
 ---
 
-<section id="homelab" class="project-category-section">
-
-## 🧪 [[Projects/Homelab/index|Homelab Infrastructure & Hybrid Compute]]
-
-Bare-metal virtualization, self-hosted PaaS engines, spatial storage tiering, and hardware inventory normalization.
-
-| Project | Description | Primary Role |
-|---|---|---|
-| **[[Projects/Homelab/Coolify|Coolify Self-Hosted PaaS Integration]]** | Centralized application deployment engine anchored to T430 for internal orchestration and SSL management. | PaaS Orchestration |
-| **[[Projects/Homelab/Coolify_Project_Plan|Coolify Implementation & Staging Plan]]** | Detailed rollout plan, resource baselines, Netdata vs Beszel benchmarking, and service migration. | Deployment Plan |
-| **[[Projects/Homelab/Current_Environment|Current Fleet Environment]]** | Authoritative hardware inventory, CPU architectures, memory limits, and network routing tables. | Single Source of Truth |
-| **[[Projects/Homelab/Hardware_Storage_Tiering|Spatial Hardware-Aware Storage Tiering]]** | ZFS/NVMe/NFS hierarchy routing database WALs to NVMe and static archives to SharedRoot. | Storage Optimization |
-
-</section>
-
----
-
-<section id="ai-swarms" class="project-category-section">
-
-## 🧠 [[Projects/AI-and-Swarms/index|AI Systems, Swarms & Computer Vision]]
-
-Autonomous multi-agent swarms, Model Context Protocol (MCP) gateways, real-time edge computer vision, and embedded firmware.
-
-| Project | Description | Technology Stack |
-|---|---|---|
-| **[[Projects/AI-and-Swarms/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware & Edge AI Vision]]** | Custom Ingenic SoC Linux kernel, RTSP pipelines, and Qdrant vector scene intelligence. | Ingenic, Linux, Qdrant |
-| **[[Research-and-Ramblings/LLM-and-Agent-Systems/LLM_Control_Plane|Gemini CLI Workspace: Control & Data Plane]]** | Decoupled swarm architecture with sub-15ms SSE streaming and session-scoped tool routing. | Python, SSE, Swarms |
-| **[[Research-and-Ramblings/LLM-and-Agent-Systems/MCP_Gateway_Tool_Router|MCP Gateway: Enterprise Tool Router]]** | Stateful proxy and aggregator bridging diverse agent runtimes via Model Context Protocol. | TypeScript, MCP, Node |
-| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]]** | Edge-native Model Context Protocol server executing tools on Cloudflare Workers. | Workers, Edge, SSE |
-| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision & NVR]]** | 100+ FPS real-time object detection with Coral Edge TPU and go2rtc WebRTC brokering. | Edge TPU, WebRTC, Go |
-| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Substrate_Digital_Nervous_System|Substrate — Digital Nervous System]]** | Distributed microservices backbone orchestrating multi-node telemetry and proactive loops. | Microservices, EventBus |
-
-</section>
-
----
-
 <section id="hardware-security" class="project-category-section">
 
 ## 🔒 [[Projects/Hardware-Security/index|Hardware Security, Cryptography & Bootloaders]]
 
-Physical security token derivation, age encryption, pre-OS wireless network bootloaders, and zero-trust bare-metal recovery.
+Physical security token derivation, age encryption, pre-OS wireless network bootloaders, embedded cameras, and zero-trust bare-metal recovery.
 
 | Project | Description | Security Primitives |
 |---|---|---|
 | **[[Projects/Hardware-Security/Hardware_Security_Key|Hardware-Hardened Secret Management (FIDO2 + Age)]]** | Physical FIDO2 key derivation binding symmetric encryption to hardware tokens with dual-recipient recovery. | FIDO2, Age, Chezmoi |
 | **[[Projects/Hardware-Security/FIDO2_Security_Toolkit|FIDO2 Security Toolkit & Linux PAM MFA]]** | Hardware assertion toolkit implementing physical touch verification for sudo authorization and SSH residency. | PAM, libfido2, C |
 | **[[Projects/Hardware-Security/Kexecboot_Wireless_Bootloader|kexecboot.xyz: Wireless Network Bootloader]]** | Pre-OS WPA2/WPA3 Wi-Fi authentication, netboot.xyz parsing, and direct in-memory kernel kexec pivot. | kexec, C, Linux Kernel |
+| **[[Projects/Hardware-Security/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware & Edge AI Vision]]** | Custom Ingenic SoC Linux kernel, RTSP pipelines, and Qdrant vector scene intelligence. | Ingenic, Linux, Qdrant |
 | **[[Projects/Hardware-Security/Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool: Multi-Boot USB Configuration]]** | Multi-boot zero-trust USB environment for live digital forensics, incident triage, and bare-metal provisioning. | Ventoy, UEFI, Zero-Trust |
 
 </section>
@@ -138,6 +102,24 @@ Custom OpenWrt kernel compilation, high-speed NFS storage shares, SDR radio freq
 | **[[Projects/Networking-and-IoT/ADSB_Aviation_SDR_Telemetry_Pipeline|Dual-Band ADS-B & UAT Aviation SDR Pipeline]]** | Demodulating 1090MHz Mode S and 978MHz UAT flight telemetry with RTL-SDR and WebGL radar. | 1090MHz, 978MHz, SDR |
 | **[[Projects/Networking-and-IoT/SDR_and_RF_Exploration|SDR & RF Telemetry Exploration]]** | Software-Defined Radio research capturing municipal, weather satellite, and ISM band radio frequencies. | GNU Radio, RTL-SDR |
 | **[[Projects/Networking-and-IoT/Layer2_Containerization|Layer 2 Virtualization & Non-NAT IPAM]]** | Macvlan/IPvlan Docker network fabric eliminating NAT port mapping bottlenecks. | Macvlan, IPvlan, L2 |
+
+</section>
+
+---
+
+<section id="homelab" class="project-category-section">
+
+## 🧪 [[Projects/Homelab/index|Homelab & Infrastructure Cluster]]
+
+Bare-metal server fleet orchestration, self-hosted deployment engines, automated document corpus crawling, and NVMe tiering.
+
+| Project | Description | Scope |
+|---|---|---|
+| **[[Projects/Homelab/DocIngest|DocIngest Documentation & Knowledge Suite]]** | High-performance documentation crawler, markdown converter, and MCP server. | [docingest.iamrp.dev](https://docingest.iamrp.dev) |
+| **[[Projects/Homelab/Coolify|Coolify Self-Hosted PaaS Engine]]** | Production PaaS deployment, Traefik ingress, and isolated container orchestration. | Core PaaS Engine |
+| **[[Projects/Homelab/Coolify_Project_Plan|Coolify Implementation & Staging Plan]]** | Resource baselines, benchmark comparisons, and migration checklists. | Rollout Plan |
+| **[[Projects/Homelab/Current_Environment|Current Fleet Topology (`CURRENT_ENV.yml`)]]** | Hardware specifications, IPAM tables, and interface topologies across active nodes. | Live Telemetry |
+| **[[Projects/Homelab/Hardware_Storage_Tiering|Spatial Storage Tiering]]** | Tiered storage architecture routing high-IO workloads to NVMe and backups to bulk storage. | Storage Architecture |
 
 </section>
 
@@ -176,9 +158,6 @@ Collaborative threat intelligence, Wazuh and CrowdSec SIEM, perimeter tarpits an
 
 ---
 
-
----
-
 <section id="governance-policies" class="project-category-section">
 
 ## 📋 [[Projects/Governance-and-Policies/index|Governance & Policies: Enterprise Standards]]
@@ -198,11 +177,10 @@ A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies,
 
 </section>
 
+---
 
-## 🔗 Related Architecture & Knowledge Graph
+## 🔗 Related Architecture & Ecosystem Portals
 
-* **Master Resume & Experience:** Review production systems experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
-* **Security & AI Research:** Explore autonomous research swarms on **[[Research-and-Ramblings/index|Security & AI Systems Research]]** and **[[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Multi-Agent Security Swarm]]**.
-* **Enterprise Governance:** Review policy and compliance frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Projects/Governance-and-Policies/index|Enterprise Policies Directory]]**.
-* **Technical Field Guides:** Read deep architectural articles on **[[Research-and-Ramblings/Research-and-Ramblings/Articles/index|Technical Articles & Field Guides]]**, **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]**, and **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]**.
-* **Interactive Tools:** Explore live applications on **[[Tools/index|Tools & Live Applications]]** and **[[Tools/DocIngest/index|DocIngest Suite]]**.
+* **Security & AI Research:** Read the capstone monographs on **[[Research-and-Ramblings/index|Research & Ramblings]]**.
+* **Master Resume:** Review production credentials on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
+* **Ecosystem Wiki:** Explore end-user manuals and developer guides at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**.

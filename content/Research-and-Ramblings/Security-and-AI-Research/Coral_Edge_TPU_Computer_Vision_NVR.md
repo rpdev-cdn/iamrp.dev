@@ -13,6 +13,9 @@ aliases:
   - /research/llm--ai/coral_edge_tpu_computer_vision_nvr
   - /coral_edge_tpu_computer_vision_nvr
   - /research-and-ramblings/llm-and-agent-systems/coral_edge_tpu_computer_vision_nvr
+  - /research/llm--and--ai/coral_edge_tpu_computer_vision_nvr
+  - /research/llm-and-ai/coral_edge_tpu_computer_vision_nvr
+  - /research/coral_edge_tpu_computer_vision_nvr
 ---
 # Coral Edge TPU Computer Vision & Low-Latency NVR
 ## **Real-Time Object Detection at 100+ FPS via Google Coral Edge TPU, go2rtc WebRTC Streaming & tmpfs RAM Buffering**

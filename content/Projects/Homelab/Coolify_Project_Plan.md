@@ -1,6 +1,10 @@
 ---
 aliases:
   - /projects/lab-experiments/coolify/project-plan
+  - /projects/homelab/coolify_project_plan
+  - /projects/homelab/Coolify_Project_Plan
+  - /homelab/coolify_project_plan
+  - /homelab/Coolify_Project_Plan
 ---
 
 ### Coolify Deployment Project Plan

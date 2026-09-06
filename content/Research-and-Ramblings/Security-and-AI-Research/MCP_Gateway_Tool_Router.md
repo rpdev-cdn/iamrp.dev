@@ -14,6 +14,9 @@ aliases:
   - /research/llm--ai/mcp_gateway_tool_router
   - /mcp_gateway_tool_router
   - /research-and-ramblings/llm-and-agent-systems/mcp_gateway_tool_router
+  - /research/llm--and--ai/mcp_gateway_tool_router
+  - /research/llm-and-ai/mcp_gateway_tool_router
+  - /research/mcp_gateway_tool_router
 ---
 # MCP Gateway: Enterprise Tool Router & Reverse Proxy
 ## **Session-Aware Stateful Routing, Schema Aggregation & Kubernetes-Native Lifecycle Management**

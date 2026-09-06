@@ -1,5 +1,5 @@
 ---
-title: "Distributed Infrastructure, Telemetry & CI/CD Pipelines"
+title: "Infrastructure & CI/CD"
 description: "Multi-node configuration drift detection, Grafana Alloy eBPF telemetry, self-hosted GitHub Actions runner fleets, and OCI image builders."
 aliases:
   - /projects/infrastructure-and-cicd

@@ -13,6 +13,9 @@ aliases:
   - /research/llm--ai/serverless_cloudflare_mcp
   - /serverless_cloudflare_mcp
   - /research-and-ramblings/llm-and-agent-systems/serverless_cloudflare_mcp
+  - /research/llm--and--ai/serverless_cloudflare_mcp
+  - /research/llm-and-ai/serverless_cloudflare_mcp
+  - /research/serverless_cloudflare_mcp
 ---
 # Serverless Remote MCP on Cloudflare Workers: Global Edge AI Tooling
 ## **Deploying Ultra-Low-Latency Model Context Protocol Runtimes at the Global Edge with Server-Sent Events**

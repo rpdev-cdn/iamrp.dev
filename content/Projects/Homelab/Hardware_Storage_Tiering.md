@@ -9,6 +9,10 @@ aliases:
   - /projects--and--research/current-environment/hardware_storage_tiering
   - /research/infrastructure/hardware_storage_tiering
   - /hardware_storage_tiering
+  - /projects/homelab/hardware_storage_tiering
+  - /projects/homelab/Hardware_Storage_Tiering
+  - /homelab/hardware_storage_tiering
+  - /homelab/Hardware_Storage_Tiering
 ---
 > [!abstract] Architectural Challenge
 > Blindly deploying containerized workloads across a heterogeneous compute fleet often results in catastrophic hardware failure. High-frequency database writes can quickly burn through the eMMC flash on embedded edge routers, while latency-sensitive R&D tools choke when assigned to bulk network storage (NFS).

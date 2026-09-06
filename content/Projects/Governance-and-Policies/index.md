@@ -1,5 +1,5 @@
 ---
-title: "Governance & Policies: Enterprise Standards & Compliance"
+title: "Governance & Policies"
 description: "Authoritative suite of enterprise IT and cybersecurity policies, compliance frameworks, and operational governance standards authored by Richard P. Dissell."
 aliases:
   - /governance/policies
@@ -9,6 +9,9 @@ aliases:
   - /projects/governance-and-policies
   - /projects/governance-and-policies/index
   - /resume--and--experience/policy--and--governance/policies
+  - /governance
+  - /governance/index
+  - /resume--and--experience/policy--and--governance
 tags:
   - governance
   - policies

@@ -1,5 +1,5 @@
 ---
-title: "RPDev Mobile Ecosystem: Sovereign Android 16 Desktop"
+title: "Android Ecosystem"
 description: "Architecture and engineering specification for the RPDev Mobile Ecosystem — AOSP-based 120Hz launcher, AIDL overlay companion, and pluggable zero-telemetry card modules."
 tags:
   - android

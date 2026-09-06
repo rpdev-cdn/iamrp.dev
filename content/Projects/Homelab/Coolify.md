@@ -2,6 +2,10 @@
 aliases:
   - /projects/lab-experiments/coolify/coolify
   - /projects/coolify
+  - /projects/homelab/coolify
+  - /projects/homelab/Coolify
+  - /homelab/coolify
+  - /homelab/Coolify
 ---
 
 # Project Charter: Coolify Self-Hosted PaaS Integration

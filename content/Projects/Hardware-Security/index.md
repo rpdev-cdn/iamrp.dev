@@ -1,5 +1,5 @@
 ---
-title: "Hardware Security, Cryptography & Bootloaders"
+title: "Hardware Security"
 description: "Physical FIDO2 key derivation, age encryption, pre-OS wireless network bootloaders, and cryptographically verified bare-metal provisioning."
 aliases:
   - /projects/hardware-security

@@ -10,6 +10,9 @@ aliases:
   - /research/infrastructure/local_llm_architecture
   - /local_llm_architecture
   - /research-and-ramblings/llm-and-agent-systems/local_llm_architecture
+  - /research/llm--and--ai/local_llm_architecture
+  - /research/llm-and-ai/local_llm_architecture
+  - /research/local_llm_architecture
 ---
 > [!abstract] Architectural Challenge
 > Local Large Language Models (LLMs) running on bare-metal hardware require access to internal knowledge bases and vector databases to be effective. However, exposing these sensitive internal services directly to external cloud-based AI agents (or even isolated local agents) presents a massive security risk. The challenge was to provide functional AI integration without compromising the internal network boundary.

@@ -1,5 +1,5 @@
 ---
-title: "Technical Articles & Engineering Field Guides"
+title: "Articles"
 description: "Field lessons, hardware retrospectives, and deep technical guides covering bare-metal diagnostics, zero-trust edge networking, and Model Context Protocol architectures."
 aliases:
   - /articles--and--wiki
