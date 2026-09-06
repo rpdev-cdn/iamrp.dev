@@ -54,17 +54,17 @@ tags:
 
 ## ◈ Core Navigation Pillars
 
+- **[[Resume/index|Resume & Credentials]]** <span class="telemetry-badge">EXECUTIVE PROFILE</span>  
+  *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
+
+- **[[Contact/index|Contact & Identity Verification]]** <span class="telemetry-badge">CRYPTOGRAPHIC ROOTS</span>  
+  *Inspect hardware-backed PGP keys, GPG fingerprints, FIDO2 signing roots, and direct communication channels.*
+
 - **[[Projects/index|Projects]]** <span class="telemetry-badge airgapped">PRODUCTION ARCHITECTURES</span>  
   *Production systems across 7 core engineering categories: **[[Projects/Android/index|Android Ecosystem (Sovereign 120Hz Desktop)]]**, **[[Projects/Hardware-Security/index|Hardware Security & Bootloaders]]**, **[[Projects/Networking-and-IoT/index|Embedded Networking & IoT]]**, **[[Projects/Homelab/index|Homelab & Infrastructure Cluster]]**, **[[Projects/Infrastructure-and-CICD/index|CI/CD & Observability Fleet]]**, **[[Projects/Defensive-Security/index|Defensive Security SIEM]]**, and **[[Projects/Governance-and-Policies/index|Enterprise Policies & Governance]]**.*
 
 - **[[Research-and-Ramblings/index|Research & Ramblings]]** <span class="telemetry-badge airgapped">APPLIED RESEARCH & ESSAYS</span>  
   *Intellectual nexus combining applied research and deep technical writing: **[[Research-and-Ramblings/Security-and-AI-Research/index|Security & AI Research]]** (12-part Master Thesis, Multi-Agent Swarms, Local LLM Control Planes) and **[[Research-and-Ramblings/Articles/index|Articles & Technical Field Guides]]** (Zero-Trust Edge Routing, Leadership Philosophy, Systems Automation).*
-
-- **[[Resume/index|Resume & Background]]**  
-  *Authoritative **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, core competencies matrix, active architecture roles, verified education, and **[[Resume/Legacy_Roles|Legacy Career Roles Archive (2003–2016)]]**.*
-
-- **[[Contact/index|Contact & Identity Verification]]**  
-  *Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots.*
 
 ---
 

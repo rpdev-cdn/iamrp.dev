@@ -165,6 +165,28 @@ plugins:
       folderClickBehavior: link
       folderDefaultState: collapsed
       useSavedState: true
+      sortFn: |
+        (a, b) => {
+          const rank = (node) => {
+            const name = (node.displayName || node.slugSegment || "").toLowerCase();
+            if (node.slugSegments) {
+              if (node.slugSegments.length === 1) {
+                if (name.includes("resume")) return 1;
+                if (name.includes("contact")) return 2;
+                if (name.includes("project")) return 3;
+                if (name.includes("research")) return 4;
+              }
+            }
+            return 10;
+          };
+          const rA = rank(a);
+          const rB = rank(b);
+          if (rA !== rB) return rA - rB;
+          if (Boolean(a.isFolder) === Boolean(b.isFolder)) {
+            return (a.displayName || "").localeCompare(b.displayName || "", undefined, { numeric: true, sensitivity: "base" });
+          }
+          return a.isFolder ? -1 : 1;
+        }
     layout:
       position: left
       priority: 50
