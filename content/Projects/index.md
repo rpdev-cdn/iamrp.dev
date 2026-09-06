@@ -96,11 +96,11 @@ Autonomous multi-agent swarms, Model Context Protocol (MCP) gateways, real-time 
 | Project | Description | Technology Stack |
 |---|---|---|
 | **[[Projects/AI-and-Swarms/Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware & Edge AI Vision]]** | Custom Ingenic SoC Linux kernel, RTSP pipelines, and Qdrant vector scene intelligence. | Ingenic, Linux, Qdrant |
-| **[[Research/LLM & AI/LLM_Control_Plane|Gemini CLI Workspace: Control & Data Plane]]** | Decoupled swarm architecture with sub-15ms SSE streaming and session-scoped tool routing. | Python, SSE, Swarms |
-| **[[Research/LLM & AI/MCP_Gateway_Tool_Router|MCP Gateway: Enterprise Tool Router]]** | Stateful proxy and aggregator bridging diverse agent runtimes via Model Context Protocol. | TypeScript, MCP, Node |
-| **[[Research/LLM & AI/Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]]** | Edge-native Model Context Protocol server executing tools on Cloudflare Workers. | Workers, Edge, SSE |
-| **[[Research/LLM & AI/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision & NVR]]** | 100+ FPS real-time object detection with Coral Edge TPU and go2rtc WebRTC brokering. | Edge TPU, WebRTC, Go |
-| **[[Research/LLM & AI/Substrate_Digital_Nervous_System|Substrate — Digital Nervous System]]** | Distributed microservices backbone orchestrating multi-node telemetry and proactive loops. | Microservices, EventBus |
+| **[[Research-and-Ramblings/LLM-and-Agent-Systems/LLM_Control_Plane|Gemini CLI Workspace: Control & Data Plane]]** | Decoupled swarm architecture with sub-15ms SSE streaming and session-scoped tool routing. | Python, SSE, Swarms |
+| **[[Research-and-Ramblings/LLM-and-Agent-Systems/MCP_Gateway_Tool_Router|MCP Gateway: Enterprise Tool Router]]** | Stateful proxy and aggregator bridging diverse agent runtimes via Model Context Protocol. | TypeScript, MCP, Node |
+| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]]** | Edge-native Model Context Protocol server executing tools on Cloudflare Workers. | Workers, Edge, SSE |
+| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision & NVR]]** | 100+ FPS real-time object detection with Coral Edge TPU and go2rtc WebRTC brokering. | Edge TPU, WebRTC, Go |
+| **[[Research-and-Ramblings/LLM-and-Agent-Systems/Substrate_Digital_Nervous_System|Substrate — Digital Nervous System]]** | Distributed microservices backbone orchestrating multi-node telemetry and proactive loops. | Microservices, EventBus |
 
 </section>
 
@@ -193,7 +193,7 @@ A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies,
 | **🔒 Tier 1: Zero Trust & Security Baseline** | [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption & PQC]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification]] | Identity, Zero Trust & Cryptography |
 | **⚙️ Tier 2: Engineering & Change Lifecycle** | [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|SDLC Policy]], [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management]], [[Projects/Governance-and-Policies/Mobile_Device_Security_Policy|Mobile Device Security]] | GitOps, CI/CD Integrity & Mobile BYOAI |
 | **🚨 Tier 3: Resilience & Incident Response** | [[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan]], [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Projects/Governance-and-Policies/Business_Impact_Analysis|Business Impact Analysis]], [[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption]] | SOAR Automation & Immutable Air-Gaps |
-| **🤖 Tier 4: Frontier AI Safety & Culture** | [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation Guidelines]], [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Curriculum]], [[Articles/Leadership/Philosophy|Leadership Philosophy]] | AI Guardrails & Behavioral Defense |
+| **🤖 Tier 4: Frontier AI Safety & Culture** | [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation Guidelines]], [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Curriculum]], [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]] | AI Guardrails & Behavioral Defense |
 | **🌐 Tier 5: Supply Chain & Physical Security** | [[Projects/Governance-and-Policies/Vendor_Management_Policy|Vendor Management]], [[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Technology Resource Governance]], [[Projects/Governance-and-Policies/Building_Security_Policy|Building Security]], [[Projects/Governance-and-Policies/Policy_Archive|Policy Archive]] | 4th-Party Audits & Facility Controls |
 
 </section>
@@ -202,7 +202,7 @@ A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies,
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Master Resume & Experience:** Review production systems experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Roles & Early Career Archive]]**.
-* **Security & AI Research:** Explore autonomous research swarms on **[[Research/index|Security & AI Systems Research]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Multi-Agent Security Swarm]]**.
+* **Security & AI Research:** Explore autonomous research swarms on **[[Research-and-Ramblings/index|Security & AI Systems Research]]** and **[[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Multi-Agent Security Swarm]]**.
 * **Enterprise Governance:** Review policy and compliance frameworks on **[[Governance/index|Enterprise Policy & Governance]]** and **[[Projects/Governance-and-Policies/index|Enterprise Policies Directory]]**.
-* **Technical Field Guides:** Read deep architectural articles on **[[Articles/index|Technical Articles & Field Guides]]**, **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing]]**, and **[[Articles/Architecture/Systems_Automation|Systems & Automation Architecture]]**.
+* **Technical Field Guides:** Read deep architectural articles on **[[Research-and-Ramblings/Research-and-Ramblings/Articles/index|Technical Articles & Field Guides]]**, **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]**, and **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]**.
 * **Interactive Tools:** Explore live applications on **[[Tools/index|Tools & Live Applications]]** and **[[Tools/DocIngest/index|DocIngest Suite]]**.

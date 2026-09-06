@@ -47,8 +47,8 @@ tags:
 
 > [!tip] Tailored Navigation by Role
 > * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1).
-> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Articles/Hardware/Lab_Workstation|/uses Hardware & Stack Specification]]**, or inspect the live **[[Current_Environment|Current Fleet Topology]]**.
-> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|19 Enterprise Security Policies]]**, review **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
+> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Featured Systems Architectures]]**, review the **[[Research-and-Ramblings/Articles/Lab_Workstation|/uses Hardware & Stack Specification]]**, or inspect the live **[[Current_Environment|Current Fleet Topology]]**.
+> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|19 Enterprise Security Policies]]**, review **[[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
 ---
 
@@ -64,12 +64,12 @@ Explore the primary sections of the portfolio:
   *Interactive applications including the **[[Homelab-Projects/DocIngest/index|DocIngest Suite]]** with real-time documentation ingestion ([[Homelab-Projects/DocIngest/add|Add Ingestion]]) and searchable vector corpus exploration ([[Homelab-Projects/DocIngest/view|Browse Corpus]]).*
 - **[[Projects/index|Engineering & Systems Projects]]** <span class="telemetry-badge airgapped">AIR-GAPPED LAB</span>  
   *Production systems: **[[Projects/Android/index|RPDev Mobile Ecosystem (Android 16 Sovereign Desktop)]]**,  **[[LLM_Control_Plane|LLM Control Plane]]**, **[[Projects/Kexecboot_Wireless_Bootloader|kexecboot.xyz Wireless Bootloader]]**, **[[MCP_Gateway_Tool_Router|MCP Gateway]]**, **[[Embedded_Linux_Camera_Firmware|Embedded Linux & Edge AI Vision]]**, **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**, **[[Infra_Audit_Engine|Infra Audit Engine]]**, **[[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS]]**, and **[[Builder_Manager_OCI_Pipeline|Builder Manager OCI Engine]]**.*
-- **[[Research/index|Security & AI Systems Research]]** <span class="telemetry-badge airgapped">ACTIVE RESEARCH</span>  
-  *Applied AI and security research: **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis & Research Multi-Agent Swarm]]**, **[[Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
+- **[[Research-and-Ramblings/index|Security & AI Systems Research]]** <span class="telemetry-badge airgapped">ACTIVE RESEARCH</span>  
+  *Applied AI and security research: **[[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Security Analysis & Research Multi-Agent Swarm]]**, **[[Codex_Arcana|Codex Arcana Growth Vault]]**, and **[[Local_LLM_Architecture|Zero-Trust Local LLM Ingress]]**.*
 - **[[Governance/index|Enterprise Policy & Governance]]** <span class="telemetry-badge standby">19 ENTERPRISE POLICIES</span>  
   *Complete suite of **[[Projects/Governance-and-Policies/index|19 Modernized Enterprise Policies & Governance Frameworks]]**, including **[[Projects/Governance-and-Policies/Information_Security_Policy|Information Security]]**, **[[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response]]**, **[[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation]]**, and **[[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor Risk Management]]**.*
-- **[[Articles/index|Technical Articles & Field Guides]]**  
-  *Deep technical writing: **[[Articles/Leadership/Philosophy|Leadership Philosophy]]**, **[[Articles/Architecture/Systems_Automation|Systems & Automation Architecture]]**, **[[Articles/Strategy/Systems_Theory|Games & Systems Complexity]]**, **[[Articles/Architecture/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**, and **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing]]**.*
+- **[[Research-and-Ramblings/Research-and-Ramblings/Articles/index|Technical Articles & Field Guides]]**  
+  *Deep technical writing: **[[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]]**, **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]**, **[[Research-and-Ramblings/Articles/Systems_Theory|Games & Systems Complexity]]**, **[[Research-and-Ramblings/Articles/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]**, and **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]**.*
 
 ---
 

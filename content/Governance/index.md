@@ -43,7 +43,7 @@ Access the complete catalog of 19 modernized enterprise policies, workforce enab
 #### 👥 Workforce Enablement, AI Safety & Leadership
 - **[[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation & Safe Usage Guidelines]]** — *Enterprise guardrails for safe generative AI adoption and prompt security.*
 - **[[Projects/Governance-and-Policies/Security_Awareness_Training|Modern Security Awareness Curriculum]]** — *Behavioral defense against AI deep-fakes, social engineering, and MFA fatigue.*
-- **[[Articles/Leadership/Philosophy|Technical Leadership & Management Philosophy]]** — *Asynchronous autonomy, psychological safety, and AI-augmented engineering.*
+- **[[Research-and-Ramblings/Articles/Philosophy|Technical Leadership & Management Philosophy]]** — *Asynchronous autonomy, psychological safety, and AI-augmented engineering.*
 - **[[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor & Technology Resource Management]]** — *Zero-trust supply chain governance and SaaS contract optimization.*
 - **[[Projects/Governance-and-Policies/Policy_Archive|Enterprise Policy Archive]]** — *Historical governance evolution across NIST, CIS, and ISO audit frameworks.*
 
@@ -54,6 +54,6 @@ Access the complete catalog of 19 modernized enterprise policies, workforce enab
 * **Policy Directory:** Explore the complete catalog on **[[Projects/Governance-and-Policies/index|Enterprise Policies & Governance Directory]]**.
 * **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Infra_Audit_Engine|Infra Audit Engine]]** and **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
 * **Zero Trust Systems:** Production architecture implementations in **[[Projects/index|Engineering & Systems Projects]]** and **[[Projects/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**.
-* **Applied Research Swarm:** Frameworks are validated by the **[[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Multi-Agent Compliance Swarm]]** and **[[Research/Security_Analysis_and_Research_Agent/index|Security Analysis Agent]]**.
+* **Applied Research Swarm:** Frameworks are validated by the **[[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Multi-Agent Compliance Swarm]]** and **[[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Security Analysis Agent]]**.
 * **Master Credentials:** Review policy development and ISO/NIST audit experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Career Roles Archive]]**.
 * **Digital Garden Hub:** Return to the home **[[content/Governance/index|Digital Garden Index]]**.

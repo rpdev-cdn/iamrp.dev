@@ -65,7 +65,7 @@ In the event a relationship with an existing vendor is terminated, rigorous off-
 
 * **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor and Resource Management]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Leadership/Philosophy|Leadership Philosophy]].
-* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
+* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
+* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

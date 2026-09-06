@@ -72,7 +72,7 @@ Managing credentials across multiple workstations and staging hosts presents cri
 
 * **Production Systems:** Validated in [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]], [[Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
-* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/index|index]].
+* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

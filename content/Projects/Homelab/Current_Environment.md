@@ -67,6 +67,6 @@ Delve deeper into the specific design patterns running on top of this hardware:
 * **Fleet Telemetry & Observability:** Live monitoring in **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]** and **[[Infra_Audit_Engine|Infra Audit Engine]]**.
 * **Edge Routing & Storage:** Explored in **[[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Server]]** and **[[OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]]**.
 * **Governance Enforcement:** Governed by **[[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]** and **[[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]]**.
-* **Field Guides:** Read practical edge routing patterns in **[[Articles/Whitepapers/Zero_Trust_Edge|Zero-Trust Edge Routing]]** and **[[Articles/Hardware/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
+* **Field Guides:** Read practical edge routing patterns in **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]** and **[[Research-and-Ramblings/Articles/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
 * **Master Credentials:** Review systems engineering background on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
 * **Digital Garden Hub:** Return to the home **[[content/Projects/index|Digital Garden Index]]**.

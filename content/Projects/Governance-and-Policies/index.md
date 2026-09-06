@@ -117,7 +117,7 @@ graph TD
 |---|---|---|
 | **[[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation & Safe Usage Guidelines]]** | Acceptable use policies for LLM tools, prompt injection defense, intellectual property protection, and customer data isolation. | NIST AI RMF 1.0, ISO/IEC 42001, OWASP Top 10 for LLM |
 | **[[Projects/Governance-and-Policies/Security_Awareness_Training|Modern Security Awareness Curriculum]]** | Continuous adaptive training curriculum focused on real-world deep-fakes, MFA fatigue resistance, spear phishing, and social engineering simulation. | NIST SP 800-50, ISO 27001 A.6.3 |
-| **[[Articles/Leadership/Philosophy|Technical Leadership & Management Philosophy]]** | Core engineering ethos: asynchronous autonomy, blameless post-mortems, psychological safety, and AI-augmented developer velocity. | Engineering Leadership Charter |
+| **[[Research-and-Ramblings/Articles/Philosophy|Technical Leadership & Management Philosophy]]** | Core engineering ethos: asynchronous autonomy, blameless post-mortems, psychological safety, and AI-augmented developer velocity. | Engineering Leadership Charter |
 
 ---
 

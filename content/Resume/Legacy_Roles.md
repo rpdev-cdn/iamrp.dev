@@ -85,6 +85,6 @@ _BGE Technologies_ | Jan 2003 – Aug 2006
 ## 🔗 Related Architecture & Experience
 
 * **Master Resume & CV:** Return to the primary **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** or the **[[Resume/index|Resume Overview]]**.
-* **Diagnostic Mental Models:** Read the retrospective on component-level troubleshooting in **[[Articles/Hardware/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
-* **Systems Architecture:** Explore modern automation paradigms in **[[Articles/Architecture/Systems_Automation|Systems & Automation Architecture]]** and production systems on **[[Projects/index|Engineering & Systems Projects]]**.
+* **Diagnostic Mental Models:** Read the retrospective on component-level troubleshooting in **[[Research-and-Ramblings/Articles/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
+* **Systems Architecture:** Explore modern automation paradigms in **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]** and production systems on **[[Projects/index|Engineering & Systems Projects]]**.
 * **Direct Verification:** Review cryptographic signing credentials on **[[Contact/index|Contact & Identity Verification]]**.
