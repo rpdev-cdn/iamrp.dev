@@ -92,19 +92,19 @@ The centerpiece of our applied research: autonomous multi-agent defense swarms, 
 
 <section id="articles" class="project-category-section">
 
-## 📝 [[Research-and-Ramblings/Articles/index|Articles & Technical Field Guides]]
+## 📝 [Articles & Technical Field Guides (blog.iamrp.dev)](https://blog.iamrp.dev/)
 
-A dedicated subsection of long-form architectural essays, leadership philosophy, systems complexity theory, and hardware repair field notes.
+All long-form architectural essays, leadership philosophy, systems complexity theory, and hardware repair field logs are published at **[blog.iamrp.dev](https://blog.iamrp.dev/)**.
 
-| Article / Essay | Core Theme | Category |
-|---|---|---|
-| **[[Research-and-Ramblings/Articles/Philosophy|Technical Leadership & Management Philosophy]]** | Asynchronous autonomy, psychological safety, blameless engineering culture, and AI-augmented developer velocity. | Leadership & Culture |
-| **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing Whitepaper]]** | WireGuard overlay networks, strict mTLS ingress, and border gateway security patterns. | Whitepaper |
-| **[[Research-and-Ramblings/Articles/Systems_Automation|Systems & Automation Architecture]]** | Moving from imperative bash scripting to declarative, self-healing infrastructure state machines. | Systems Architecture |
-| **[[Research-and-Ramblings/Articles/Systems_Theory|Games & Systems Complexity]]** | Parallels between systems theory, game mechanics, and complex infrastructure failure modes. | Strategy & Theory |
-| **[[Research-and-Ramblings/Articles/MCP_Enterprise|Model Context Protocol in Enterprise Operations]]** | Architectural patterns for safely deploying MCP agent gateways across corporate firewall perimeters. | Architecture |
-| **[[Research-and-Ramblings/Articles/Lab_Workstation|/uses Hardware & Stack Specification]]** | Comprehensive hardware build sheet, monitor configurations, thermal profiles, and software stack. | Hardware Spec |
-| **[[Research-and-Ramblings/Articles/Component_Repair|Bare-Metal Diagnostics & Board-Level Repair]]** | Practical lessons from component-level SMD board repairs, oscilloscope signal tracing, and thermal analysis. | Electronics & Repair |
+| Article / Essay | Core Theme | Category | Link |
+|---|---|---|---|
+| **Technical Leadership & Management Philosophy** | Asynchronous autonomy, psychological safety, blameless engineering culture, and AI-augmented developer velocity. | Leadership & Culture | [Read on Blog ↗](https://blog.iamrp.dev/articles/Philosophy) |
+| **Zero-Trust Edge Routing Whitepaper** | WireGuard overlay networks, strict mTLS ingress, and border gateway security patterns. | Whitepaper | [Read on Blog ↗](https://blog.iamrp.dev/articles/Zero_Trust_Edge) |
+| **Systems & Automation Architecture** | Moving from imperative bash scripting to declarative, self-healing infrastructure state machines. | Systems Architecture | [Read on Blog ↗](https://blog.iamrp.dev/articles/Systems_Automation) |
+| **Games & Systems Complexity** | Parallels between systems theory, game mechanics, and complex infrastructure failure modes. | Strategy & Theory | [Read on Blog ↗](https://blog.iamrp.dev/articles/Systems_Theory) |
+| **Model Context Protocol in Enterprise Operations** | Architectural patterns for safely deploying MCP agent gateways across corporate firewall perimeters. | Architecture | [Read on Blog ↗](https://blog.iamrp.dev/articles/MCP_Enterprise) |
+| **/uses Hardware & Stack Specification** | Comprehensive hardware build sheet, monitor configurations, thermal profiles, and software stack. | Hardware Spec | [Read on Blog ↗](https://blog.iamrp.dev/articles/Lab_Workstation) |
+| **Bare-Metal Diagnostics & Board-Level Repair** | Practical lessons from component-level SMD board repairs, oscilloscope signal tracing, and thermal analysis. | Electronics & Repair | [Read on Blog ↗](https://blog.iamrp.dev/articles/Component_Repair) |
 
 </section>
 
