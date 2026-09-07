@@ -1,9 +1,13 @@
 ---
+tags:
+  - homelab
+  - coolify
+  - paas
+  - docker
+  - infrastructure
 aliases:
   - /projects/lab-experiments/coolify/coolify
   - /projects/coolify
-  - /projects/homelab/coolify
-  - /projects/homelab/Coolify
   - /homelab/coolify
   - /homelab/Coolify
 ---

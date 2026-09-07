@@ -4,7 +4,6 @@ description: "Declarative orchestration, Layer 2 non-NAT container networks, har
 aliases:
   - /articles/systems_automation
   - /systems_automation
-  - /research-and-ramblings/articles/systems_automation
 ---
 
 # Systems & Automation Architecture

@@ -133,9 +133,9 @@ By moving execution directly into the Linux kernel and managing configuration de
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Layer2_Containerization|Layer2 Containerization]].
+* **Production Systems:** Validated in [[Projects/Homelab/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Layer2_Containerization|Layer2 Containerization]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

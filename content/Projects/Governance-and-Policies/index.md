@@ -6,8 +6,6 @@ aliases:
   - /governance/policies/index
   - /policies
   - /policies/index
-  - /projects/governance-and-policies
-  - /projects/governance-and-policies/index
   - /resume--and--experience/policy--and--governance/policies
   - /governance
   - /governance/index

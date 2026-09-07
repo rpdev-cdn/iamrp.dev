@@ -4,7 +4,6 @@ description: "Custom OpenWrt edge routing, DNS-over-HTTPS (DoH), and isolation f
 aliases:
   - /articles/zero_trust_edge
   - /zero_trust_edge
-  - /research-and-ramblings/articles/zero_trust_edge
 ---
 
 # Zero Trust at the Edge

@@ -4,7 +4,6 @@ description: "Systems architecture, mobile ecosystems, hardware security, edge n
 aliases:
   - /projects--and--research/projects
   - /projects--and--research
-  - /projects
 tags:
   - projects
   - engineering
@@ -172,7 +171,7 @@ A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies,
 | **🔒 Tier 1: Zero Trust & Security Baseline** | [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption & PQC]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification]] | Identity, Zero Trust & Cryptography |
 | **⚙️ Tier 2: Engineering & Change Lifecycle** | [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|SDLC Policy]], [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management]], [[Projects/Governance-and-Policies/Mobile_Device_Security_Policy|Mobile Device Security]] | GitOps, CI/CD Integrity & Mobile BYOAI |
 | **🚨 Tier 3: Resilience & Incident Response** | [[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan]], [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Projects/Governance-and-Policies/Business_Impact_Analysis|Business Impact Analysis]], [[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption]] | SOAR Automation & Immutable Air-Gaps |
-| **🤖 Tier 4: Frontier AI Safety & Culture** | [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation Guidelines]], [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Curriculum]], [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]] | AI Guardrails & Behavioral Defense |
+| **🤖 Tier 4: Frontier AI Safety & Culture** | [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation Guidelines]], [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Curriculum]], [Leadership Philosophy (blog.iamrp.dev) ↗](https://blog.iamrp.dev/articles/Philosophy) | AI Guardrails & Behavioral Defense |
 | **🌐 Tier 5: Supply Chain & Physical Security** | [[Projects/Governance-and-Policies/Vendor_Management_Policy|Vendor Management]], [[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Technology Resource Governance]], [[Projects/Governance-and-Policies/Building_Security_Policy|Building Security]], [[Projects/Governance-and-Policies/Policy_Archive|Policy Archive]] | 4th-Party Audits & Facility Controls |
 
 </section>
@@ -181,6 +180,6 @@ A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies,
 
 ## 🔗 Related Architecture & Ecosystem Portals
 
-* **Security & AI Research:** Read the capstone monographs on **[[Research-and-Ramblings/index|Research & Ramblings]]**.
+* **Security & AI Research:** Read applied research and engineering field guides at **[blog.iamrp.dev ↗](https://blog.iamrp.dev/)**.
 * **Master Resume:** Review production credentials on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
 * **Ecosystem Wiki:** Explore end-user manuals and developer guides at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**.

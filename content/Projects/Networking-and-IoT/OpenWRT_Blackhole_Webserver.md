@@ -41,9 +41,9 @@ The build lifecycle includes specific heuristics for compiling Go on OpenWRT, na
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
+* **Production Systems:** Validated in [[Projects/Defensive-Security/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]], [[Projects/Defensive-Security/DNS_Forge_Firefox_Addon|DNS Forge Firefox Addon]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

@@ -2,7 +2,6 @@
 title: "Defensive Security"
 description: "Collaborative threat intelligence, Wazuh and CrowdSec SIEM, perimeter tarpits and honeypots, and privacy browser extensions."
 aliases:
-  - /projects/defensive-security
   - /projects/security/defensive
 tags:
   - security

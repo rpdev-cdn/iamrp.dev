@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/vendor-management-policy
   - /policies/vendor_management_policy
   - /policies/vendor-management-policy
-  - /projects/governance-and-policies/vendor_management_policy
-  - /projects/governance-and-policies/vendor-management-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -63,9 +61,9 @@ In the event a relationship with an existing vendor is terminated, rigorous off-
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor and Resource Management]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

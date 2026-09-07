@@ -153,9 +153,9 @@ When high-confidence security anomalies are identified (e.g., unauthorized perim
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[Projects/Kexecboot_Wireless_Bootloader|Kexecboot Wireless Bootloader]].
+* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[Projects/Hardware-Security/Kexecboot_Wireless_Bootloader|kexecboot.xyz Bootloader]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

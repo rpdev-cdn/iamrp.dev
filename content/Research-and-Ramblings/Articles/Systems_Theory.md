@@ -4,7 +4,6 @@ description: "Game theory, cyber war gaming, Red vs. Blue team payoff matrices, 
 aliases:
   - /articles/systems_theory
   - /systems_theory
-  - /research-and-ramblings/articles/systems_theory
 ---
 
 # Games & Systems Complexity

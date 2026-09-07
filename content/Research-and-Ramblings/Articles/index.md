@@ -5,8 +5,6 @@ aliases:
   - /articles--and--wiki
   - /articles
   - /articles/index
-  - /research-and-ramblings/articles
-  - /research-and-ramblings/articles/index
 ---
 
 # Technical Articles & Knowledge Base

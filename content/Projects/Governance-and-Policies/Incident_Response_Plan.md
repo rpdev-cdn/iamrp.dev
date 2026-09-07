@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/incident-response-plan
   - /policies/incident_response_plan
   - /policies/incident-response-plan
-  - /projects/governance-and-policies/incident_response_plan
-  - /projects/governance-and-policies/incident-response-plan
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -57,9 +55,9 @@ Every activated incident response, including fully automated SOAR containments, 
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Production Systems:** Validated in [[Projects/Defensive-Security/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Defensive-Security/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

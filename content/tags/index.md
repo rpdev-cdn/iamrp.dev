@@ -173,15 +173,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Bound to <code>RPDev Feed</code> via <code>iamrp.dev.feed.aidl.ILauncherOverlay</code>. Consumes <code>EncryptedSharedPreferences</code> for secure local configuration.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/android">#android</a>
-    <a class="tag-pill" href="../tags/launcher">#launcher</a>
-    <a class="tag-pill" href="../tags/aosp">#aosp</a>
-    <a class="tag-pill" href="../tags/kotlin">#kotlin</a>
-    <a class="tag-pill" href="../tags/datastore">#datastore</a>
+    <a class="tag-pill" href="/tags/android">#android</a>
+    <a class="tag-pill" href="/tags/launcher">#launcher</a>
+    <a class="tag-pill" href="/tags/aosp">#aosp</a>
+    <a class="tag-pill" href="/tags/kotlin">#kotlin</a>
+    <a class="tag-pill" href="/tags/datastore">#datastore</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/android/rpdev_launcher">Architecture Spec</a> • 
+    <a href="/projects/android/rpdev_launcher">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/launcher/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Launcher" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -199,15 +199,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Implements <code>ILauncherOverlayCallback</code> for gestures. Mounts <code>RPDev Feed Modules</code> cards via validated <code>card-v1.schema.json</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/android">#android</a>
-    <a class="tag-pill" href="../tags/compose">#compose</a>
-    <a class="tag-pill" href="../tags/keystore">#keystore</a>
-    <a class="tag-pill" href="../tags/aidl">#aidl</a>
-    <a class="tag-pill" href="../tags/security">#security</a>
+    <a class="tag-pill" href="/tags/android">#android</a>
+    <a class="tag-pill" href="/tags/compose">#compose</a>
+    <a class="tag-pill" href="/tags/keystore">#keystore</a>
+    <a class="tag-pill" href="/tags/aidl">#aidl</a>
+    <a class="tag-pill" href="/tags/security">#security</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/android/rpdev_feed">Architecture Spec</a> • 
+    <a href="/projects/android/rpdev_feed">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/feed/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Feed" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -225,14 +225,14 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Pulls dynamic manifests from <code>cdn.iamrp.dev/schemas/card-v1.schema.json</code>. Connects to <code>DocIngest</code> for offline MCP knowledge summaries.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/modules">#modules</a>
-    <a class="tag-pill" href="../tags/plugins">#plugins</a>
-    <a class="tag-pill" href="../tags/cdn">#cdn</a>
-    <a class="tag-pill" href="../tags/android">#android</a>
+    <a class="tag-pill" href="/tags/modules">#modules</a>
+    <a class="tag-pill" href="/tags/plugins">#plugins</a>
+    <a class="tag-pill" href="/tags/cdn">#cdn</a>
+    <a class="tag-pill" href="/tags/android">#android</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/android/rpdev_feed_modules">Architecture Spec</a> • 
+    <a href="/projects/android/rpdev_feed_modules">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/modules/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Feed-Modules" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -255,15 +255,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Uses <code>age-plugin-fido2prf</code> for physical touch-required decryption. Supplies encrypted keys for router SSH, OpenWrt, and CI/CD pipelines.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/fido2">#fido2</a>
-    <a class="tag-pill" href="../tags/age">#age</a>
-    <a class="tag-pill" href="../tags/chezmoi">#chezmoi</a>
-    <a class="tag-pill" href="../tags/cryptography">#cryptography</a>
-    <a class="tag-pill" href="../tags/security">#security</a>
+    <a class="tag-pill" href="/tags/fido2">#fido2</a>
+    <a class="tag-pill" href="/tags/age">#age</a>
+    <a class="tag-pill" href="/tags/chezmoi">#chezmoi</a>
+    <a class="tag-pill" href="/tags/cryptography">#cryptography</a>
+    <a class="tag-pill" href="/tags/security">#security</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/hardware-security/hardware_security_key">Architecture Spec</a> • 
+    <a href="/projects/hardware-security/hardware_security_key">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/security/fido2-security-toolkit" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -280,15 +280,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Pulls signed boot kernels from <code>repo.iamrp.dev</code>. Verified by SHA-256 manifests hosted on <code>cdn.iamrp.dev</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/baremetal">#baremetal</a>
-    <a class="tag-pill" href="../tags/bootloaders">#bootloaders</a>
-    <a class="tag-pill" href="../tags/kernel">#kernel</a>
-    <a class="tag-pill" href="../tags/golang">#golang</a>
-    <a class="tag-pill" href="../tags/netboot">#netboot</a>
+    <a class="tag-pill" href="/tags/baremetal">#baremetal</a>
+    <a class="tag-pill" href="/tags/bootloaders">#bootloaders</a>
+    <a class="tag-pill" href="/tags/kernel">#kernel</a>
+    <a class="tag-pill" href="/tags/golang">#golang</a>
+    <a class="tag-pill" href="/tags/netboot">#netboot</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/hardware-security/kexecboot_wireless_bootloader">Architecture Spec</a> • 
+    <a href="/projects/hardware-security/kexecboot_wireless_bootloader">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/TheoryandEarlyDev/kexecboot/" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -310,15 +310,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Distributes packages via <code>openwrt.repo.iamrp.dev</code>. Integrates with <code>Infra Audit Engine</code> for automated configuration drift detection.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/openwrt">#openwrt</a>
-    <a class="tag-pill" href="../tags/networking">#networking</a>
-    <a class="tag-pill" href="../tags/buildroot">#buildroot</a>
-    <a class="tag-pill" href="../tags/nextdns">#nextdns</a>
-    <a class="tag-pill" href="../tags/nfs">#nfs</a>
+    <a class="tag-pill" href="/tags/openwrt">#openwrt</a>
+    <a class="tag-pill" href="/tags/networking">#networking</a>
+    <a class="tag-pill" href="/tags/buildroot">#buildroot</a>
+    <a class="tag-pill" href="/tags/nextdns">#nextdns</a>
+    <a class="tag-pill" href="/tags/nfs">#nfs</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/networking-and-iot/openwrt_asu_image_builder">Architecture Spec</a> • 
+    <a href="/projects/networking-and-iot/openwrt_asu_image_builder">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/networking/openwrt-asu-builder" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://openwrt.repo.iamrp.dev" target="_blank" rel="noopener">Package Repository ↗</a>
   </div>
@@ -336,15 +336,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Feeds real-time RF frames to Prometheus/Alloy collectors and outputs live JSON tracking streams to <code>RPDev Feed Modules</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/sdr">#sdr</a>
-    <a class="tag-pill" href="../tags/rf">#rf</a>
-    <a class="tag-pill" href="../tags/telemetry">#telemetry</a>
-    <a class="tag-pill" href="../tags/aviation">#aviation</a>
-    <a class="tag-pill" href="../tags/docker">#docker</a>
+    <a class="tag-pill" href="/tags/sdr">#sdr</a>
+    <a class="tag-pill" href="/tags/rf">#rf</a>
+    <a class="tag-pill" href="/tags/telemetry">#telemetry</a>
+    <a class="tag-pill" href="/tags/aviation">#aviation</a>
+    <a class="tag-pill" href="/tags/docker">#docker</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/networking-and-iot/adsb_aviation_sdr_telemetry_pipeline">Architecture Spec</a> • 
+    <a href="/projects/networking-and-iot/adsb_aviation_sdr_telemetry_pipeline">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/networking/adsb-aviation-sdr" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -366,15 +366,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Powers build dispatch for all 39+ repos. Deploys release packages directly to <code>repo.iamrp.dev</code> and <code>cdn.iamrp.dev</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/infrastructure">#infrastructure</a>
-    <a class="tag-pill" href="../tags/cicd">#cicd</a>
-    <a class="tag-pill" href="../tags/docker">#docker</a>
-    <a class="tag-pill" href="../tags/githubactions">#githubactions</a>
-    <a class="tag-pill" href="../tags/automation">#automation</a>
+    <a class="tag-pill" href="/tags/infrastructure">#infrastructure</a>
+    <a class="tag-pill" href="/tags/cicd">#cicd</a>
+    <a class="tag-pill" href="/tags/docker">#docker</a>
+    <a class="tag-pill" href="/tags/githubactions">#githubactions</a>
+    <a class="tag-pill" href="/tags/automation">#automation</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/infrastructure-and-cicd/self_hosted_cicd_build_fleet">Architecture Spec</a> • 
+    <a href="/projects/infrastructure-and-cicd/self_hosted_cicd_build_fleet">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/infrastructure/self-hosted-build-fleet" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -391,14 +391,14 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Mounts <code>/mnt/sharedroot</code> across fleet nodes via Linux Kernel NFS with POSIX ACLs. Backs Qdrant and Docker volume storage.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/storage">#storage</a>
-    <a class="tag-pill" href="../tags/infrastructure">#infrastructure</a>
-    <a class="tag-pill" href="../tags/architecture">#architecture</a>
-    <a class="tag-pill" href="../tags/nfs">#nfs</a>
+    <a class="tag-pill" href="/tags/storage">#storage</a>
+    <a class="tag-pill" href="/tags/infrastructure">#infrastructure</a>
+    <a class="tag-pill" href="/tags/architecture">#architecture</a>
+    <a class="tag-pill" href="/tags/nfs">#nfs</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/homelab/hardware_storage_tiering">Architecture Spec</a> • 
+    <a href="/projects/homelab/hardware_storage_tiering">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/infrastructure/hardware-storage-tiering" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -420,15 +420,15 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Exposes tools (<code>find-docs</code>, <code>read-docs</code>, <code>query-docs</code>) via MCP stdio/SSE. Indexes Qdrant vectors using <code>fastembed</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/docingest">#docingest</a>
-    <a class="tag-pill" href="../tags/mcp">#mcp</a>
-    <a class="tag-pill" href="../tags/qdrant">#qdrant</a>
-    <a class="tag-pill" href="../tags/ai">#ai</a>
-    <a class="tag-pill" href="../tags/telemetry">#telemetry</a>
+    <a class="tag-pill" href="/tags/docingest">#docingest</a>
+    <a class="tag-pill" href="/tags/mcp">#mcp</a>
+    <a class="tag-pill" href="/tags/qdrant">#qdrant</a>
+    <a class="tag-pill" href="/tags/ai">#ai</a>
+    <a class="tag-pill" href="/tags/telemetry">#telemetry</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/homelab/docingest">Architecture Spec</a> • 
+    <a href="/projects/homelab/docingest">Architecture Spec</a> • 
     <a href="https://docingest.iamrp.dev" target="_blank" rel="noopener">Live Engine ↗</a> • 
     <a href="https://blog.iamrp.dev/articles/MCP_Enterprise" target="_blank" rel="noopener">Enterprise MCP Monograph ↗</a>
   </div>
@@ -446,10 +446,10 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Connects to Ollama on <code>llmadmin01</code>. Enforces least-privilege token routing through <code>mcp-gateway</code>.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/ai">#ai</a>
-    <a class="tag-pill" href="../tags/llms">#llms</a>
-    <a class="tag-pill" href="../tags/mcp">#mcp</a>
-    <a class="tag-pill" href="../tags/workflow-automation">#workflow-automation</a>
+    <a class="tag-pill" href="/tags/ai">#ai</a>
+    <a class="tag-pill" href="/tags/llms">#llms</a>
+    <a class="tag-pill" href="/tags/mcp">#mcp</a>
+    <a class="tag-pill" href="/tags/workflow-automation">#workflow-automation</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
@@ -475,16 +475,16 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Bindings & Interfaces:</strong> Forms the compliance baseline enforced across all code commits, CI/CD runners, and edge network configurations.
   </div>
   <div>
-    <a class="tag-pill" href="../tags/governance">#governance</a>
-    <a class="tag-pill" href="../tags/policy">#policy</a>
-    <a class="tag-pill" href="../tags/nist">#nist</a>
-    <a class="tag-pill" href="../tags/iso27001">#iso27001</a>
-    <a class="tag-pill" href="../tags/soc2">#soc2</a>
-    <a class="tag-pill" href="../tags/modernized-2026">#modernized-2026</a>
+    <a class="tag-pill" href="/tags/governance">#governance</a>
+    <a class="tag-pill" href="/tags/policy">#policy</a>
+    <a class="tag-pill" href="/tags/nist">#nist</a>
+    <a class="tag-pill" href="/tags/iso27001">#iso27001</a>
+    <a class="tag-pill" href="/tags/soc2">#soc2</a>
+    <a class="tag-pill" href="/tags/modernized-2026">#modernized-2026</a>
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="../projects/governance-and-policies/">Policy Suite</a> • 
+    <a href="/projects/governance-and-policies/">Policy Suite</a> • 
     <a href="https://wiki.iamrp.dev/projects/governance/" target="_blank" rel="noopener">Wiki Governance Hub ↗</a>
   </div>
 </div>
@@ -500,100 +500,100 @@ Every topic and technology across the RPDev ecosystem is cataloged under the fol
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #00afaf; font-size: 0.9rem; margin-bottom: 0.5rem;">🛡️ Zero-Trust Security & Identity</div>
     <div>
-      <a class="tag-pill" href="../tags/security">#security (12)</a>
-      <a class="tag-pill" href="../tags/zerotrust">#zerotrust (2)</a>
-      <a class="tag-pill" href="../tags/zero-trust">#zero-trust (1)</a>
-      <a class="tag-pill" href="../tags/fido2">#fido2 (3)</a>
-      <a class="tag-pill" href="../tags/age">#age (1)</a>
-      <a class="tag-pill" href="../tags/cryptography">#cryptography (2)</a>
-      <a class="tag-pill" href="../tags/pgp">#pgp (1)</a>
-      <a class="tag-pill" href="../tags/identity">#identity (2)</a>
-      <a class="tag-pill" href="../tags/keystore">#keystore (1)</a>
-      <a class="tag-pill" href="../tags/crowdsec">#crowdsec (3)</a>
-      <a class="tag-pill" href="../tags/wazuh">#wazuh (1)</a>
-      <a class="tag-pill" href="../tags/siem">#siem (1)</a>
-      <a class="tag-pill" href="../tags/threatintel">#threatintel (1)</a>
+      <a class="tag-pill" href="/tags/security">#security (12)</a>
+      <a class="tag-pill" href="/tags/zerotrust">#zerotrust (2)</a>
+      <a class="tag-pill" href="/tags/zero-trust">#zero-trust (1)</a>
+      <a class="tag-pill" href="/tags/fido2">#fido2 (3)</a>
+      <a class="tag-pill" href="/tags/age">#age (1)</a>
+      <a class="tag-pill" href="/tags/cryptography">#cryptography (2)</a>
+      <a class="tag-pill" href="/tags/pgp">#pgp (1)</a>
+      <a class="tag-pill" href="/tags/identity">#identity (2)</a>
+      <a class="tag-pill" href="/tags/keystore">#keystore (1)</a>
+      <a class="tag-pill" href="/tags/crowdsec">#crowdsec (3)</a>
+      <a class="tag-pill" href="/tags/wazuh">#wazuh (1)</a>
+      <a class="tag-pill" href="/tags/siem">#siem (1)</a>
+      <a class="tag-pill" href="/tags/threatintel">#threatintel (1)</a>
     </div>
   </div>
 
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #00ff88; font-size: 0.9rem; margin-bottom: 0.5rem;">📱 Android & Mobile Architecture</div>
     <div>
-      <a class="tag-pill" href="../tags/android">#android (5)</a>
-      <a class="tag-pill" href="../tags/launcher">#launcher (1)</a>
-      <a class="tag-pill" href="../tags/aosp">#aosp (2)</a>
-      <a class="tag-pill" href="../tags/compose">#compose (1)</a>
-      <a class="tag-pill" href="../tags/kotlin">#kotlin (1)</a>
-      <a class="tag-pill" href="../tags/aidl">#aidl (1)</a>
-      <a class="tag-pill" href="../tags/modules">#modules (1)</a>
-      <a class="tag-pill" href="../tags/plugins">#plugins (1)</a>
-      <a class="tag-pill" href="../tags/mobile">#mobile (1)</a>
-      <a class="tag-pill" href="../tags/scrcpy">#scrcpy (1)</a>
-      <a class="tag-pill" href="../tags/datastore">#datastore (1)</a>
+      <a class="tag-pill" href="/tags/android">#android (5)</a>
+      <a class="tag-pill" href="/tags/launcher">#launcher (1)</a>
+      <a class="tag-pill" href="/tags/aosp">#aosp (2)</a>
+      <a class="tag-pill" href="/tags/compose">#compose (1)</a>
+      <a class="tag-pill" href="/tags/kotlin">#kotlin (1)</a>
+      <a class="tag-pill" href="/tags/aidl">#aidl (1)</a>
+      <a class="tag-pill" href="/tags/modules">#modules (1)</a>
+      <a class="tag-pill" href="/tags/plugins">#plugins (1)</a>
+      <a class="tag-pill" href="/tags/mobile">#mobile (1)</a>
+      <a class="tag-pill" href="/tags/scrcpy">#scrcpy (1)</a>
+      <a class="tag-pill" href="/tags/datastore">#datastore (1)</a>
     </div>
   </div>
 
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #5fafd7; font-size: 0.9rem; margin-bottom: 0.5rem;">🌐 Edge Networking & RF Telemetry</div>
     <div>
-      <a class="tag-pill" href="../tags/networking">#networking (5)</a>
-      <a class="tag-pill" href="../tags/openwrt">#openwrt (7)</a>
-      <a class="tag-pill" href="../tags/sdr">#sdr (3)</a>
-      <a class="tag-pill" href="../tags/rf">#rf (2)</a>
-      <a class="tag-pill" href="../tags/aviation">#aviation (1)</a>
-      <a class="tag-pill" href="../tags/telemetry">#telemetry (4)</a>
-      <a class="tag-pill" href="../tags/openthread">#openthread (2)</a>
-      <a class="tag-pill" href="../tags/nextdns">#nextdns (2)</a>
-      <a class="tag-pill" href="../tags/nfs">#nfs (2)</a>
-      <a class="tag-pill" href="../tags/macvlan">#macvlan (1)</a>
-      <a class="tag-pill" href="../tags/rtsp">#rtsp (1)</a>
+      <a class="tag-pill" href="/tags/networking">#networking (5)</a>
+      <a class="tag-pill" href="/tags/openwrt">#openwrt (7)</a>
+      <a class="tag-pill" href="/tags/sdr">#sdr (3)</a>
+      <a class="tag-pill" href="/tags/rf">#rf (2)</a>
+      <a class="tag-pill" href="/tags/aviation">#aviation (1)</a>
+      <a class="tag-pill" href="/tags/telemetry">#telemetry (4)</a>
+      <a class="tag-pill" href="/tags/openthread">#openthread (2)</a>
+      <a class="tag-pill" href="/tags/nextdns">#nextdns (2)</a>
+      <a class="tag-pill" href="/tags/nfs">#nfs (2)</a>
+      <a class="tag-pill" href="/tags/macvlan">#macvlan (1)</a>
+      <a class="tag-pill" href="/tags/rtsp">#rtsp (1)</a>
     </div>
   </div>
 
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #ffbb00; font-size: 0.9rem; margin-bottom: 0.5rem;">🏗️ Infrastructure, CI/CD & Storage</div>
     <div>
-      <a class="tag-pill" href="../tags/infrastructure">#infrastructure (8)</a>
-      <a class="tag-pill" href="../tags/cicd">#cicd (3)</a>
-      <a class="tag-pill" href="../tags/docker">#docker (10)</a>
-      <a class="tag-pill" href="../tags/githubactions">#githubactions (2)</a>
-      <a class="tag-pill" href="../tags/automation">#automation (3)</a>
-      <a class="tag-pill" href="../tags/alloy">#alloy (1)</a>
-      <a class="tag-pill" href="../tags/coolify">#coolify (1)</a>
-      <a class="tag-pill" href="../tags/paas">#paas (1)</a>
-      <a class="tag-pill" href="../tags/storage">#storage (3)</a>
-      <a class="tag-pill" href="../tags/observability">#observability (2)</a>
-      <a class="tag-pill" href="../tags/opentelemetry">#opentelemetry (1)</a>
+      <a class="tag-pill" href="/tags/infrastructure">#infrastructure (8)</a>
+      <a class="tag-pill" href="/tags/cicd">#cicd (3)</a>
+      <a class="tag-pill" href="/tags/docker">#docker (10)</a>
+      <a class="tag-pill" href="/tags/githubactions">#githubactions (2)</a>
+      <a class="tag-pill" href="/tags/automation">#automation (3)</a>
+      <a class="tag-pill" href="/tags/alloy">#alloy (1)</a>
+      <a class="tag-pill" href="/tags/coolify">#coolify (1)</a>
+      <a class="tag-pill" href="/tags/paas">#paas (1)</a>
+      <a class="tag-pill" href="/tags/storage">#storage (3)</a>
+      <a class="tag-pill" href="/tags/observability">#observability (2)</a>
+      <a class="tag-pill" href="/tags/opentelemetry">#opentelemetry (1)</a>
     </div>
   </div>
 
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #b026ff; font-size: 0.9rem; margin-bottom: 0.5rem;">🧠 Local AI, Knowledge & MCP</div>
     <div>
-      <a class="tag-pill" href="../tags/ai">#ai (3)</a>
-      <a class="tag-pill" href="../tags/llms">#llms (1)</a>
-      <a class="tag-pill" href="../tags/mcp">#mcp (2)</a>
-      <a class="tag-pill" href="../tags/docingest">#docingest (1)</a>
-      <a class="tag-pill" href="../tags/qdrant">#qdrant (2)</a>
-      <a class="tag-pill" href="../tags/python">#python (4)</a>
-      <a class="tag-pill" href="../tags/workflow-automation">#workflow-automation (1)</a>
-      <a class="tag-pill" href="../tags/computervision">#computervision (1)</a>
+      <a class="tag-pill" href="/tags/ai">#ai (3)</a>
+      <a class="tag-pill" href="/tags/llms">#llms (1)</a>
+      <a class="tag-pill" href="/tags/mcp">#mcp (2)</a>
+      <a class="tag-pill" href="/tags/docingest">#docingest (1)</a>
+      <a class="tag-pill" href="/tags/qdrant">#qdrant (2)</a>
+      <a class="tag-pill" href="/tags/python">#python (4)</a>
+      <a class="tag-pill" href="/tags/workflow-automation">#workflow-automation (1)</a>
+      <a class="tag-pill" href="/tags/computervision">#computervision (1)</a>
     </div>
   </div>
 
   <div style="border: 1px solid #1e1b2e; background: #0e0a17; border-radius: 6px; padding: 1rem;">
     <div style="font-weight: 700; color: #ff8800; font-size: 0.9rem; margin-bottom: 0.5rem;">📋 Governance, Compliance & Policy</div>
     <div>
-      <a class="tag-pill" href="../tags/governance">#governance (5)</a>
-      <a class="tag-pill" href="../tags/policy">#policy (14)</a>
-      <a class="tag-pill" href="../tags/nist">#nist (1)</a>
-      <a class="tag-pill" href="../tags/iso27001">#iso27001 (1)</a>
-      <a class="tag-pill" href="../tags/soc2">#soc2 (1)</a>
-      <a class="tag-pill" href="../tags/risk-management">#risk-management (1)</a>
-      <a class="tag-pill" href="../tags/vendor-management">#vendor-management (1)</a>
-      <a class="tag-pill" href="../tags/training">#training (1)</a>
-      <a class="tag-pill" href="../tags/modernized">#modernized (7)</a>
-      <a class="tag-pill" href="../tags/modernized-2026">#modernized-2026 (3)</a>
+      <a class="tag-pill" href="/tags/governance">#governance (5)</a>
+      <a class="tag-pill" href="/tags/policy">#policy (14)</a>
+      <a class="tag-pill" href="/tags/nist">#nist (1)</a>
+      <a class="tag-pill" href="/tags/iso27001">#iso27001 (1)</a>
+      <a class="tag-pill" href="/tags/soc2">#soc2 (1)</a>
+      <a class="tag-pill" href="/tags/risk-management">#risk-management (1)</a>
+      <a class="tag-pill" href="/tags/vendor-management">#vendor-management (1)</a>
+      <a class="tag-pill" href="/tags/training">#training (1)</a>
+      <a class="tag-pill" href="/tags/modernized">#modernized (7)</a>
+      <a class="tag-pill" href="/tags/modernized-2026">#modernized-2026 (3)</a>
     </div>
   </div>
 

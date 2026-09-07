@@ -10,16 +10,14 @@ aliases:
   - /projects--and--research/current-environment
   - /projects/current-environment
   - /homelab-projects/homelab/current_environment
-  - /projects/homelab/current_environment
   - /current_environment
-  - /projects/homelab/Current_Environment
   - /homelab/current_environment
   - /homelab/Current_Environment
 ---
 # Current Fleet Topology & Environment State
 
 > [!abstract] Drift-Audited Infrastructure State
-> This document details the physical infrastructure and hardware inventory supporting the RPDevs architecture. State, network zoning, and hardware health are continuously monitored, validated, and normalized by the **[[Infra_Audit_Engine|Infra Audit Engine]]** into the authoritative `CURRENT_ENV.yml` registry.
+> This document details the physical infrastructure and hardware inventory supporting the RPDevs architecture. State, network zoning, and hardware health are continuously monitored, validated, and normalized by the **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]]** into the authoritative `CURRENT_ENV.yml` registry.
 
 The fleet operates across a decoupled Layer 2 network connecting bare-metal Linux compute hosts, edge AI accelerators, and a hardened OpenWrt perimeter gateway:
 
@@ -60,16 +58,16 @@ The OpenWrt-powered border gateway. It strictly manages complex firewall zoning,
 Delve deeper into the specific design patterns running on top of this hardware:
 
 * **[[Hardware_Storage_Tiering|Hardware-Aware Storage Tiering]]**: How IOPS-heavy workloads and volatile Honeypot logs are dynamically mapped to NVMe arrays or RAM disks to prevent flash-wear.
-* **[[Layer2_Containerization|Layer 2 Containerization & Networking]]**: Deep dive into the `macvlan`/`ipvlan` topology that allows containers to act as first-class citizens on the physical network.
+* **[[Projects/Networking-and-IoT/Layer2_Containerization|Layer 2 Containerization & Networking]]**: Deep dive into the `macvlan`/`ipvlan` topology that allows containers to act as first-class citizens on the physical network.
 
 ---
 
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Projects Directory:** Return to the complete portfolio on **[[Projects/index|Systems & Infrastructure Engineering Projects]]**.
-* **Fleet Telemetry & Observability:** Live monitoring in **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]** and **[[Infra_Audit_Engine|Infra Audit Engine]]**.
-* **Edge Routing & Storage:** Explored in **[[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Server]]** and **[[OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]]**.
+* **Fleet Telemetry & Observability:** Live monitoring in **[[Projects/Infrastructure-and-CICD/Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]** and **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]]**.
+* **Edge Routing & Storage:** Explored in **[[Projects/Networking-and-IoT/OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Server]]** and **[[Projects/Networking-and-IoT/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]]**.
 * **Governance Enforcement:** Governed by **[[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]]** and **[[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]]**.
 * **Field Guides:** Read practical edge routing patterns in **[[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero-Trust Edge Routing]]** and **[[Research-and-Ramblings/Articles/Component_Repair|Lessons from Bare-Metal Diagnostics]]**.
 * **Master Credentials:** Review systems engineering background on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**.
-* **Digital Garden Hub:** Return to the home **[[content/Projects/index|Digital Garden Index]]**.
+* **Digital Garden Hub:** Return to the home **[[Projects/index|Projects Index]]**.

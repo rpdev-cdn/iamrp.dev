@@ -6,7 +6,6 @@ aliases:
   - /lab_workstation
   - /uses
   - /articles/uses
-  - /research-and-ramblings/articles/lab_workstation
 ---
 
 # /uses Hardware & Stack Specification

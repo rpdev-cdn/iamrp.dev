@@ -4,7 +4,6 @@ description: "Standardizing local AI agent interaction with enterprise infrastru
 aliases:
   - /articles/mcp_enterprise
   - /articles/mcp
-  - /research-and-ramblings/articles/mcp_enterprise
 ---
 
 # Model Context Protocol (MCP) in Enterprise Operations

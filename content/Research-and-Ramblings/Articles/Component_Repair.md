@@ -4,7 +4,6 @@ description: "Component-level diagnostics, electronics repair, CRT oscilloscopes
 aliases:
   - /articles/component_repair
   - /component_repair
-  - /research-and-ramblings/articles/component_repair
 ---
 
 # Bare-Metal Diagnostics & Board-Level Repair

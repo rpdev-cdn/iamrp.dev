@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/visitor-policy
   - /policies/visitor_policy
   - /policies/visitor-policy
-  - /projects/governance-and-policies/visitor_policy
-  - /projects/governance-and-policies/visitor-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -58,4 +56,4 @@ The Compliance Officer shall remind all employees quarterly about their responsi
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

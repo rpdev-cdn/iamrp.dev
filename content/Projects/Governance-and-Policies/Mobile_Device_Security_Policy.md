@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/mobile-device-security-policy
   - /policies/mobile_device_security_policy
   - /policies/mobile-device-security-policy
-  - /projects/governance-and-policies/mobile_device_security_policy
-  - /projects/governance-and-policies/mobile-device-security-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -65,9 +63,9 @@ By accessing corporate resources, the employee acknowledges and agrees to comply
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]], [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Production Systems:** Validated in [[Projects/Android/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]], [[Projects/Hardware-Security/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

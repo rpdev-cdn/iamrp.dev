@@ -16,8 +16,6 @@ aliases:
   - /governance/policies/ai-augmentation-for-users
   - /policies/ai_augmentation_for_users
   - /policies/ai-augmentation-for-users
-  - /projects/governance-and-policies/ai_augmentation_for_users
-  - /projects/governance-and-policies/ai-augmentation-for-users
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -76,4 +74,4 @@ As AI assistants are granted access to live communication channels, external doc
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/MCP_Enterprise|MCP In Enterprise Operations]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

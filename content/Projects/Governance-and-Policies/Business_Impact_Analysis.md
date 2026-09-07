@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/business-impact-analysis
   - /policies/business_impact_analysis
   - /policies/business-impact-analysis
-  - /projects/governance-and-policies/business_impact_analysis
-  - /projects/governance-and-policies/business-impact-analysis
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -64,9 +62,9 @@ All Tier 1 processes reliant on third-party SaaS must have documented contingenc
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [[Projects/Homelab/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

@@ -16,8 +16,6 @@ aliases:
   - /governance/policies/security-awareness-training
   - /policies/security_awareness_training
   - /policies/security-awareness-training
-  - /projects/governance-and-policies/security_awareness_training
-  - /projects/governance-and-policies/security-awareness-training
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -72,6 +70,6 @@ Adversaries leverage automated intelligence pipelines to craft hyper-personalize
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
+* **Applied Research:** Investigated in [Security & AI Research (blog.iamrp.dev) ↗](https://blog.iamrp.dev/research/).
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

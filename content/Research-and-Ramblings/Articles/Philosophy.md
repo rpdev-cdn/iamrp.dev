@@ -6,7 +6,6 @@ aliases:
   - /leadership_philosophy
   - /articles/leadership/philosophy
   - /articles/philosophy
-  - /research-and-ramblings/articles/philosophy
 ---
 
 # Technical Leadership & Management Philosophy

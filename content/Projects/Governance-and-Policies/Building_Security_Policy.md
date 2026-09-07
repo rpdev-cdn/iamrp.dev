@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/building-security-policy
   - /policies/building_security_policy
   - /policies/building-security-policy
-  - /projects/governance-and-policies/building_security_policy
-  - /projects/governance-and-policies/building-security-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -43,9 +41,9 @@ Access logs and IoT sensor telemetry are continuously ingested into the centrali
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[Projects/Hardware-Security/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Visitor_Policy|Visitor Policy]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

@@ -11,8 +11,6 @@ aliases:
   - /governance/policies/global-disruption-policy
   - /policies/global_disruption_policy
   - /policies/global-disruption-policy
-  - /projects/governance-and-policies/global_disruption_policy
-  - /projects/governance-and-policies/global-disruption-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -59,9 +57,9 @@ In the event of extended disruptions, the organization provides support for remo
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Layer2_Containerization|Layer2 Containerization]], [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [[Projects/Networking-and-IoT/Layer2_Containerization|Layer2 Containerization]], [[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]], [[Projects/Governance-and-Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

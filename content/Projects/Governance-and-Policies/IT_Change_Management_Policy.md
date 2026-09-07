@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/it-change-management-policy
   - /policies/it_change_management_policy
   - /policies/it-change-management-policy
-  - /projects/governance-and-policies/it_change_management_policy
-  - /projects/governance-and-policies/it-change-management-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -52,9 +50,9 @@ Emergency changes ("break-glass" scenarios) are permitted when immediate action 
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
+* **Production Systems:** Validated in [[Projects/Infrastructure-and-CICD/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

@@ -6,8 +6,6 @@ aliases:
   - /homelab-projects/index
   - /homelab
   - /homelab/index
-  - /projects/homelab
-  - /projects/homelab/index
 tags:
   - homelab
   - infrastructure
@@ -84,6 +82,6 @@ High-throughput storage architecture routing database WALs and high-IO container
 
 ## 🧭 Navigation & Portals
 - Explore all engineering systems in **[[Projects/index|Projects]]**
-- Read applied research and essays in **[[Research-and-Ramblings/index|Research & Ramblings]]**
+- Read applied research and engineering field guides at **[blog.iamrp.dev ↗](https://blog.iamrp.dev/)**
 - Inspect master resume in **[[Resume/index|Resume]]**
 - Browse the external knowledge base at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**

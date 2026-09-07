@@ -10,8 +10,6 @@ aliases:
   - /governance/policies/infrastructure-hardening-policy
   - /policies/infrastructure_hardening_policy
   - /policies/infrastructure-hardening-policy
-  - /projects/governance-and-policies/infrastructure_hardening_policy
-  - /projects/governance-and-policies/infrastructure-hardening-policy
 last_audited: 2026-08-26
 review_cycle: Annual (Continuous Audit)
 compliance_alignment:
@@ -76,9 +74,9 @@ Breach of this policy may result in disciplinary action up to and including term
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Layer2_Containerization|Layer2 Containerization]], [[OpenWrt_ASU_Image_Builder|OpenWrt ASU Image Builder]], [[Projects/Hardware_Security_Key|Hardware Security Key]].
+* **Production Systems:** Validated in [[Projects/Networking-and-IoT/Layer2_Containerization|Layer2 Containerization]], [[Projects/Networking-and-IoT/OpenWrt_ASU_Image_Builder|OpenWrt ASU Image Builder]], [[Projects/Hardware-Security/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Tools_and_Telemetry|Tools and Telemetry]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].
+* **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].
