@@ -47,8 +47,8 @@ tags:
 
 > [!tip] Tailored Navigation by Role
 > * 💼 **Recruiters & Talent Partners:** Review the comprehensive **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or [Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1).
-> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Production Projects]]**, inspect the live **[[Projects/Homelab/Current_Environment|Current Fleet Topology]]**, or review **[[Research-and-Ramblings/Articles/Lab_Workstation|/uses Hardware & Stack Specification]]**.
-> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|18 Enterprise Security Policies]]**, review **[[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Multi-Agent Compliance Telemetry]]**, and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
+> * 🛠️ **Engineering Leads & Systems Architects:** Deep dive into **[[Projects/index|Production Projects]]**, inspect the live **[[Projects/Homelab/Current_Environment|Current Fleet Topology]]**, or review [**/uses Hardware & Stack Specification ↗**](https://blog.iamrp.dev/articles/Lab_Workstation).
+> * 🔒 **CISOs & Security Directors:** Audit the **[[Projects/Governance-and-Policies/index|18 Enterprise Security Policies]]**, review [**Multi-Agent Compliance Telemetry ↗**](https://blog.iamrp.dev/research/Compliance_and_Governance), and inspect **[[Contact/index|Cryptographic Identity Verification]]**.
 
 ---
 
@@ -63,8 +63,8 @@ tags:
 - **[[Projects/index|Projects]]** <span class="telemetry-badge airgapped">PRODUCTION ARCHITECTURES</span>  
   *Production systems across 7 core engineering categories: **[[Projects/Android/index|Android Ecosystem (Sovereign 120Hz Desktop)]]**, **[[Projects/Hardware-Security/index|Hardware Security & Bootloaders]]**, **[[Projects/Networking-and-IoT/index|Embedded Networking & IoT]]**, **[[Projects/Homelab/index|Homelab & Infrastructure Cluster]]**, **[[Projects/Infrastructure-and-CICD/index|CI/CD & Observability Fleet]]**, **[[Projects/Defensive-Security/index|Defensive Security SIEM]]**, and **[[Projects/Governance-and-Policies/index|Enterprise Policies & Governance]]**.*
 
-- **[[Research-and-Ramblings/index|Research & Ramblings]]** <span class="telemetry-badge airgapped">APPLIED RESEARCH & ESSAYS</span>  
-  *Intellectual nexus combining applied research and deep technical writing: **[[Research-and-Ramblings/Security-and-AI-Research/index|Security & AI Research]]** (12-part Master Thesis, Multi-Agent Swarms, Local LLM Control Planes) and **[[Research-and-Ramblings/Articles/index|Articles & Technical Field Guides]]** (Zero-Trust Edge Routing, Leadership Philosophy, Systems Automation).*
+- **[Research & Technical Publications (blog.iamrp.dev) ↗](https://blog.iamrp.dev/)** <span class="telemetry-badge airgapped">APPLIED RESEARCH & ESSAYS</span>  
+  *Intellectual nexus combining applied research and deep technical writing: **[Security & AI Research ↗](https://blog.iamrp.dev/research/)** (12-part Master Thesis, Multi-Agent Swarms, Local LLM Control Planes) and **[Articles & Technical Field Guides ↗](https://blog.iamrp.dev/articles/)** (Zero-Trust Edge Routing, Leadership Philosophy, Systems Automation).*
 
 ---
 

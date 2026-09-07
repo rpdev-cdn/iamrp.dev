@@ -165,6 +165,11 @@ plugins:
       folderClickBehavior: link
       folderDefaultState: collapsed
       useSavedState: true
+      filterFn: |
+        (node) => {
+          const name = (node.displayName || node.slugSegment || "").toLowerCase();
+          return !name.includes("research") && !name.includes("rambling");
+        }
       sortFn: |
         (a, b) => {
           const rank = (node) => {
@@ -174,7 +179,6 @@ plugins:
                 if (name.includes("resume")) return 1;
                 if (name.includes("contact")) return 2;
                 if (name.includes("project")) return 3;
-                if (name.includes("research")) return 4;
               }
             }
             return 10;
