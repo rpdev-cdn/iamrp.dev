@@ -20,8 +20,11 @@ tags:
   <a href="./resume/master_resume" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>📄 View Master Resume (CV)</span>
   </a>
-  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1" target="_blank" rel="noopener" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    <span>📥 Download Official PDF Resume</span>
+  <a href="./tags/" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>🕸️ Interconnected Graph</span>
+  </a>
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>📥 Download PDF Resume</span>
   </a>
   <a href="./projects/homelab/current_environment" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>🖥️ Live Fleet Topology</span>
@@ -62,6 +65,9 @@ tags:
 
 - **[[Projects/index|Projects]]** <span class="telemetry-badge airgapped">PRODUCTION ARCHITECTURES</span>  
   *Production systems across 7 core engineering categories: **[[Projects/Android/index|Android Ecosystem (Sovereign 120Hz Desktop)]]**, **[[Projects/Hardware-Security/index|Hardware Security & Bootloaders]]**, **[[Projects/Networking-and-IoT/index|Embedded Networking & IoT]]**, **[[Projects/Homelab/index|Homelab & Infrastructure Cluster]]**, **[[Projects/Infrastructure-and-CICD/index|CI/CD & Observability Fleet]]**, **[[Projects/Defensive-Security/index|Defensive Security SIEM]]**, and **[[Projects/Governance-and-Policies/index|Enterprise Policies & Governance]]**.*
+
+- **[[tags/index|Interconnected Works & Knowledge Graph]]** <span class="telemetry-badge badge-live">INTERACTIVE MESH</span>  
+  *Central interactive topological graphic view and relational index mapping all 39+ RPDev repositories, multi-pillar architectures, protocol bindings, and 128 semantic tags across the sovereign ecosystem.*
 
 - **[Research & Technical Publications (blog.iamrp.dev) ↗](https://blog.iamrp.dev/)** <span class="telemetry-badge airgapped">APPLIED RESEARCH & ESSAYS</span>  
   *Intellectual nexus combining applied research and deep technical writing: **[Security & AI Research ↗](https://blog.iamrp.dev/research/)** (12-part Master Thesis, Multi-Agent Swarms, Local LLM Control Planes) and **[Articles & Technical Field Guides ↗](https://blog.iamrp.dev/articles/)** (Zero-Trust Edge Routing, Leadership Philosophy, Systems Automation).*
