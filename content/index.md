@@ -13,6 +13,18 @@ tags:
 ## **Security Analyst | Systems Architect | Infrastructure Engineer**
 *Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20260827.1)*
 
+<div class="executive-metrics-bar" style="display: flex; gap: 0.85rem; flex-wrap: wrap; margin: 1rem 0; padding: 0.85rem 1.25rem; background: rgba(0, 175, 175, 0.08); border-left: 3px solid #00afaf; border-radius: 4px; font-size: 0.88rem; align-items: center;">
+  <div><strong>⚡ Track Record:</strong> 20+ Years Applied Systems Engineering</div>
+  <div style="opacity: 0.5;">•</div>
+  <div><strong>🛡️ Fleet Resilience:</strong> 99.999% Production HA</div>
+  <div style="opacity: 0.5;">•</div>
+  <div><strong>📋 Governance:</strong> 18 Modernized NIST CSF / ISO Policies</div>
+  <div style="opacity: 0.5;">•</div>
+  <div><strong>🔐 Roots:</strong> Hardware-Attested FIDO2 &amp; PGP Keys</div>
+  <div style="opacity: 0.5;">•</div>
+  <div><strong>🌐 Network:</strong> 10 Sovereign Web Portals</div>
+</div>
+
 > [!abstract] Executive Summary
 > Over two decades of technical mastery spanning **Zero Trust Architecture**, **Containerized Infrastructure**, **Digital Forensics & Incident Response (DFIR)**, **Local AI/LLM Integration**, and **Bare-Metal Electronics Diagnostics**. From mission-critical enterprise manufacturing environments to distributed edge compute clusters — I architect resilient, automated, and immutable systems.
 
@@ -29,6 +41,9 @@ tags:
   <a href="./projects/homelab/current_environment" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>🖥️ Live Fleet Topology</span>
   </a>
+  <a href="https://status.iamrp.dev" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>⚡ Live Fleet Status ↗</span>
+  </a>
   <a href="https://wiki.iamrp.dev" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>📖 Ecosystem Wiki (Docs) ↗</span>
   </a>
@@ -36,12 +51,14 @@ tags:
 
 ---
 
-## ◈ Professional Availability & Target Roles
+## ◈ Professional Availability & Advisory Practice
 
-* **Engagement Types:** Full-Time, Contract-to-Hire, Fractional CISO / SecOps Architecture Consulting.
-* **Target Roles:**
-  * **Information Security:** Information Security Analyst / Officer • Security Architect
-  * **Systems & Infrastructure:** Infrastructure / Systems Architect • Senior Network Security Administrator • Lead DevSecOps Engineer
+* **Full-Time Opportunities:** Information Security Officer / Architect • Senior Systems & Infrastructure Architect • Lead DevSecOps / SecOps Engineer.
+* **Consulting & Practice Retainers (RPDevs Consulting & Architecture):**
+  * **Zero Trust & Network Architecture**: Decoupled Layer 2 (macvlan/ipvlan) microservice fabrics, edge routing, and Cloudflare Zero Trust tunnels.
+  * **Enterprise Disaster Recovery & Air-Gaps**: Immutable backup pipelines, multi-site Veeam topologies, and cold-recovery validation with <15m RPO.
+  * **Local AI & Sovereign Infrastructure**: Private Model Context Protocol (MCP) tool gateways, GPU-accelerated local inference (Ollama), and vector datastores.
+  * **Threat Modeling & Governance Audits**: NIST CSF 2.0 / ISO 27001:2022 policy drafting, host-hardening verification, and incident response runbooks.
 * **Location Preference:** Remote or Hybrid (Greater Cleveland, OH Area).
 
 ---
@@ -77,6 +94,8 @@ tags:
 ## ◈ Live Fleet Telemetry & Infrastructure
 
 - **[[Projects/Homelab/Current_Environment|Current Fleet Topology]]** <span class="telemetry-badge">LIVE TELEMETRY</span> — *Live hardware inventory across primary nodes (`edge` OpenWrt router, `llmadmin01` GPU AI compute host, and `t430` bare-metal cluster).*
+- **[Live Systems Status & SLA Telemetry (status.iamrp.dev) ↗](https://status.iamrp.dev)** <span class="telemetry-badge badge-live">99.999% SLA MET</span> — *Real-time service availability, rolling 90-day uptime records, edge CDN latency, and multi-agent health across all sovereign nodes and web portals.*
+
 
 ---
 

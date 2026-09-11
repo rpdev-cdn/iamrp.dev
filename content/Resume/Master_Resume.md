@@ -11,6 +11,8 @@ tags:
 aliases:
   - /resume--and--experience/resume
   - /master-resume
+  - /resume/master_resume
+  - /resume/master-resume
   - /resume--and--experience/master_resume
 ---
 

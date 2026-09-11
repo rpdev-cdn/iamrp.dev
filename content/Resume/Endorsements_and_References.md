@@ -6,6 +6,8 @@ aliases:
   - /references
   - /endorsements
   - /resume/references
+  - /resume/endorsements_and_references
+  - /resume/endorsements-and-references
   - /resume--and--experience/endorsements
 tags:
   - references

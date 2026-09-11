@@ -58,11 +58,11 @@ AOSP-based operating environment engineered for deterministic 120Hz rendering, z
 
 | Project | Description | Live Portals & Docs |
 |---|---|---|
-| **[[Projects/Android/index|RPDev Mobile Ecosystem]]** | Master architectural overview of the decoupled Android 16 home desktop environment. | [Wiki Overview](https://wiki.iamrp.dev) |
+| **[[Projects/Android/index|RPDev Mobile Ecosystem]]** | Master architectural overview of the decoupled Android 16 home desktop environment. | [Wiki Overview](https://wiki.iamrp.dev/projects/mobile-stack) |
 | **[[Projects/Android/RPDev_Launcher|RPDev Launcher]]** | Modern AOSP launcher with <35MB idle footprint, DataStore reactive flows, and cycle-safe nested folders. | [launcher.iamrp.dev](https://launcher.iamrp.dev) |
 | **[[Projects/Android/RPDev_Feed|RPDev Feed]]** | Sovereign -1 screen companion replacing commercial tracking feeds with on-device RSS parsing and Keystore crypto. | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) |
 | **[[Projects/Android/RPDev_Feed_Modules|Hub Modules Ecosystem]]** | 9 pluggable card plugins distributed via Edge CDN for weather, telemetry, calendar, GitHub, Home Assistant, and Docker. | [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) |
-| **[[Projects/Android/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]]** | Low-latency edge bridge connecting mobile hardware to Linux workstations. | [DeX Architecture](https://wiki.iamrp.dev) |
+| **[[Projects/Android/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]]** | Low-latency edge bridge connecting mobile hardware to Linux workstations. | [DeX Architecture](https://wiki.iamrp.dev/projects/Android/samsung-dex-bridge) |
 
 </section>
 

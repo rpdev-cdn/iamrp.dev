@@ -16,50 +16,45 @@ tags:
 Welcome to the central architectural nexus of the RPDev ecosystem. Across 39+ open-source repositories and 6 foundational engineering pillars, our systems operate as an integrated, sovereign mesh. Every service—from mobile AIDL bridges to hardware cryptographic roots, custom OpenWrt kernel drivers, and local LLM tool routers—is bound together by deterministic protocols and a unified semantic tag ontology.
 
 <div class="di-neo-card-wrapper" style="margin-top: 1.5rem; margin-bottom: 2rem;">
-  <div class="di-neo-shadow"></div>
-  <div class="di-neo-card" style="padding: 1.5rem;">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; border-bottom: 1px solid #00afaf40; padding-bottom: 0.75rem; margin-bottom: 1rem;">
-      <div>
-        <span style="font-size: 1.1rem; font-weight: 700; color: #fff;">Interactive Ecosystem Graphic View</span>
-        <span class="telemetry-badge badge-live">TOPOLOGICAL MESH</span>
-      </div>
-      <div style="font-size: 0.8rem; color: #8b889c;">
-        Drag nodes • Hover to inspect bindings • Click to jump to project specification
-      </div>
-    </div>
-
-    <!-- Filter Toolbar -->
-    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: center;">
-      <span style="font-size: 0.8rem; font-weight: 700; color: #5fafd7;">FILTER PILLAR:</span>
-      <button class="graph-filter-btn active" data-pillar="all" onclick="filterGraph('all')">All Pillars</button>
-      <button class="graph-filter-btn" data-pillar="android" onclick="filterGraph('android')">Android Stack</button>
-      <button class="graph-filter-btn" data-pillar="security" onclick="filterGraph('security')">Hardware Security</button>
-      <button class="graph-filter-btn" data-pillar="networking" onclick="filterGraph('networking')">Edge & RF</button>
-      <button class="graph-filter-btn" data-pillar="infrastructure" onclick="filterGraph('infrastructure')">CI/CD & Fleet</button>
-      <button class="graph-filter-btn" data-pillar="ai" onclick="filterGraph('ai')">Local AI & MCP</button>
-      <button class="graph-filter-btn" data-pillar="governance" onclick="filterGraph('governance')">Governance</button>
-      <button class="graph-filter-btn" style="margin-left: auto; background: #1e1b2e; border-color: #8b889c;" onclick="resetGraphView()">⟲ Reset</button>
-    </div>
-
-    <!-- SVG Canvas Container -->
-    <div id="graph-container" style="width: 100%; height: 560px; background: #07050a; border: 1px solid #1e1b2e; border-radius: 8px; position: relative; overflow: hidden; box-shadow: inset 0 0 30px rgba(0,0,0,0.8);">
-      <svg id="ecosystem-svg" width="100%" height="100%" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid meet" style="cursor: grab;">
-        <defs>
-          <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="3" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-          </filter>
-          <marker id="arrow" viewBox="0 0 10 10" refX="22" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#00afaf" opacity="0.6"/>
-          </marker>
-        </defs>
-        <!-- Dynamic Links and Nodes will be rendered by JS -->
-        <g id="edges-layer"></g>
-        <g id="nodes-layer"></g>
-      </svg>
-      <div id="node-tooltip" style="position: absolute; display: none; background: #120e1c; border: 1px solid #00afaf; padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.75rem; color: #fff; pointer-events: none; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.6); max-width: 260px;"></div>
-    </div>
-  </div>
+<div class="di-neo-shadow"></div>
+<div class="di-neo-card" style="padding: 1.5rem;">
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; border-bottom: 1px solid #00afaf40; padding-bottom: 0.75rem; margin-bottom: 1rem;">
+<div>
+<span style="font-size: 1.1rem; font-weight: 700; color: #fff;">Interactive Ecosystem Graphic View</span>
+<span class="telemetry-badge badge-live">TOPOLOGICAL MESH</span>
+</div>
+<div style="font-size: 0.8rem; color: #8b889c;">
+Drag nodes • Hover to inspect bindings • Click to jump to project specification
+</div>
+</div>
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; align-items: center;">
+<span style="font-size: 0.8rem; font-weight: 700; color: #5fafd7;">FILTER PILLAR:</span>
+<button class="graph-filter-btn active" data-pillar="all" onclick="filterGraph('all')">All Pillars</button>
+<button class="graph-filter-btn" data-pillar="android" onclick="filterGraph('android')">Android Stack</button>
+<button class="graph-filter-btn" data-pillar="security" onclick="filterGraph('security')">Hardware Security</button>
+<button class="graph-filter-btn" data-pillar="networking" onclick="filterGraph('networking')">Edge &amp; RF</button>
+<button class="graph-filter-btn" data-pillar="infrastructure" onclick="filterGraph('infrastructure')">CI/CD &amp; Fleet</button>
+<button class="graph-filter-btn" data-pillar="ai" onclick="filterGraph('ai')">Local AI &amp; MCP</button>
+<button class="graph-filter-btn" data-pillar="governance" onclick="filterGraph('governance')">Governance</button>
+<button class="graph-filter-btn" style="margin-left: auto; background: #1e1b2e; border-color: #8b889c;" onclick="resetGraphView()">⟲ Reset</button>
+</div>
+<div id="graph-container" style="width: 100%; height: 560px; background: #07050a; border: 1px solid #1e1b2e; border-radius: 8px; position: relative; overflow: hidden; box-shadow: inset 0 0 30px rgba(0,0,0,0.8);">
+<svg id="ecosystem-svg" width="100%" height="100%" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid meet" style="cursor: grab;">
+<defs>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="3" result="blur" />
+<feComposite in="SourceGraphic" in2="blur" operator="over" />
+</filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="22" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#00afaf" opacity="0.6"/>
+</marker>
+</defs>
+<g id="edges-layer"></g>
+<g id="nodes-layer"></g>
+</svg>
+<div id="node-tooltip" style="position: absolute; display: none; background: #120e1c; border: 1px solid #00afaf; padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.75rem; color: #fff; pointer-events: none; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.6); max-width: 260px;"></div>
+</div>
+</div>
 </div>
 
 <style>
@@ -222,7 +217,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     Library of 9 modular cards providing weather radar, battery telemetry, GitHub activity, web scrapers, Home Assistant controls, Docker node health, and custom REST cards.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
-    <strong>Bindings & Interfaces:</strong> Pulls dynamic manifests from <code>cdn.iamrp.dev/schemas/card-v1.schema.json</code>. Connects to <code>DocIngest</code> for offline MCP knowledge summaries.
+    <strong>Bindings & Interfaces:</strong> Pulls dynamic manifests from <code>cdn.iamrp.dev/feed/schemas/card-v1.schema.json</code>. Connects to <code>DocIngest</code> for offline MCP knowledge summaries.
   </div>
   <div>
     <a class="tag-pill" href="/tags/modules">#modules</a>
@@ -889,6 +884,9 @@ Every topic and technology across the RPDev ecosystem is cataloged under the fol
     renderGraph();
   };
 
+  document.addEventListener("nav", renderGraph);
+  window.addEventListener("DOMContentLoaded", renderGraph);
   renderGraph();
 })();
 </script>
+

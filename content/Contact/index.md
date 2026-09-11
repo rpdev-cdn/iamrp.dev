@@ -37,6 +37,15 @@ All official git commits, architectural release manifests, and signed security a
 * **Primary GPG Key ID:** `96DCEA6C34429505`
 * **Full Fingerprint:** `6DB1 6A1D 6D68 F2AB 20C8  9F03 96DC EA6C 3442 9505`
 * **Algorithm:** Ed25519 (Signing) / Cv25519 (Encryption)
+* **Direct Keyfile Download:** [`https://cdn.iamrp.dev/keys/pgp.asc`](https://cdn.iamrp.dev/keys/pgp.asc) or [`https://iamrp.dev/pgp.asc`](https://iamrp.dev/pgp.asc)
+
+```bash
+# Instant import into local GPG keyring:
+curl -sL https://iamrp.dev/pgp.asc | gpg --import
+
+# Or query directly from Ubuntu / OpenPGP keyservers:
+gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 96DCEA6C34429505
+```
 
 #### PGP Public Key (`96DCEA6C34429505`)
 ```pgp
