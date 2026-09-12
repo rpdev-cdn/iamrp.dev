@@ -10,6 +10,7 @@ tags:
   - privacy
   - legal
   - data-sovereignty
+  - zero-collection
   - zero-tracking
   - zero-sale
 ---
@@ -25,51 +26,65 @@ tags:
 
 ## 1. Our Sovereign Privacy Commitment
 
-At **IamRP.Dev**, privacy is treated as a fundamental human right and a core engineering constraint. The digital garden and portfolio at `https://iamrp.dev` are architected from the ground up on principles of **data sovereignty**, **radical transparency**, and **zero commercial surveillance**:
+At **IamRP.Dev**, privacy is treated as a fundamental human right and a core engineering constraint. The digital garden and portfolio at `https://iamrp.dev` are architected from the ground up on principles of **data sovereignty**, **radical transparency**, and **zero data collection**:
 
-1. **We will NEVER sell your data.**
-2. **We will NEVER track, profile, or monetize your visit.**
-3. **We will NEVER embed third-party surveillance scripts, advertising pixels, or telemetry beacons.**
-4. **We will NEVER feed your browsing telemetry into public commercial AI models.**
-
-This policy outlines how the `iamrp.dev` web platform operates, what minimal technical telemetry is handled, and how your privacy is protected under sovereign engineering principles.
+1. **We collect NO visitor data.**
+2. **We store NO personal records, tracking IDs, or browsing histories.**
+3. **Because we collect no data, there is nothing stored, held, or retained to request or delete.**
+4. **We will NEVER track, profile, or monetize your visit.**
+5. **We will NEVER embed third-party surveillance scripts, advertising pixels, or telemetry beacons.**
+6. **We will NEVER feed your browsing activity into commercial AI models.**
 
 ---
 
-## 2. Zero Commercial Surveillance & Anti-Tracking Architecture
+## 2. Zero Data Collection Architecture
 
-Unlike standard corporate websites that operate extensive surveillance stacks, `iamrp.dev` adheres to strict technical non-tracking rules:
+Unlike standard corporate websites that operate extensive surveillance and tracking stacks, `iamrp.dev` is built as a pure, static, read-only digital garden:
 
-- **Zero Third-Party Analytics**: We run **no** Google Analytics, no Adobe Analytics, no Mixpanel, and no Segment trackers. The site's static site generator (`quartz.config.yaml`) explicitly has `analytics: null` hardcoded.
+- **Zero Visitor Data Collection**: We do not collect names, email addresses, IP addresses, device fingerprints, or user identifiers when you browse `iamrp.dev`.
+- **Zero User Accounts or Databases**: There are no user accounts, no login portals, no marketing sign-up popups, and no visitor databases.
+- **Zero Third-Party Analytics**: We run **no** Google Analytics, no Adobe Analytics, no Mixpanel, and no Segment trackers. The site's static generator configuration (`quartz.config.yaml`) explicitly has `analytics: null` hardcoded.
 - **Zero Social & Advertising Pixels**: We do **not** embed the Meta Pixel, LinkedIn Insight Tag, X/Twitter conversion pixels, or TikTok trackers.
-- **Air-Gapped Typography & Sovereign Assets**: All fonts (such as *JetBrains Mono*) and stylesheets are served strictly from our sovereign content network (`cdn.iamrp.dev`) or local bundles. We do **not** leak your IP address or browser fingerprints to external font services (such as Google Fonts or Adobe Typekit).
-- **No Third-Party Cookies**: We set **zero** persistent tracking cookies, third-party advertising cookies, or fingerprinting beacons.
+- **Air-Gapped Typography & Sovereign Assets**: All fonts (*JetBrains Mono*) and stylesheets are served directly from our sovereign content network (`cdn.iamrp.dev`) or local bundles. We do **not** leak your IP address or browser fingerprints to external font services (such as Google Fonts or Adobe Typekit).
+- **No Tracking Cookies**: We set **zero** persistent tracking cookies, third-party advertising cookies, or cross-site tracking beacons.
 
 ---
 
-## 3. What Information Is Handled & Why
+## 3. How the Site Technically Operates
 
-When accessing `iamrp.dev`, only the minimal technical data necessary to route and serve static content securely over the public Internet is processed:
+When accessing `iamrp.dev`, your browser interacts solely with static files distributed globally:
 
-### A. Ephemeral Edge Delivery & Network Defense
+### A. Stateless Edge Delivery
 `iamrp.dev` is distributed through Cloudflare Anycast CDN edge proxies and GitHub Actions workflow artifacts:
-- **Volatile Edge Logs**: When you load a page, Cloudflare edge servers process standard HTTP/HTTPS request headers (client IP address, User-Agent, requested URI path, and timestamp) in volatile memory.
-- **Functional Purpose**: This ephemeral processing exists exclusively to negotiate **TLS 1.3 Strict encryption**, enforce DDoS protection, mitigate brute-force/hostile bot swarms, and cache static assets for sub-millisecond global delivery.
-- **No Long-Term Profile Storage**: These transient logs are never correlated with your personal identity or used to build commercial marketing profiles.
+- When you load a page, Cloudflare edge servers receive your HTTP request solely to deliver the compiled static HTML, CSS, and JS files from cache to your browser over **TLS 1.3 Strict encryption**.
+- This edge routing is stateless and volatile. We do not extract, store, or aggregate personal browsing logs.
 
 ### B. Client-Side Browser Storage (Preferences Only)
-`iamrp.dev` utilizes standard HTML5 `localStorage` exclusively for your explicit client-side reading preferences:
+`iamrp.dev` utilizes standard browser `localStorage` exclusively on your local device for your personal reading preferences:
 - **Theme Selection**: Remembering whether you prefer ANSI Dark Mode or Sovereign Space mode.
-- **Search Index Caching**: Downloading the client-side Quartz search index (`contentIndex.json`) to execute instant, full-text in-browser searches without transmitting your search queries to any server.
+- **Search Index Caching**: Downloading the client-side Quartz search index (`contentIndex.json`) so search queries execute 100% locally in your browser with zero network transmission.
 
-### C. Direct Correspondence (Email & Inquiries)
-If you choose to reach out to Richard P. Dissell directly via email (`support@iamrp.dev` or `RPDissell@gmail.com`):
-- We process your email address, sender name, message content, and any attached technical specifications solely to respond to your inquiry, review technical advisory engagements, or evaluate professional career opportunities.
-- We do not subscribe your email address to automated marketing lists, newsletters, or third-party CRM aggregators.
+### C. Direct Correspondence (Email Only)
+If you independently choose to initiate an email to Richard P. Dissell (`support@iamrp.dev` or `RPDissell@gmail.com`):
+- Your email address and message content are used solely to reply to your inquiry.
+- Emails are never added to automated marketing funnels, sold to brokers, or syndicated to third parties.
 
 ---
 
-## 4. OpenPGP Cryptographic Attestation & RFC 9116 Disclosure
+## 4. No Retained Data, Nothing to Delete
+
+Under privacy frameworks such as **GDPR**, **CCPA/CPRA**, and global data protection standards, users are granted rights to access, inspect, and delete personal data held by web operators.
+
+> [!IMPORTANT]
+> **Zero Data Retention Disclosure**  
+> Because **`iamrp.dev` collects, logs, and retains zero personal data from visitors**, there is **literally nothing stored to inspect, export, or delete**.  
+> You cannot be deleted from a database that was never created in the first place. You browse `iamrp.dev` anonymously, privately, and without leaving a trail on our systems.
+
+If you have engaged in direct email correspondence and wish to have past email messages deleted from our private inbox, you may notify `support@iamrp.dev` and any correspondence will be purged immediately.
+
+---
+
+## 5. OpenPGP Cryptographic Attestation & RFC 9116 Disclosure
 
 To provide cryptographic authenticity and secure vulnerability disclosure channels, `iamrp.dev` maintains public hardware-attested security infrastructure:
 
@@ -84,21 +99,11 @@ Security researchers and correspondents are actively encouraged to encrypt sensi
 
 ---
 
-## 5. Your Rights & Data Sovereignty
-
-Regardless of your geographic location (including under **GDPR**, **CCPA/CPRA**, and international privacy standards), you maintain complete sovereignty over any interactions with `iamrp.dev`:
-
-- **Right to Access & Know**: You may request confirmation of any correspondence or data retained from direct email exchanges.
-- **Right to Erasure ("Right to be Forgotten")**: You may request the unconditional deletion of any past email correspondence or contact records by emailing `support@iamrp.dev`. Deletion requests are executed within 24 hours with zero friction.
-- **Right to Non-Discrimination**: `iamrp.dev` is completely open access. There are no paywalls, registration forms, or tracking consent walls required to access Richard P. Dissell's resume, engineering wiki, or research monographs.
-
----
-
 ## 6. Contact Information & Data Controller
 
-For any questions, concerns, or data privacy requests regarding `iamrp.dev` or the RPDev Sovereign Infrastructure fleet:
+For questions or security disclosures regarding `iamrp.dev` or the RPDev Sovereign Infrastructure fleet:
 
-- **Data Controller**: Richard P. Dissell
+- **Data Controller & Operator**: Richard P. Dissell
 - **Primary Support & Privacy Contact**: `support@iamrp.dev`
 - **RFC 9116 Security Reporting**: `security@iamrp.dev`
 - **Main Portfolio & Digital Garden**: [https://iamrp.dev](https://iamrp.dev)
