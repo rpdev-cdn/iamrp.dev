@@ -1,7 +1,7 @@
 ---
 date: 2026-09-12
-title: "Privacy Policy & Sovereign Web Commitment"
-description: "Authoritative Privacy Policy and Sovereign Web Commitment for Richard P. Dissell's executive digital garden, technical resume, and sovereign platform (iamrp.dev)."
+title: "Zero Data Collection Privacy Policy"
+description: "Authoritative Zero Data Collection Privacy Policy governing iamrp.dev and all sovereign subdomains (*.iamrp.dev)."
 aliases:
   - /privacypolicy
   - /privacy-policy
@@ -10,105 +10,110 @@ tags:
   - privacy
   - legal
   - data-sovereignty
-  - zero-collection
-  - zero-tracking
-  - zero-sale
+  - zero-data-collection
+  - no-tracking
 ---
 
-# Privacy Policy & Sovereign Web Commitment for IamRP.Dev
+# Zero Data Collection Privacy Policy for IamRP.Dev & All Subdomains
 
 **Effective Date:** September 12, 2026  
-**Operator:** Richard P. Dissell — RPDev Autonomous Fleet & Infrastructure  
-**Service:** `iamrp.dev` (Executive Portfolio, Applied Research, Engineering Knowledge Base & Digital Garden)  
+**Operator:** Richard P. Dissell — RPDev Sovereign Fleet & Infrastructure  
+**Scope:** `iamrp.dev` and all subdomains (`*.iamrp.dev`)  
 **Authoritative Central Policy URL:** [`https://policy.iamrp.dev/privacypolicies/iamrp/index.html`](https://policy.iamrp.dev/privacypolicies/iamrp/index.html)  
 
 ---
 
-## 1. Our Sovereign Privacy Commitment
-
-At **IamRP.Dev**, privacy is treated as a fundamental human right and a core engineering constraint. The digital garden and portfolio at `https://iamrp.dev` are architected from the ground up on principles of **data sovereignty**, **radical transparency**, and **zero data collection**:
-
-1. **We collect NO visitor data.**
-2. **We store NO personal records, tracking IDs, or browsing histories.**
-3. **Because we collect no data, there is nothing stored, held, or retained to request or delete.**
-4. **We will NEVER track, profile, or monetize your visit.**
-5. **We will NEVER embed third-party surveillance scripts, advertising pixels, or telemetry beacons.**
-6. **We will NEVER feed your browsing activity into commercial AI models.**
-
----
-
-## 2. Zero Data Collection Architecture
-
-Unlike standard corporate websites that operate extensive surveillance and tracking stacks, `iamrp.dev` is built as a pure, static, read-only digital garden:
-
-- **Zero Visitor Data Collection**: We do not collect names, email addresses, IP addresses, device fingerprints, or user identifiers when you browse `iamrp.dev`.
-- **Zero User Accounts or Databases**: There are no user accounts, no login portals, no marketing sign-up popups, and no visitor databases.
-- **Zero Third-Party Analytics**: We run **no** Google Analytics, no Adobe Analytics, no Mixpanel, and no Segment trackers. The site's static generator configuration (`quartz.config.yaml`) explicitly has `analytics: null` hardcoded.
-- **Zero Social & Advertising Pixels**: We do **not** embed the Meta Pixel, LinkedIn Insight Tag, X/Twitter conversion pixels, or TikTok trackers.
-- **Air-Gapped Typography & Sovereign Assets**: All fonts (*JetBrains Mono*) and stylesheets are served directly from our sovereign content network (`cdn.iamrp.dev`) or local bundles. We do **not** leak your IP address or browser fingerprints to external font services (such as Google Fonts or Adobe Typekit).
-- **No Tracking Cookies**: We set **zero** persistent tracking cookies, third-party advertising cookies, or cross-site tracking beacons.
-
----
-
-## 3. How the Site Technically Operates
-
-When accessing `iamrp.dev`, your browser interacts solely with static files distributed globally:
-
-### A. Stateless Edge Delivery
-`iamrp.dev` is distributed through Cloudflare Anycast CDN edge proxies and GitHub Actions workflow artifacts:
-- When you load a page, Cloudflare edge servers receive your HTTP request solely to deliver the compiled static HTML, CSS, and JS files from cache to your browser over **TLS 1.3 Strict encryption**.
-- This edge routing is stateless and volatile. We do not extract, store, or aggregate personal browsing logs.
-
-### B. Client-Side Browser Storage (Preferences Only)
-`iamrp.dev` utilizes standard browser `localStorage` exclusively on your local device for your personal reading preferences:
-- **Theme Selection**: Remembering whether you prefer ANSI Dark Mode or Sovereign Space mode.
-- **Search Index Caching**: Downloading the client-side Quartz search index (`contentIndex.json`) so search queries execute 100% locally in your browser with zero network transmission.
-
-### C. Direct Correspondence (Email Only)
-If you independently choose to initiate an email to Richard P. Dissell (`support@iamrp.dev` or `RPDissell@gmail.com`):
-- Your email address and message content are used solely to reply to your inquiry.
-- Emails are never added to automated marketing funnels, sold to brokers, or syndicated to third parties.
-
----
-
-## 4. No Retained Data, Nothing to Delete
-
-Under privacy frameworks such as **GDPR**, **CCPA/CPRA**, and global data protection standards, users are granted rights to access, inspect, and delete personal data held by web operators.
+## 🚫 1. Absolute Zero Data Collection Guarantee
 
 > [!IMPORTANT]
-> **Zero Data Retention Disclosure**  
-> Because **`iamrp.dev` collects, logs, and retains zero personal data from visitors**, there is **literally nothing stored to inspect, export, or delete**.  
-> You cannot be deleted from a database that was never created in the first place. You browse `iamrp.dev` anonymously, privately, and without leaving a trail on our systems.
+> **No Data Collection Across Any Domain or Subdomain**  
+> **There is NO data collection currently going on on `iamrp.dev` or ANY of its subdomains.**  
+> 
+> We do not collect, harvest, aggregate, store, track, or process personal data from any visitor to `https://iamrp.dev` or any `*.iamrp.dev` subdomain under any circumstances.
 
-If you have engaged in direct email correspondence and wish to have past email messages deleted from our private inbox, you may notify `support@iamrp.dev` and any correspondence will be purged immediately.
+This policy applies universally across Richard P. Dissell's sovereign web platforms, including:
+- **`iamrp.dev`** (Executive Portfolio & Garden Root)
+- **`blog.iamrp.dev`** (Applied Research & Capstone Monographs)
+- **`wiki.iamrp.dev`** (Engineering Documentation & Knowledge Base)
+- **`cdn.iamrp.dev`** (Static Media, APKs & Sovereign Asset Delivery)
+- **`status.iamrp.dev`** (Live 99.999% SLA & Fleet Telemetry)
+- **`policy.iamrp.dev`** (Sovereign Legal, Privacy & Governance Portal)
+- **`repo.iamrp.dev`** and all software distribution subdomains (`kodi.repo`, `openwrt.repo`, `firefox.repo`, `launcher.repo`)
 
 ---
 
-## 5. OpenPGP Cryptographic Attestation & RFC 9116 Disclosure
+## 2. What Zero Data Collection Means in Practice
 
-To provide cryptographic authenticity and secure vulnerability disclosure channels, `iamrp.dev` maintains public hardware-attested security infrastructure:
+Our entire digital presence is engineered as a stateless, read-only static architecture. In practice, this means:
 
-- **RFC 9116 Security Vulnerability Policy**: [`https://iamrp.dev/.well-known/security.txt`](https://iamrp.dev/.well-known/security.txt)
-- **Security Contact**: `mailto:support@iamrp.dev`
-- **Hardware-Attested OpenPGP Public Key**: [`https://iamrp.dev/pgp.asc`](https://iamrp.dev/pgp.asc)
+- **NO Personal Data Harvested**: We do not collect names, email addresses, IP addresses, physical locations, device identifiers, or browser fingerprints.
+- **NO User Accounts or Logins**: We maintain zero user account systems, zero membership databases, and zero visitor tracking tables.
+- **NO Surveillance Analytics**: We run **zero** tracking analytics. No Google Analytics, no Adobe Analytics, no Mixpanel, no Segment, and no telemetry software. Quartz static generators across all domains operate with `analytics: null`.
+- **NO Advertising or Social Pixels**: We do **not** embed the Meta Pixel, LinkedIn Insight Tag, X/Twitter conversion pixels, TikTok pixels, or any third-party ad networks.
+- **NO Tracking Cookies**: We set **zero** persistent tracking cookies, advertising cookies, or cross-site tracking beacons.
+- **Air-Gapped Sovereign Typography**: All fonts (*JetBrains Mono*) and stylesheets are delivered locally or via `cdn.iamrp.dev`. We do not connect to Google Fonts, Adobe Typekit, or any third-party font foundries.
+- **NO AI Training Ingestion**: None of your browsing activity is captured, aggregated, or fed into commercial artificial intelligence models.
+
+---
+
+## 3. Nothing Stored — Nothing to Request or Delete
+
+Under modern privacy legislation (such as **GDPR**, **CCPA/CPRA**, and global data protection statutes), individuals hold legal rights to request access to, inspection of, or deletion of their personal information held by website operators.
+
+> [!NOTE]
+> **Zero Data Retention Reality**  
+> Because **there is NO data collection occurring on `iamrp.dev` or any of its subdomains**, there is **literally nothing stored, retained, or held to inspect, export, or delete**.  
+> 
+> You cannot delete data that does not exist. You browse `iamrp.dev` and all of its subdomains completely anonymously, without surveillance, and without leaving a record on our systems.
+
+---
+
+## 4. Hosting Infrastructure & Third-Party Provider Disclosure (GitHub Pages)
+
+`iamrp.dev` and its subdomains are static sites hosted on and served through **GitHub Pages** (operated by GitHub, Inc., a subsidiary of Microsoft Corporation), routed through Cloudflare Anycast edge proxies over **TLS 1.3 Strict encryption**.
+
+While **we collect, store, and process zero visitor data**, technical HTTP requests inherently touch GitHub's server infrastructure during static file delivery. GitHub may independently log basic connection metadata (such as visitor IP addresses in server logs for security, abuse prevention, legal compliance, and network stability) in their capacity as the hosting infrastructure provider.
+
+For complete information regarding any technical data GitHub may collect when you visit sites hosted on their infrastructure, please refer directly to:
+- **GitHub General Privacy Statement**: [https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- **GitHub Pages Technical Data Collection Disclosure**: [https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)
+
+Client-side storage (`localStorage`) is used exclusively on your local device for your personal theme preference (Dark vs. Light mode) and to store the client-side search index (`contentIndex.json`) so search runs 100% locally in your browser with zero network transmission.
+
+---
+
+## 5. Voluntary Direct Inquiries
+
+The only scenario where personal information is ever received is if you **voluntarily and independently** choose to send an email to Richard P. Dissell (`support@iamrp.dev` or `RPDissell@gmail.com`). 
+- In that event, your email address and message are used solely to reply to your inquiry.
+- We never add your address to automated marketing lists or share it with third parties.
+- You may ask to have past email correspondence purged from our private inbox at any time by contacting `support@iamrp.dev`.
+
+---
+
+## 6. Cryptographic Attestation & RFC 9116 Disclosure
+
+To ensure verifiable security across our fleet, we maintain public hardware-attested security infrastructure:
+
+- **RFC 9116 Security Policy**: [`https://iamrp.dev/.well-known/security.txt`](https://iamrp.dev/.well-known/security.txt)
+- **Security Notification Contact**: `mailto:support@iamrp.dev`
+- **Hardware-Attested OpenPGP Key**: [`https://iamrp.dev/pgp.asc`](https://iamrp.dev/pgp.asc)
   - **Key ID**: `6DB16A1D6D68F2AB20C89F0396DCEA6C34429505`
-  - **Algorithms**: Ed25519 (Signing) / Cv25519 (Encryption)
+  - **Type**: Ed25519 (Signing) / Cv25519 (Encryption)
   - **UIDs**: `Richard P <rpdissell@gmail.com>`, `RPDev <RPDev@IamRP.Dev>`, `RPDev <rpdisselldev@gmail.com>`
 
-Security researchers and correspondents are actively encouraged to encrypt sensitive vulnerability reports or inquiries using this key.
-
 ---
 
-## 6. Contact Information & Data Controller
+## 7. Operator Contact
 
-For questions or security disclosures regarding `iamrp.dev` or the RPDev Sovereign Infrastructure fleet:
+For questions or security disclosures regarding `iamrp.dev` or any sovereign subdomain:
 
-- **Data Controller & Operator**: Richard P. Dissell
-- **Primary Support & Privacy Contact**: `support@iamrp.dev`
-- **RFC 9116 Security Reporting**: `security@iamrp.dev`
-- **Main Portfolio & Digital Garden**: [https://iamrp.dev](https://iamrp.dev)
+- **Operator & Data Controller**: Richard P. Dissell
+- **General & Privacy Contact**: `support@iamrp.dev`
+- **RFC 9116 Vulnerability Reporting**: `security@iamrp.dev`
+- **Main Portfolio**: [https://iamrp.dev](https://iamrp.dev)
 - **Central Policy Portal**: [https://policy.iamrp.dev](https://policy.iamrp.dev)
-- **Live Fleet Telemetry**: [https://status.iamrp.dev](https://status.iamrp.dev)
+- **Fleet Telemetry**: [https://status.iamrp.dev](https://status.iamrp.dev)
 
 ---
 *Last Updated: September 12, 2026 — RPDev Sovereign Systems*
