@@ -101,9 +101,11 @@ tags:
 
 > [!info] Verified Contact & Identity
 > 
-> * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
+> * **Email:** [support@iamrp.dev](mailto:support@iamrp.dev) / [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
 > * **Phone:** `216-410-3687` *(Text Preferred)*
-> * **Cryptographic Verification & PGP:** Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots on the **[[Contact/index|Contact & Identity Verification]]** page.
+> * **Privacy Policy & Sovereign Data Governance:** Review the complete zero-tracking privacy policy at **[policy.iamrp.dev/privacypolicies/iamrp](https://policy.iamrp.dev/privacypolicies/iamrp/index.html)**.
+> * **Cryptographic Verification & PGP:** Inspect hardware-backed PGP keys, GPG fingerprints, and FIDO2 signing roots on the **[[Contact/index|Contact & Identity Verification]]** page, or view **[iamrp.dev/pgp.asc](https://iamrp.dev/pgp.asc)**.
+> * **RFC 9116 Security Disclosure:** Authoritative vulnerability reporting policy and security contacts at **[iamrp.dev/.well-known/security.txt](https://iamrp.dev/.well-known/security.txt)**.
 > * **Ecosystem Knowledge Base:** Complete user manuals, setup guides, and AIDL developer specifications are maintained at **[wiki.iamrp.dev](https://wiki.iamrp.dev)**.
 
 <script type="application/ld+json">
