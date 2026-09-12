@@ -1,3 +1,5 @@
+import path from "path"
+import fs from "fs"
 import { PerfTimer } from "../util/perf"
 import { getStaticResourcesFromPlugins } from "../plugins"
 import { ProcessedContent } from "../plugins/vfile"
@@ -97,4 +99,20 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   }
 
   log.end(`Emitted ${emittedFiles} files to \`${argv.output}\` in ${perf.timeSince()}`)
+
+  // Sovereign Ecosystem: Ensure .well-known, pgp.asc, and .nojekyll exist in output
+  const wellKnownSrc = path.join(ctx.argv.directory, ".well-known")
+  const wellKnownDest = path.join(ctx.argv.output, ".well-known")
+  if (fs.existsSync(wellKnownSrc)) {
+    await fs.promises.cp(wellKnownSrc, wellKnownDest, { recursive: true })
+  }
+  const pgpSrc = path.join(ctx.argv.directory, "pgp.asc")
+  const pgpDest = path.join(ctx.argv.output, "pgp.asc")
+  if (fs.existsSync(pgpSrc)) {
+    await fs.promises.copyFile(pgpSrc, pgpDest)
+  }
+  await fs.promises.writeFile(
+    path.join(ctx.argv.output, ".nojekyll"),
+    "# Disable Jekyll for GitHub Pages\n",
+  )
 }

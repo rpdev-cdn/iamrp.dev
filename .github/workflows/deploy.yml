@@ -29,7 +29,7 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
-      - name: Generate robots.txt
+      - name: Generate robots.txt and Ensure Security Assets
         run: |
           cat > public/robots.txt << 'EOF'
           User-agent: *
@@ -38,6 +38,10 @@ jobs:
           Sitemap: https://iamrp.dev/sitemap.xml
           EOF
           sed -i 's/^          //' public/robots.txt
+          mkdir -p public/.well-known
+          cp content/.well-known/security.txt public/.well-known/security.txt
+          cp content/pgp.asc public/pgp.asc
+          touch public/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
