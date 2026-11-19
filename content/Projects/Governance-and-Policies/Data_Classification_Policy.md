@@ -17,19 +17,19 @@ compliance_alignment:
   - ISO/IEC 27001:2022
   - SOC 2 Type II
 ---
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 > [!abstract] Legacy Policy Archive - Modernized for 2026
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, encompassing paradigms such as LLM training data governance, vector database security, and synthetic data.
 
-Information Asset and Data Classification Policy
+# Information Asset and Data Classification Policy
 
-Approval Date               August 22, 2026
-Approved By                 Enterprise Security Council
-Purpose                 To educate staff members on the importance of protecting data generated, accessed, transmitted, stored, and destroyed by the organization; to identify procedures that protect the confidentiality, integrity, and availability of data; and to comply with modern privacy regulations and AI governance standards.
+**Approval Date:** August 22, 2026  
+**Approved By:** Enterprise Security Council  
+**Purpose:** To educate staff members on the importance of protecting data generated, accessed, transmitted, stored, and destroyed by the organization; to identify procedures that protect the confidentiality, integrity, and availability of data; and to comply with modern privacy regulations and AI governance standards.
 
-1. Scope
+## 1. Scope
 All staff members have a responsibility to protect the confidentiality, integrity, and availability of data generated, accessed, modified, transmitted, stored, or destroyed, irrespective of the medium on which the data resides (including traditional databases, vector databases, and AI model weights).
 
 Departments are responsible for implementing appropriate managerial, operational, physical, and technical controls.

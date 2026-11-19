@@ -14,7 +14,7 @@ tags:
 # Contact & Verification
 
 > [!abstract] Direct Communication Channels
-> For professional inquiries, consulting engagements, architectural reviews, or full-time opportunities, please reach out via the verified channels below.
+> For full-time **W-2 Direct Hire** or **W-2 Contract-to-Hire** engineering and security roles, recruiter submissions, or technical interview scheduling, please reach out via the verified channels below.
 
 ---
 
@@ -23,7 +23,7 @@ tags:
 * **Full Name:** Richard P. Dissell
 * **Location:** Cleveland, OH
 * **Email:** [RPDissell@gmail.com](mailto:RPDissell@gmail.com)
-* **Phone:** `216-410-3687` *(Text Preferred)*
+* **Phone:** Available on Official PDF Resume or upon request via email/LinkedIn
 * **Portfolio & Digital Garden:** [iamrp.dev](https://iamrp.dev)
 * **LinkedIn:** [linkedin.com/in/rpdissell](https://linkedin.com/in/rpdissell)
 * **GitHub:** [github.com/IamRPDev](https://github.com/IamRPDev)
@@ -86,10 +86,10 @@ sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNza
 
 ### ◈ Availability & Roles
 
-* **Engagement Types:** Full-Time, Contract-to-Hire, Fractional CISO / SecOps Architecture Consulting.
-* **Target Roles:**
-  * **Information Security:** Information Security Analyst / Officer • Security Architect
-  * **Systems & Infrastructure:** Infrastructure / Systems Architect • Senior Network Security Administrator • Lead DevSecOps Engineer
+* **Engagement Types:** Full-Time W-2 (Direct Hire) • W-2 Contract-to-Hire
+* **Primary Target Roles:** Senior Systems & Infrastructure Engineer • Infrastructure Security Analyst / Engineer
+* **Adjacent Fit:** Information Security Officer (ISO) • CMDB / Configuration Management Administrator • Senior Systems Administrator • SecOps / DevSecOps Engineer
+* **Transition Readiness:** Winding down independent consulting engagements to commit 100% to a dedicated full-time W-2 role.
 * **Location Preference:** Remote or Hybrid (Greater Cleveland, OH Area).
 
 ---

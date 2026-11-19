@@ -17,21 +17,21 @@ compliance_alignment:
   - ISO/IEC 27001:2022
   - SOC 2 Type II
 ---
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 > [!abstract] Legacy Policy Archive - Modernized for 2026
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, covering Bring Your Own AI (BYOAI), passkey/FIDO2 enforcement (passwordless), and Mobile Threat Defense (MTD).
 
-Mobile Device Security Policy
+# Mobile Device Security Policy
 
-Approval Date              August 22, 2026
-Approved By                Enterprise Security Council
-Purpose                    To describe security expectations for all users accessing network resources via mobile devices, including smartphones, tablets, and laptops, in a modern, AI-integrated landscape.
+**Approval Date:** August 22, 2026  
+**Approved By:** Enterprise Security Council  
+**Purpose:** To describe security expectations for all users accessing network resources via mobile devices, including smartphones, tablets, and laptops, in a modern, AI-integrated landscape.
 
 All employees who use a mobile computing device that accesses or synchronizes with organizational resources are responsible for securing their device to prevent data loss, compromise, or abuse.
 
-1. Device Management and Mobile Threat Defense (MTD)
+## 1. Device Management and Mobile Threat Defense (MTD)
 - All mobile devices accessing corporate data must be enrolled in the organization's Unified Endpoint Management (UEM) system.
 - Mobile Threat Defense (MTD) agents must be active on all devices to provide real-time protection against network-based attacks, malicious apps, and OS vulnerabilities.
 - The organization reserves the right to remotely wipe corporate data from any enrolled device if it is reported lost, stolen, or compromised.

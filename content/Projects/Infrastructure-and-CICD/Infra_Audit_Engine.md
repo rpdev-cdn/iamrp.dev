@@ -26,9 +26,9 @@ graph TD
     A[Cron / Audit Trigger] --> B[orchestrator.py<br><i>Python 3.12 Engine</i>]
     
     subgraph Fleet Telemetry Collection
-        B -->|SSH Audit| C[edge: OpenWrt Router<br><i>Firewall, UCI, Interfaces</i>]
-        B -->|SSH Audit| D[t430: Linux Node<br><i>Docker, ZRAM, Storage</i>]
-        B -->|SSH Audit| E[llmadmin01: AI Node<br><i>GPU, TPU, NVMe, RAM</i>]
+        B -->|SSH Audit| C[edge-gw-01: OpenWrt Router<br><i>Firewall, UCI, Interfaces</i>]
+        B -->|SSH Audit| D[core-cluster-01: Linux Node<br><i>Docker, ZRAM, Storage</i>]
+        B -->|SSH Audit| E[ai-compute-01: AI Node<br><i>GPU, TPU, NVMe, RAM</i>]
     end
 
     subgraph State Synthesis & Validation
@@ -66,22 +66,22 @@ In distributed homelab and hybrid enterprise environments, infrastructure state 
 ### 📊 Production Outcomes & Metrics
 * **Audit Execution Speed:** Full 3-node multi-tier audit completes in **under 4 seconds**.
 * **Zero Documentation Drift:** 100% automated synchronization of active firewall rules, container ports, and GPU allocations.
-* **Early Detection:** Prevented 3 storage exhaustion incidents on `/mnt/data/docker` via automated threshold checks.
+* **Early Detection:** Prevented 3 storage exhaustion incidents on `/srv/storage/containers` via automated threshold checks.
 
 ---
 
 ## 2. Deep Dive: Telemetry Engines & Modules
 
 ### A. Asynchronous SSH Fleet Collection (`ssh_audit.py`)
-* **Parallelized Execution:** Queries `llmadmin01`, `t430`, and `edge` concurrently using asynchronous Ed25519/RSA SSH key authentication.
+* **Parallelized Execution:** Queries `ai-compute-01`, `core-cluster-01`, and `edge-gw-01` concurrently using asynchronous Ed25519/RSA SSH key authentication.
 * **Hardware Accelerator Discovery:** Automatically discovers PCI/USB coprocessors (Intel UHD 630, NVIDIA Quadro P600 Mobile, Google Coral Edge TPU) and verifies PCIe link health.
 * **Memory & ZRAM Compression Tracking:** Audits physical RAM consumption and `zram` LZ4 swap block device compression ratios across compute nodes.
-* **Storage Partition & Docker Volume Monitoring:** Tracks disk utilization across root partitions, high-I/O NVMe arrays, and `/mnt/data/docker` mount points to preemptively prevent storage exhaustion.
+* **Storage Partition & Container Volume Monitoring:** Tracks disk utilization across root partitions, high-I/O NVMe arrays, and `/srv/storage/containers` mount points to preemptively prevent storage exhaustion.
 
 ### B. Native OpenWrt UCI State Normalizer
 * **NVRAM & UCI Parsing:** Bypasses legacy agent constraints by directly extracting and parsing OpenWrt `uci` configs.
-* **Firewall & DNS Interception:** Validates 8-zone firewall policies (`lan`, `wan`, `iot`, `guest`, `secure`, `servers`, `clients`, `docker`) and verifies active DNS hijacking rules (`Hijack-DNS-UDP`, `Hijack-DoT`).
-* **ACME & Cloudflare Certificates:** Audits automated DNS-01 wildcard certificates generated for `*.internal.iamrp.dev`, `*.iot.iamrp.dev`, and `*.guest.iamrp.dev`.
+* **Firewall & Egress DNS Policy Enforcement:** Validates segmented firewall policies across functional network boundaries (`Management Tier`, `Trusted Workstation Tier`, `Container Service Tier`, `Isolated IoT Tier`, and `Guest/Untrusted Tier`) and verifies transparent egress DNS redirection rules (`DNAT-DNS-UDP`, `Block-DoT-Bypass`).
+* **ACME & Cloudflare Certificates:** Audits automated DNS-01 wildcard certificates generated for `*.corp.example.internal`, `*.iot.example.internal`, and `*.guest.example.internal`.
 * **Edge Intrusion Prevention:** Queries `crowdsec` edge daemon metrics and active iptables bouncer tables.
 
 ### C. Cloudflare & GitHub SaaS Telemetry Modules (`cloudflare_api.py` & `github_api.py`)
@@ -96,23 +96,23 @@ In distributed homelab and hybrid enterprise environments, infrastructure state 
 
 ## 3. Output Schema & Authoritative Truth (`CURRENT_ENV.yml`)
 
-The engine normalizes all collected telemetry and compiles it into `docs/CURRENT_ENV.yml`. Every run automatically compares active state against historical baselines in `docs/history/`, filtering out noise (ephemeral memory fluctuations) while raising actionable alerts for genuine configuration drift.
+The engine normalizes all collected telemetry and compiles it into `CURRENT_ENV.yml`. Every run automatically compares active state against historical baselines, filtering out noise (ephemeral memory fluctuations) while raising actionable alerts for genuine configuration drift.
 
 ```yaml
-# Authoritative Structure of docs/CURRENT_ENV.yml
+# Authoritative Structure of CURRENT_ENV.yml
 environment_registry:
   nodes:
-    llmadmin01:
+    ai-compute-01:
       node_type: linux
       system_heuristics: { load_average, memory_active, zram_status, hardware_accelerators }
-      docker_status: { driver: overlayfs, root_dir: /var/lib/docker }
-      storage_usage: { root_partition, docker_partition }
-    edge:
+      docker_status: { driver: overlayfs, root_dir: /var/lib/containers }
+      storage_usage: { root_partition, container_partition }
+    edge-gw-01:
       node_type: openwrt
       openwrt_config: { acme, firewall_zones, dnsmasq, crowdsec }
-    t430:
+    core-cluster-01:
       node_type: linux
-      storage_usage: { docker_partition: /mnt/data/docker }
+      storage_usage: { container_partition: /srv/storage/containers }
   saas_telemetry:
     cloudflare: { tunnels, dns_records, access_policies }
     github: { self_hosted_runners, action_workflows }

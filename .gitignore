@@ -1,0 +1,14 @@
+# Local staging & reference artifacts
+.staging/
+/mnt/sharedroot/projects/rpdev-cdn/iamrp.dev/.staging/
+
+# Node, Python & Quartz build artifacts
+node_modules/
+public/
+.quartz-cache/
+prof/
+*.tsbuildinfo
+temp_generated_resume.pdf
+__pycache__/
+*.pyc
+.DS_Store

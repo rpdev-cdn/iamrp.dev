@@ -16,12 +16,15 @@ aliases:
 ---
 # Current Fleet Topology & Environment State
 
+> [!abstract] OPSEC & Sanitization Notice
+> In accordance with ISO 27002 operational security controls, internal hostnames, RFC 1918 subnet octets, internal DNS zones, and filesystem mount paths in this topology are represented using standardized architectural aliases.
+
 > [!abstract] Drift-Audited Infrastructure State
-> This document details the physical infrastructure and hardware inventory supporting the RPDevs architecture. State, network zoning, and hardware health are continuously monitored, validated, and normalized by the **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]]** into the authoritative `CURRENT_ENV.yml` registry.
+> This document details the physical infrastructure and hardware inventory supporting the personal engineering lab. State, network zoning, and hardware health are continuously monitored, validated, and normalized by the **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]]** into the authoritative `CURRENT_ENV.yml` registry.
 
 The fleet operates across a decoupled Layer 2 network connecting bare-metal Linux compute hosts, edge AI accelerators, and a hardened OpenWrt perimeter gateway:
 
-## 🖥️ Node: llmadmin01 (Primary Compute & AI)
+## 🖥️ Node: ai-compute-01 (Primary Compute & AI)
 The powerhouse of the lab, heavily accelerated for AI inference, telemetry processing, and centralized container management.
 
 * **Role**: Linux Compute Node
@@ -31,26 +34,26 @@ The powerhouse of the lab, heavily accelerated for AI inference, telemetry proce
   * Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630]
 * **Storage Backbone**: Samsung NVMe SSD Controller PM9C1a
 * **Memory Management**: 32GB total with 16GB ZRAM block device (transparent compression)
-* **Container Engine**: Docker via `overlayfs` (`/var/lib/docker`)
+* **Container Engine**: Docker via `overlayfs` (`/var/lib/containers`)
 
-## 🖥️ Node: t430 (General Compute)
+## 🖥️ Node: core-cluster-01 (General Compute)
 A secondary compute node handling distributed workloads and infrastructure redundancy.
 
 * **Role**: Linux Compute Node
 * **Hardware Accelerators**: Intel Corporation 3rd Gen Core processor Graphics Controller
 * **Memory Management**: 8GB total with 4GB ZRAM block device
-* **Container Engine**: Docker via `overlayfs` (`/mnt/data/docker`)
+* **Container Engine**: Docker via `overlayfs` (`/srv/storage/containers`)
 
-## 🌐 Node: edge (Perimeter Routing & Security)
+## 🌐 Node: edge-gw-01 (Perimeter Routing & Security)
 The OpenWrt-powered border gateway. It strictly manages complex firewall zoning, VLANs, and edge telemetry.
 
 * **Role**: OpenWrt Edge Router
 * **Core Capabilities**:
-  * **Network Zoning**: Strict firewall separation across `lan`, `wan`, `iot`, `guest`, `secure`, `clients`, `servers`, and `docker` zones.
+  * **Network Zoning**: Strict firewall separation across Management Tier, Trusted Workstation Tier, Container Service Tier, Isolated IoT Tier, and Guest/Untrusted Tier boundaries.
   * **DNS & Adblocking**: Handled via `dnsmasq` intercepting all DNS traffic (DoT/UDP/TCP) and enforcing custom blocklists at the edge.
   * **Edge Telemetry**: Intrusion detection and automated banning via `crowdsec` (with a local bouncer) and `collectd` performance tracking.
   * **Remote Access**: Secure tunneling via `cloudflared` (Zero Trust) and Dropbear SSH.
-  * **Dynamic DNS & Certificates**: Managed via local `acme` routines pushing wildcards across `.internal.iamrp.dev` and `.iot.iamrp.dev`.
+  * **Dynamic DNS & Certificates**: Managed via local `acme` routines pushing wildcards across `.corp.example.internal` and `.iot.example.internal`.
 
 ---
 

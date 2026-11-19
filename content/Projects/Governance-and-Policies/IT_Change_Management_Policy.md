@@ -21,8 +21,8 @@ compliance_alignment:
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, focusing heavily on Infrastructure as Code (IaC) peer-review requirements and automated drift detection.
 
 # IT Change Management Policy
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 
 ## 1. Infrastructure as Code (IaC) and Peer-Review
@@ -53,6 +53,6 @@ Emergency changes ("break-glass" scenarios) are permitted when immediate action 
 * **Production Systems:** Validated in [[Projects/Infrastructure-and-CICD/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
-* **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
+* **Applied Research:** Investigated in [[Codex_Arcana|Engineering Post-Mortems & ADR Vault]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

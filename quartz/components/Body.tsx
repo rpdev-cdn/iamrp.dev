@@ -7,20 +7,19 @@ const EcosystemNav: QuartzComponent = () => {
         <div class="ecosystem-brand">
           <a href="https://iamrp.dev" class="eco-brand-link">
             <span class="brand-pulse">●</span>
-            <span class="brand-name">RPDEV</span>
-            <span class="brand-sep">/</span>
-            <span class="brand-sub">ECOSYSTEM</span>
+            <span class="brand-name">RICHARD P. DISSELL</span>
+            <span class="brand-sep">//</span>
+            <span class="brand-sub">PORTFOLIO</span>
           </a>
         </div>
         <div class="ecosystem-links">
-          <a href="https://iamrp.dev" class="eco-link" data-site="iamrp.dev">Portfolio</a>
-          <a href="https://blog.iamrp.dev" class="eco-link" data-site="blog.iamrp.dev">Blog</a>
-          <a href="https://iamrp.dev/tags/" class="eco-link" data-site="tags">Graph</a>
-          <a href="https://launcher.iamrp.dev" class="eco-link" data-site="launcher.iamrp.dev">Launcher</a>
-          <a href="https://wiki.iamrp.dev" class="eco-link" data-site="wiki.iamrp.dev">Wiki</a>
-          <a href="https://repo.iamrp.dev" class="eco-link" data-site="repo.iamrp.dev">Repository</a>
-          <a href="https://status.iamrp.dev" class="eco-link" data-site="status.iamrp.dev">Status</a>
-          <a href="https://github.com/RPDevs-Builds" class="eco-link eco-gh" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="/" class="eco-link" data-site="portfolio">Portfolio</a>
+          <a href="/Resume/" class="eco-link" data-site="resume">Resume</a>
+          <a href="/Resume/Achievements_Matrix" class="eco-link" data-site="achievements">Achievements</a>
+          <a href="/Projects/" class="eco-link" data-site="projects">Projects</a>
+          <a href="/Projects/Governance-and-Policies/" class="eco-link" data-site="policies">Policies</a>
+          <a href="/Contact/" class="eco-link" data-site="contact">Contact</a>
+          <a href="https://github.com/IamRPDev" class="eco-link eco-gh" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </div>
     </nav>

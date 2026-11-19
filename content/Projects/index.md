@@ -13,7 +13,7 @@ tags:
 
 # 🚀 Systems & Infrastructure Projects
 
-> **Production architectures, bare-metal telemetry systems, mobile platforms, homelab clusters, and distributed container environments engineered for zero-trust resilience and complete operational sovereignty.**
+> **Production architectures, bare-metal telemetry systems, privacy-first mobile platforms, self-hosted lab clusters, and distributed container environments engineered for zero-trust resilience and operational reliability.**
 
 <nav class="projects-category-bar">
   <a href="#android" class="cat-pill"><span class="cat-icon">📱</span> Android Ecosystem</a>
@@ -32,7 +32,7 @@ tags:
 > [!tip] Quick-Scan Portfolio Highlights
 > High-impact production systems showcasing cross-disciplinary engineering across mobile operating environments, hardware security tokens, and multi-node fleet telemetry:
 
-1. **[[Projects/Android/index|RPDev Mobile Ecosystem: Sovereign Android 16 Desktop]]**  
+1. **[[Projects/Android/index|RPDev Mobile Ecosystem: Privacy-First Android 16 Desktop]]**  
    *High-performance, privacy-first mobile operating environment. Decouples the 120Hz launcher desktop from contextual intelligence via Android's high-speed AIDL IPC bridge (`WINDOW_OVERLAY`). Features zero telemetry, hardware Keystore AES256_GCM encryption, on-device SQLite caching, nested folders with cycle-safe graph traversal, and 9 extensible Hub modules.*  
    *Portals: [Launcher](https://launcher.iamrp.dev) • [Feed](https://feed.launcher.iamrp.dev) • [Repository](https://launcher.repo.iamrp.dev) • [Wiki](https://wiki.iamrp.dev) • [CDN](https://cdn.iamrp.dev)*
 
@@ -60,7 +60,7 @@ AOSP-based operating environment engineered for deterministic 120Hz rendering, z
 |---|---|---|
 | **[[Projects/Android/index|RPDev Mobile Ecosystem]]** | Master architectural overview of the decoupled Android 16 home desktop environment. | [Wiki Overview](https://wiki.iamrp.dev/projects/mobile-stack) |
 | **[[Projects/Android/RPDev_Launcher|RPDev Launcher]]** | Modern AOSP launcher with <35MB idle footprint, DataStore reactive flows, and cycle-safe nested folders. | [launcher.iamrp.dev](https://launcher.iamrp.dev) |
-| **[[Projects/Android/RPDev_Feed|RPDev Feed]]** | Sovereign -1 screen companion replacing commercial tracking feeds with on-device RSS parsing and Keystore crypto. | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) |
+| **[[Projects/Android/RPDev_Feed|RPDev Feed]]** | Privacy-first -1 screen companion replacing commercial tracking feeds with on-device RSS parsing and Keystore crypto. | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) |
 | **[[Projects/Android/RPDev_Feed_Modules|Hub Modules Ecosystem]]** | 9 pluggable card plugins distributed via Edge CDN for weather, telemetry, calendar, GitHub, Home Assistant, and Docker. | [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) |
 | **[[Projects/Android/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]]** | Low-latency edge bridge connecting mobile hardware to Linux workstations. | [DeX Architecture](https://wiki.iamrp.dev/projects/Android/samsung-dex-bridge) |
 
@@ -132,7 +132,7 @@ Automated configuration drift detection, Grafana Alloy eBPF fleet telemetry, sel
 
 | Project | Description | Tooling & Pipeline |
 |---|---|---|
-| **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine: Continuous Drift Orchestrator]]** | Automated Python orchestrator querying bare-metal hosts and OpenWrt to compile `CURRENT_ENV.yml`. | Python 3.12, Paramiko |
+| **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine: Continuous Drift Orchestrator]]** | Automated Python orchestrator querying bare-metal hosts and OpenWrt to compile `CURRENT_ENV.yml`. | Python 3.12, AsyncSSH, Pydantic |
 | **[[Projects/Infrastructure-and-CICD/Unified_Fleet_Observability_Alloy|Unified Fleet Observability: Grafana Alloy & eBPF]]** | Multi-node container metrics, cgroup v2 PSI memory traces, and OpenTelemetry collector pipelines. | Alloy, Prometheus, Loki |
 | **[[Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]]** | Scalable GitHub Actions runner fleet with pre-baked dependencies and isolated runner containers. | Actions, OCI, Systemd |
 | **[[Projects/Infrastructure-and-CICD/Builder_Manager_OCI_Pipeline|Builder Manager: Multi-Arch OCI & Cache Engine]]** | Automated Docker build engine for `linux/amd64` and `linux/arm64` with distributed cache warmups. | Buildx, GHCR, OCI |
@@ -161,8 +161,8 @@ Collaborative threat intelligence, Wazuh and CrowdSec SIEM, perimeter tarpits an
 
 ## 📋 [[Projects/Governance-and-Policies/index|Governance & Policies: Enterprise Standards]]
 
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Models
+> All policies, standards, and procedures in this section are shared as portfolio reference models demonstrating enterprise security documentation engineering aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II. They are provided for informational and demonstration purposes only and do not constitute formal legal or compliance counsel.
 
 A comprehensive suite of 18 modernized enterprise IT and cybersecurity policies, leadership charters, and operational frameworks aligned to NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II.
 

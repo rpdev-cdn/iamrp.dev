@@ -43,8 +43,8 @@ flowchart TD
     end
 
     subgraph Clients["4. Local Compute Clients"]
-        Node1["🖥️ Primary Compute Node (llmadmin01)"]
-        Node2["🖥️ Backup Server (T430)"]
+        Node1["🖥️ Primary Compute Node (ai-compute-01)"]
+        Node2["🖥️ Backup Server (core-cluster-01)"]
         Node3["🐳 Docker Host Containers"]
         Node1 & Node2 & Node3 <==|"NFSv4 / NFSv3 (Wire-Speed)"| NFSD
     end
@@ -73,13 +73,13 @@ config nfs 'global'
 	option threads '8'
 	option nfsv3 '1'
 	option nfsv4 '1'
-	option nfsv4_domain 'internal.iamrp.dev'
+	option nfsv4_domain 'corp.example.internal'
 	option port '2049'
 
 config share
 	option enabled '1'
-	option path '/mnt/sharedroot'
-	option clients '10.14.0.0/24 10.13.0.0/24'
+	option path '/srv/storage/shared'
+	option clients '198.51.100.0/24 192.0.2.0/24'
 	option options 'rw,sync,no_subtree_check,no_root_squash'
 ```
 

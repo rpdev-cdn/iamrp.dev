@@ -69,7 +69,7 @@ a8f9c2d1e4b7... (10s delay)
 Attackers targeting secondary decoy ports (e.g. 2222, 23) are routed into **Cowrie**, an emulated UNIX environment that masquerades as an authentic Linux server:
 
 ```yaml
-# /mnt/sharedroot/compose/EDGE/cowrie/compose.yml
+# /srv/compose/edge-gw-01/cowrie/compose.yml
 services:
   cowrie:
     image: cowrie/cowrie:latest

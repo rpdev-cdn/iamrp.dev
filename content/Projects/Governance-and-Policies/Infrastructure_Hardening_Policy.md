@@ -17,19 +17,19 @@ compliance_alignment:
   - ISO/IEC 27001:2022
   - SOC 2 Type II
 ---
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 > [!abstract] Legacy Policy Archive - Modernized for 2026
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, mandating Kubernetes/Container hardening, eBPF telemetry, and immutable infrastructure patterns.
 
-INFRASTRUCTURE HARDENING POLICY
+# Infrastructure Hardening Policy
 
-Approval Date               August 22, 2026
-Approved By                 Enterprise Security Council
-Purpose                     The organization’s IT infrastructure will be hardened according to this policy to minimize vulnerabilities across traditional, cloud-native, and containerized environments.
+**Approval Date:** August 22, 2026  
+**Approved By:** Enterprise Security Council  
+**Purpose:** The organization’s IT infrastructure will be hardened according to this policy to minimize vulnerabilities across traditional, cloud-native, and containerized environments.
 
-1. Overview
+## 1. Overview
 Hardening secures a system by reducing its attack surface. This policy enforces modern infrastructure paradigms, emphasizing immutable infrastructure, zero-trust architectures, and advanced telemetry.
 
 2. Scope

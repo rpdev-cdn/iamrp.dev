@@ -40,7 +40,7 @@ To manage the routing without hardcoding IPs across the fleet, **Mageddo DNS Pro
 
 ```mermaid
 graph TD
-    subgraph Physical Network (192.168.1.0/24)
+    subgraph Physical Network (198.51.100.0/24)
         A[Core Router]
         B[Physical Host NIC]
     end
@@ -51,10 +51,10 @@ graph TD
         B --- C(Ipvlan Sub-Interface)
         B --- D(Macvlan Sub-Interface)
         
-        C --- E[App Container 1<br>192.168.1.10]
-        C --- F[App Container 2<br>192.168.1.11]
+        C --- E[App Container 1<br>198.51.100.10]
+        C --- F[App Container 2<br>198.51.100.11]
         
-        D --- G[Legacy Service<br>192.168.1.50<br>MAC: AA:BB:CC]
+        D --- G[Legacy Service<br>198.51.100.50<br>MAC: AA:BB:CC]
         
         H[Mageddo DPS] -.->|Reads Docker Socket| E
         H -.->|Reads Docker Socket| F

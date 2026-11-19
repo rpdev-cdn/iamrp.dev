@@ -1,12 +1,11 @@
-# RFC 9116 Security Vulnerability Disclosure Policy for RPDev Sovereign Fleet
-Contact: mailto:support@iamrp.dev
+# RFC 9116 Security Vulnerability Disclosure Policy for Richard P. Dissell Portfolio (iamrp.dev)
+Contact: mailto:RPDissell@gmail.com
 Encryption: https://iamrp.dev/pgp.asc
 Encryption: https://cdn.iamrp.dev/keys/pgp.asc
 Encryption: https://cdn.iamrp.dev/pgp.asc
 Canonical: https://iamrp.dev/.well-known/security.txt
 Canonical: https://cdn.iamrp.dev/.well-known/security.txt
 Preferred-Languages: en
-Policy: https://iamrp.dev/projects/governance-and-policies/information_security_policy
-Acknowledgments: https://iamrp.dev/resume/endorsements_and_references
-Hiring: https://iamrp.dev/
+Policy: https://iamrp.dev/Projects/Governance-and-Policies/Information_Security_Policy
+Acknowledgments: https://iamrp.dev/Resume/Endorsements_and_References
 Expires: 2027-12-31T23:59:59.000Z

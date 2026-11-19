@@ -24,8 +24,8 @@ compliance_alignment:
   - SOC 2 Type II
 ---
 # Modern Security Awareness Curriculum
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 ## **Behavioral Defense Against AI Deep-Fakes, Advanced Social Engineering, MFA Prompt Fatigue & Continuous Micro-Simulations**
 

@@ -53,7 +53,7 @@ graph LR
    * Emits Home Assistant-compliant MQTT discovery payloads allowing auto-provisioning of device sensors.
 
 3. **Production Deployment:**
-   * Deployed as a systemd service on the host node (`llmadmin01`) with automatic crash recovery, logging directly to journald.
+   * Deployed as a systemd service on the host node (`ai-compute-01`) with automatic crash recovery, logging directly to journald.
 
 ---
 

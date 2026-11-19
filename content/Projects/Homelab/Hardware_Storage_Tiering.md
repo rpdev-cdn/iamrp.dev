@@ -35,13 +35,13 @@ Running containers on embedded edge hardware (like OpenWrt routers) poses a uniq
 
 #### 3. Bulk Cold-Storage Tier (NFS & Distributed Arrays)
 Long-term artifacts, system backups, and non-volatile configurations are routed to the central storage area network.
-- **GitOps Manifests & Artifacts:** Deployment files and generated software builds map directly to the shared network root (`/mnt/sharedroot`).
+- **GitOps Manifests & Artifacts:** Deployment files and generated software builds map directly to the shared network root (`/srv/storage/shared`).
 - This allows any compute node in the fleet to seamlessly mount and execute configurations, ensuring high availability during hardware failovers.
 
 #### 4. Compressed Memory Tier (ZRAM)
 To maximize memory efficiency on compute nodes without relying on slow disk-based swap (which degrades flash endurance):
-- **llmadmin01**: Configured with a 16GB ZRAM block device (`/dev/zram0`).
-- **t430**: Configured with a 4GB ZRAM block device (`/dev/zram0`).
+- **ai-compute-01**: Configured with a 16GB ZRAM block device (`/dev/zram0`).
+- **core-cluster-01**: Configured with a 4GB ZRAM block device (`/dev/zram0`).
 - This ensures that inactive memory pages are compressed in RAM rather than paged to the SSD, drastically improving system responsiveness during memory spikes while protecting underlying local NVMe and eMMC storage from write exhaustion.
 
 ### ◈ Storage Topology Diagram

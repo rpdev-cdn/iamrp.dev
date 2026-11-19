@@ -17,20 +17,20 @@ compliance_alignment:
   - ISO/IEC 27001:2022
   - SOC 2 Type II
 ---
-> [!caution] Legal Notice & Non-Liability Disclaimer
-> **Reference Models & Educational Examples Only**: All policies, standards, frameworks, procedures, and architectural artifacts provided within this section are shared strictly as informational, educational, and reference examples demonstrating enterprise documentation engineering. **Under no circumstances does Richard P. Dissell, RPDev, or affiliated contributors assume legal liability, fiduciary responsibility, regulatory accountability, or duty of care for their governance, implementation, omission, or operational impact.** These examples do not constitute formal legal counsel, statutory advice, or certified regulatory compliance determinations. Any organization or individual adapting or referencing these materials must perform their own due diligence and consult licensed legal and cybersecurity compliance counsel.
+> [!note] Portfolio Reference Model
+> Shared as a sanitized enterprise documentation sample aligned with NIST CSF 2.0, ISO/IEC 27001:2022, and SOC 2 Type II controls. Provided for informational and portfolio demonstration purposes only; organizations adapting these baselines should validate requirements with licensed legal and compliance counsel.
 
 > [!abstract] Legacy Policy Archive - Modernized for 2026
 > This legacy policy has been modernized to align with 2026 enterprise IT and cybersecurity standards, encompassing Post-Quantum Cryptography (PQC) readiness and cryptographic agility.
 
-Encryption Policy
+# Encryption Policy
 
-Approval Date      August 22, 2026
-Approved By        Enterprise Security Council
-Purpose            To provide guidance on the use of encryption to protect information resources, ensuring resilience against modern and future threats, including quantum computing.
-Audience           All employees and affiliates. Addresses encryption policy for data at rest, data in motion, key management, and cryptographic agility.
+**Approval Date:** August 22, 2026  
+**Approved By:** Enterprise Security Council  
+**Purpose:** To provide guidance on the use of encryption to protect information resources, ensuring resilience against modern and future threats, including quantum computing.  
+**Audience:** All employees and affiliates. Addresses encryption policy for data at rest, data in motion, key management, and cryptographic agility.
 
-Policy: Encryption Strength & Cryptographic Agility
+## 1. Encryption Strength & Cryptographic Agility
 The organization uses industry-standard technologies for encrypting confidential-sensitive data, prioritizing Cryptographic Agility to allow rapid replacement of cryptographic primitives.
 - All encryption mechanisms must support a minimum of AES-256 bit encryption.
 - Systems must be designed with Post-Quantum Cryptography (PQC) readiness in mind, implementing NIST-approved quantum-resistant algorithms (e.g., ML-KEM, ML-DSA) for critical infrastructure.

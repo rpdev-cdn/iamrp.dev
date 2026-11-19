@@ -13,7 +13,7 @@ tags:
 # 🕸️ Interconnected Works & Ecosystem Knowledge Graph
 ## **Interactive Topological Architecture, Protocol Bindings & Semantic Taxonomy**
 
-Welcome to the central architectural nexus of the RPDev ecosystem. Across 39+ open-source repositories and 6 foundational engineering pillars, our systems operate as an integrated, sovereign mesh. Every service—from mobile AIDL bridges to hardware cryptographic roots, custom OpenWrt kernel drivers, and local LLM tool routers—is bound together by deterministic protocols and a unified semantic tag ontology.
+Welcome to the central architectural nexus of the RPDev ecosystem. Across 39+ open-source repositories and 6 foundational engineering pillars, these systems operate as an integrated, self-hosted architecture. Every service—from mobile AIDL bridges to hardware cryptographic roots, custom OpenWrt kernel drivers, and local LLM tool routers—is bound together by deterministic protocols and a unified semantic tag ontology.
 
 <div class="di-neo-card-wrapper" style="margin-top: 1.5rem; margin-bottom: 2rem;">
 <div class="di-neo-shadow"></div>
@@ -153,7 +153,7 @@ Drag nodes • Hover to inspect bindings • Click to jump to project specificat
 
 The RPDev ecosystem is organized into 6 functional engineering pillars. Each work connects across platforms through explicit protocols, schema validation, and synchronized version lifecycles.
 
-### 📱 Pillar 1: Android Sovereign Client Stack
+### 📱 Pillar 1: Privacy-First Android Client Stack
 *Native Android 14/15/16 desktop orchestrator, private swipe-left feed overlay, and pluggable hub card architecture operating with zero tracking SDKs and zero telemetry.*
 
 <div class="project-subcard" id="project-launcher">
@@ -176,7 +176,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/android/rpdev_launcher">Architecture Spec</a> • 
+    <a href="/Projects/Android/RPDev_Launcher">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/launcher/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Launcher" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -184,11 +184,11 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
 
 <div class="project-subcard" id="project-feed">
   <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <h4 style="margin: 0; color: #fff;">📰 RPDev Feed (Sovereign Minus-One Screen Companion)</h4>
+    <h4 style="margin: 0; color: #fff;">📰 RPDev Feed (Privacy-First Minus-One Screen Companion)</h4>
     <span class="telemetry-badge badge-live">GA v1.2.1</span>
   </div>
   <p style="margin: 0.5rem 0; font-size: 0.88rem; color: #e2e1e8;">
-    Private, telemetry-free Google Discover replacement companion providing sovereign RSS/Atom syndication, weather tracking, and extensible smart home cards.
+    Private, telemetry-free Google Discover replacement companion providing on-device RSS/Atom syndication, weather tracking, and extensible smart home cards.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
     <strong>Bindings & Interfaces:</strong> Implements <code>ILauncherOverlayCallback</code> for gestures. Mounts <code>RPDev Feed Modules</code> cards via validated <code>card-v1.schema.json</code>.
@@ -202,7 +202,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/android/rpdev_feed">Architecture Spec</a> • 
+    <a href="/Projects/Android/RPDev_Feed">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/feed/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Feed" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -214,7 +214,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <span class="telemetry-badge badge-live">GA v1.2.1</span>
   </div>
   <p style="margin: 0.5rem 0; font-size: 0.88rem; color: #e2e1e8;">
-    Library of 9 modular cards providing weather radar, battery telemetry, GitHub activity, web scrapers, Home Assistant controls, Docker node health, and custom REST cards.
+    Library of 9 modular cards providing weather radar, battery telemetry, GitHub activity, webpage change monitors, Home Assistant controls, Docker node health, and custom REST cards.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
     <strong>Bindings & Interfaces:</strong> Pulls dynamic manifests from <code>cdn.iamrp.dev/feed/schemas/card-v1.schema.json</code>. Connects to <code>DocIngest</code> for offline MCP knowledge summaries.
@@ -227,7 +227,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/android/rpdev_feed_modules">Architecture Spec</a> • 
+    <a href="/Projects/Android/RPDev_Feed_Modules">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/modules/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://github.com/RPDevs-Builds/RPDev-Feed-Modules" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
@@ -258,7 +258,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/hardware-security/hardware_security_key">Architecture Spec</a> • 
+    <a href="/Projects/Hardware-Security/Hardware_Security_Key">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/security/fido2-security-toolkit" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -283,7 +283,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/hardware-security/kexecboot_wireless_bootloader">Architecture Spec</a> • 
+    <a href="/Projects/Hardware-Security/Kexecboot_Wireless_Bootloader">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/TheoryandEarlyDev/kexecboot/" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -313,7 +313,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/networking-and-iot/openwrt_asu_image_builder">Architecture Spec</a> • 
+    <a href="/Projects/Networking-and-IoT/OpenWrt_ASU_Image_Builder">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/networking/openwrt-asu-builder" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
     <a href="https://openwrt.repo.iamrp.dev" target="_blank" rel="noopener">Package Repository ↗</a>
   </div>
@@ -339,7 +339,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/networking-and-iot/adsb_aviation_sdr_telemetry_pipeline">Architecture Spec</a> • 
+    <a href="/Projects/Networking-and-IoT/ADSB_Aviation_SDR_Telemetry_Pipeline">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/networking/adsb-aviation-sdr" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -369,7 +369,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/infrastructure-and-cicd/self_hosted_cicd_build_fleet">Architecture Spec</a> • 
+    <a href="/Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/infrastructure/self-hosted-build-fleet" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -383,7 +383,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     Dual-tier storage protocol separating high-IOPS transactional workloads (PostgreSQL WAL, Docker overlay, Qdrant vectors) on NVMe SSDs from cold bulk storage on redundant NFS arrays.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
-    <strong>Bindings & Interfaces:</strong> Mounts <code>/mnt/sharedroot</code> across fleet nodes via Linux Kernel NFS with POSIX ACLs. Backs Qdrant and Docker volume storage.
+    <strong>Bindings & Interfaces:</strong> Mounts <code>/srv/storage/shared</code> across fleet nodes via Linux Kernel NFS with POSIX ACLs. Backs Qdrant and Docker volume storage.
   </div>
   <div>
     <a class="tag-pill" href="/tags/storage">#storage</a>
@@ -393,7 +393,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/homelab/hardware_storage_tiering">Architecture Spec</a> • 
+    <a href="/Projects/Homelab/Hardware_Storage_Tiering">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/projects/infrastructure/hardware-storage-tiering" target="_blank" rel="noopener">Wiki Manual ↗</a>
   </div>
 </div>
@@ -409,7 +409,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <span class="telemetry-badge badge-live">MCP ACTIVE</span>
   </div>
   <p style="margin: 0.5rem 0; font-size: 0.88rem; color: #e2e1e8;">
-    High-speed documentation crawler, semantic vector embedder, and Model Context Protocol knowledge corpus allowing AI agents to query all ecosystem manuals with zero cloud leakage.
+    Self-hosted documentation indexing engine, semantic vector embedder, and Model Context Protocol knowledge corpus allowing AI agents to query all ecosystem manuals with zero cloud leakage.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
     <strong>Bindings & Interfaces:</strong> Exposes tools (<code>find-docs</code>, <code>read-docs</code>, <code>query-docs</code>) via MCP stdio/SSE. Indexes Qdrant vectors using <code>fastembed</code>.
@@ -423,8 +423,8 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/homelab/docingest">Architecture Spec</a> • 
-    <a href="https://docingest.iamrp.dev" target="_blank" rel="noopener">Live Engine ↗</a> • 
+    <a href="/Projects/Homelab/DocIngest">Architecture Spec</a> • 
+    <a href="https://docingest.iamrp.dev/view" target="_blank" rel="noopener">Live Engine ↗</a> • 
     <a href="https://blog.iamrp.dev/articles/MCP_Enterprise" target="_blank" rel="noopener">Enterprise MCP Monograph ↗</a>
   </div>
 </div>
@@ -438,7 +438,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     Localized inference backbone hosting quantized models (Llama 3.3, DeepSeek, Qwen) with strict guardrails, token budget quotas, and deterministic tool execution routers.
   </p>
   <div style="font-size: 0.78rem; color: #8b889c; margin-bottom: 0.5rem;">
-    <strong>Bindings & Interfaces:</strong> Connects to Ollama on <code>llmadmin01</code>. Enforces least-privilege token routing through <code>mcp-gateway</code>.
+    <strong>Bindings & Interfaces:</strong> Connects to Ollama on <code>ai-compute-01</code>. Enforces least-privilege token routing through <code>mcp-gateway</code>.
   </div>
   <div>
     <a class="tag-pill" href="/tags/ai">#ai</a>
@@ -479,7 +479,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   </div>
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
-    <a href="/projects/governance-and-policies/">Policy Suite</a> • 
+    <a href="/Projects/Governance-and-Policies/">Policy Suite</a> • 
     <a href="https://wiki.iamrp.dev/projects/governance/" target="_blank" rel="noopener">Wiki Governance Hub ↗</a>
   </div>
 </div>
@@ -599,7 +599,7 @@ Every topic and technology across the RPDev ecosystem is cataloged under the fol
 (function() {
   const nodes = [
     // Pillars (Central Anchors)
-    { id: "pillar-android", name: "Android Sovereign", pillar: "android", r: 24, x: 260, y: 160, color: "#00afaf", icon: "📱", target: "project-launcher" },
+    { id: "pillar-android", name: "Android Stack", pillar: "android", r: 24, x: 260, y: 160, color: "#00afaf", icon: "📱", target: "project-launcher" },
     { id: "pillar-security", name: "Hardware Security", pillar: "security", r: 24, x: 480, y: 130, color: "#5fafd7", icon: "🛡️", target: "project-fido2" },
     { id: "pillar-networking", name: "Edge & RF", pillar: "networking", r: 24, x: 740, y: 160, color: "#00ff88", icon: "🌐", target: "project-openwrt" },
     { id: "pillar-infrastructure", name: "CI/CD & Fleet", pillar: "infrastructure", r: 24, x: 760, y: 440, color: "#ffbb00", icon: "🏗️", target: "project-fleet" },

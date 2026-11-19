@@ -42,8 +42,8 @@ flowchart TD
     end
 
     subgraph Fleet["Self-Hosted Runner Fleet"]
-        Runner1["🖥️ llmadmin01 (Heavy Runners)"]
-        Runner2["🖥️ T430 (Lightweight Runners)"]
+        Runner1["🖥️ ai-compute-01 (Heavy Runners)"]
+        Runner2["🖥️ core-cluster-01 (Lightweight Runners)"]
     end
 
     subgraph Registries["Target Container Registries"]
@@ -109,11 +109,11 @@ projects:
 
 ## 3. Distributed NFS Package Cache Warmup Heuristics
 
-To accelerate CI/CD workflows across the 12-container self-hosted GitHub Actions runner fleet (`llmadmin01` and `T430`), the build fleet mounts shared NFS volumes directly into runner workspaces:
+To accelerate CI/CD workflows across the 12-container self-hosted GitHub Actions runner fleet (`ai-compute-01` and `core-cluster-01`), the build fleet mounts shared NFS volumes directly into runner workspaces:
 
 ```mermaid
 flowchart LR
-    subgraph Host["Host Node Storage (/mnt/sharedroot/github_runners/shared/)"]
+    subgraph Host["Host Node Storage (/srv/storage/github_runners/shared/)"]
         P1["pip-cache/"]
         P2["poetry-cache/"]
         P3["cargo-cache/"]
@@ -136,7 +136,7 @@ flowchart LR
 ### Automated Warmup Routine (`warmup-caches.yml`):
 Every week, scheduled warmup jobs run across all runner platforms, pre-pulling standard toolchains, popular Python wheels, Rust crates, and base Docker layers. This results in:
 * **70%+ Reduction in Build Latency**: Average pipeline execution dropped from 8.5 minutes to under 2.2 minutes.
-* **Deterministic Build Integrity**: Shared `ccache` volumes over NFS drastically accelerate native C/C++ compilation (such as Kodi add-ons and embedded Linux utilities).
+* **Deterministic Build Integrity**: Shared `ccache` volumes over NFS drastically accelerate native C/C++ compilation (such as embedded Linux firmware and OpenWrt packages).
 
 ---
 
@@ -156,7 +156,7 @@ class OrgDependencyScanner:
         "pyproject.toml": "Python",
         "go.mod": "Golang",
         "Cargo.toml": "Rust",
-        "addon.xml": "Kodi Addon"
+        "CMakeLists.txt": "C/C++"
     }
 
     def scan_repository(self, repo_path: Path) -> dict:
@@ -193,6 +193,6 @@ The output `dependency_registry.json` serves as an authoritative inventory for l
 * **Production Systems:** Validated in [[Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]], [[Projects/Networking-and-IoT/Layer2_Containerization|Layer2 Containerization]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
-* **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
+* **Applied Research:** Investigated in [[Codex_Arcana|Engineering Post-Mortems & ADR Vault]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

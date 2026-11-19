@@ -1,6 +1,6 @@
 ---
 title: "RPDev Feed Modules: Pluggable Hub Card Architecture"
-description: "Modular architecture of the 9 Hub plugins distributed via Sovereign Edge CDN adhering to card-v1.schema.json."
+description: "Modular architecture of the 9 Hub plugins distributed via Edge CDN adhering to card-v1.schema.json."
 tags:
   - android
   - modules
@@ -22,7 +22,7 @@ tags:
 2. **Hardware & Battery Telemetry** (`plugin_sensors`): Direct kernel sysfs readings for temperature, wattage, and RAM.
 3. **Calendar Agenda** (`plugin_calendar`): On-device 72-hour schedule scan.
 4. **GitHub Pulse** (`plugin_github`): Repository pull request, issue, and commit tracker.
-5. **Webpage Monitor & Keyword Scraper** (`plugin_web_scraper`): Jsoup HTML scraper with MD5 diff change alerts.
+5. **Webpage Change & Keyword Monitor** (`plugin_web_monitor`): Jsoup HTML change monitor with MD5 diff alerts.
 6. **Custom REST / JSON Endpoint** (`plugin_dynamic_rest`): Polling engine with dot-notation path extraction.
 7. **Home Assistant State Monitor** (`module_home_assistant`): Smart home presence, lighting, and climate entities.
 8. **Docker Fleet Health** (`module_docker_telemetry`): Container statuses, CPU/memory, and restart counts.

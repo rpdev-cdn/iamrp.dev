@@ -1,6 +1,6 @@
 ---
 title: "Homelab & Infrastructure"
-description: "Sovereign bare-metal homelab infrastructure, self-hosted PaaS engines, DocIngest documentation crawler, spatial storage tiering, and live fleet topology."
+description: "Self-hosted bare-metal lab infrastructure, PaaS engines, DocIngest documentation indexing suite, spatial storage tiering, and sanitized fleet topology."
 aliases:
   - /homelab-projects
   - /homelab-projects/index
@@ -16,7 +16,7 @@ tags:
 
 # 🧪 Homelab & Infrastructure
 
-> **Sovereign, bare-metal homelab infrastructure, containerized microservices, high-speed storage tiering, and live edge applications.**
+> **Self-hosted bare-metal lab infrastructure, containerized microservices, high-speed storage tiering, and edge engineering applications.**
 
 <nav class="projects-category-bar">
   <a href="#docingest" class="cat-pill"><span class="cat-icon">📚</span> DocIngest Suite</a>
@@ -60,7 +60,7 @@ Centralized application deployment engine anchored to bare-metal hardware for in
 
 ## 🖥️ [[Projects/Homelab/Current_Environment|Fleet Topology & Hardware Environment]]
 
-The single source of truth for bare-metal host specifications, CPU architectures, memory budgets, network routing tables, and interface layouts across all active nodes (`edge`, `llmadmin01`, `t430`).
+The single source of truth for bare-metal host specifications, CPU architectures, memory budgets, network routing tables, and interface layouts across all active nodes (`edge-gw-01`, `ai-compute-01`, `core-cluster-01`).
 
 - **[[Projects/Homelab/Current_Environment|View Full Fleet Topology (`CURRENT_ENV.yml`)]]** <span class="telemetry-badge">LIVE TELEMETRY</span>
 

@@ -70,7 +70,7 @@ Standard OpenWrt upgrades present significant friction in enterprise and lab env
 The build server decouples web requests from heavy C/Go toolchain compilation using an asynchronous worker pattern:
 
 ```yaml
-# /mnt/sharedroot/compose/llmadmin01/openwrtasu/compose.yml
+# /srv/compose/ai-compute-01/openwrtasu/compose.yml
 services:
   server:
     image: "openwrt-asu:latest"
@@ -108,7 +108,7 @@ services:
 1. **Router Inventory Scan**:
    - The router executes `auc` (Attended Upgrade CLI) or opens the LuCI interface, cataloging its exact architecture target (`mediatek/filogic`), subtarget (`mac80211`), and installed package list.
 2. **REST API Invocation**:
-   - Sends a JSON payload to `http://asu.internal.iamrp.dev:8000/api/v1/build`.
+   - Sends a JSON payload to `http://asu.corp.example.internal:8000/api/v1/build`.
 3. **Sandboxed Image Generation**:
    - The RQ worker spins up an isolated OpenWrt ImageBuilder container, resolves dependencies, compiles the SquashFS rootfs, injects custom `/etc/uci-defaults/` provisioning scripts, and signs the resulting binary.
 4. **Zero-Touch Flashing**:

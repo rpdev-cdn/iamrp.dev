@@ -10,7 +10,7 @@ tags:
 aliases:
   - /projects/adsb-aviation-sdr-telemetry-pipeline
   - /projects/adsb-sdr-station
-  - /projects/sdr---rf/adsb_aviation_sdr_telemetry_pipeline
+  - /projects/sdr-rf/adsb_aviation_sdr_telemetry_pipeline
   - /projects/adsb_aviation_sdr_telemetry_pipeline
 ---
 # Dual-Band ADS-B & UAT SDR Aviation Telemetry Pipeline
@@ -75,7 +75,7 @@ Commercial and general aviation aircraft broadcast kinematic flight telemetry ov
 The architecture decouples RF demodulation from upstream feeder clients using an in-memory TCP streaming pipeline:
 
 ```yaml
-# /mnt/sharedroot/compose/llmadmin01/adsb-stack/docker-compose.yml
+# /srv/compose/ai-compute-01/adsb-stack/docker-compose.yml
 services:
   readsb-1090:
     image: mikenye/readsb:latest

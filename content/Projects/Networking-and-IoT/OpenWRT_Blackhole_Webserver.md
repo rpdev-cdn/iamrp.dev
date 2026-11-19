@@ -1,5 +1,5 @@
 ---
-title: Blackhole Webserver (OpenWRT Edge Compute)
+title: Blackhole Webserver (OpenWrt Edge Compute)
 draft: false
 tags: [openwrt, go, networking, edge]
 aliases:
@@ -7,35 +7,32 @@ aliases:
   - /projects/openwrt/openwrt_blackhole_webserver
   - /projects/openwrt_blackhole_webserver
 ---
-# Blackhole Webserver (OpenWRT)
+# Blackhole Webserver (OpenWrt)
 
-**Blackhole Webserver for OpenWRT** is a lightweight, high-performance Go-based utility designed to capture, log, and mirror HTTP requests. It is optimized for deployment on OpenWRT routers (specifically MT6000 and MT3000) for edge tracking, logging, and request mirroring.
+**Blackhole Webserver for OpenWrt** is a lightweight, high-performance Go-based sinkhole utility designed to terminate blocked DNS/ad/tracker requests cleanly and log unauthorized HTTP probes on embedded ARM64 OpenWrt routers.
 
 ## Core Functionality
 
-- **Catch-all Routing**: Responds to all requests regardless of path.
-- **Request Mirroring**: Automatically replicates the requested URL path in a local root directory.
-    - Paths with extensions (e.g., `.js`, `.html`) create files.
-    - Paths without extensions create directories.
-- **Logging**: Captures comprehensive request metadata (Method, URL, Headers, IP) in JSON format.
-- **Response**: Always serves a 1x1 transparent tracking GIF.
+- **Catch-All Sinkhole Routing**: Responds immediately to sinkholed HTTP requests regardless of path to prevent client connection timeouts.
+- **Structured Telemetry Logging**: Captures non-sensitive request metadata (Method, URL, Headers, Client Subnet) in JSON format for SIEM ingestion.
+- **Minimal Payload Response**: Serves a lightweight 1x1 transparent GIF (or HTTP 204/200) to minimize router bandwidth and CPU overhead.
 
 ## Technology Stack
 
 - **Language**: Go (Golang)
-- **Target OS**: Linux (OpenWRT)
-- **Architecture**: ARM64 (MT6000/MT3000)
+- **Target OS**: Linux (OpenWrt)
+- **Architecture**: ARM64 embedded router targets
 
-## Development Conventions & Constraints
+## Engineering Conventions & Constraints
 
-- **Surgical Changes**: Always prioritize targeted updates to logic.
-- **Security**: Never log sensitive data or credentials.
-- **Performance**: Keep the binary footprint small and memory usage minimal for router environments.
-- **Testing Strategy**: Local simulation -> Beta deployment via SSH to MT3000 -> Final MT6000 production deployment.
+- **Targeted Scope**: Minimal dependency surface compiled into a static Go binary.
+- **Security & Privacy**: Never logs authentication headers, cookies, or credentials.
+- **Resource Footprint**: Engineered for memory-constrained embedded flash and RAM budgets.
+- **Staged Validation**: Local container simulation → staging lab router verification → production edge gateway deployment.
 
 ## Packaging & CI/CD Heuristics
 
-The build lifecycle includes specific heuristics for compiling Go on OpenWRT, navigating SDK paths, configuring packages non-interactively, and robust OpenWRT Docker CI caching to preserve states (`dl`, `feeds`, `staging_dir/host`, `.gocache`) across ephemeral CI containers.
+The build lifecycle automates cross-compiling Go packages against the OpenWrt SDK non-interactively, utilizing persistent CI caching (`dl`, `feeds`, `staging_dir/host`, `.gocache`) across ephemeral build containers.
 
 ---
 

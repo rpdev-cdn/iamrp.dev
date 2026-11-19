@@ -129,13 +129,13 @@ The build pipeline leverages self-hosted multi-platform runner fleets with a 2-s
 ```mermaid
 flowchart TD
     subgraph Stage1["Stage 1: Multi-Arch Go Compilation (Matrix)"]
-        Linux["linux64 (llmadmin01)"] --> BinLinux["kexecboot-linux-amd64"]
-        macOS["darwin (T430)"] --> BinMac["kexecboot-darwin-amd64"]
-        Windows["windows (T430)"] --> BinWin["kexecboot-windows-amd64.exe"]
+        Linux["linux64 (ai-compute-01)"] --> BinLinux["kexecboot-linux-amd64"]
+        macOS["darwin (core-cluster-01)"] --> BinMac["kexecboot-darwin-amd64"]
+        Windows["windows (core-cluster-01)"] --> BinWin["kexecboot-windows-amd64.exe"]
     end
 
     subgraph Stage2["Stage 2: Buildroot ISO Compilation"]
-        BinLinux --> BuildrootJob["Buildroot Linux Heavy Runner (llmadmin01)"]
+        BinLinux --> BuildrootJob["Buildroot Linux Heavy Runner (ai-compute-01)"]
         BuildrootJob --> Release["kexecboot-hybrid-x86_64.iso"]
     end
 ```

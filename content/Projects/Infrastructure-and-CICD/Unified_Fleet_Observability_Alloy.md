@@ -64,10 +64,10 @@ flowchart TD
 
 ## 2. Containerized Stack Implementation
 
-Deployed across bare-metal compute nodes (`llmadmin01`, `t430`) with direct host namespace visibility:
+Deployed across bare-metal compute nodes (`ai-compute-01`, `core-cluster-01`) with direct host namespace visibility:
 
 ```yaml
-# /mnt/sharedroot/compose/llmadmin01/logstack/compose.yml
+# /srv/compose/ai-compute-01/logstack/compose.yml
 services:
   node-exporter:
     image: prom/node-exporter:latest
@@ -93,7 +93,7 @@ services:
       - /:/rootfs:ro
       - /var/run:/var/run:ro
       - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
+      - /var/lib/containers/:/var/lib/containers:ro
       - /dev/disk/:/dev/disk:ro
 
   alloy:

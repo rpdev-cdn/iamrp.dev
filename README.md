@@ -1,17 +1,17 @@
-# Quartz v5
+# Richard P. Dissell — Engineering & Security Portfolio (`iamrp.dev`)
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Production source repository for **[iamrp.dev](https://iamrp.dev)**, built with Quartz v5 and deployed to GitHub Pages behind Cloudflare.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Key Sections
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- **Portfolio Home:** [https://iamrp.dev](https://iamrp.dev)
+- **Curriculum Vitae & Master Resume:** [https://iamrp.dev/Resume/Master_Resume](https://iamrp.dev/Resume/Master_Resume)
+- **Quantitative Career Achievements Matrix:** [https://iamrp.dev/Resume/Achievements_Matrix](https://iamrp.dev/Resume/Achievements_Matrix)
+- **Downloadable Official PDF Resume:** [https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf)
+- **Enterprise Governance & Security Policies (18 NIST CSF 2.0 / ISO 27001 Policies):** [https://iamrp.dev/Projects/Governance-and-Policies/](https://iamrp.dev/Projects/Governance-and-Policies/)
+- **Contact & Cryptographic Verification (PGP / FIDO2):** [https://iamrp.dev/Contact/](https://iamrp.dev/Contact/)
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Build & Deployment Pipelines
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- **Site Deployment (`.github/workflows/deploy.yml`):** Compiles Markdown content under `content/` via Quartz v5 (`npx quartz build`), copies RFC 9116 `security.txt` and `pgp.asc`, deploys to GitHub Pages, and purges Cloudflare CDN cache.
+- **Automated PDF Resume Pipeline (`.github/workflows/generate-pdf.yml`):** Converts `content/Resume/Master_Resume.md` to a print-calibrated 3-page PDF using `scripts/build_resume_pdf.py` (Markdown + WeasyPrint + pypdf) and publishes to `cdn.iamrp.dev`.

@@ -31,7 +31,7 @@ flowchart LR
         Kernel --> Streamer["📡 Thingino RTSP Streamer (H.265)"]
     end
 
-    subgraph EdgeCompute["Local Compute Node (llmadmin01)"]
+    subgraph EdgeCompute["Local Compute Node (ai-compute-01)"]
         Streamer -->|"Low-Latency RTSP"| Watcher["👁️ The Watcher (OpenCV / YOLO Filter)"]
         Watcher -->|"Motion / Anomaly Frame"| Analyst["🧠 The Analyst (VLM / Ollama Reasoning)"]
         Analyst -->|"JSON Event + 768-dim Vector"| Substrate["🔌 Substrate Memory Gateway"]
@@ -81,7 +81,7 @@ BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE="configs/thingino_t23n_defconfig"
 
 ## 3. Asynchronous Edge AI Vision Engine
 
-On the primary compute server (`llmadmin01`), an asynchronous multi-stage computer vision and reasoning engine processes incoming camera feeds:
+On the primary compute server (`ai-compute-01`), an asynchronous multi-stage computer vision and reasoning engine processes incoming camera feeds:
 
 ```python
 import cv2

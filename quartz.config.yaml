@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 
 configuration:
-  pageTitle: IamRP.Dev
+  pageTitle: Richard P. Dissell
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -290,14 +290,15 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/IamRPDev
+        Resume: /Resume/
+        Achievements: /Resume/Achievements_Matrix
+        Projects: /Projects/
+        Policies: /Projects/Governance-and-Policies/
+        Contact: /Contact/
+        Privacy: /privacy
         LinkedIn: https://linkedin.com/in/rpdissell
+        GitHub: https://github.com/IamRPDev
         Blog: https://blog.iamrp.dev
-        Launcher: https://launcher.iamrp.dev
-        Feed: https://feed.launcher.iamrp.dev
-        Wiki: https://wiki.iamrp.dev
-        Repository: https://repo.iamrp.dev
-        CDN: https://cdn.iamrp.dev
     layout:
       position: footer
       priority: 50

@@ -14,7 +14,7 @@ aliases:
 # Self-Hosted Multi-Node CI/CD Build Fleet
 
 > [!abstract] Build Pipeline Acceleration & Edge Fleet Orchestration
-> Large cross-compiled C++ binaries (Kodi, OpenWrt), Linux kernels, and AI container layers require massive CPU throughput and heavy disk I/O. Standard public GitHub Actions runners frequently encounter memory exhaustion, restrictive CPU quotas, and zero persistent cache between runs. This architecture deploys a containerized, self-hosted GitHub Actions runner fleet across physical cluster nodes (`t430`, `llmadmin01`) with multi-tiered shared cache layers.
+> Large cross-compiled C++ binaries (OpenWrt, native Linux utilities), custom kernels, and AI container layers require sustained CPU throughput and heavy disk I/O. Standard public GitHub Actions runners frequently encounter memory exhaustion, restrictive CPU quotas, and zero persistent cache between runs. This architecture deploys a containerized, self-hosted GitHub Actions runner fleet across physical cluster nodes (`core-cluster-01`, `ai-compute-01`) with multi-tiered shared cache layers.
 
 ---
 
@@ -25,15 +25,15 @@ graph TD
     A[GitHub Actions Workflow Trigger] --> B[GitHub Orchestrator API]
 
     subgraph Bare-Metal Fleet Cluster
-        B -->|Assign Job| C[Runner Pool: t430<br><i>High-RAM Execution Node</i>]
-        B -->|Assign Job| D[Runner Pool: llmadmin01<br><i>GPU/TPU Inference Node</i>]
+        B -->|Assign Job| C[Runner Pool: core-cluster-01<br><i>High-RAM Execution Node</i>]
+        B -->|Assign Job| D[Runner Pool: ai-compute-01<br><i>GPU/TPU Inference Node</i>]
     end
 
     subgraph Persistent Storage & Build Cache Layer
-        E[(/mnt/sharedroot/cache/ccache<br><i>C/C++ Object Cache</i>)]
-        F[(/mnt/sharedroot/cache/go-pkg<br><i>Go Module Cache</i>)]
-        G[(/mnt/sharedroot/cache/npm<br><i>Node Package Cache</i>)]
-        H[(/mnt/sharedroot/cache/pip-poetry<br><i>Python Wheel Cache</i>)]
+        E[(/srv/storage/cache/ccache<br><i>C/C++ Object Cache</i>)]
+        F[(/srv/storage/cache/go-pkg<br><i>Go Module Cache</i>)]
+        G[(/srv/storage/cache/npm<br><i>Node Package Cache</i>)]
+        H[(/srv/storage/cache/pip-poetry<br><i>Python Wheel Cache</i>)]
     end
 
     C <--> E
@@ -53,7 +53,7 @@ graph TD
    * Eliminates `sudo apt-get install` overhead during workflow runs, slashing pipeline initialization time from minutes to seconds.
 
 2. **Persistent Shared Volume Mounts:**
-   * Runners mount centralized cache directories on fast local storage (`/mnt/data` and `/mnt/sharedroot`).
+   * Runners mount centralized cache directories on fast local and shared storage (`/srv/storage/local` and `/srv/storage/shared`).
    * C/C++ compilation steps achieve **>85% ccache hit rates**, reducing monolithic 45-minute builds down to under 4 minutes.
 
 3. **Organizational Security Boundaries:**
@@ -67,6 +67,6 @@ graph TD
 * **Production Systems:** Validated in [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
 * **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
-* **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
+* **Applied Research:** Investigated in [[Codex_Arcana|Engineering Post-Mortems & ADR Vault]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].
