@@ -16,6 +16,8 @@ permissions:
 jobs:
   generate-and-push-pdf:
     runs-on: ubuntu-latest
+    env:
+      PAT_CDN_PUSH: ${{ secrets.PAT_CDN_PUSH }}
     steps:
       - name: Checkout iamrp.dev
         uses: actions/checkout@v4
@@ -44,7 +46,7 @@ jobs:
           retention-days: 30
 
       - name: Checkout CDN Repo
-        if: ${{ secrets.PAT_CDN_PUSH != '' }}
+        if: ${{ env.PAT_CDN_PUSH != '' }}
         uses: actions/checkout@v4
         with:
           repository: rpdev-cdn/cdn.iamrp.dev
@@ -52,7 +54,7 @@ jobs:
           token: ${{ secrets.PAT_CDN_PUSH }}
 
       - name: Push PDF to CDN
-        if: ${{ secrets.PAT_CDN_PUSH != '' }}
+        if: ${{ env.PAT_CDN_PUSH != '' }}
         run: |
           mkdir -p cdn/pdf
           cp iamrp/public/Richard_Dissell_Resume.pdf cdn/pdf/
@@ -64,13 +66,13 @@ jobs:
           git push
 
       - name: Dispatch Event to CDN Repo
-        if: ${{ secrets.PAT_CDN_PUSH != '' }}
+        if: ${{ env.PAT_CDN_PUSH != '' }}
         env:
           GH_TOKEN: ${{ secrets.PAT_CDN_PUSH }}
         run: |
           gh api -X POST /repos/rpdev-cdn/cdn.iamrp.dev/dispatches -f event_type="resume-updated" || echo "Dispatch completed or ignored"
 
       - name: Note Cross-Repo Push Status
-        if: ${{ secrets.PAT_CDN_PUSH == '' }}
+        if: ${{ env.PAT_CDN_PUSH == '' }}
         run: |
           echo "PAT_CDN_PUSH secret is not configured. PDF verified and uploaded as workflow artifact; rpdev-cdn/cdn.iamrp.dev syncs via generate-resume-pdf.yml."
