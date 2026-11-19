@@ -5,6 +5,7 @@ on:
     paths:
       - 'content/Resume/Master_Resume.md'
       - 'scripts/build_resume_pdf.py'
+      - '.github/workflows/generate-pdf.yml'
     branches:
       - main
   workflow_dispatch:
@@ -30,23 +31,31 @@ jobs:
         run: |
           pip install markdown weasyprint pypdf
 
-      - name: Checkout CDN Repo
-        uses: actions/checkout@v4
-        with:
-          repository: rpdev-cdn/cdn.iamrp.dev
-          path: 'cdn'
-          token: ${{ secrets.PAT_CDN_PUSH || secrets.GITHUB_TOKEN }}
-
       - name: Run Pure-Python Resume Build & pypdf Optimization
         run: |
           cd iamrp
           python3 scripts/build_resume_pdf.py
-          cd ..
-          mkdir -p cdn/pdf
-          cp iamrp/public/Richard_Dissell_Resume.pdf cdn/pdf/
+
+      - name: Upload Generated Resume PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: richard-dissell-resume-pdf
+          path: iamrp/public/Richard_Dissell_Resume.pdf
+          retention-days: 30
+
+      - name: Checkout CDN Repo
+        if: ${{ secrets.PAT_CDN_PUSH != '' }}
+        uses: actions/checkout@v4
+        with:
+          repository: rpdev-cdn/cdn.iamrp.dev
+          path: 'cdn'
+          token: ${{ secrets.PAT_CDN_PUSH }}
 
       - name: Push PDF to CDN
+        if: ${{ secrets.PAT_CDN_PUSH != '' }}
         run: |
+          mkdir -p cdn/pdf
+          cp iamrp/public/Richard_Dissell_Resume.pdf cdn/pdf/
           cd cdn
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -55,7 +64,13 @@ jobs:
           git push
 
       - name: Dispatch Event to CDN Repo
+        if: ${{ secrets.PAT_CDN_PUSH != '' }}
         env:
-          GH_TOKEN: ${{ secrets.PAT_CDN_PUSH || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_CDN_PUSH }}
         run: |
           gh api -X POST /repos/rpdev-cdn/cdn.iamrp.dev/dispatches -f event_type="resume-updated" || echo "Dispatch completed or ignored"
+
+      - name: Note Cross-Repo Push Status
+        if: ${{ secrets.PAT_CDN_PUSH == '' }}
+        run: |
+          echo "PAT_CDN_PUSH secret is not configured. PDF verified and uploaded as workflow artifact; rpdev-cdn/cdn.iamrp.dev syncs via generate-resume-pdf.yml."

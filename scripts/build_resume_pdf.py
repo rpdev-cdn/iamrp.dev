@@ -210,16 +210,23 @@ def main():
         }
     )
 
-    # Targets
-    cdn_pdf_dir = os.path.abspath(os.path.join(project_root, "../cdn.iamrp.dev/pdf"))
+    # Targets (supports both local sibling cdn.iamrp.dev/pdf and cdn.iamrp.dev CI checkout cwd/pdf)
+    candidate_cdn_dirs = [
+        os.path.abspath(os.path.join(os.getcwd(), "pdf")),
+        os.path.abspath(os.path.join(project_root, "../pdf")),
+        os.path.abspath(os.path.join(project_root, "../cdn.iamrp.dev/pdf")),
+    ]
+    written_dirs = set()
+    for cdn_pdf_dir in candidate_cdn_dirs:
+        real_dir = os.path.realpath(cdn_pdf_dir)
+        if os.path.exists(cdn_pdf_dir) and real_dir not in written_dirs:
+            cdn_out = os.path.join(cdn_pdf_dir, "Richard_Dissell_Resume.pdf")
+            with open(cdn_out, "wb") as f:
+                writer.write(f)
+            written_dirs.add(real_dir)
+            print(f"[✓] Saved CDN PDF: {cdn_out} ({os.path.getsize(cdn_out) // 1024} KB)")
+
     local_public_dir = os.path.join(project_root, "public")
-
-    if os.path.exists(cdn_pdf_dir):
-        cdn_out = os.path.join(cdn_pdf_dir, "Richard_Dissell_Resume.pdf")
-        with open(cdn_out, "wb") as f:
-            writer.write(f)
-        print(f"[✓] Saved CDN PDF: {cdn_out} ({os.path.getsize(cdn_out) // 1024} KB)")
-
     os.makedirs(local_public_dir, exist_ok=True)
     local_out = os.path.join(local_public_dir, "Richard_Dissell_Resume.pdf")
     with open(local_out, "wb") as f:
