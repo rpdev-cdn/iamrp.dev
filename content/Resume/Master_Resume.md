@@ -25,7 +25,7 @@ aliases:
 ---
 
 <div style="margin: 1rem 0 1.5rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.1" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     Download Official Resume (PDF) 📄
   </a>
   <a href="/Resume/Achievements_Matrix" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
@@ -40,7 +40,7 @@ aliases:
 </div>
 
 > [!note] Artifact Synchronization & Freshness
-> **Web CV & PDF Alignment:** This digital resume and the [Downloadable Official PDF (Current Production Build)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.1) are actively synchronized. All metrics, role timelines, and enterprise governance credentials represent live production state.
+> **Web CV & PDF Alignment:** This digital resume and the [Downloadable Official PDF (Current Production Build)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2) are actively synchronized. All metrics, role timelines, and enterprise governance credentials represent live production state.
 
 ## Executive Profile
 

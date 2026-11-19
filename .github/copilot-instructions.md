@@ -60,12 +60,10 @@ The core package layering in this Quartz v5 codebase is `@quartz-community/types
 - The page layout distinguishes 404, content, folder, tag, canvas, and bases page types. Layout slot overrides and exclusions are centralized in the `layout.byPageType` section.
 - Custom UI assets and component scripts may be inline: component-declared `.inline.ts` files are bundled for the browser and inserted through the resource pipeline.
 
-## Resume PDF workflow
+## Resume PDF Hosting
 
-- `content/Resume/Master_Resume.md` is the source of truth for the downloadable resume.
-- `scripts/build_resume_pdf.py` strips web-only frontmatter/HTML, converts Markdown to print HTML, renders `public/Richard_Dissell_Resume.pdf` with WeasyPrint, and optimizes it with pypdf.
-- Changes to the resume source or PDF script trigger `.github/workflows/generate-pdf.yml`, which builds and pushes the PDF to `rpdev-cdn/cdn.iamrp.dev` and dispatches its CDN update event.
-- Keep web resume content and the PDF conversion assumptions synchronized; avoid changing the PDF-specific stripping, callout, and wikilink cleanup without updating the script.
+- `content/Resume/Master_Resume.md` is the web source for the online CV on `iamrp.dev`.
+- The downloadable official resume PDF is maintained as a curated static flat file in `rpdev-cdn/cdn.iamrp.dev` at `pdf/Richard_Dissell_Resume.pdf` (`https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf`). Do not auto-overwrite it via CI.
 
 ## Deployment
 
