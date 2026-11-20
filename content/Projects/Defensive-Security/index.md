@@ -16,6 +16,9 @@ tags:
 
 > **Collaborative threat defense, active attacker deception, eBPF behavioral detection, and client-side anti-fingerprinting controls.**
 
+> [!note] Authorized Blue-Team Lab & Defensive Telemetry Scope
+> All SIEM, perimeter tarpit, and honeypot architectures documented in this section represent **authorized blue-team defensive engineering and passive telemetry collection** conducted on isolated personal lab subnets to evaluate intrusion detection rules and automated firewall response.
+
 ```mermaid
 graph TD
     subgraph Attacker["Hostile Network Scans & Bots"]

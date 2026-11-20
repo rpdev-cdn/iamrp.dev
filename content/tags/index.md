@@ -178,7 +178,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Documentation & Specs:</strong> 
     <a href="/Projects/Android/RPDev_Launcher">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/launcher/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
-    <a href="https://github.com/RPDevs-Builds/RPDev-Launcher" target="_blank" rel="noopener">Source Code ↗</a>
+    <a href="https://launcher.iamrp.dev" target="_blank" rel="noopener">Live Portal ↗</a>
   </div>
 </div>
 
@@ -204,7 +204,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Documentation & Specs:</strong> 
     <a href="/Projects/Android/RPDev_Feed">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/feed/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
-    <a href="https://github.com/RPDevs-Builds/RPDev-Feed" target="_blank" rel="noopener">Source Code ↗</a>
+    <a href="https://feed.launcher.iamrp.dev" target="_blank" rel="noopener">Live Portal ↗</a>
   </div>
 </div>
 
@@ -229,7 +229,7 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
     <strong>Documentation & Specs:</strong> 
     <a href="/Projects/Android/RPDev_Feed_Modules">Architecture Spec</a> • 
     <a href="https://wiki.iamrp.dev/modules/" target="_blank" rel="noopener">Wiki Manual ↗</a> • 
-    <a href="https://github.com/RPDevs-Builds/RPDev-Feed-Modules" target="_blank" rel="noopener">Source Code ↗</a>
+    <a href="https://github.com/IamRPDev/RPDev-Feed-Modules" target="_blank" rel="noopener">Source Code ↗</a>
   </div>
 </div>
 
@@ -424,14 +424,13 @@ The RPDev ecosystem is organized into 6 functional engineering pillars. Each wor
   <div style="margin-top: 0.65rem; font-size: 0.82rem;">
     <strong>Documentation & Specs:</strong> 
     <a href="/Projects/Homelab/DocIngest">Architecture Spec</a> • 
-    <a href="https://docingest.iamrp.dev/view" target="_blank" rel="noopener">Live Engine ↗</a> • 
     <a href="https://blog.iamrp.dev/articles/MCP_Enterprise" target="_blank" rel="noopener">Enterprise MCP Monograph ↗</a>
   </div>
 </div>
 
 <div class="project-subcard" id="project-llm">
   <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <h4 style="margin: 0; color: #fff;">⚡ Local LLM Control Plane & Multi-Agent Swarm Orchestrator</h4>
+    <h4 style="margin: 0; color: #fff;">⚡ Local LLM Control Plane & Multi-Agent Workflow Orchestrator</h4>
     <span class="telemetry-badge badge-live">SECURE AGENTS</span>
   </div>
   <p style="margin: 0.5rem 0; font-size: 0.88rem; color: #e2e1e8;">

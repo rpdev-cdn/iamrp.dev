@@ -33,9 +33,9 @@ tags:
 
 Distributed documentation crawler, semantic vector indexing, and Model Context Protocol (MCP) server running natively on the cluster.
 
-| Tool / Interface | Purpose & Capabilities | Live Portal |
+| Tool / Interface | Purpose & Capabilities | Scope |
 |---|---|---|
-| **[[Projects/Homelab/DocIngest|DocIngest Suite Overview]]** | Master architecture, API contracts, Qdrant vector embedding, and background crawler pipelines. | [docingest.iamrp.dev](https://docingest.iamrp.dev) |
+| **[[Projects/Homelab/DocIngest|DocIngest Suite Overview]]** | Master architecture, API contracts, Qdrant vector embedding, and background crawler pipelines. | Internal Lab MCP Engine |
 
 </section>
 
@@ -72,7 +72,7 @@ The single source of truth for bare-metal host specifications, CPU architectures
 
 ## 💾 [[Projects/Homelab/Hardware_Storage_Tiering|Spatial Storage Tiering]]
 
-High-throughput storage architecture routing database WALs and high-IO containers to NVMe SSDs, while offloading static binary archives, ISOs, and cold backups to SharedRoot bulk storage.
+High-throughput storage architecture routing database WALs and high-IO containers to NVMe SSDs, while offloading static binary archives, ISOs, and cold backups to shared NFS bulk storage.
 
 - **[[Projects/Homelab/Hardware_Storage_Tiering|Read Storage Tiering Architecture]]**
 

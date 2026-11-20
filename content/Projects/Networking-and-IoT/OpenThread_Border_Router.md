@@ -61,7 +61,7 @@ graph LR
 
 * **Production Systems:** Validated in [[Substrate_Digital_Nervous_System|Substrate Digital Nervous System]], [[OpenWrt_ASU_Image_Builder|OpenWrt ASU Image Builder]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
+* **Technical Articles:** Deep dive in [[Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

@@ -16,6 +16,9 @@ aliases:
 # Perimeter Deception, Honeypots & SSH Tarpits
 ## **Trapping Automated Botnets with Endlessh-Go Tarpits, Cowrie Forensic Honeypots & Automated IP Bouncing**
 
+> [!note] Authorized Blue-Team Lab & Defensive Telemetry Scope
+> This project documents **authorized blue-team defensive security engineering and passive ingress telemetry** deployed strictly on owned lab perimeters to study automated scanner behavior and generate local firewall blocklists.
+
 > [!abstract] Architectural Overview
 > Standard perimeter firewalls silently drop unauthorized traffic, allowing automated scanners to probe full IP ranges rapidly. This architecture introduces **active perimeter deception**: binding hostile scanners to asynchronous **SSH tarpits (`endlessh-go`)** that consume attacker socket pools, while routing persistent credential stuffers into **high-interaction honeypots (`cowrie`)** to capture zero-day payloads, record attacker TTY keystrokes, and feed real-time threat intelligence to **CrowdSec** and **Cloudflare edge bouncers**.
 
@@ -112,7 +115,7 @@ By connecting honeypot triggers directly to the CrowdSec Local API (LAPI), attac
 
 * **Production Systems:** Validated in [[Projects/Networking-and-IoT/OpenWRT_Blackhole_Webserver|OpenWRT Blackhole Webserver]], [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]], [[Research-and-Ramblings/Security-and-AI-Research/Sources_and_Matrix|Sources and Matrix]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]], [[Security-and-AI-Research/Sources_and_Matrix|Sources and Matrix]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

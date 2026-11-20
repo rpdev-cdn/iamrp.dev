@@ -1,8 +1,8 @@
 ---
 date: 2026-11-19
 lastmod: 2026-11-19
-title: "Richard P. Dissell — Security Analyst, Systems Architect & Infrastructure Engineer"
-description: "Professional digital garden and systems portfolio for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, DevSecOps, and Cloud Architecture."
+title: "Richard P. Dissell — Infrastructure Security Analyst, Systems Engineer & Information Security Officer"
+description: "Professional digital garden and systems portfolio for Richard P. Dissell — Infrastructure Security Analyst, Systems Engineer & Information Security Officer specializing in Zero Trust, ITSM/CMDB Governance, DevSecOps, and Cloud Architecture."
 tags:
   - root
   - identity
@@ -11,8 +11,8 @@ tags:
 ---
 
 # Richard P. Dissell
-## **Security Analyst | Systems Architect | Infrastructure Engineer**
-*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2)*
+## **Infrastructure Security Analyst | Systems Engineer | Information Security Officer**
+*Cleveland, Ohio • [iamrp.dev](https://iamrp.dev) • [LinkedIn](https://linkedin.com/in/rpdissell) • [GitHub](https://github.com/IamRPDev) • [📄 Resume PDF (3-Page)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.3) • [📑 Master Resume PDF (7-Page)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Master_Resume.pdf?v=20261119.3)*
 
 <div class="executive-metrics-bar" style="display: flex; gap: 0.85rem; flex-wrap: wrap; margin: 1rem 0; padding: 0.85rem 1.25rem; background: rgba(0, 175, 175, 0.08); border-left: 3px solid #00afaf; border-radius: 4px; font-size: 0.88rem; align-items: center;">
   <div><strong>⚡ Track Record:</strong> 20+ Years Applied Systems Engineering</div>
@@ -36,8 +36,11 @@ tags:
   <a href="/Resume/Achievements_Matrix" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>📊 Quantitative Achievements Matrix</span>
   </a>
-  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    <span>📥 Download PDF Resume</span>
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.3" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>📥 Resume PDF (3-Page)</span>
+  </a>
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Master_Resume.pdf?v=20261119.3" target="_blank" rel="noopener" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
+    <span>📑 Master Resume PDF (7-Page)</span>
   </a>
   <a href="/tags/" class="di-btn di-btn-ghost" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
     <span>🕸️ Interconnected Graph</span>
@@ -68,7 +71,7 @@ tags:
 ## 🧭 Fast-Track Evaluation Pathways
 
 > [!tip] Tailored Navigation by Role
-> * 💼 **Recruiters & Talent Acquisition:** View the **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, review the **[[Resume/Achievements_Matrix|Quantitative Career Achievements Matrix]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or **[Download Official PDF Resume](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2)**.
+> * 💼 **Recruiters & Talent Acquisition:** View the **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]**, review the **[[Resume/Achievements_Matrix|Quantitative Career Achievements Matrix]]**, inspect **[[Resume/Endorsements_and_References|Verified Endorsements & References]]**, or download the **[3-Page Resume PDF](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.3)** / **[7-Page Master Resume PDF](https://cdn.iamrp.dev/pdf/Richard_Dissell_Master_Resume.pdf?v=20261119.3)**.
 > * 🛠️ **Infrastructure & IT Operations Managers:** Review **[[Projects/index|Production & Lab Projects]]**, inspect the **[[Projects/Homelab/Current_Environment|Sanitized Lab Fleet Topology]]**, or browse **[Hardware & Stack Specifications](https://blog.iamrp.dev/articles/Lab_Workstation)**.
 > * 🔒 **Security & Compliance Leadership:** Audit the **[[Projects/Governance-and-Policies/index|18 Enterprise Security Policies (NIST/ISO aligned)]]**, review **[Automated Drift & Audit Telemetry](https://blog.iamrp.dev/research/Compliance_and_Governance)**, and verify **[[Contact/index|Cryptographic Identity Roots]]**.
 
@@ -119,7 +122,7 @@ tags:
     "https://linkedin.com/in/rpdissell",
     "https://github.com/IamRPDev"
   ],
-  "jobTitle": "Senior Infrastructure Security Analyst & Systems Architect",
+  "jobTitle": "Infrastructure Security Analyst, Systems Engineer & Information Security Officer",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Cleveland",

@@ -41,7 +41,7 @@ The rise of AI-generated deep-fakes (audio and video) requires specialized verif
 Ransomware attacks are treated as critical, multi-stage extortion events.
 *   **Rapid Containment via Micro-segmentation:** Upon detection of encryption behavior or mass data exfiltration, automated micro-segmentation rules isolate affected subnets to halt lateral movement instantly.
 *   **Zero-Trust Recovery:** Recovery is executed exclusively from immutable, air-gapped backups. Restored systems are rebuilt in quarantined enclaves and subjected to deep malware scanning before rejoining the production network.
-*   **Negotiation Strategy:** The organization maintains retainer agreements with specialized third-party incident response and ransomware negotiation firms. Under no circumstances will enterprise personnel engage directly with threat actors. If negotiation is deemed strategically necessary (e.g., to delay data publication while victims are notified), it will be conducted strictly by authorized legal and specialized third parties.
+*   **Negotiation Strategy:** The organization maintains standing service level agreements (SLAs) with specialized third-party incident response and ransomware negotiation firms. Under no circumstances will enterprise personnel engage directly with threat actors. If negotiation is deemed strategically necessary (e.g., to delay data publication while victims are notified), it will be conducted strictly by authorized legal and specialized third parties.
 
 ## 4. Incident Response Team Roles
 *   **Information Security Officer (ISO):** Coordinates the overall response, directs SOAR playbooks, and manages external specialists.
@@ -57,7 +57,7 @@ Every activated incident response, including fully automated SOAR containments, 
 
 * **Production Systems:** Validated in [[Projects/Defensive-Security/Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Projects/Defensive-Security/Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/DFIR_and_Playbooks|DFIR and Playbooks]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

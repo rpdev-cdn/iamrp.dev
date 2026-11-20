@@ -58,7 +58,7 @@ For catastrophic failures, rapid restoration of bare-metal infrastructure minimi
 
 * **Production Systems:** Validated in [[Projects/Hardware-Security/Kexecboot_Wireless_Bootloader|kexecboot.xyz Bootloader]], [[Projects/Hardware-Security/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
+* **Technical Articles:** Deep dive in [[Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

@@ -63,7 +63,7 @@ The core package layering in this Quartz v5 codebase is `@quartz-community/types
 ## Resume PDF Hosting
 
 - `content/Resume/Master_Resume.md` is the web source for the online CV on `iamrp.dev`.
-- The downloadable official resume PDF is maintained as a curated static flat file in `rpdev-cdn/cdn.iamrp.dev` at `pdf/Richard_Dissell_Resume.pdf` (`https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf`). Do not auto-overwrite it via CI.
+- The downloadable resume PDFs are maintained as curated static flat files in `rpdev-cdn/cdn.iamrp.dev` at `pdf/Richard_Dissell_Resume.pdf` (3-page resume) and `pdf/Richard_Dissell_Master_Resume.pdf` (7-page master resume). Do not auto-overwrite them via CI.
 
 ## Deployment
 

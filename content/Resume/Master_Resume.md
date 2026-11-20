@@ -2,7 +2,7 @@
 date: 2026-11-19
 lastmod: 2026-11-19
 title: "Curriculum Vitae & Master Resume"
-description: "Curriculum Vitae and Master Resume for Richard P. Dissell — Senior Infrastructure Security Analyst & Systems Architect specializing in Zero Trust, ITSM/CMDB Governance, DevSecOps, and Cloud Architecture."
+description: "Curriculum Vitae and Master Resume for Richard P. Dissell — Infrastructure Security Analyst, Systems Engineer & Information Security Officer specializing in Zero Trust, ITSM/CMDB Governance, DevSecOps, and Cloud Architecture."
 tags:
   - resume
   - experience
@@ -25,8 +25,11 @@ aliases:
 ---
 
 <div style="margin: 1rem 0 1.5rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
-    Download Official Resume (PDF) 📄
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.3" target="_blank" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Download Resume PDF (3-Page) 📄
+  </a>
+  <a href="https://cdn.iamrp.dev/pdf/Richard_Dissell_Master_Resume.pdf?v=20261119.3" target="_blank" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
+    Download Master Resume PDF (7-Page) 📑
   </a>
   <a href="/Resume/Achievements_Matrix" class="di-btn di-btn-secondary" style="display: inline-flex; padding: 0.6rem 1.25rem; font-weight: 700; text-decoration: none;">
     Quantitative Achievements Matrix 📊
@@ -40,13 +43,13 @@ aliases:
 </div>
 
 > [!note] Artifact Synchronization & Freshness
-> **Web CV & PDF Alignment:** This digital resume and the [Downloadable Official PDF (Current Production Build)](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.2) are actively synchronized. All metrics, role timelines, and enterprise governance credentials represent live production state.
+> **Web CV & PDF Alignment:** This digital resume is actively synchronized with both the concise [3-Page W-2 Resume PDF](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf?v=20261119.3) and the comprehensive [7-Page Master Resume PDF](https://cdn.iamrp.dev/pdf/Richard_Dissell_Master_Resume.pdf?v=20261119.3). All metrics, role timelines, and enterprise governance credentials represent live production state.
 
 ## Executive Profile
 
-A cross-disciplinary engineer and architect with over two decades of applied experience spanning enterprise security, CMDB and IT asset governance, zero-trust infrastructure, and bare-metal hardware diagnostics. Specializing in moving beyond traditional systems administration to build highly decoupled, immutable environments and enforce strict information security policies.
+Cross-disciplinary Infrastructure Security Analyst, Systems Engineer, and Information Security Officer (ISO) with over 20 years of applied experience spanning enterprise systems administration, CMDB and IT asset governance, zero-trust network architecture, disaster recovery, and bare-metal hardware diagnostics. Proven track record across high-stakes 24/7 global manufacturing (`Rockwell Automation`), federal healthcare systems (`U.S. Department of Veterans Affairs`), multi-state legal and title operations (`Clunk, Hoose Co., LPA` / `Omega Title Agency`), and independent systems engineering (`RPDev, LLC`).
 
-Technical capabilities span from physical hardware limits to high-level corporate governance. Demonstrated expertise in administering enterprise ITSM/CMDB platforms (`ServiceNow`, `Quest/Dell KACE`, `FogBugz`), engineering Layer 2 network topologies (`macvlan`/`ipvlan`), architecting Zero-Trust integrations for localized Large Language Models (LLMs) via Model Context Protocol (MCP) servers, and modernizing enterprise disaster recovery frameworks to build robust, automated, and secure architectures. A versatile technologist capable of rapidly assimilating emerging technologies to solve complex business challenges.
+Capabilities bridge physical hardware diagnostics and high-level corporate compliance. Demonstrated expertise administering enterprise ITSM and CMDB platforms (`ServiceNow`, `Quest/Dell KACE`, `FogBugz`), maintaining 99.999% datacenter availability, passing Tier-1 financial institution security audits, engineering non-NAT Layer 2 network topologies (`macvlan`/`ipvlan`), and architecting zero-trust integrations for localized Large Language Models (LLMs) via Model Context Protocol (MCP) servers. Actively seeking a full-time **W-2 Direct Hire** or **W-2 Contract-to-Hire** enterprise role.
 
 ---
 
@@ -114,22 +117,22 @@ Hardware Diagnostics | Component-Level PCB & SMD Repair | Oscilloscopes, Multime
 - Authored custom `PowerShell` and `Batch` scripts to automate Active Directory administration, `SCCM` task sequences, and large-scale software deployments across thousands of endpoints.
 - Assisted executive management with complex overlapping projects, fostering cross-functional collaboration with area managers and mentoring local technicians under strict contractual SLAs.
 
-### Information Security Officer
-**Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates (The JDC Family of Companies — Stow, OH & Georgetown, KY)** | *Oct 2011 – Mar 2017*  
-*(Joint enterprise security and compliance leadership across affiliated legal, title, and technology shared-services entities)*
+### Information Security Officer & Systems Administrator
+**The JDC Family of Companies (Omega Title Agency, LLC / The Law Offices of John D. Clunk Co. / Clunk, Paisley & Associates / ProcessPro LLC — Stow, OH & Georgetown, KY)** | *Oct 2011 – Mar 2017*  
+*(Joint enterprise security, compliance, and infrastructure leadership across affiliated legal, title, and shared-services technology entities under common ownership, including ProcessPro LLC through its August 2015 divestiture)*
+
+#### Information Security Officer — Omega Title Agency, Clunk Paisley & John D. Clunk Co. (Oct 2011 – Mar 2017)
 
 - Architected and administered production and development systems across distributed multi-branch operations (`70+ servers and 150+ workstations`), deploying `WatchGuard XTM` appliances in a high-availability stacked failover cluster and managing `SonicWall` perimeter VPN tunnels.
 - Served as the primary lead for third-party security audits (`SOC 2`, `ISO 27001/27002`, `ALTA Best Practices`, `GLBA`, and `PCI-DSS` quarterly ASV scans), coordinating external penetration testing with `Dell SecureWorks`, deploying internal `Nessus` appliances, and maintaining a **100% audit pass rate** across Tier-1 financial institutions (`Bank of America`, `Capital One`, `Fifth Third Bank`, `HSBC`, `NYCB`, `Fannie Mae`, and `Freddie Mac`).
-- Administered `Quest/Dell KACE` for CMDB asset inventory and automated patch management, `FogBugz` for ITIL change management and security incident response, `McAfee SIEM` for insider-threat forensic log parsing, `BitLocker` full-disk encryption, `Trend Micro OfficeScan IPS`, `Mimecast`, and `Microsoft UAG`.
+- Administered `Quest/Dell KACE` for CMDB asset inventory and automated patch management, `FogBugz` for ITIL change management and security incident response, `McAfee SIEM` for insider-threat forensic log parsing, `BitLocker` full-disk encryption, `Trend Micro OfficeScan IPS`, `DLP` controls, `Mimecast`, and `Microsoft UAG`.
 - Automated cross-hypervisor disaster recovery using custom `PowerShell` scripts to orchestrate failover replication from primary `VMware ESXi` to secondary `Hyper-V` clusters, achieving sub-30 minute RTO and 15-minute RPO with zero data loss, alongside offsite continuity via `SunGard Availability Services`, `Microsoft Azure`, and `Amazon S3`.
 - Engineered custom `PowerShell` log-parsing pipelines to ingest and normalize proprietary application telemetry into centralized, searchable security audit archives.
 - Authored, implemented, and enforced 20+ comprehensive IT security policies, Business Impact Analyses (BIAs), operating procedures, and physical security standards (including biometric/keycard access and CCTV surveillance).
 - Managed SQL database maintenance, oversaw the deployment and customization of `HotDocs` document generation engines, and integrated enterprise case management software.
 - Managed full lifecycle project planning, technology budgeting, hardware quoting/purchasing, and software licensing; directed Help Desk operations and out-of-hours maintenance to preserve 100% core business-hours uptime.
 
-### Systems Administrator
-**ProcessPro LLC (Technology Services Affiliate to Clunk, Paisley & Omega Title — Stow, OH)** | *Oct 2011 – Aug 2015*  
-*(Dedicated software integration and infrastructure operating unit for the affiliated legal and title enterprise group)*
+#### Systems Administrator — ProcessPro LLC, Shared-Services Affiliate (Oct 2011 – Aug 2015, Divested)
 
 - Managed high-performance network routing and core `HP ProCurve` managed switching infrastructure, enforcing Layer 2 Port Security (MAC limiting, sticky learning) and VLAN segmentation across 150+ user workstations.
 - Administered software licensing, `Quest/Dell KACE` inventory lifecycle management, `WSUS` patch compliance, and `FogBugz` Help Desk triage workflows to maintain a sub-1 hour resolution time on critical tickets.
@@ -144,14 +147,12 @@ Hardware Diagnostics | Component-Level PCB & SMD Repair | Oscilloscopes, Multime
 
 * **Electronic Technician** | *Cuyahoga County Department of Public Works / Engineers (Cleveland, OH)* | *Aug 2010 – Oct 2011*  
   *Diagnosed automotive computer control modules and electrical systems, engineered custom vehicle communication and lighting control systems, maintained municipal UHF radio networks, installed Cat3/Cat5e/Cat6 data cabling, managed project planning and purchasing for the maintenance yard and communication center, maintained yard management databases, and administered server backups.*
-* **IT Director** | *BGE Technologies (Lakewood, OH)* | *May 2008 – Jul 2010*  
-  *Architected SMB networks with WatchGuard firewalls, deployed Motorola Canopy fixed-wireless broadband links, provided 24/7 on-call server management for Microsoft IIS and Exchange servers, developed client websites, and delivered component-level laser printer and desktop hardware repair.*
+* **IT Director & Electronics Specialist** | *BGE Technologies (Lakewood, OH)* | *Jan 2003 – Nov 2006 & May 2008 – Jul 2010*  
+  *Architected SMB networks with WatchGuard firewalls, deployed Motorola Canopy fixed-wireless broadband backhaul links, provided 24/7 on-call server management for Microsoft IIS and Exchange servers, maintained dial-up internet access ISP infrastructure, developed client websites, and delivered component-level CRT/PCB, laser printer, and desktop hardware repair.*
 * **Diagnostic Technician** | *PCS Automotive Inc (Cleveland, OH)* | *May 2007 – May 2008*  
   *Evaluated and diagnosed automotive electrical/mechanical failures, programmed and flashed automotive engine control modules (ECMs), rewired complex electrical harnesses, and maintained internal shop network infrastructure and inventory systems.*
 * **IT Technician** | *Bellaire-Puritas Development Corporation (Cleveland, OH)* | *Nov 2006 – May 2007*  
   *Cataloged computer hardware and software licensing, repaired local area networks (LAN), maintained municipal web infrastructure, and prepared reconditioned hardware for community donation.*
-* **IT Professional & Electronics Specialist** | *BGE Technologies (Lakewood, OH)* | *Jan 2003 – Nov 2006*  
-  *Administered Microsoft IIS and Exchange servers, deployed Motorola Canopy wireless bridges, maintained dial-up internet access ISP infrastructure, and executed component-level CRT/PCB and laser printer electronics repair.*
 
 ---
 

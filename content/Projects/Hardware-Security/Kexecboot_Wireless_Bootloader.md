@@ -16,7 +16,7 @@ aliases:
   - /projects/kexecboot_wireless_bootloader
 ---
 # kexecboot.xyz: Wireless Network Bootloader & kexec Pivot Engine
-## **Bypassing UEFI iPXE Limitations with Buildroot Linux, Statically Compiled Go TUI & Dynamic Kernel Handoffs**
+## **Overcoming UEFI iPXE Limitations with Buildroot Linux, Statically Compiled Go TUI & Dynamic Kernel Handoffs**
 
 > [!abstract] Architectural Overview
 > **kexecboot.xyz** is a bare-metal network bootloader designed to eliminate the physical constraints of traditional PXE and iPXE environments. Combining a minimal Buildroot Linux initramfs with a statically compiled Go terminal interface (Bubbletea TUI), the system enables **pre-OS WPA2/WPA3 Wi-Fi authentication**, dynamically synchronizes with remote OS registries (`netboot.xyz`), and executes a direct in-memory CPU pivot into target operating systems using Linux **`kexec`**.
@@ -154,7 +154,7 @@ flowchart TD
 
 * **Production Systems:** Validated in [[Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
+* **Technical Articles:** Deep dive in [[Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

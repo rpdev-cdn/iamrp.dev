@@ -23,20 +23,14 @@ tags:
 > [!abstract] Documentation Indexing & Corpus Retrieval Architecture
 > **DocIngest** is a self-hosted technical documentation indexing, Markdown normalization, and semantic retrieval engine. It ingests authorized open-source and developer documentation libraries and structures them for deterministic querying via Model Context Protocol (MCP) servers and localized AI reasoning workflows.
 
-<div style="margin: 1.25rem 0 1.75rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="https://docingest.iamrp.dev/view" target="_blank" rel="noopener" class="di-btn di-btn-primary" style="display: inline-flex; padding: 0.65rem 1.25rem; font-weight: 700; text-decoration: none;">
-    Browse Read-Only Documentation Corpus ↗
-  </a>
-</div>
-
 ---
 
 ### ◈ Core Functional Modules
 
-* **Authorized Documentation Ingestion Pipeline** *(Access-Controlled)*  
+* **Authorized Documentation Ingestion Pipeline** *(Internal Lab Service)*  
   *Accepts target technical documentation roots with explicit inclusion and exclusion path filters (`/docs/*`, `*/v1/*`) to normalize reference pages into clean Markdown and persist versioned records to PostgreSQL.*
 
-* **[Read-Only Corpus Viewer ↗](https://docingest.iamrp.dev/view)**  
+* **Read-Only Corpus Viewer & MCP Query Interface** *(Internal Lab Service)*  
   *Provides full-text search across indexed technical specifications, clean Markdown previews, and deterministic context export for engineering workflows.*
 
 ---

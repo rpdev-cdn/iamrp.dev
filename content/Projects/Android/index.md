@@ -38,7 +38,7 @@ Modern mobile launchers frequently bundle telemetry SDKs and cloud profiling ser
 | **Module Repository** | [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) | Interactive catalog of all 9 verified Hub card modules |
 | **Knowledge Base** | [wiki.iamrp.dev](https://wiki.iamrp.dev) | Dual-lens user manual, FAQs, and developer AIDL specifications |
 | **Asset CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | Signed asset delivery network, schemas, and icons |
-| **Source Code** | [github.com/RPDevs-Builds](https://github.com/RPDevs-Builds) | Open-source repositories under GPL v3.0 |
+| **Source Code** | [github.com/IamRPDev](https://github.com/IamRPDev) | Open-source repositories under GPL v3.0 |
 
 ---
 

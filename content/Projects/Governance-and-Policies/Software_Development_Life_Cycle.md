@@ -54,7 +54,7 @@ Software engineering follows Agile methodologies heavily augmented by DevSecOps 
 
 * **Production Systems:** Validated in [[Projects/Infrastructure-and-CICD/Self_Hosted_CICD_Build_Fleet|Self-Hosted CI/CD Build Fleet]], [[Projects/Infrastructure-and-CICD/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_Automation|Systems and Automation Architecture]].
 * **Applied Research:** Investigated in [[Codex_Arcana|Engineering Post-Mortems & ADR Vault]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

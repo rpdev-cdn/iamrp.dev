@@ -12,7 +12,7 @@ tags:
 
 - **Live Catalog**: [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev)
 - **Module Wiki**: [wiki.iamrp.dev/modules/](https://wiki.iamrp.dev/modules/)
-- **Source Repository**: [github.com/RPDevs-Builds/RPDev-Feed-Modules](https://github.com/RPDevs-Builds/RPDev-Feed-Modules)
+- **Source Repository**: [github.com/IamRPDev/RPDev-Feed-Modules](https://github.com/IamRPDev/RPDev-Feed-Modules)
 
 ---
 

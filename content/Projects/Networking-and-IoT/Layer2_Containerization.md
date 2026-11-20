@@ -34,7 +34,7 @@ With containers acting as standalone hosts, rigorous IPAM is required.
 #### 3. Dynamic DNS & Local Resolution (Mageddo DPS)
 To manage the routing without hardcoding IPs across the fleet, **Mageddo DNS Proxy Server (DPS)** was integrated.
 - DPS dynamically inspects the Docker socket, automatically creating A-records for containers as they spin up.
-- A local `.docker.local` namespace is delegated across the environment, allowing services and Nginx reverse proxies to route traffic by hostname seamlessly, regardless of underlying IP assignment.
+- A local `.lab.internal` namespace is delegated across the environment, allowing services and Nginx reverse proxies to route traffic by hostname seamlessly, regardless of underlying IP assignment.
 
 ### ◈ Architectural Diagram
 
@@ -79,7 +79,7 @@ This migration completely eliminated port collisions and complex host-level rout
 
 * **Production Systems:** Validated in [[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Projects/Infrastructure-and-CICD/Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

@@ -6,7 +6,7 @@ description: "Applied Security & AI Systems Architecture Specification on RPDev 
 # Applied Security & AI Systems Architecture Specification
 
 > [!tip] Relocated to RPDev Blog & Research
-> Full monographs for the **Applied Security & AI Systems Architecture Specification** and the **[[Research-and-Ramblings/Security-and-AI-Research/Codex_Arcana|Engineering Post-Mortems & ADR Vault]]** are published at **[blog.iamrp.dev/research](https://blog.iamrp.dev/research/)**.
+> Full monographs for the **Applied Security & AI Systems Architecture Specification** and the **[[Security-and-AI-Research/Codex_Arcana|Engineering Post-Mortems & ADR Vault]]** are published at **[blog.iamrp.dev/research](https://blog.iamrp.dev/research/)**.
 
 ## Architectural Problem Statement
 
@@ -20,7 +20,7 @@ Readers should follow the deep-link references to each monograph whenever full i
 
 - Organize applied research by durable engineering domains and preserve stable routes and aliases so cross-repository documentation and policy references remain verifiable as the corpus evolves.
 - Connect interdependent control planes explicitly: bind agent execution to cryptographic identity and tool authorization, tie telemetry to automated incident response, and anchor architectural claims to governance policies and CMDB baselines.
-- Separate conceptual reference patterns from lab-validated implementations, document boundary assumptions clearly, and direct engineers to primary configuration manifests and post-mortem records in the **[[Research-and-Ramblings/Security-and-AI-Research/Codex_Arcana|Engineering Post-Mortems & ADR Vault]]**.
+- Separate conceptual reference patterns from lab-validated implementations, document boundary assumptions clearly, and direct engineers to primary configuration manifests and post-mortem records in the **[[Security-and-AI-Research/Codex_Arcana|Engineering Post-Mortems & ADR Vault]]**.
 - Maintain the specification as a versioned knowledge system with periodic drift reviews, deprecation tracking, and deterministic fallback navigation for external citations.
 
 ## Enterprise Operational Takeaway

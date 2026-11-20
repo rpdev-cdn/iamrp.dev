@@ -15,7 +15,7 @@ tags:
 
 - **Live Showcase**: [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev)
 - **User Documentation**: [wiki.iamrp.dev/feed/](https://wiki.iamrp.dev/feed/)
-- **Source Repository**: [github.com/RPDevs-Builds/RPDev-Feed](https://github.com/RPDevs-Builds/RPDev-Feed)
+- **GitHub Profile**: [github.com/IamRPDev](https://github.com/IamRPDev)
 
 ---
 

@@ -25,7 +25,7 @@ compliance_alignment:
 
 # Encryption Policy
 
-**Approval Date:** August 22, 2026  
+**Approval Date:** August 2026  
 **Approved By:** Enterprise Security Council  
 **Purpose:** To provide guidance on the use of encryption to protect information resources, ensuring resilience against modern and future threats, including quantum computing.  
 **Audience:** All employees and affiliates. Addresses encryption policy for data at rest, data in motion, key management, and cryptographic agility.
@@ -69,7 +69,7 @@ Violation of this policy may result in disciplinary action up to and including t
 
 * **Production Systems:** Validated in [[Projects/Hardware-Security/Hardware_Security_Key|Hardware Security Key]], [[Projects/Hardware-Security/FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]], [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

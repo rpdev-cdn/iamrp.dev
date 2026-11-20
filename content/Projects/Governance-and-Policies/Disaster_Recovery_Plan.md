@@ -54,7 +54,7 @@ To combat sophisticated ransomware threats, all backups must adhere to the follo
 
 * **Production Systems:** Validated in [[Projects/Homelab/Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Hardware-Security/Kexecboot_Wireless_Bootloader|kexecboot.xyz Bootloader]], [[Projects/Hardware-Security/Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Business_Impact_Analysis|Business Impact Analysis]], [[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
+* **Technical Articles:** Deep dive in [[Articles/Systems_Automation|Systems and Automation Architecture]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

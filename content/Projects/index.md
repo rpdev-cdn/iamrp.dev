@@ -114,7 +114,7 @@ Bare-metal server fleet orchestration, self-hosted deployment engines, automated
 
 | Project | Description | Scope |
 |---|---|---|
-| **[[Projects/Homelab/DocIngest|DocIngest Documentation & Knowledge Suite]]** | High-performance documentation crawler, markdown converter, and MCP server. | [docingest.iamrp.dev](https://docingest.iamrp.dev) |
+| **[[Projects/Homelab/DocIngest|DocIngest Documentation & Knowledge Suite]]** | High-performance documentation crawler, markdown converter, and MCP server. | Internal Lab MCP Engine |
 | **[[Projects/Homelab/Coolify|Coolify Self-Hosted PaaS Engine]]** | Production PaaS deployment, Traefik ingress, and isolated container orchestration. | Core PaaS Engine |
 | **[[Projects/Homelab/Coolify_Project_Plan|Coolify Implementation & Staging Plan]]** | Resource baselines, benchmark comparisons, and migration checklists. | Rollout Plan |
 | **[[Projects/Homelab/Current_Environment|Current Fleet Topology (`CURRENT_ENV.yml`)]]** | Hardware specifications, IPAM tables, and interface topologies across active nodes. | Live Telemetry |

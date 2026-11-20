@@ -25,7 +25,7 @@ compliance_alignment:
 
 # Information Asset and Data Classification Policy
 
-**Approval Date:** August 22, 2026  
+**Approval Date:** August 2026  
 **Approved By:** Enterprise Security Council  
 **Purpose:** To educate staff members on the importance of protecting data generated, accessed, transmitted, stored, and destroyed by the organization; to identify procedures that protect the confidentiality, integrity, and availability of data; and to comply with modern privacy regulations and AI governance standards.
 
@@ -84,7 +84,7 @@ Non-Compliance may result in revocation of system access, notification of leader
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[Projects/Hardware-Security/Hardware_Security_Key|Hardware Security Key]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]], [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
-* **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
+* **Technical Articles:** Deep dive in [[Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Applied Research:** Investigated in [[Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

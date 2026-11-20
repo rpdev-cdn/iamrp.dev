@@ -61,7 +61,7 @@ Commercial consumer and enterprise IP cameras suffer from severe security, priva
 
 ## 2. Embedded Firmware Compilation (Thingino Ecosystem)
 
-To establish full sovereignty over the physical camera hardware, custom firmware images were cross-compiled using the **Thingino** build framework:
+To establish full administrative control over the physical camera hardware, custom firmware images were cross-compiled using the **Thingino** build framework:
 
 ```bash
 # Compilation configuration for Ingenic T23N SoC with SC2336 sensor
@@ -145,7 +145,7 @@ When high-confidence security anomalies are identified (e.g., unauthorized perim
 
 ## 6. Operational Impact & Security Governance
 
-* **100% Data Sovereignty**: All video processing, frame analysis, and vector embeddings remain strictly on-premises.
+* **100% On-Premises Data Residency**: All video processing, frame analysis, and vector embeddings remain strictly on-premises.
 * **98.5% False Positive Reduction**: Pixel noise and weather events are discarded at the YOLO filter stage, while genuine semantic events are accurately classified.
 * **Sub-Second Forensic Discovery**: Finding specific physical events in weeks of video history reduced from hours to under 500 milliseconds.
 
@@ -155,7 +155,7 @@ When high-confidence security anomalies are identified (e.g., unauthorized perim
 
 * **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[Projects/Hardware-Security/Kexecboot_Wireless_Bootloader|kexecboot.xyz Bootloader]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [[Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/index|Projects Index]].

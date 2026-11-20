@@ -5,7 +5,7 @@ tags:
   - training
   - zero-trust
   - social-engineering
-  - deep-fakes
+  - synthetic-media-defense
   - governance
 aliases:
   - /governance/security_awareness_training
@@ -69,7 +69,7 @@ Adversaries leverage automated intelligence pipelines to craft hyper-personalize
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
+* **Technical Articles:** Deep dive in [[Articles/Philosophy|Leadership Philosophy]].
 * **Applied Research:** Investigated in [Security & AI Research (blog.iamrp.dev) ↗](https://blog.iamrp.dev/research/).
 * **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
 * **Digital Garden Hub:** Return to the main [[Projects/Governance-and-Policies/index|Governance & Policies]].

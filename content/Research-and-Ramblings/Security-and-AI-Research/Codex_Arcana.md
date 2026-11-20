@@ -2,8 +2,8 @@
 title: "Engineering Post-Mortems & Architecture Decision Records (ADRs)"
 description: "Iterative Post-Mortems, Root-Cause Analyses & Architectural Lessons Learned on RPDev Blog & Research."
 aliases:
-  - /research/codex_arcana
-  - /Research-and-Ramblings/Security-and-AI-Research/Codex_Arcana
+  - /research/post_mortems_and_adrs
+  - /research/adrs
 ---
 
 # Engineering Post-Mortems & Architecture Decision Records (ADRs)

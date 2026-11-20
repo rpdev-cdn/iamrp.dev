@@ -15,7 +15,7 @@ tags:
 
 - **Live Showcase**: [launcher.iamrp.dev](https://launcher.iamrp.dev)
 - **User Documentation**: [wiki.iamrp.dev/launcher/](https://wiki.iamrp.dev/launcher/)
-- **Source Repository**: [github.com/RPDevs-Builds/RPDev-Launcher](https://github.com/RPDevs-Builds/RPDev-Launcher)
+- **GitHub Profile**: [github.com/IamRPDev](https://github.com/IamRPDev)
 
 ---
 

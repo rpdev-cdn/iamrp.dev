@@ -2,7 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 const EcosystemNav: QuartzComponent = () => {
   return (
-    <nav class="sovereign-ecosystem-bar">
+    <nav class="portfolio-ecosystem-bar">
       <div class="ecosystem-inner">
         <div class="ecosystem-brand">
           <a href="https://iamrp.dev" class="eco-brand-link">
